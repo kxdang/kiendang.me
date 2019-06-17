@@ -28,13 +28,15 @@ class BlogIndex extends React.Component {
                 }}
               >
                 <Link
-                  style={{ boxShadow: `none`, color: `black` }}
+                  style={{ boxShadow: `none`, color: `var(--textLink)` }}
                   to={node.fields.slug}
                 >
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <small style={{ color: `#C3E88D` }}>
+                {node.frontmatter.date}
+              </small>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,

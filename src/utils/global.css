@@ -1,13 +1,15 @@
 body {
-  --bg: white;
-  --textNormal: #222;
-  --textTitle: #222;
-  --textLink: darkred;
+  --bg: #1b1e2b;
+  --textNormal: #f78c6c;
+  --textTitle: #89ddff;
+  --textLink: #89ddff;
   --hr: hsla(0, 0%, 0%, 0.2);
 
   background-color: var(--bg);
 }
-
+p {
+  color: var(--textNormal);
+}
 body.dark {
   -webkit-font-smoothing: antialiased;
 
