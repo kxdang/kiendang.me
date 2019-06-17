@@ -30,7 +30,7 @@ class BlogPostTemplate extends React.Component {
           }}
         >
           {post.frontmatter.date} <br />
-          {post.frontmatter.tags ? <p>{post.frontmatter.tags}</p> : null}
+          {post.frontmatter.tags ? <p>Tags: {post.frontmatter.tags}</p> : null}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
