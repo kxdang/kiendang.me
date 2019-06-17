@@ -6,7 +6,7 @@ class nav extends React.Component {
     return (
       <div>
         <Link
-          to="/tags"
+          to="/about"
           style={{ boxShadow: `none`, color: `var(--textLink)` }}
         >
           About

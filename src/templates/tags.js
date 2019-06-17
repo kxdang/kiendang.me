@@ -13,7 +13,7 @@ const Tags = ({ pageContext, data }) => {
 
   return (
     <div>
-      <h1>{tagHeader}</h1>
+      <h1 style={{ color: `var(--textNormal)` }}>{tagHeader}</h1>
       <ul>
         {edges.map(({ node }) => {
           const { slug } = node.fields
