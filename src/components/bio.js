@@ -8,7 +8,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-
+import Nav from "../components/nav"
 import { rhythm } from "../utils/typography"
 
 function Bio() {
@@ -21,25 +21,41 @@ function Bio() {
           <div
             style={{
               display: `flex`,
-              marginBottom: rhythm(2.5),
+              marginBottom: `35px`,
+              justifyContent: `space-between`,
+              alignItems: `center`,
             }}
           >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
+            <div
               style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
+                display: `flex`,
+                textAlign: `center`,
               }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            />
-            <p>
-              A blog written by <strong>{author}</strong>.
-            </p>
+            >
+              <Image
+                fixed={data.avatar.childImageSharp.fixed}
+                alt={author}
+                style={{
+                  marginRight: rhythm(1 / 2),
+                  marginBottom: 0,
+                  minWidth: 50,
+                  borderRadius: `100%`,
+                }}
+                imgStyle={{
+                  borderRadius: `50%`,
+                }}
+              />
+              <p
+                style={{
+                  color: `#f78c6c`,
+                  margin: `auto`,
+                }}
+              >
+                A blog by <strong> {author}</strong>.
+              </p>
+            </div>
+
+            <Nav />
           </div>
         )
       }}

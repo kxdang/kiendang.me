@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
+import Nav from "../components/nav"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
@@ -15,6 +16,7 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
+
         <Bio />
 
         {posts.map(({ node }) => {
@@ -24,7 +26,6 @@ class BlogIndex extends React.Component {
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
-                  color: "black",
                 }}
               >
                 <Link
@@ -34,9 +35,10 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small style={{ color: `#C3E88D` }}>
+              <small style={{ color: `var(--date)` }}>
                 {node.frontmatter.date}
               </small>
+              <p>{node.frontmatter.tags}</p>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
@@ -70,6 +72,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
         }
       }

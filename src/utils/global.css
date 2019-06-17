@@ -1,9 +1,10 @@
 body {
   --bg: #1b1e2b;
-  --textNormal: #f78c6c;
+  --textNormal: white;
   --textTitle: #89ddff;
   --textLink: #89ddff;
   --hr: hsla(0, 0%, 0%, 0.2);
+  --date: #c3e88d;
 
   background-color: var(--bg);
 }
