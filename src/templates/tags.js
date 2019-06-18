@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 
 // Components
 import { Link, graphql } from "gatsby"
+import Bio from "../components/bio"
+import { rhythm, scale } from "../utils/typography"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
@@ -12,19 +14,52 @@ const Tags = ({ pageContext, data }) => {
   } tagged with "${tag}"`
 
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: "var(--bg)",
+        color: "var(--textNormal)",
+        transition: "color 0.2s ease-out, background 0.2s ease-out",
+        marginLeft: `auto`,
+        marginRight: `auto`,
+        maxWidth: rhythm(24),
+        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+      }}
+    >
+      <h1
+        style={{
+          ...scale(1.5),
+          marginBottom: rhythm(1.5),
+          marginTop: 0,
+          color: `#f78c6c`,
+        }}
+      >
+        <Link
+          style={{
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
+          }}
+          to={`/`}
+        >
+          {data.site.siteMetadata.title}
+        </Link>
+      </h1>
+      <Bio />
       <h1 style={{ color: `var(--textNormal)` }}>{tagHeader}</h1>
-      <ul>
-        {edges.map(({ node }) => {
-          const { slug } = node.fields
-          const { title } = node.frontmatter
-          return (
-            <li key={slug}>
-              <Link to={slug}>{title}</Link>
-            </li>
-          )
-        })}
-      </ul>
+      <div>
+        <ul>
+          {edges.map(({ node }) => {
+            const { slug } = node.fields
+            const { title } = node.frontmatter
+            return (
+              <li key={slug}>
+                <Link to={slug}>{title}</Link>
+              </li>
+            )
+          })}
+        </ul>
+      </div>
+
       {/*
               This links to a page that does not yet exist.
               We'll come back to it!
@@ -61,6 +96,11 @@ export default Tags
 
 export const pageQuery = graphql`
   query($tag: String) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
