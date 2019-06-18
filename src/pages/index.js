@@ -11,7 +11,6 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
@@ -35,7 +34,7 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <small style={{ color: `var(--date)` }}>
-                {node.frontmatter.date}
+                {node.frontmatter.date} 🍵 {node.fields.readingTime.text}
               </small>
               <p>{node.frontmatter.tags}</p>
               <p
@@ -72,6 +71,12 @@ export const pageQuery = graphql`
             title
             description
             tags
+          }
+          fields {
+            readingTime {
+              text
+              minutes
+            }
           }
         }
       }

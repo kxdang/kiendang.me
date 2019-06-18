@@ -21,7 +21,17 @@ class about extends React.Component {
             color: `#f78c6c`,
           }}
         >
-          <Link to="/"> Dang it</Link>
+          <Link
+            style={{
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `#f78c6c`,
+            }}
+            to="/"
+          >
+            {" "}
+            Dang it
+          </Link>
         </h1>
         <Bio />
 

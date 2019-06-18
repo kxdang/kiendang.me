@@ -1,6 +1,6 @@
 body {
   --bg: #1b1e2b;
-  --textNormal: white;
+  --textNormal: rgb(221, 221, 221);
   --textTitle: #89ddff;
   --textLink: #89ddff;
   --hr: hsla(0, 0%, 0%, 0.2);
