@@ -51,7 +51,7 @@ function Bio() {
                   margin: `auto`,
                 }}
               >
-                A blog by <strong> {author}</strong>.
+                A blog by <strong>Kien</strong>
               </p>
             </div>
 

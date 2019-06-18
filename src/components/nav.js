@@ -12,6 +12,7 @@ class nav extends React.Component {
           About
         </Link>
         <Link
+          to="/contact"
           style={{
             boxShadow: `none`,
             color: `var(--textLink)`,

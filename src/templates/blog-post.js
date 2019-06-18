@@ -30,7 +30,14 @@ class BlogPostTemplate extends React.Component {
             color: `var(--date)`,
           }}
         >
-          {post.frontmatter.date} - {post.fields.readingTime.text}
+          {post.frontmatter.date} - {post.fields.readingTime.text}{" "}
+          {post.fields.readingTime.minutes > 0 &&
+          post.fields.readingTime.minutes <= 3
+            ? "🍵"
+            : post.fields.readingTime.minutes > 3 &&
+              post.fields.readingTime.minutes <= 6
+            ? "🍵🍵"
+            : "🍵🍵🍵"}
           {post.frontmatter.tags ? <p>Tags: {post.frontmatter.tags}</p> : null}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -93,6 +100,7 @@ export const pageQuery = graphql`
         slug
         readingTime {
           text
+          minutes
         }
       }
     }
