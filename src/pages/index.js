@@ -42,7 +42,11 @@ class BlogIndex extends React.Component {
                   ? "🍵🍵"
                   : "🍵🍵🍵"}
               </small>
-              <p>{node.frontmatter.tags}</p>
+              <p className="tagCategory">
+                <Link to={`/tags/` + node.frontmatter.tags}>
+                  {node.frontmatter.tags}
+                </Link>
+              </p>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
