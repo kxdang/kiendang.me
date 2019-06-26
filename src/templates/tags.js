@@ -18,7 +18,6 @@ const Tags = ({ pageContext, data }) => {
       style={{
         backgroundColor: "var(--bg)",
         color: "var(--textNormal)",
-        transition: "color 0.2s ease-out, background 0.2s ease-out",
         marginLeft: `auto`,
         marginRight: `auto`,
         maxWidth: rhythm(24),
