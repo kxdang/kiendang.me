@@ -3,6 +3,10 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
+import ThemeContext from "../context/ThemeContext"
+
+import "./layout.css"
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -11,68 +15,99 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-            color: `#f78c6c`,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h1>
+        <ThemeContext.Consumer>
+          {theme => (
+            <div className={theme.dark ? "dark" : "light"}>
+              <h1
+                style={{
+                  ...scale(1.5),
+                  marginBottom: rhythm(1.5),
+                  marginTop: 0,
+                  color: `#f78c6c`,
+                }}
+              >
+                <Link
+                  style={{
+                    boxShadow: `none`,
+                    textDecoration: `none`,
+                    color: `inherit`,
+                  }}
+                  to={`/`}
+                >
+                  {title}
+                </Link>
+              </h1>
+              <button className="dark-switcher" onClick={theme.toggleDark}>
+                {theme.dark ? (
+                  <span>Light mode ☀</span>
+                ) : (
+                  <span>Dark mode ☾</span>
+                )}
+              </button>
+            </div>
+          )}
+        </ThemeContext.Consumer>
       )
     } else {
       header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-            color: `#f78c6c`,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h3>
+        <ThemeContext.Consumer>
+          {theme => (
+            <div className={theme.dark ? "dark" : "light"}>
+              <h3
+                style={{
+                  fontFamily: `Montserrat, sans-serif`,
+                  marginTop: 0,
+                  color: `#f78c6c`,
+                }}
+              >
+                <Link
+                  style={{
+                    boxShadow: `none`,
+                    textDecoration: `none`,
+                    color: `inherit`,
+                  }}
+                  to={`/`}
+                >
+                  {title}
+                </Link>
+              </h3>
+              <button className="dark-switcher" onClick={theme.toggleDark}>
+                {theme.dark ? (
+                  <span>Light mode ☀</span>
+                ) : (
+                  <span>Dark mode ☾</span>
+                )}
+              </button>
+            </div>
+          )}
+        </ThemeContext.Consumer>
       )
     }
     return (
-      <div
-        style={{
-          backgroundColor: "var(--bg)",
-          color: "var(--textNormal)",
-          transition: "color 0.2s ease-out, background 0.2s ease-out",
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      <ThemeContext.Consumer>
+        {theme => (
+          <div className={theme.dark ? "dark" : "light"}>
+            <div
+              style={{
+                backgroundColor: "var(--bg)",
+                color: "var(--textNormal)",
+                marginLeft: `auto`,
+                marginRight: `auto`,
+                maxWidth: rhythm(24),
+                padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+              }}
+            >
+              <header>{header}</header>
+              <main>{children}</main>
+              <footer>
+                © {new Date().getFullYear()}, Built with
+                {` `}
+                <a href="https://www.gatsbyjs.org">Gatsby</a>
+              </footer>
+            </div>
+          </div>
+        )}
+      </ThemeContext.Consumer>
     )
   }
 }
