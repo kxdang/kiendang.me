@@ -36,5 +36,21 @@
 }
 
 h1 {
-  color: #4b69c6;
+  color: #39adc4;
+}
+
+small {
+  color: #f76d47;
+}
+
+a {
+  color: #39adc4;
+}
+
+#lightmodebutton {
+  color: #f5f5f5;
+}
+
+#darkmodebutton {
+  color: darkgrey;
 }
