@@ -67,20 +67,21 @@ class Layout extends React.Component {
                   style={{
                     boxShadow: `none`,
                     textDecoration: `none`,
-                    color: `inherit`,
                   }}
                   to={`/`}
                 >
                   {title}
                 </Link>
               </h3>
-              <button className="dark-switcher" onClick={theme.toggleDark}>
-                {theme.dark ? (
-                  <span>Light mode ☀</span>
-                ) : (
-                  <span>Dark mode ☾</span>
-                )}
-              </button>
+              <div style={{ display: `flex`, justifyContent: `flex-end` }}>
+                <button className="dark-switcher" onClick={theme.toggleDark}>
+                  {theme.dark ? (
+                    <div id="lightmodebutton">Light mode ☀</div>
+                  ) : (
+                    <div id="darkmodebutton">Dark mode ☾</div>
+                  )}
+                </button>
+              </div>
             </div>
           )}
         </ThemeContext.Consumer>

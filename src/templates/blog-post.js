@@ -12,8 +12,6 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
-    console.log(post)
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -21,7 +19,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <h1>{post.frontmatter.title}</h1>
-        <p
+        <small
           style={{
             ...scale(-1 / 5),
             display: `block`,
@@ -43,7 +41,7 @@ class BlogPostTemplate extends React.Component {
               {post.frontmatter.tags}
             </p>
           ) : null}
-        </p>
+        </small>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{

@@ -2,6 +2,7 @@ import React from "react"
 import { rhythm, scale } from "../utils/typography"
 import Bio from "../components/bio"
 import { Link } from "gatsby"
+
 class about extends React.Component {
   render() {
     return (
@@ -18,14 +19,12 @@ class about extends React.Component {
             ...scale(1.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
-            color: `#f78c6c`,
           }}
         >
           <Link
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `#f78c6c`,
             }}
             to="/"
           >
