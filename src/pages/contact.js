@@ -33,6 +33,7 @@ class contact extends React.Component {
             Dang it
           </Link>
         </h1>
+
         <Bio />
 
         <h3 style={{ color: `var(--textTitle)` }}>Contact Me</h3>

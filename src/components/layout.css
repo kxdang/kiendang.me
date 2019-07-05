@@ -1,6 +1,10 @@
-:root {
-  --highlight: #89ddff;
-  --date: #c3e88d;
+/* Dark mode styles */
+.dark-switcher {
+  color: #f5f5f5;
+  margin-top: 5px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .dark {
@@ -9,17 +13,18 @@
   transition: all 0.6s ease;
 }
 .dark a {
-  color: var(--highlight);
+  color: #89ddff;
 }
 
 .dark h3 {
-  color: var(--highlight);
+  color: #89ddff;
 }
 
 .dark small {
-  color: var(--date);
+  color: #c3e88d;
 }
+
 .light {
+  background-color: #f5f5f5;
   transition: all 0.6s ease;
-  background-color: #fefefe;
 }

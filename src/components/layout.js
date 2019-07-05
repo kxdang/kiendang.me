@@ -85,10 +85,7 @@ class Layout extends React.Component {
     return (
       <ThemeContext.Consumer>
         {theme => (
-          <div
-            className={theme.dark ? "dark" : "light"}
-            style={{ height: `100vh` }}
-          >
+          <div className={theme.dark ? "dark" : "light"}>
             <div
               style={{
                 marginLeft: `auto`,
