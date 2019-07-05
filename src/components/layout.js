@@ -23,7 +23,6 @@ class Layout extends React.Component {
                   ...scale(1.5),
                   marginBottom: rhythm(1.5),
                   marginTop: 0,
-                  color: `#f78c6c`,
                 }}
               >
                 <Link
@@ -37,13 +36,6 @@ class Layout extends React.Component {
                   {title}
                 </Link>
               </h1>
-              <button className="dark-switcher" onClick={theme.toggleDark}>
-                {theme.dark ? (
-                  <span>Light mode ☀</span>
-                ) : (
-                  <span>Dark mode ☾</span>
-                )}
-              </button>
             </div>
           )}
         </ThemeContext.Consumer>

@@ -1,6 +1,6 @@
 /* Dark mode styles */
 .dark-switcher {
-  color: #f5f5f5;
+  color: #a0a0a0;
   margin-top: 5px;
   background: transparent;
   border: none;
@@ -9,15 +9,21 @@
 
 .dark {
   background-color: #1b1e2b;
-  color: rgb(221, 221, 221);
   transition: all 0.6s ease;
 }
 .dark a {
   color: #89ddff;
 }
 
+.dark p {
+  color: rgb(221, 221, 221);
+}
+
 .dark h3 {
   color: #89ddff;
+}
+.dark h1 {
+  color: rgb(247, 140, 108);
 }
 
 .dark small {
@@ -25,6 +31,10 @@
 }
 
 .light {
-  background-color: #f5f5f5;
   transition: all 0.6s ease;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: #4b69c6;
 }
