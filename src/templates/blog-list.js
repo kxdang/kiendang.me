@@ -38,7 +38,7 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small style={{ color: `var(--date)` }}>
+              <small>
                 {node.frontmatter.date} - {node.fields.readingTime.text}{" "}
                 {node.fields.readingTime.minutes > 0 &&
                 node.fields.readingTime.minutes <= 3

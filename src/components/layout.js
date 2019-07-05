@@ -57,7 +57,6 @@ class Layout extends React.Component {
                 style={{
                   fontFamily: `Montserrat, sans-serif`,
                   marginTop: 0,
-                  color: `#f78c6c`,
                 }}
               >
                 <Link
@@ -86,11 +85,12 @@ class Layout extends React.Component {
     return (
       <ThemeContext.Consumer>
         {theme => (
-          <div className={theme.dark ? "dark" : "light"}>
+          <div
+            className={theme.dark ? "dark" : "light"}
+            style={{ height: `100vh` }}
+          >
             <div
               style={{
-                backgroundColor: "var(--bg)",
-                color: "var(--textNormal)",
                 marginLeft: `auto`,
                 marginRight: `auto`,
                 maxWidth: rhythm(24),

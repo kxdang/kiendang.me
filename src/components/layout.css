@@ -1,9 +1,24 @@
-.dark {
-  background-color: #2a2b2d;
-  color: #fff;
-  transition: all 0.6s ease;
+:root {
+  --highlight: #89ddff;
+  --date: #c3e88d;
 }
 
+.dark {
+  background-color: #1b1e2b;
+  color: rgb(221, 221, 221);
+  transition: all 0.6s ease;
+}
+.dark a {
+  color: var(--highlight);
+}
+
+.dark h3 {
+  color: var(--highlight);
+}
+
+.dark small {
+  color: var(--date);
+}
 .light {
   transition: all 0.6s ease;
   background-color: #fefefe;
