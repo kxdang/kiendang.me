@@ -51,7 +51,6 @@ function Bio() {
               <p
                 id="bio"
                 style={{
-                  color: `#f78c6c`,
                   margin: `auto`,
                 }}
               >

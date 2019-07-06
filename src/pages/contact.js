@@ -25,7 +25,6 @@ class contact extends React.Component {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `#f78c6c`,
             }}
             to="/"
           >
