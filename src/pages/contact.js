@@ -55,7 +55,7 @@ class contact extends React.Component {
 
               <Bio />
 
-              <h3 style={{ color: `var(--textTitle)` }}>Contact Me</h3>
+              <h3>Contact Me</h3>
               <p>
                 Please feel free to connect with me! My social media links are
                 below:

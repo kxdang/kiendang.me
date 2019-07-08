@@ -59,7 +59,7 @@ class about extends React.Component {
               <p>
                 Hello, my name is Kien Dang. I have a Bachelors of Science in
                 Honours Biochemistry from the University of Waterloo. I’ve held
-                many job positions while I was in co-op ranging from laboratory
+                many job positions while I was in co-op ranging from lab
                 research to corporate positions.
                 <br />
                 <br />I love technology ranging from computers, phones to cars.
