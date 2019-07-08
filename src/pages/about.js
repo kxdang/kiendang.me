@@ -11,16 +11,14 @@ class about extends React.Component {
     return (
       <ThemeContext.Consumer>
         {theme => (
-          <div
-            className={theme.dark ? "dark" : "light"}
-            style={{ height: `100vh` }}
-          >
+          <div className={theme.dark ? "dark" : "light"}>
             <div
               style={{
                 marginLeft: `auto`,
                 marginRight: `auto`,
                 maxWidth: rhythm(24),
                 padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+                minHeight: `100vh`,
               }}
             >
               <h1
@@ -34,6 +32,7 @@ class about extends React.Component {
                   style={{
                     boxShadow: `none`,
                     textDecoration: `none`,
+                    color: `inherit`,
                   }}
                   to="/"
                 >
@@ -60,14 +59,14 @@ class about extends React.Component {
               <p>
                 Hello, my name is Kien Dang. I have a Bachelors of Science in
                 Honours Biochemistry from the University of Waterloo. I’ve held
-                many job positions while I was in co-op ranging from research in
-                the laboratory to corporate positions.
+                many job positions while I was in co-op ranging from laboratory
+                research to corporate positions.
                 <br />
                 <br />I love technology ranging from computers, phones to cars.
-                I’m a self motivated learner who programs as a side hobby. One
-                of my favourite things to do is try to automate tasks I
-                encounter every day and improve the quality of life through
-                science and technology.
+                I’m a self motivated learner who likes to program and one of my
+                favourite things to do is try to automate tasks I encounter
+                every day and improve the quality of life through science and
+                technology.
                 <br />
                 <br />
                 My blog is a platform to share my experiences, interests,
