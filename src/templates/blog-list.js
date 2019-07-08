@@ -49,6 +49,7 @@ class BlogIndex extends React.Component {
                 <Link
                   to={`/tags/` + node.frontmatter.tags}
                   className={node.frontmatter.tags}
+                  style={{ boxShadow: `none` }}
                 >
                   {node.frontmatter.tags}
                 </Link>

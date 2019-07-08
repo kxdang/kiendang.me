@@ -11,6 +11,7 @@
   background-color: #1b1e2b;
   transition: all 0.6s ease;
 }
+
 .dark a {
   color: #89ddff;
 }
@@ -39,6 +40,10 @@ h1 {
   color: #39adc4;
 }
 
+h3 {
+  color: #f76d47;
+}
+
 small {
   color: #f76d47;
 }
@@ -56,13 +61,13 @@ a {
 }
 
 .candy {
-  color: green;
+  color: #062f4f;
 }
 
 .animals {
-  color: red;
+  color: #813772;
 }
 
 .fun {
-  color: blue;
+  color: #ff3b3f;
 }
