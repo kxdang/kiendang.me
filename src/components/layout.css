@@ -54,3 +54,15 @@ a {
 #darkmodebutton {
   color: rgb(99, 99, 99);
 }
+
+.candy {
+  color: green;
+}
+
+.animals {
+  color: red;
+}
+
+.fun {
+  color: blue;
+}
