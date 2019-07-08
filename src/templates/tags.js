@@ -63,7 +63,7 @@ const Tags = ({ pageContext, data }) => {
             <Bio />
             <h1>{tagHeader}</h1>
             <div>
-              <ul>
+              <ul style={{ listStyle: `none` }}>
                 {edges.map(({ node }) => {
                   const { slug } = node.fields
                   const { title } = node.frontmatter
