@@ -35,13 +35,13 @@ const Tags = ({ pageContext, data }) => {
                 ...scale(1.5),
                 marginBottom: rhythm(1.5),
                 marginTop: 0,
-                color: `#f78c6c`,
               }}
             >
               <Link
                 style={{
                   boxShadow: `none`,
                   textDecoration: `none`,
+                  color: `inherit`,
                 }}
                 to={`/`}
               >
