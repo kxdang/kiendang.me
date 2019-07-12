@@ -1,9 +1,11 @@
 ---
 title: Amsterdam
 date: "2018-04-16"
-description: Amsterdam vacation
+description: My Amsterdam vacation experience.
 tags: ["Travel"]
 ---
+
+![Amsterdam](./amsterdam.jpg)
 
 Amsterdam was absolutely beautiful! First time outside of the country and my girlfriend and I spent a week there.
 

@@ -8,7 +8,7 @@ import ThemeContext from "../context/ThemeContext"
 import "../components/layout.css"
 
 //importing font awesome using react-icons
-import { FaGithub } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaFileExcel } from "react-icons/fa"
 
 class contact extends React.Component {
   render() {
@@ -61,12 +61,47 @@ class contact extends React.Component {
 
               <h3>Contact Me</h3>
               <p>
-                Please feel free to connect with me! My social media links are
-                below:
+                Please feel free to connect with me! Additional links are
+                provided below:
               </p>
-              <a href="www.google.ca" style={{ textDecoration: `none` }}>
-                <FaGithub size={28} color={`#F78C6C`} /> Github
-              </a>
+              <ul>
+                <li
+                  style={{
+                    listStyle: `none`,
+                  }}
+                >
+                  <a
+                    href="https://github.com/kxdang"
+                    target="_blank"
+                    style={{ boxShadow: `none`, display: `flex` }}
+                  >
+                    <FaGithub
+                      size={28}
+                      color={`#F78C6C`}
+                      style={{ marginRight: `5px` }}
+                    />{" "}
+                    Github
+                  </a>
+                </li>
+                <li style={{ listStyle: `none` }}>
+                  <a
+                    href="https://www.linkedin.com/in/kien-dang/"
+                    target="_blank"
+                    style={{
+                      boxShadow: `none`,
+                      display: `flex`,
+                      width: `129px`,
+                    }}
+                  >
+                    <FaLinkedin
+                      size={28}
+                      color={`#F78C6C`}
+                      style={{ marginRight: `5px` }}
+                    />{" "}
+                    LinkedIn
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         )}
