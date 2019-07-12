@@ -44,16 +44,16 @@ class BlogIndex extends React.Component {
                     node.fields.readingTime.minutes <= 6
                   ? "🍵🍵"
                   : "🍵🍵🍵"}
+                <p className="tagCategory">
+                  <Link
+                    to={`/tags/` + node.frontmatter.tags}
+                    className={node.frontmatter.tags}
+                    style={{ boxShadow: `none` }}
+                  >
+                    {node.frontmatter.tags}
+                  </Link>
+                </p>
               </small>
-              <p className="tagCategory">
-                <Link
-                  to={`/tags/` + node.frontmatter.tags}
-                  className={node.frontmatter.tags}
-                  style={{ boxShadow: `none` }}
-                >
-                  {node.frontmatter.tags}
-                </Link>
-              </p>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
