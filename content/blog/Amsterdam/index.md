@@ -33,24 +33,24 @@ Food experience was also one of the biggest highlights in Amsterdam. Dutch food 
 
 # **Bitterballen**
 
-![](http://kiendang.me/wp-content/uploads/2018/03/Bitterballen.jpg)
+![](./bitterballen.jpg)
 
 # **Raw Herring**
 
 To our surprise, it tasted really good! You have an option of having it all in one piece or cut into pieces like shown on the left, or having it served on a bun.
 
-![](http://kiendang.me/wp-content/uploads/2018/03/raw-herring-e1537283751523.jpg)
+![](./rawherring.jpg)
 
 # **Stroopwafel**
 
 Two thin waffels stuck together with some sweet caramel like syrup. They are the best when made fresh and hot. We found this stand in Alberts Cuyp market.
 
-![](http://kiendang.me/wp-content/uploads/2018/03/waffel.jpg)
+![](./stroopwafel.jpg)
 
 # **FEBO**
 
 A Dutch chain fast food restaurant that provides vending type machines where you select the food in a mini preheated glass oven. These were super delicious and filling.
 
-![](http://kiendang.me/wp-content/uploads/2018/06/MVIMG_20180409_121753-1.jpg)
+![](./febo.jpg)
 
 Unfortunately, we forgot to take a picture of Kapslon which is a dish that consists of fries covered in shawarma meat and gouda cheese.

@@ -11,8 +11,6 @@ import Image from "gatsby-image"
 import Nav from "../components/nav"
 import { rhythm } from "../utils/typography"
 
-import ThemeContext from "../context/ThemeContext"
-
 import "./layout.css"
 function Bio() {
   return (

@@ -8,7 +8,7 @@ import ThemeContext from "../context/ThemeContext"
 import "../components/layout.css"
 
 //importing font awesome using react-icons
-import { FaGithub, FaLinkedin, FaFileExcel } from "react-icons/fa"
+import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 class contact extends React.Component {
   render() {
@@ -73,6 +73,7 @@ class contact extends React.Component {
                   <a
                     href="https://github.com/kxdang"
                     target="_blank"
+                    rel="noopener noreferrer"
                     style={{ boxShadow: `none`, display: `flex` }}
                   >
                     <FaGithub
@@ -87,6 +88,7 @@ class contact extends React.Component {
                   <a
                     href="https://www.linkedin.com/in/kien-dang/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     style={{
                       boxShadow: `none`,
                       display: `flex`,
