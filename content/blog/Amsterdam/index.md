@@ -1,7 +1,7 @@
 ---
 title: Amsterdam
 date: "2018-04-16"
-description: My Amsterdam vacation experience.
+description: Amsterdam vacation experience.
 tags: ["Travel"]
 ---
 
@@ -19,15 +19,15 @@ We had planned many events during our stay and had a list that we wanted to do e
 
 - **Brouwerij't lJ** - modern brewery right under the windmill (awesome beers)
 
-- **Hortus Botanicus**- beautiful botanical garden in the Plantage district of Amsterdam, about a block away from Brouweij't lJ brewery
+- **Hortus Botanicus** - beautiful botanical garden in the Plantage district of Amsterdam, about a block away from Brouweij't lJ brewery
 
-- **Heineken Experience**- the origins of Heineken. It was a very fun experience, a huge tourist trap but I highly recommend it! Lots of unique gifts at the end of the tour
+- **Heineken Experience** - the origins of Heineken. It was a very fun experience, a huge tourist trap but I highly recommend it! Lots of unique gifts at the end of the tour
 
-- **Rijksmuseum**- A Dutch national museum dedicated to the history of Amsterdam
+- **Rijksmuseum** - A Dutch national museum dedicated to the history of Amsterdam
 
-- **Van Gogh Museum**- Art museum dedicated to the works of Vincent van Gogh
+- **Van Gogh Museum** - Art museum dedicated to the works of Vincent van Gogh
 
-- **Keukenhof Gardens**- The worlds largest flower garden - also where the tulip fields are
+- **Keukenhof Gardens** - The worlds largest flower garden - also where the tulip fields are
 
 Food experience was also one of the biggest highlights in Amsterdam. Dutch food was something we were looking forward to trying. We did our research and found that there were plenty of unique dishes.
 
@@ -37,7 +37,7 @@ Food experience was also one of the biggest highlights in Amsterdam. Dutch food 
 
 # **Raw Herring**
 
-To our surprise, it tasted really good! You have an option of having it all in one piece or cut into pieces like shown on the left, or having it served on a bun.
+Tasted like sushi, but with a kick. You have an option of having it all in one piece, cut into pieces like shown on the left or having it served on a bun. I recommend the pieces being cut over the bun.
 
 ![](./rawherring.jpg)
 

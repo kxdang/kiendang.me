@@ -35,12 +35,7 @@ class BlogPostTemplate extends React.Component {
               post.fields.readingTime.minutes <= 6
             ? "🍵🍵"
             : "🍵🍵🍵"}
-          {post.frontmatter.tags ? (
-            <p>
-              Tags:
-              {post.frontmatter.tags}
-            </p>
-          ) : null}
+          {post.frontmatter.tags ? <p>Tags: {post.frontmatter.tags}</p> : null}
         </small>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
