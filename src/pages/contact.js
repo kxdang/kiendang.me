@@ -6,6 +6,10 @@ import { Link } from "gatsby"
 import ThemeContext from "../context/ThemeContext"
 
 import "../components/layout.css"
+
+//importing font awesome using react-icons
+import { FaGithub } from "react-icons/fa"
+
 class contact extends React.Component {
   render() {
     return (
@@ -60,6 +64,9 @@ class contact extends React.Component {
                 Please feel free to connect with me! My social media links are
                 below:
               </p>
+              <a href="www.google.ca" style={{ textDecoration: `none` }}>
+                <FaGithub size={28} color={`#F78C6C`} /> Github
+              </a>
             </div>
           </div>
         )}
