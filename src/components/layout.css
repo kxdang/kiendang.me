@@ -50,6 +50,7 @@ small {
 
 a {
   color: #39adc4;
+  box-shadow: none;
 }
 
 #lightmodebutton {
