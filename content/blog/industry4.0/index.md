@@ -1,17 +1,15 @@
 ---
 author: Kien
-comments: false
 date: 2018-07-16 16:38:21+00:00
 layout: post
 link: https://kiendang.me/index.php/2018/07/16/industry-4-0/
 slug: industry-4-0
 title: Industry 4.0
 wordpress_id: 187
-categories:
-  - Technology
+tags: ["Technology"]
 ---
 
-![](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5a31d03ddee66863a599421f792e07b&auto=format&fit=crop&w=1050&q=80)
+![](./industry.jpg)
 
 The convenience of processing tasks online and using technology has really made me think about our current trend, Industry 4.0. The term coined to be the upcoming trend focusing on automation and data exchange.
 
@@ -28,29 +26,6 @@ For consumers, we benefit the most out of using these services. The convenience 
 As for the workers, it is the fear of losing their jobs. We are replacing jobs quicker than we can provide them and with machines and technology growing so fast, people are concerned that there will be nothing left for us to do. However, the unemployment by technology also creates employments in other fields that deal with creating automation. I truly believe that this is key to staying relevant, especially as a young individual like myself.I keep my eye closely on the trend and job market. It is important to adapt and learn skills to be able to keep up.
 
 Perhaps we will see an increase in demand for skilled-trade jobs. There are a lot of speciality jobs that computers can’t automate such as an electrician, plumbers, hairstylist, chefs and many more. Not every job will be automated, but it could definitely benefit from computer assisted technology.
-
-```js
-class nav extends React.Component {
-  render() {
-    return (
-      <div>
-        <Link to="/about" style={{ boxShadow: `none` }}>
-          About
-        </Link>
-        <Link
-          to="/contact"
-          style={{
-            boxShadow: `none`,
-            paddingLeft: `20px`,
-          }}
-        >
-          Contact
-        </Link>
-      </div>
-    )
-  }
-}
-```
 
 Companies are seizing the opportunity to go digital and they must adapt with the Industry 4.0 to be able to achieve sustainability from the customer demands and their competition. Being able to capitalize technological innovation will be the greatest driver of success for a company to survive this fast pace market. With that being said, this is one of the best times to live as technology advances.
 
