@@ -8,6 +8,8 @@ title: Happy Thanksgiving
 tags: ["food"]
 ---
 
+![](./thanksgiving.jpg)
+
 Finally, a food post.
 
 A very eventful two weeks of October.
