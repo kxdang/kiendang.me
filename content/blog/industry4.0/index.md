@@ -34,3 +34,7 @@ Companies are seizing the opportunity to go digital and they must adapt with the
 [¹ ](https://business.financialpost.com/news/fp-street/royal-bank-of-canada-to-cut-branch-space-by-at-least-20-percent)[https://business.financialpost.com/news/fp-street/royal-bank-of-canada-to-cut-branch-space-by-at-least-20-percent](https://business.financialpost.com/news/fp-street/royal-bank-of-canada-to-cut-branch-space-by-at-least-20-percent)
 
 ² [https://www.cbc.ca/news/business/manulife-1.4715861](https://www.cbc.ca/news/business/manulife-1.4715861)
+
+```
+
+```
