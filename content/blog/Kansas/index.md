@@ -4,7 +4,7 @@ comments: false
 date: 2018-08-20 02:24:47+00:00
 slug: kansas-city
 title: Kansas City
-tags: ["Travel"]
+tags: ["travel"]
 ---
 
 ![](./kansas.jpg)

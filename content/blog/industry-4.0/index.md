@@ -1,11 +1,8 @@
 ---
 author: Kien
 date: 2018-07-16 16:38:21+00:00
-layout: post
-link: https://kiendang.me/index.php/2018/07/16/industry-4-0/
 slug: industry-4-0
 title: Industry 4.0
-wordpress_id: 187
 tags: ["Technology"]
 ---
 
