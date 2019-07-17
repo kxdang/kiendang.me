@@ -3,7 +3,7 @@ author: Kien
 date: 2018-07-16 16:38:21+00:00
 slug: industry-4-0
 title: Industry 4.0
-tags: ["Technology"]
+tags: ["technology"]
 ---
 
 ![](./industry.jpg)

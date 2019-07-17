@@ -1,12 +1,8 @@
 ---
 author: Kien
-comments: true
 date: 2018-10-01 22:11:09+00:00
-layout: post
-link: https://kiendang.me/index.php/2018/10/01/dive-into-personal-finance/
 slug: dive-into-personal-finance
 title: Dive Into Personal Finance
-wordpress_id: 431
 tags: ["money"]
 ---
 
@@ -48,6 +44,6 @@ The money is split by percentages, I wanted to have my loans paid as fast as I c
 
 I know what my monthly contribution will be towards my loans and I can roughly estimate the end date of when they will be paid off. Having a **clear deadline** for your goals are important.
 
-Since I’ve already did my research, I have summarized it in this post [here](https://kiendang.me/index.php/2018/11/04/money-making-money/).
+Since I’ve already did my research, I have summarized it in this post [here](/money-making-money).
 
 Disclaimer: I'm not a financial adviser, all of my post are for educational purposes only and should not be taken as financial advice.

@@ -4,7 +4,7 @@ date: 2018-11-04 01:26:49+00:00
 slug: money-making-money
 title: Money making money
 tags: ["money"]
-description: "Making your money work for you, a Canadian guide."
+description: "Making your money work for you, a Canadian guide from a millenial."
 ---
 
 ###**Getting started with Investing**
@@ -15,7 +15,7 @@ The idea is that your money is working for you, so when you’re sleeping you ca
 
 In Canada, you have several investing accounts you can open. But for my current needs and purposes, I will be talking about my [TFSA (Tax Free Savings)](https://www.advisor.ca/columnists_/michelle-munro/tfsas-and-non-registered-accounts/), [RRSP (Registered Retirement Savings Plan)](https://www.diffen.com/difference/RRSP_vs_TFSA) and my [DCPP (Defined contribution pension plan)](https://www.sunlife.ca/ca/Learn+and+Plan/Money/Retirement+savings/What+kind+of+company+pension+do+you+have?vgnLocale=en_CA).
 
-But wait, if you're young and just starting work, why do you need to save up for retirement already? Well, the best way to retire early with fat stacks is to save a little now and learn all this crap early so that **_time _**is playing in **_your favour._**
+But wait, if you're young and just starting work, why do you need to save up for retirement already? Well, the best way to retire early with fat stacks is to save a little now and learn all this crap early so that **_time_** is playing in **_your favour._**
 
 If you have a full time job and it offers a pension plan DCPP or a DBPP from your employer, then you better figure out what the minimal contribution is to receive an employer match.
 
