@@ -29,12 +29,31 @@ As for the workers, it is the fear of losing their jobs. We are replacing jobs q
 
 Perhaps we will see an increase in demand for skilled-trade jobs. There are a lot of speciality jobs that computers can’t automate such as an electrician, plumbers, hairstylist, chefs and many more. Not every job will be automated, but it could definitely benefit from computer assisted technology.
 
+```js
+class nav extends React.Component {
+  render() {
+    return (
+      <div>
+        <Link to="/about" style={{ boxShadow: `none` }}>
+          About
+        </Link>
+        <Link
+          to="/contact"
+          style={{
+            boxShadow: `none`,
+            paddingLeft: `20px`,
+          }}
+        >
+          Contact
+        </Link>
+      </div>
+    )
+  }
+}
+```
+
 Companies are seizing the opportunity to go digital and they must adapt with the Industry 4.0 to be able to achieve sustainability from the customer demands and their competition. Being able to capitalize technological innovation will be the greatest driver of success for a company to survive this fast pace market. With that being said, this is one of the best times to live as technology advances.
 
 [¹ ](https://business.financialpost.com/news/fp-street/royal-bank-of-canada-to-cut-branch-space-by-at-least-20-percent)[https://business.financialpost.com/news/fp-street/royal-bank-of-canada-to-cut-branch-space-by-at-least-20-percent](https://business.financialpost.com/news/fp-street/royal-bank-of-canada-to-cut-branch-space-by-at-least-20-percent)
 
 ² [https://www.cbc.ca/news/business/manulife-1.4715861](https://www.cbc.ca/news/business/manulife-1.4715861)
-
-```
-
-```
