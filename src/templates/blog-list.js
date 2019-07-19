@@ -38,10 +38,10 @@ class BlogIndex extends React.Component {
               <small>
                 {node.frontmatter.date} - {node.fields.readingTime.text}{" "}
                 {node.fields.readingTime.minutes > 0 &&
-                node.fields.readingTime.minutes <= 3
+                node.fields.readingTime.minutes <= 2
                   ? "🍵"
-                  : node.fields.readingTime.minutes > 3 &&
-                    node.fields.readingTime.minutes <= 6
+                  : node.fields.readingTime.minutes > 2 &&
+                    node.fields.readingTime.minutes <= 3
                   ? "🍵🍵"
                   : "🍵🍵🍵"}
                 <p className="tagCategory">

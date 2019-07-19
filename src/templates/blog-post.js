@@ -29,10 +29,10 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date} - {post.fields.readingTime.text}{" "}
           {post.fields.readingTime.minutes > 0 &&
-          post.fields.readingTime.minutes <= 3
+          post.fields.readingTime.minutes <= 2
             ? "🍵"
-            : post.fields.readingTime.minutes > 3 &&
-              post.fields.readingTime.minutes <= 6
+            : post.fields.readingTime.minutes > 2 &&
+              post.fields.readingTime.minutes <= 3
             ? "🍵🍵"
             : "🍵🍵🍵"}
           {post.frontmatter.tags ? <p>Tags: {post.frontmatter.tags}</p> : null}
