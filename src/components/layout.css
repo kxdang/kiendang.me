@@ -61,14 +61,6 @@ a {
   color: rgb(99, 99, 99);
 }
 
-.candy {
-  color: #062f4f;
-}
-
-.animals {
-  color: #813772;
-}
-
-.fun {
-  color: #ff3b3f;
+.dark blockquote {
+  color: bisque;
 }

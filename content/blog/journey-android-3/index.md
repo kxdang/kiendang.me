@@ -2,11 +2,13 @@
 author: Kien
 date: 2018-11-15 01:47:01+00:00
 layout: post
-title: Journey to Android Development Pt. 3
+title: Journey to Android Development Pt. 3 (Android Orientation)
 tags: ["java"]
 ---
 
 During my journey, I've stumbled upon an issue with screen orientation where the app breaks and stops functioning when rotated. I feel like I will be coming into this issue often and will write about what I've learned to make sure I understand this clearly.
+
+![](./rotation.gif)
 
 In Android, when the device is rotated, the activity becomes destroyed and recreated in the new orientation. Any local variables that were used in the activity gets lost. Therefore, to remedy this issue, we would need to save the state of our local variables in the activity's `onSaveInstance()` method.
 

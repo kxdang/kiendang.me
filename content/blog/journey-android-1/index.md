@@ -2,7 +2,7 @@
 author: Kien
 date: 2018-10-07 13:59:48+00:00
 slug: journey-to-android-development-pt-1
-title: Journey to Android Development Pt. 1
+title: Journey to Android Development Pt. 1 (SDK and Java)
 tags: ["java"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 author: Kien
 date: 2018-11-11 22:00:56+00:00
-title: Journey to Android Development Pt. 2
+title: Journey to Android Development Pt. 2 (Multi-Screen App)
 description: "Exploring multi-screens for Android applications."
 tags: ["java"]
 ---

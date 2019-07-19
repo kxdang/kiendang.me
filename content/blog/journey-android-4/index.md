@@ -1,7 +1,7 @@
 ---
 author: Kien
 date: 2018-11-18 17:48:31+00:00
-title: Journey to Android Development Pt. 4
+title: Journey to Android Development Pt. 4 (Custom Array Adapters)
 description: "Exploring custom array adapters to generate a scrolling list view."
 tags: ["java"]
 ---
