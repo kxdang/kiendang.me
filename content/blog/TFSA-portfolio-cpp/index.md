@@ -12,7 +12,7 @@ Investing when you are young is probably the best thing you can do. Learning at 
 
 When I read about this, I thought to myself about the expenses I had to pay, the student loans that were hovering and how I couldn’t simply bring any money to the table to invest. But understanding that if I was able to stack away 10 dollars a week, which was probably the equivalent of two Starbucks coffees, things might have been different.
 
-In my investment strategy, I’ve decided to follow the [Canadian Couch Potato](https://canadiancouchpotato.com/model-portfolios/) path which is influenced by John C. Bogle’s low cost index funds from [Common Sense Investing](https://kiendang.me/index.php/2018/10/01/dive-into-personal-finance/).
+In my investment strategy, I’ve decided to follow the <a href="https://canadiancouchpotato.com/model-portfolios/" target="_blank">Canadian Couch Potato</a> path which is influenced by John C. Bogle’s low cost index funds from [Common Sense Investing](/dive-into-pf).
 
 An Index fund is:
 

@@ -7,6 +7,10 @@
   cursor: pointer;
 }
 
+p {
+  color: #35383c;
+}
+
 .dark {
   background-color: #1b1e2b;
   transition: all 0.6s ease;
