@@ -20,6 +20,10 @@ p {
   color: #89ddff;
 }
 
+.dark a:hover {
+  color: #4b93af;
+}
+
 .dark p {
   color: #f5f5f5;
 }
