@@ -79,3 +79,11 @@ a {
 .dark blockquote {
   color: bisque;
 }
+
+li {
+  color: #39adc4;
+}
+
+.gatsby-highlight pre[class*="language-"] {
+  background-color: #292d3e;
+}
