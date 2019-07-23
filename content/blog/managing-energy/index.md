@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2018-10-23 16:28:14+00:00
-slug: managing-energy-not-time
 title: Managing energy - not time
 tags: ["productivity"]
 ---
