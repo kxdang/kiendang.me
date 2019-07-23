@@ -1,0 +1,30 @@
+---
+author: Kien
+date: 2018-12-28 02:14:54+00:00
+title: Watches
+tags: ["life"]
+---
+
+A hobby in watches that eventually lead me down a deep rabbit hole. I would spend hours reading articles from [Hodinkee](https://www.hodinkee.com/), [Worn and Wound](https://wornandwound.com/) and watching videos from [TGV](https://www.youtube.com/watch?v=gNAz3zpFphQ&list=PLZW36VbJh66dsfiWn0zDzBBuKDSZpMcjK), [Teddy Baldassarre](https://youtu.be/ERVwwPSbpZo) and [Just One More Watch](https://www.youtube.com/watch?v=BhL-m3mgdIQ).
+
+A watch is a timepiece intended to be carried for the soul purpose of keeping time. However, it can be much more than just a pretentious flaunt of wealth as it stems back to the 18th century. In today’s modern technology, we have replaced many items with a phone that does just about everything. Despite this, there are several reasons why I think watches are timeless:
+
+<center><h2>Heirloom</h2></center>
+
+A watch can be inherited by someone special in your family. It provides a functional jewelry that can be worn in memory of a loved one. They can be passed down to generations and influence the next generation to discover their own taste of watches. Imagine a watch for each family generation. That would be so cool. A quality timepiece can last forever if maintained regularly.
+
+<center><h2>Individual Expression</h2></center>
+
+A wrist watch can also be a fashionable piece to an outfit. I personally do not own a lot of jewelry that I can pull off tastefully, however, I can feel confident in wearing a watch that I like. There are tons of watches with different shapes, styles, colours and with strap combinations, there are endless possibilities to express an individual's unique taste. Whether it be fashion or luxury watches, it’s the gateway to the horological journey.
+
+<center><h2>Life Achievement</h2></center>
+
+You can purchase a watch to capture a moment in your life. Watches have captured many historical events. For example: The Omega Speedmaster became the first watch on the moon, the Rolex Explorer became the first watch worn on top of Mount Everest, the first ever quartz watch was made by Seiko in 1969. Purchasing your own watch can signify an achievement in your life that provide a story as you pass it down to your kids or grand kids.
+
+<center><h2>Appreciation of Craftsmanship</h2></center>
+
+Watches before the quartz era used to be very complex. Before the invention of the battery, mechanical parts were used. A simple mechanical watch had about 130 components which included the mainspring, balance wheel, gears and winding stem, all of which had to be precisely engineered in order to keep the watch oscillating.
+
+Whether its a quartz or a mechanical watch, wearing one shows appreciation for watchmaking. Being part of horology is in the form of any time keeping device. Quartz is the most accurate technology for time keeping, however, mechanical watches has its own merit of being extremely difficult to manufacture due to its complexity. Mechanical watch's fantastic engineering is one example of human's greatest accomplishments.
+
+Some watches do not cost a fortune to own one and that is the best part of this hobby. However, that being said, they can get very expensive. I start to realize and appreciate the rich heritage of many watch brands for bringing a simple and elegant piece of jewelry that would probably be more meaningful than any expensive device we have in our pockets.

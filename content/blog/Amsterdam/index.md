@@ -2,7 +2,7 @@
 title: Amsterdam
 date: "2018-04-16"
 description: Amsterdam vacation experience.
-tags: ["Travel"]
+tags: ["travel"]
 ---
 
 ![Amsterdam](./amsterdam.jpg)
