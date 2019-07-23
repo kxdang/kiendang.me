@@ -8,6 +8,7 @@ tags: ["productivity"]
 
 _Disclaimer: I do not reveal any sensitive and confidential material that is tied to my employer. My post is about my experience with Visual Basic and how I used it to solve a problem. It is for educational and informational purposes only._
 
+![](./project.gif)
 As part of my job, I cost out the Bill of Materials (BOM) from OEMs by reviewing 3D data and using a PLM system. When I finish building the BOM in the PLM system, I send it to my technical manager to check.
 
 #### <center>**Problem**</center>
