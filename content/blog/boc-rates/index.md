@@ -8,7 +8,7 @@ tags: ["money"]
 
 I’m not an financial adviser, nor do I have an accounting background, but I love reading about finances and what’s going on and how it affects us.
 
-Today,<a href="https://www.bankofcanada.ca/2019/05/fad-press-release-2019-05-29/" target="_blank">Bank of Canada maintains its interest rate at 1.75%</a>... what does that even mean? We hear people talk about the economy on the news and sometimes I just sit and listen and feel lost. So with some Google magic, I went and found a very high level overview of what it means for inflation.
+Today, <a href="https://www.bankofcanada.ca/2019/05/fad-press-release-2019-05-29/" target="_blank">Bank of Canada maintains its interest rate at 1.75%</a>... what does that even mean? We hear people talk about the economy on the news and sometimes I just sit and listen and feel lost. So with some Google magic, I went and found a very high level overview of what it means for inflation.
 
 <blockquote>In economic terms, inflation is when there is a fall in purchasing power (value of money) and a general increase in prices. </blockquote>
 

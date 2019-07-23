@@ -43,7 +43,10 @@ class BlogIndex extends React.Component {
                   : node.fields.readingTime.minutes > 2 &&
                     node.fields.readingTime.minutes <= 3
                   ? "🍵🍵"
-                  : "🍵🍵🍵"}
+                  : node.fields.readingTime.minutes > 3 &&
+                    node.fields.readingTime.minutes <= 5
+                  ? "🍵🍵🍵"
+                  : "🍵🍵🍵🍵"}
                 <p className="tagCategory">
                   <Link
                     to={`/tags/` + node.frontmatter.tags}
