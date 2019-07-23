@@ -16,7 +16,7 @@ If you’ve ever procrastinated before, you definitely know the feeling of urgen
 
 <blockquote>Flow is characterized by complete absorption in what one does and a resulting loss in one's sense of space and time.</blockquote>
 
-You are most productive in a state of flow and pomodoros are meant to capitalize off this state. There will be times where you work past the 25 minutes, which is completely normal and when you are stuck then that would be the ideal time to take your 5 minute break.
+You are most productive in a state of flow and pomodoros are meant to capitalize this state. There will be times where you work past the 25 minutes, which is completely normal and when you are stuck then that would be the ideal time to take your 5 minute break.
 
 ## **Pomodoro as a unit of measure for productivity.**
 
