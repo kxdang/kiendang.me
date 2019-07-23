@@ -30,6 +30,9 @@ p {
 .dark h1 {
   color: rgb(247, 140, 108);
 }
+.dark h2 {
+  color: rgb(247, 140, 108);
+}
 
 .dark small {
   color: #c3e88d;
@@ -41,6 +44,10 @@ p {
 }
 
 h1 {
+  color: #39adc4;
+}
+
+h2 {
   color: #39adc4;
 }
 

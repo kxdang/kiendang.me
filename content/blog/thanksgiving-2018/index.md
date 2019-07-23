@@ -8,10 +8,6 @@ title: Happy Thanksgiving
 tags: ["food"]
 ---
 
-![](./thanksgiving.jpg)
-
-Finally, a food post.
-
 A very eventful two weeks of October.
 
 UFC 229, McGregor vs Nurmagomedov, Microsoft Surface refreshes, Google Pixel 3 release, and new Google hardware... but nothing beats having a good meal with friends and family.
