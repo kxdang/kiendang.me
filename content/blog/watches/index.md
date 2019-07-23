@@ -5,6 +5,8 @@ title: Watches
 tags: ["life"]
 ---
 
+![](https://images.unsplash.com/photo-1527001929378-edd8dea61a06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+
 A hobby in watches that eventually lead me down a deep rabbit hole. I would spend hours reading articles from [Hodinkee](https://www.hodinkee.com/), [Worn and Wound](https://wornandwound.com/) and watching videos from [TGV](https://www.youtube.com/watch?v=gNAz3zpFphQ&list=PLZW36VbJh66dsfiWn0zDzBBuKDSZpMcjK), [Teddy Baldassarre](https://youtu.be/ERVwwPSbpZo) and [Just One More Watch](https://www.youtube.com/watch?v=BhL-m3mgdIQ).
 
 A watch is a timepiece intended to be carried for the soul purpose of keeping time. However, it can be much more than just a pretentious flaunt of wealth as it stems back to the 18th century. In today’s modern technology, we have replaced many items with a phone that does just about everything. Despite this, there are several reasons why I think watches are timeless:

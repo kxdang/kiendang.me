@@ -6,6 +6,7 @@ title: "How I stay focused: Productivity Tools"
 tags: ["productivity"]
 ---
 
+![](https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 Being productive feels good. It feels even better when you're able to track your progress. Here are some of my tools I use to keep productive.
 
 ### Trello

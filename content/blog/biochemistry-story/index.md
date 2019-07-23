@@ -5,6 +5,7 @@ title: Biochemistry
 tags: ["life"]
 ---
 
+![](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 **Biochemistry** - A branch of science that explores chemical processes within and related to living organisms. By using chemical knowledge and techniques, biochemists can understand and solve biological problems.
 
 The journey of completing my degree at the University of Waterloo shaped me who I am today.
