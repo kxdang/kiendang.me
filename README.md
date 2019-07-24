@@ -1,16 +1,12 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+﻿<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's blog starter
+  Gatsby's blog starter for Dang it - A blog by Kien Dang
 </h1>
-
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
 ## 🚀 Quick start
 
@@ -18,69 +14,34 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     Use the Gatsby CLI to create a new site, specifying the blog starter.
 
-    ```sh
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
-    ```
+## 🚀 Additional features added to starter blog.
 
-1.  **Start developing.**
+1.  **Added extra pages**
 
-    Navigate into your new site’s directory and start it up.
+    Added about me and contact page in Bio component by following Gatsby guide [here](https://www.gatsbyjs.org/docs/creating-and-modifying-pages/)
 
-    ```sh
-    cd my-blog-starter/
-    gatsby develop
-    ```
+2.  **Adding reading time and tea icons**
 
-1.  **Open the source code and start editing!**
+    Added number of teas based on the length of the blog post. Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/creating-and-modifying-pages/)
 
-    Your site is now running at `http://localhost:8000`!
+3.  **Adding tags page**
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+    Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/). I had difficulty implementing this on the gatsby starter blog as the code setup in documentation is slightly different than template gatsby starter blog. Also added clickable tags on each post page by querying from GraphQL.
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+4.  **Pagination with post**
 
-## 🧐 What's inside?
+    Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/adding-pagination/). Another difficulty implementing this on a gatsby starter blog template because the documentation only had an example of a new gatsby site and not from a template file. Gatsby starter blog already had previous and next page but did not have pagination set-up, had to manually follow this guide [here](https://nickymeuleman.netlify.com/blog/gatsby-pagination)
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+5.  **Dark mode toggle**
+    Followed Gatsby blog tutorial [here](https://www.gatsbyjs.org/blog/2019-01-31-using-react-context-api-with-gatsby/). All components needed to be wrapped in <ThemeContext.Provider>. Took me a while to understand this and find out where to wrap an existing blog with lots of preloaded code in gatsby starter blog.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+6.  **Adding Font Awesome**
+    Added React Font Awesome using [react-icons](https://github.com/react-icons/react-icons) library, specifically for my github and LinkedIn logo in contact page.
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+7.  **PrismJS**
+    To allow for code syntax highlighting based on language. Gatsby documentation [here](https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/) and followed external post [here](https://dev.to/niklasmtj/implement-prismjs-in-gatsbyjs-fff)
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
-
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
-
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
-
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
+Please feel free to take a look at what I did and the code/commits that were labeled for each step. They are in the order of implementation.
 
 ## 🎓 Learning Gatsby
 
