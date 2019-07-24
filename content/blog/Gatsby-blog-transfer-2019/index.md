@@ -8,7 +8,7 @@ description: "Made the switch from Wordpress to Gatsby"
 
 ![](https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80)
 
-I’ve gone from paying $200 yearly for server hosting to $0 dollars for hosting my blog. Initially, I ran Wordpress to run my blog and had to pay quite a bit of money just for hosting. I pay \$17 dollars yearly for my domain and when I found out you can have hosting for free, I was instantly motivated in learning how to get free web hosting.
+I’ve gone from paying $200 yearly down to $0 dollars for hosting my blog. Initially, I ran Wordpress to run my blog and paid for hosting; when I found out you can have hosting for free, I became motivated in learning how its done.
 
 My friend told me about Hugo, a static site generator and I stumbled upon a few other blogs running Hugo. I noticed how quickly they load and found out more about static site generators. I tried creating with Hugo but quickly realized I would have to learn Go as a new programming language and failed to make decent progress after struggling to run Hugo locally.
 
@@ -40,7 +40,7 @@ All the changes made to the Gatsby Starter Blog, in the exact order of changes a
 9. <b style="color: #FF5370">Adding gatsby plugin catch links</b> - helps load pages locally on my blog instead of refreshing the page, preserving the Single Page Application feel
 10. <b style="color: #FF5370">Adding PrismJS</b> - helps add colour to my code snippets. <a href="https://prismjs.com/" target="_blank">PrismJS</a>
 
-###<center>Wordpress Blog Posts to Gatsby Blog Post (Markdown)
+###<center>Wordpress Blog Posts to Gatsby Blog Posts (Markdown)
 
 After completing all the features I wanted in this blog, I had to figure out a way to convert all my Wordpress blog posts into a Markdown file. I tried multiple plugins from Wordpress but all had failed as they were no longer up to date. I exported all of my blog post into a single xml file using the Wordpress export settings and found that xml can be converted over to md files.
 
@@ -51,3 +51,11 @@ This basically did 50% of the work, the rest was adding it into the Gatsby folde
 Overall, I’m extremely happy with the result, I love how fast Gatsby is and I've learned a lot through this project.
 
 I wish I had finished this earlier but due to a recent surgery, my productivity has been set back quite a bit. I’m hoping my second set of antibiotics will help me recover so I can get back to programming; I definitely needed this win!
+
+###<center>Things to complete
+
+1. Adding clickable categories tag on blog post
+
+2. Change style of tags based on categories (visual improvement)
+
+3. code refactor bio component
