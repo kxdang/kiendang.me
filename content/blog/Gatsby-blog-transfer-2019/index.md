@@ -59,3 +59,5 @@ I wish I had finished this earlier but due to a recent surgery, my productivity 
 2. Change style of tags based on categories (visual improvement)
 
 3. code refactor bio component
+
+My repository on Github can be found <a href="https://github.com/kxdang/gatsbyblog" target="_blank">here.</a> I have left my blog open source, please feel free to refence the code on how I made these changes.
