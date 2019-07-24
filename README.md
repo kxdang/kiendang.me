@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  <img src="gatsby.jpeg" />
+  <img src="gatsby.jpg" />
 </p>
 
 ## 🚀 Quick start
