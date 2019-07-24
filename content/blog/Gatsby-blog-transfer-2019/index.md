@@ -18,7 +18,7 @@ I found that it deploys with Netlify via github which made updating and adding p
 
 ##<center>Features I Added
 
-My current blog is based off of a Gatsby Starter Blog found <a href="https://gatsby-starter-blog-demo.netlify.com/" target="_blank">here</a>
+My current blog is based off of a Gatsby Starter Blog found <a href="https://gatsby-starter-blog-demo.netlify.com/" target="_blank">here</a>.
 
 However, the blog provided was very barebones in terms of features. It was missing pagination of blogs, categories, pages and many other features that I wanted in a blog. This lackluster template allowed me to figure out all of the features I wanted all on my own.
 
