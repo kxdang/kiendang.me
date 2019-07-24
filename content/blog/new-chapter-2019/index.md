@@ -1,14 +1,9 @@
 ---
 author: Kien
-comments: true
 date: 2019-04-19 20:05:34+00:00
-layout: post
-link: https://kiendang.me/index.php/2019/04/19/new-chapter/
 slug: new-chapter
 title: Time for Change
-wordpress_id: 1072
-categories:
-  - Life
+tags: ["life"]
 ---
 
 ![](https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3021&q=80)

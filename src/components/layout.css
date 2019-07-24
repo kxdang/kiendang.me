@@ -21,7 +21,7 @@ p {
 }
 
 .dark a:hover {
-  color: #4b93af;
+  filter: brightness(80%);
 }
 
 .dark p {
@@ -90,4 +90,77 @@ li {
 
 .gatsby-highlight pre[class*="language-"] {
   background-color: #292d3e;
+}
+
+a.productivity {
+  color: white;
+  background-color: #ff0000;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
+}
+
+a.money {
+  color: white;
+  background-color: #1b5e20;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
+}
+
+a.technology {
+  background-opacity: 50%;
+  color: white;
+  background-color: #0288d1;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
+}
+
+a.java {
+  color: white;
+  background-color: #ff5370;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
+}
+
+a.life {
+  color: black;
+  background-color: #f78c6c;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
+}
+
+a.books {
+  color: black;
+  background-color: #ffcb6b;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
+}
+
+a.food {
+  color: white;
+  background-color: #bb80b3;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
+}
+
+a.travel {
+  color: white;
+  background-color: #c17e70;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
 }
