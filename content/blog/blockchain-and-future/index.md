@@ -6,7 +6,7 @@ tags: ["technology"]
 ---
 
 ![](https://images.unsplash.com/photo-1524673450801-b5aa9b621b76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
-Blockchain, we hear it all over the news. It is the technology that Bitcoin uses and is a digital currency that is decentralized. Once transactions are verified from millions of computers through cryptography, it turns into a block of data and then added to the a public distributed ledger called blockchain.
+Blockchain, we hear it all over the news. It is the technology that Bitcoin uses, a decentralized digital currency. Once transactions are verified from millions of computers through cryptography, it turns into a block of data and then added to the a public distributed ledger called blockchain.
 
 # **Blockchain**
 
