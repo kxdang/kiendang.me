@@ -61,7 +61,7 @@ const TagsPage = ({
                 {theme.dark ? (
                   <div id="lightmodebutton">Light mode ☀</div>
                 ) : (
-                  <div id="darkmodebutton">Dark mode ☾</div>
+                  <div id="darkmodebutton">Dark mode 🌒</div>
                 )}
               </button>
             </div>

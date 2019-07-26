@@ -44,7 +44,7 @@ class Layout extends React.Component {
                   {theme.dark ? (
                     <div id="lightmodebutton">Light mode ☀</div>
                   ) : (
-                    <div id="darkmodebutton">Dark mode ☾</div>
+                    <div id="darkmodebutton">Dark mode 🌒</div>
                   )}
                 </button>
               </div>
@@ -78,7 +78,7 @@ class Layout extends React.Component {
                   {theme.dark ? (
                     <div id="lightmodebutton">Light mode ☀</div>
                   ) : (
-                    <div id="darkmodebutton">Dark mode ☾</div>
+                    <div id="darkmodebutton">Dark mode 🌒</div>
                   )}
                 </button>
               </div>

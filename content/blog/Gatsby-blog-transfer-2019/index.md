@@ -42,7 +42,7 @@ All the changes made to the Gatsby Starter Blog, in the exact order of changes a
 
 ###<center>Wordpress Blog Posts to Gatsby Blog Posts (Markdown)
 
-After completing all the features I wanted in this blog, I had to figure out a way to convert all my Wordpress blog posts into a markdown file. I tried multiple plugins from Wordpress but all had failed as they were no longer up to date. I exported all of my blog post into a single xml file using the Wordpress export settings and found that xml can be converted over to md files.
+After completing all the features I wanted in this blog, I had to figure out a way to convert all my Wordpress blog posts into a markdown file. I tried multiple plugins from Wordpress but all had failed as they were no longer up to date. I exported all of my blog post into a single xml file using the Wordpress export settings and found that xml can be converted over to markdown files.
 
 I found Python tool to convert Wordpress blogs to the Jekyll blog engine which uses Markdown <a href="https://github.com/thomasf/exitwp" target="\_blank"> exitwp</a>. I was unable to get the Python script to work locally and stumbled upon a cloud version of this script which is called <a href="https://github.com/kxdang/travis-exitwp" target="_blank">Travis Exitwp</a>. I followed the instructions and was able to generate my Wordpress xml blog posts to the markdown format required for Gatsby.
 
@@ -60,4 +60,4 @@ I wish I had finished this earlier but due to a recent surgery, my productivity 
 
 3. code refactor bio component
 
-My Gatsby repository on Github can be found <a href="https://github.com/kxdang/gatsbyblog" target="_blank">here.</a> I have left my blog open source, please feel free to refence the code on how I made these changes.
+My Gatsby repository on Github can be found <a href="https://github.com/kxdang/gatsbyblog" target="_blank">here.</a> I have left my blog open source, please feel free to reference the code on how I made these changes.
