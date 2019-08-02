@@ -9,7 +9,7 @@ tags: ["productivity"]
 
 Managing my energy levels is something I have been working on. This post will keep me accountable and serve as a reminder of how to be more productive now that I’m working a full-time job and looking to program on the side.
 
-I picked up **The Power of Full Engagement **and finished reading it recently. I wanted to figure out what tips and tricks that successful people have picked up and learn from it.
+I picked up **The Power of Full Engagement** and finished reading it recently. I wanted to figure out what tips and tricks that successful people have picked up and learn from it.
 
 ![](https://images-na.ssl-images-amazon.com/images/I/514v4bYhRcL._SX322_BO1,204,203,200_.jpg)
 

@@ -16,7 +16,7 @@ During my undergrad, I’ve struggled with focusing and studying which eventuall
 
 2) Deming-Shewhart Cycle - PDCA (Plan Do Check Act) a problem solving process to improve processes and based on the scientific method: Hypothesis-Experiment Evaluation.
 
-3. Create 3 pieces of paper <a href="https://francescocirillo.com/products/the-pomodoro-technique-sheets">which can be downloaded</a>
+3. Create 3 pieces of paper <a href="https://francescocirillo.com/products/the-pomodoro-technique-sheets" target="_blank">which can be downloaded</a>
 
 4) To Do Today List of actual activities planned for today
 
