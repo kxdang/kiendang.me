@@ -30,7 +30,7 @@ To understand why, we need to briefly understand alcohol metabolism. When people
 
 Alcohol dehydrogenase takes the ethanol in your blood, it turns it into a toxic metabolite called acetaldehyde, this is what causes: nausea, incoordination, memory impairment and flushing effects of alcohol. However, it becomes metabolized by the second enzyme aldehyde dehydrogenase (ALDH) turning it into acetate, water and carbon dioxide, which is much easier for the body to eliminate<sup><a href="https://pubs.niaaa.nih.gov/publications/aa72/aa72.htm" target="_blank">[3]</sup></a>.
 
-###<center>Ethanol ----> Acetaldehyde ----> Acetate
+###<center>Ethanol --> Acetaldehyde --> Acetate
 
 Metronidazole causes a disulfiram-like reaction by inhibiting the aldehyde dehydrogenase (ALDH) step in alcohol metabolism. Inhibition of an enzyme means it decreases its enzymatic activity to do work on the metabolite. Therefore, acetaldehyde will end up building in your bloodstream causing these unwanted effects side effects.<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/8947362" target="_blank">[4]</sup></a>.
 
