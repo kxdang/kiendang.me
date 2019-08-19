@@ -2,7 +2,7 @@
 author: Kien
 date: 2019-01-03 14:59:53+00:00
 title: Biochemistry
-tags: ["life"]
+tags: ["biochemistry"]
 ---
 
 ![](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)

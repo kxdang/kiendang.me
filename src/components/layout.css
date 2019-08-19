@@ -137,6 +137,15 @@ a.life {
   text-shadow: 1px;
 }
 
+a.biochemistry {
+  color: black;
+  background-color: #f78c6c;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
+}
+
 a.books {
   color: black;
   background-color: #ffcb6b;
