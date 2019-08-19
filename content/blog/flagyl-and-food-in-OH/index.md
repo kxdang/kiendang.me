@@ -18,7 +18,7 @@ Metronidazole is an antibiotic that has a limited spectrum of activity that cove
 
 Half life of metronidazole is 8 hours based on wikipedia, meaning that after 8 hours, the concentration of the drug in the body will be reduced exactly by one half. Therefore, it would take about 1.67 days or 40 hours to completely clear from your blood. This number varies from person to person due to many different factors (age, height, weight, metabolism etc). Knowing this, I would have been exactly at the half life of my dose of metronidazole before consuming the delicious pot pie.
 
-She usually does cooking with wine to add flavour and I was fairly concerned that the large label that says <b style="color: #FF5370">“DO NOT CONSUME ALCOHOL WITH MEDICATION” </b>would be an issue when consuming foods cooked with alcohol. After doing some Googling, many websites advise not to drink or consume alcohol and wait until metronidazole is out of your system which may take 48 hours. But what if its cooked in food?
+She usually cooks with wine to add flavour and I was fairly concerned that the large label that says <b style="color: #FF5370">“DO NOT CONSUME ALCOHOL WITH MEDICATION” </b>would be an issue when consuming foods cooked with alcohol. After doing some Googling, many websites advise not to drink or consume alcohol and wait until metronidazole is out of your system which may take 48 hours. But what if its cooked in food?
 
 ##<center>Alcohol in Food
 
