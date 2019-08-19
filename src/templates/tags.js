@@ -54,9 +54,9 @@ const Tags = ({ pageContext, data }) => {
             >
               <button className="dark-switcher" onClick={theme.toggleDark}>
                 {theme.dark ? (
-                  <div id="lightmodebutton">Light mode ☀</div>
+                  <div id="lightmodebutton">Light mode 🌞</div>
                 ) : (
-                  <div id="darkmodebutton">Dark mode ☾</div>
+                  <div id="darkmodebutton">Dark mode 🌒</div>
                 )}
               </button>
             </div>
