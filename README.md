@@ -47,6 +47,9 @@
 
 Please feel free to take a look at what I did and the code/commits that were labeled for each step. They are in the order of implementation.
 
+Known bugs:
+Light mode does not function properly when user OS has a default theme of dark mode. This causes the browser to go set their own defaults in dark mode and overrides light mode settings.
+
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
