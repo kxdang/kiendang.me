@@ -44,4 +44,4 @@ I remember seeing a comic from xkcd regarding passwords and have always used thi
 
 ![](https://imgs.xkcd.com/comics/password_strength.png)
 
-Thanks to whoever hacked my account. It gave me a real wake up call securing my online accounts. I also retrieved my account back thanks to Blizzard support.
+Thanks to whoever hacked my account, I was able to get it back through Blizzard support; it gave me a real wake up call and from this experience I've learned a ton on how to secure my accounts.
