@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's blog starter for Dang it - A blog by Kien Dang
+  <a href="www.kiendang.me" target="_blank">Dang it - A blog by Kien Dang</a>
 </h1>
 
 <p align="center">
