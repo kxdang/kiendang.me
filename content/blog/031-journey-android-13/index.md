@@ -1,8 +1,7 @@
 ---
 author: Kien
 date: 2019-01-19 15:03:43+00:00
-slug: journey-into-android-development-pt-13-floating-action-bar-snackbar
-title: Journey into Android Development Pt. 13 (Floating Action Bar & Snackbar)
+title: Journey to Android Development Pt. 13 (Floating Action Bar & Snackbar)
 tags: ["java"]
 ---
 

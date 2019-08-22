@@ -1,8 +1,7 @@
 ---
 author: Kien
 date: 2019-02-10 23:54:37+00:00
-slug: journey-into-android-development-pt-15-navigation-drawers
-title: Journey into Android Development Pt. 15 (Navigation Drawers)
+title: Journey to Android Development Pt. 15 (Navigation Drawers)
 tags: ["java"]
 ---
 

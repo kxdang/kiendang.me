@@ -1,7 +1,7 @@
 ---
 author: Kien
 date: 2019-01-04 22:31:58+00:00
-title: Journey Into Android Development Pt. 10 (Workout App)
+title: Journey to Android Development Pt. 10 (Workout App)
 tags: ["java"]
 ---
 

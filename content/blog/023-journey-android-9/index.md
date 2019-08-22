@@ -1,8 +1,7 @@
 ---
 author: Kien
 date: 2018-12-28 19:56:50+00:00
-slug: journey-into-android-development-pt-9-calculator-app
-title: Journey Into Android Development Pt. 9 (Calculator App)
+title: Journey to Android Development Pt. 9 (Calculator App)
 tags: ["java"]
 ---
 

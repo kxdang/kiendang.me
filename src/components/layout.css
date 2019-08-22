@@ -155,6 +155,15 @@ a.books {
   text-shadow: 1px;
 }
 
+a.python {
+  color: black;
+  background-color: #ffcb6b;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
+}
+
 a.food {
   color: white;
   background-color: #bb80b3;

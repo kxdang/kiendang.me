@@ -1,8 +1,7 @@
 ---
 author: Kien
 date: 2019-01-29 08:26:48+00:00
-slug: journey-into-android-development-pt-14-recyclerviews
-title: Journey Into Android Development Pt. 14 (RecyclerViews)
+title: Journey to Android Development Pt. 14 (RecyclerViews)
 tags: ["java"]
 ---
 

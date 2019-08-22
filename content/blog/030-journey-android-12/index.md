@@ -1,8 +1,7 @@
 ---
 author: Kien
 date: 2019-01-15 22:55:04+00:00
-slug: journey-into-android-development-pt-12-design-support-library
-title: Journey Into Android Development Pt. 12 (Design Support Library)
+title: Journey to Android Development Pt. 12 (Design Support Library)
 tags: ["java"]
 ---
 
