@@ -18,7 +18,7 @@
 
     Use the Gatsby CLI to create a new site, specifying the blog starter.
 
-## 🚀 Additional features added to starter blog.
+## 🔌 Additional features added to starter blog.
 
 1.  **Added extra pages**
 
@@ -60,6 +60,8 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## 💫 Deploy
+
+Blog hosted on Netlify and deloped via link below:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
 
