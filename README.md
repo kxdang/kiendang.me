@@ -30,14 +30,14 @@
 
 3.  **Adding tags page**
 
-    Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/). I had difficulty implementing this on the gatsby starter blog as the code setup in documentation is slightly different than template gatsby starter blog. Also added clickable tags on each post page by querying from GraphQL.
+    Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/). Also added clickable tags on each post page by querying from GraphQL.
 
 4.  **Pagination with post**
 
-    Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/adding-pagination/). Another difficulty implementing this on a gatsby starter blog template because the documentation only had an example of a new gatsby site and not from a template file. Gatsby starter blog already had previous and next page but did not have pagination set-up, had to manually follow this guide [here](https://nickymeuleman.netlify.com/blog/gatsby-pagination)
+    Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/adding-pagination/). Gatsby starter blog already had previous and next page but did not have pagination set-up, had to manually follow this guide [here](https://nickymeuleman.netlify.com/blog/gatsby-pagination)
 
 5.  **Dark mode toggle**
-    Followed Gatsby blog tutorial [here](https://www.gatsbyjs.org/blog/2019-01-31-using-react-context-api-with-gatsby/). All components needed to be wrapped in `<ThemeContext.Provider>`. Took me a while to understand this and find out where to wrap an existing blog with lots of preloaded code in gatsby starter blog.
+    Followed Gatsby blog tutorial [here](https://www.gatsbyjs.org/blog/2019-01-31-using-react-context-api-with-gatsby/). All components needed to be wrapped in `<ThemeContext.Provider>`.
 
 6.  **Adding Font Awesome**
     Added React Font Awesome using [react-icons](https://github.com/react-icons/react-icons) library, specifically for my github and LinkedIn logo in contact page.
@@ -47,9 +47,9 @@
 
 Please feel free to take a look at what I did and the code/commits that were labeled for each step. They are in the order of implementation.
 
-Light mode bug:
+## 🐛 Known bug:
 
-Light mode does not function properly when user OS has a default theme of dark mode. This causes the browser to go set their own defaults in dark mode and overrides light mode settings.
+Light mode does not function properly when user OS has a default theme of dark mode. This causes the browser to go set their own defaults in dark mode and overrides light mode settings. However, light mode works correctly when user has set to default light mode them in OS.
 
 ## 🎓 Learning Gatsby
 
