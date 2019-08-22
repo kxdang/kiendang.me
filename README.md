@@ -8,7 +8,9 @@
   Gatsby's blog starter for Dang it - A blog by Kien Dang
 </h1>
 
-![](https://i.gyazo.com/a8455666514cf1978dc9a74cf801e32a.gif)]
+<p align="center">
+  ![](https://i.gyazo.com/a8455666514cf1978dc9a74cf801e32a.gif)
+</p>
 
 ## 🚀 Quick start
 
