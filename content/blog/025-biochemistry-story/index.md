@@ -1,7 +1,7 @@
 ---
 author: Kien
 date: 2019-01-03 14:59:53+00:00
-title: Biochemistry
+title: My Biochemistry Story
 tags: ["biochemistry"]
 ---
 
@@ -26,7 +26,7 @@ The experience of going from high school to university was night and day. Finall
 
 During my 2B term, dubbed “_2B or not to be_”, where most people will either have a good chance of graduating or failing my program, I really felt I was going to be in the latter. I couldn’t figure out how to stay afloat even when I had tried really hard. With all the pressure of dropping out, I’d be disappointing my parents and also coming out with a large loan.
 
-My girlfriend, who was also going through the same struggle, told me something that would completely change the way I approached my academics. She told me that **I \*\***forgot how to learn.\*\* I realized my way of learning when I was in high school was through memorization.
+My girlfriend, who was also going through the same struggle, told me something that would completely change the way I approached my academics. She told me that **I forgot how to learn.** I realized my way of learning when I was in high school was through memorization.
 
 I started to find techniques on how to learn and started to focus on understanding concepts that allowed me to grind through the 2B term and make it on to 3A. I was able to finish all the required courses, including the courses I failed.
 
