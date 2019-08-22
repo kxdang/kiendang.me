@@ -49,7 +49,7 @@ Please feel free to take a look at what I did and the code/commits that were lab
 
 ## 🐛 Known bug:
 
-Light mode does not function properly when user OS has a default theme of dark mode. This causes the browser to go set their own defaults in dark mode and overrides light mode settings. However, light mode works correctly when user has set to default light mode them in OS.
+Light mode does not function properly when user OS has a default theme of dark mode. This causes the browser to go set their own defaults in dark mode and overrides light mode settings. However, light mode works correctly when user has set to default light mode theme in OS.
 
 ## 🎓 Learning Gatsby
 
