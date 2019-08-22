@@ -16,6 +16,14 @@ p {
   transition: all 0.6s ease;
 }
 
+.alltags {
+  color: white;
+  background-color: #4f81c7;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
+}
 .dark a {
   color: #89ddff;
 }

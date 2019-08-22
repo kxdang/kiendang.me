@@ -80,7 +80,9 @@ const Tags = ({ pageContext, data }) => {
               This links to a page that does not yet exist.
               We'll come back to it!
             */}
-            <Link to="/tags">All tags</Link>
+            <Link to="/tags" className="alltags" style={{ color: `white` }}>
+              All tags
+            </Link>
           </div>
         </div>
       )}
