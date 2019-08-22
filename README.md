@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  ![](https://i.gyazo.com/a8455666514cf1978dc9a74cf801e32a.gif)
+  <img src="BlogToggleDarkTrim.gif")
 </p>
 
 ## 🚀 Quick start
