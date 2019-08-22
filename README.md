@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  <a href="www.kiendang.me" target="_blank">Dang it - A blog by Kien Dang</a>
+  <a href="https://www.kiendang.me" target="_blank">Dang it - A blog by Kien Dang</a>
 </h1>
 
 <p align="center">
