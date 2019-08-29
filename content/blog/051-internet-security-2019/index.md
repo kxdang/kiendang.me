@@ -2,7 +2,7 @@
 author: Kien
 date: 2019-08-21
 slug: internet-security-2019
-title: Importance of Online Security
+title: The Importance of Online Security
 description: "Why I carry a U2F key with me and use a password manager."
 tags: ["technology"]
 ---
