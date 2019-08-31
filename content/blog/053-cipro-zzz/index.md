@@ -25,7 +25,7 @@ There are some adverse side effects of fluoroquinolones which include the centra
 ###<center>Serious Side Effects
 
 <p align="center">
-  <img src="https://giphygifs.s3.amazonaws.com/media/kaq6GnxDlJaBq/giphy.gif" />
+  <img src="https://media.giphy.com/media/5t9wJjyHAOxvnxcPNk/giphy.gif" />
 </p>
 
 I definitely found some interesting things about ciprofloxacin especially their serious adverse side effects of developing tendinitis and how it can cause problems affecting tendons in your shoulder, hand and the back of your ankle<sup><a href="https://medlineplus.gov/druginfo/meds/a688016.html" target="_blank">[5]</sup></a>. Fluoroquinolones increase the chance of Achilles tendon rupture<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2921747/" target="_blank">[6]</sup></a>. It may even cause nerve damage long after you’ve taken this antibiotic. That was definitely something I was not expecting.
