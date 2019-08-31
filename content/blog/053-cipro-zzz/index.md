@@ -24,6 +24,10 @@ There are some adverse side effects of fluoroquinolones which include the centra
 
 ###<center>Serious Side Effects
 
+<p align="center">
+  <img src="https://giphygifs.s3.amazonaws.com/media/kaq6GnxDlJaBq/giphy.gif" />
+</p>
+
 I definitely found some interesting things about ciprofloxacin especially their serious adverse side effects of developing tendinitis and how it can cause problems affecting tendons in your shoulder, hand and the back of your ankle<sup><a href="https://medlineplus.gov/druginfo/meds/a688016.html" target="_blank">[5]</sup></a>. Fluoroquinolones increase the chance of Achilles tendon rupture<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2921747/" target="_blank">[6]</sup></a>. It may even cause nerve damage long after you’ve taken this antibiotic. That was definitely something I was not expecting.
 
 Ciprofloxacin inhibits mitochondrial DNA synthesis and affects cellular growth and differentiation. These symptoms could be due to oxidative stress. The interference of ciprofloxacin with differentiation processes includes spermatogenesis, brain development and bone mineralization. However, these mechanisms remain unclear and there is evidence that mitochondria impairment might be the reason for disturbed cellular physiology<sup><a href="https://academic.oup.com/nar/article/46/18/9625/5088042" target="_blank">[7]</sup></a>.
