@@ -15,7 +15,7 @@ I discovered Trello through a friend and found it to be a great way to visually 
 
 ### Pomotodo
 
-<a href="https://pomotodo.com/" target="_blank">Pomotodo</a> is a web application specifically made to do the [**Pomodoro Technique**](/pomodoro-technique/). The app has features such as a graph visualizer to see how many Pomodoro's you've completed in a day, week or month and shows your productive hours as well as your optimal days. Visualization of Pomodoros are a great motivator. With their hashtag functions, it makes organizing your accomplishments easier.
+<a href="https://pomotodo.com/" target="_blank">Pomotodo</a> is a web application specifically made to do the [**Pomodoro Technique**](/022-pomodoro-technique/). The app has features such as a graph visualizer to see how many Pomodoro's you've completed in a day, week or month and shows your productive hours as well as your optimal days. Visualization of Pomodoros are a great motivator. With their hashtag functions, it makes organizing your accomplishments easier.
 
 ### OneNote
 
