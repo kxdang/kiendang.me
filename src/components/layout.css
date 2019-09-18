@@ -7,10 +7,6 @@
   cursor: pointer;
 }
 
-p {
-  color: #35383c;
-}
-
 .dark {
   background-color: #1b1e2b;
   transition: all 0.6s ease;
@@ -26,6 +22,10 @@ p {
 }
 .dark a {
   color: #89ddff;
+}
+
+p {
+  color: #313b44;
 }
 
 .dark a:hover {
@@ -52,19 +52,19 @@ p {
 
 .light {
   transition: all 0.6s ease;
-  background-color: #fff;
+  background-color: #d3dadf;
 }
 
 h1 {
-  color: #39adc4;
+  color: #226597;
 }
 
 h2 {
-  color: #39adc4;
+  color: #313b44;
 }
 
 h3 {
-  color: #f76d47;
+  color: #313b44;
 }
 
 .dark h4 {
