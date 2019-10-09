@@ -22,7 +22,7 @@ The β-lactams bind to the penicillin-binding proteins that prevent a process ca
 
 ###<center>What is Clavulanate?
 
-Clavulanate or Clauvulanic acid is a β-lactam drug that functions as a β-lactamase inhibitor which binds to the β-lactamse active sites<sup><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/050575s037550597s044050725s025050726s019lbl.pdf" target="_blank">[2]</sup></a>.
+Clavulanate or Clauvulanic acid is a β-lactam drug that functions as a β-lactamase inhibitor which binds to the β-lactamase active sites<sup><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/050575s037550597s044050725s025050726s019lbl.pdf" target="_blank">[2]</sup></a>.
 
 ##<center>How does Clavulanate help Amoxicillin?
 
