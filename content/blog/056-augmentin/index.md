@@ -30,6 +30,6 @@ Clavulanate or Clauvulanic acid is a β-lactam drug that functions as a β-lacta
 
 ##<center>Alternative to Ciprofloxacin and Metronidazole
 
-I recently wrote about [ciprofloxacin](/053-cipro-zzz/) and [metronidazole](/050-flagyl-and-food-in-OH/) which are antibiotics often used together to treat bacterial infections. My friend, whose a medical student, warned me about the side effects of fluoroquinolones recommended me to ask for an alternative (Augmentin), thus prompting me to request for a different type of abx from my doctor when he wrote me a new session of antibiotics.
+I recently wrote about [ciprofloxacin](/053-cipro-zzz/) and [metronidazole](/050-flagyl-and-food-in-OH/) which are antibiotics often used together to treat bacterial infections. My friend, who's a medical student, warned me about the side effects of fluoroquinolones recommended me to ask for an alternative (Augmentin), thus prompting me to request for a different type of abx from my doctor when he wrote me a new session of antibiotics.
 
 Unfortunately for me, after 2 sessions of cipro and metronidazole, I'm back on antibiotics again, but this time, with a safer alternative. Since then, I've learned a lot about what I've been taking and how its affected me. This one in particular upsets my stomach; my pharmacist had told me it's a very common side effect, so brace yourself!
