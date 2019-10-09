@@ -16,9 +16,9 @@ Amoxicillin is a very popular penicillin antibiotic used to treat a number of ba
 
 ##<center>How does Amoxicillin work?
 
-Amoxicillin is part of a class of β-lactam antibiotics which are any antibiotics that consists of a special ring structure called a β-lactam ring (cyclic amide - nitrogen atom connected to the β-carbon atom relative to the carbonyl).
+Amoxicillin is part of a class of β-lactam antibiotics which are any antibiotics that consists of a special ring structure called a β-lactam ring (a cyclic amide - a nitrogen atom connected to the β-carbon atom relative to the carbonyl).
 
-The β-lactams bind to the penicillin-binding proteins that prevent a process called transpeptidation which leads to the activation of enzymes that are responsible for lysis of the bacterial cell wall. The lysis of the bacterial cell walls lead to the destruction of bacteria<sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK482250/" target="_blank">[1]</sup></a>.
+The β-lactams bind to the penicillin-binding proteins which prevent a process called transpeptidation, thus leading to the activation of enzymes that are responsible for lysis of the bacterial cell wall. The lysis of the bacterial cell walls lead to the destruction of bacteria<sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK482250/" target="_blank">[1]</sup></a>.
 
 ###<center>What is Clavulanate?
 
@@ -26,7 +26,7 @@ Clavulanate or Clauvulanic acid is a β-lactam drug that functions as a β-lacta
 
 ##<center>How does Clavulanate help Amoxicillin?
 
-β-lactamases are enzymes secreted by Gram-negative organisms when they are exposed to penicillin antibiotics, thus allowing them to have antibiotic resistance. The β-lactamases in bacteria break β-lactam rings found in penicillin antibiotics (amoxicillin) via hydrolysis and therefore rendering them useless. However, combining clavulanic acid with amoxicillin increases amoxicillin's effectiveness by inhibiting β-lactamases<sup><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/050575s037550597s044050725s025050726s019lbl.pdf" target="_blank">[2]</sup></a>.
+β-lactamases are enzymes secreted by Gram-negative organisms when exposed to penicillin antibiotics, this gives them their ability to be antibiotic resistant. The β-lactamases in bacteria break β-lactam rings found in penicillin antibiotics (amoxicillin) via hydrolysis and therefore rendering them useless. However, combining clavulanic acid with amoxicillin increases amoxicillin's effectiveness by inhibiting β-lactamases<sup><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/050575s037550597s044050725s025050726s019lbl.pdf" target="_blank">[2]</sup></a>.
 
 ##<center>Alternative to Ciprofloxacin and Metronidazole
 
