@@ -12,7 +12,7 @@ It’s almost the end of August with an infection I’ve been trying to kill off
 
 ##Why does Ciprofloxacin make me so tired?
 
-When you start Googling symptoms, it’s always the most extreme and worst-case scenarios, it's always important to go to your medical professional to be diagnosed. However, once I was diagnosed, I thought it would be beneficial to do extra research on what's going in my body. Ultimately, I try to figure out the answers to my curious mind and unfortunately, found more than I would like.
+When you start Googling symptoms, it’s always the most extreme and worst-case scenarios, it's always important to go to your medical professional to be diagnosed. However, once diagnosed, I thought it would be beneficial to do extra research on what's going in my body. Ultimately, I try to figure out the answers to my curious mind and unfortunately, found more than I would like.
 
 ###<center>Ciprofloxacin
 
