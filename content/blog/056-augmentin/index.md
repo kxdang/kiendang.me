@@ -3,7 +3,7 @@ author: Kien
 date: 2019-10-09
 slug: augmentin-use
 title: Amoxicillin and Clavulanate (Augmentin)
-description: Amoxicillin and Clavulante a simplified biochemical explanation and my experiences.
+description: How does amoxicillin and clavulante work?
 tags: ["biochemistry"]
 ---
 
