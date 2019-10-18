@@ -2,7 +2,7 @@
 author: Kien
 date: 2019-08-01
 slug: July-pomodoro-reflection
-title: July Pomodoro Reflection
+title: 🍅July Pomodoro Reflection
 description: A monthly progress for July. My current status and reflection on my productivity, goals and achievements.
 tags: ["productivity"]
 ---

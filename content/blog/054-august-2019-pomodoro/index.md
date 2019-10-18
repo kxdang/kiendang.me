@@ -2,7 +2,7 @@
 author: Kien
 date: 2019-09-03
 slug: August-pomodoro-reflection
-title: August Pomodoro Reflection
+title: 🍅August Pomodoro Reflection
 description: A monthly progress for August. My current status and reflection on my productivity, goals and achievements.
 tags: ["productivity"]
 ---

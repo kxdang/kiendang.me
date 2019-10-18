@@ -2,7 +2,7 @@
 author: Kien
 date: 2019-10-01
 slug: september-pomodoro-reflection
-title: September Pomodoro Reflection
+title: 🍅September Pomodoro Reflection
 description: A monthly progress for September. My current status and reflection on my productivity, goals and achievements.
 tags: ["productivity"]
 ---

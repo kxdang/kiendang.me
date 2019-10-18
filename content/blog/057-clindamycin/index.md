@@ -2,7 +2,7 @@
 author: Kien
 date: 2019-10-12
 slug: clindamycin
-title: Clindamycin
+title: 💊Clindamycin
 description: How does the antibiotic clindamycin work?
 tags: ["biochemistry"]
 ---
