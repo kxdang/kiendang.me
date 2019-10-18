@@ -22,6 +22,6 @@ Dihydrofolate reductase is an enzyme that reduces folic acid to make dihydrofoli
 
 Folic acid is a common form of folate which is an essential vitamin (B9) that is used to make DNA and RNA and is responsible for the metabolism of amino acids<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/11451208" target="_blank">[3]</sup></a>. Mammals cannot synthesize folic acid as it is only obtained through diet, thus, making it an essential vitamin. The use of folic acid is used derive THF which is an active cofactor used in many biochemical reactions.
 
-#<center>What is Dihydropteroate synthase (DHPS)?
+#<center>What is dihydropteroate synthase (DHPS)?
 
 Sulfonamides act as a competitive inhibitor to a bacterial enzyme called DHPS which is involved in the synthesis of folate. Since mammals cannot synthesize folic acids, they do not have this metabolic pathway and therefore are unaffected by sulfonamides. When bacteria try to use DHPS to make folate for DNA, they will have a hard time due to sulfonamides blocking the active sites of DHPS. This makes sulfomamides a safe way of inhibiting bacterial growth without disrupting mammal cell pathways<sup><a href="https://www.merckmanuals.com/en-ca/professional/infectious-diseases/bacteria-and-antibacterial-drugs/sulfonamides" target="_blank">[5]</sup></a>.
