@@ -2,7 +2,7 @@
 author: Kien
 date: 2019-08-18
 title: Metronidazole (Flagyl) and consuming foods with alcohol
-description: Metronidazole (Flagyl) and my personal experience with consuming foods with alcohol.
+description: How does Flagyl work? My personal experience with consuming foods with alcohol.
 tags: ["biochemistry"]
 ---
 

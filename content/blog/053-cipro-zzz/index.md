@@ -2,7 +2,7 @@
 author: Kien
 date: 2019-08-30
 title: Ciprofloxacin - Fluoroquinolones
-description: Why does this drug make me so drowsy?!
+description: How does the antibiotic ciprofloaxcin work and why does this drug make me so drowsy?!
 tags: ["biochemistry"]
 ---
 
