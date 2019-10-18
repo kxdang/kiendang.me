@@ -7,8 +7,9 @@ description: How does the antibiotic Septra work?
 tags: ["biochemistry"]
 ---
 
-#<center>What is Septra?
 ![](https://images.unsplash.com/photo-1517093728432-a0440f8d45af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2028&q=80)
+
+#<center>What is Septra?
 
 <a href="https://www.drugs.com/septra.html" target="_blank">Septra or Sulfamethoxazole and trimethoprim</a> is a combination of two antimicrobial agents that work against a wide variety of infections, ranging from ear infections to urinary tract infections.
 
