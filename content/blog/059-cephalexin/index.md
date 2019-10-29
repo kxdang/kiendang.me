@@ -3,7 +3,7 @@ author: Kien
 date: 2019-10-20
 slug: cephalexin
 title: 💊Cephalexin
-description: How does the antibiotic cephalexin work?
+description: My personal experience with this antibiotic lead me to create a bite-sized explanation on how cephalexin works.
 tags: ["biochemistry"]
 ---
 

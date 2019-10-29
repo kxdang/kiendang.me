@@ -3,7 +3,7 @@ author: Kien
 date: 2019-10-12
 slug: clindamycin
 title: 💊Clindamycin
-description: How does the antibiotic clindamycin work?
+description: My personal experience with this antibiotic lead me to create a bite-sized explanation on how clindamycin works.
 tags: ["biochemistry"]
 ---
 
