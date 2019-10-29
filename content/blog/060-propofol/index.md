@@ -48,4 +48,4 @@ In my previous post, I did research about my experience with ciprofloxacin and h
 
 ##<center>My final thoughts
 
-I thought it was really interesting to not remember what happened while I was induced with propofol. It's a very strange feeling to know that your brain completely forgot any type of pain you felt during a specific time. Medicine has come a long way and I feel very comforted know that drugs are
+I thought it was really interesting to not remember what happened while I was induced with propofol. It's a very strange feeling to know that your brain completely forgot any type of pain you felt during a specific time. Medicine has come a long way and I feel very comforted know that drugs are well received.
