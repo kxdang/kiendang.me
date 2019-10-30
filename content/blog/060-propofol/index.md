@@ -10,7 +10,7 @@ tags: ["biochemistry"]
 ![](https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2084&q=80)
 I hope you'll never have to be in a situation where you need this spontaneously at the ER. The summer of 2019 has been a rollercoaster for me; trying to recover while pivoting your career path into something new has been extremely challenging.
 
-> "Don't worry Kien, we're giving you the Michael Jackson, you'll feel better soon!!" -- ER nurse
+<blockquote>"Don't worry Kien, we're giving you the Michael Jackson, you'll feel better soon!!" - ER nurse</blockquote>
 
 I hear this as I'm being wheeled in an ER operating room in extreme pain and with IV opioids running through me. I'm not sure exactly what the nurse meant by Michael Jackson and when my girlfriend asked, the nurse told us its what Michael Jackson took.
 
@@ -28,9 +28,9 @@ Propofol has a rapid and short duration onset of action thanks to its high lipid
 
 One of the greatest benefits of propofol are the reduced side effects that are common with other anesthetic agents such as postoperative nausea<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4554966/" target="_blank">[2]</sup></a>.
 
-I can attest to this! I woke up feeling pretty normal. Woot for modern medicine🙌.
+I can attest to this! I woke up feeling pretty normal. 🙌 Woot for modern medicine.
 
-The discovery and development of propofol came from <a href="http://www.laskerfoundation.org/awards/show/discovery-and-development-propofol-widely-used-anesthetic/" target="_blank"> John B. Glen </a>, who recently won the 2018 Lasker-DeBakey Clinical Medical Research Award. Since his discovery of propofol in 1970s, more than 190 million people have received his drug and has been put on the WHO list of essential medicine.
+The discovery and development of propofol came from <a href="http://www.laskerfoundation.org/awards/show/discovery-and-development-propofol-widely-used-anesthetic/" target="_blank"> John B. Glen</a>, who recently won the 2018 Lasker-DeBakey Clinical Medical Research Award. Since his discovery of propofol in 1970s, more than 190 million people have received his drug and has been put on the WHO list of essential medicine.
 
 ##<center>How does propofol work?
 
