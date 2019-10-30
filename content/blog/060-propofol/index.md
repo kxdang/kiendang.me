@@ -16,9 +16,7 @@ I hear this as I'm being wheeled in an ER operating room in extreme pain and wit
 
 She didn't mention that it also took his life when he <a href="https://www.health.harvard.edu/blog/propofol-the-drug-that-killed-michael-jackson-201111073772" target="_blank">overdosed</a> on it 😨.
 
-I wasn't sure if I felt comforted by the fact that I'm going to experience the "MJ" or that the pain was finally going away. A few moments later I was counting down from 10 and a doctor injecting a white viscous liquid through my second IV line.
-
-Next thing I know, I wake up 40 minutes later which only felt like a few seconds of closing my eyes and wondered what happened? I felt like a character in a game going through a save and then loading back only to find out time has passed and I'm hooked up in this hospital bed. Just my luck!
+I wasn't sure if I felt comforted by the fact that I'm going to experience the "MJ" or that the pain was finally going away. A few moments later, I'm counting down from 10 and a cold white viscous liquid starts running through my second IV line.
 
 #<center>What is propofol?
 
@@ -26,9 +24,7 @@ Propofol is commonly dubbed as "milk of anesthesia" is an extremely popular intr
 
 Propofol has a rapid and short duration onset of action thanks to its high lipid solubility which allow them to penetrate the blood-brain barrier. It is very easy to control the level of sedation by injection and continuous infusion<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4554966/" target="_blank">[2]</sup></a>.
 
-One of the greatest benefits of propofol are the reduced side effects that are common with other anesthetic agents such as postoperative nausea<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4554966/" target="_blank">[2]</sup></a>.
-
-I can attest to this! I woke up feeling pretty normal. 🙌 Woot for modern medicine.
+One of the greatest benefits of propofol are the reduced side effects that are common with other anesthetic agents such as postoperative nausea and vomiting<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4554966/" target="_blank">[2]</sup></a>.
 
 The discovery and development of propofol came from <a href="http://www.laskerfoundation.org/awards/show/discovery-and-development-propofol-widely-used-anesthetic/" target="_blank"> John B. Glen</a>, who recently won the 2018 Lasker-DeBakey Clinical Medical Research Award. Since his discovery of propofol in 1970s, more than 190 million people have received his drug and has been put on the WHO list of essential medicine.
 
@@ -46,6 +42,8 @@ They are a naturally occuring chemical messengers (neurotransmitter) that block 
 
 In my previous post, I did research about my experience with [ciprofloxacin](/053-cipro-zzz/) and how that antibiotic made me very drowsy. I learned that once drugs start crossing the brain blood barrier, you're going to start feeling drowsy and dizzy which is not a fun time.
 
-##<center>My final thoughts
+##<center>Final thoughts
 
-It's a very strange feeling to know that your brain completely forgot any type of pain you felt during a specific time. My experience with propofol felt like someone hit the power button in my brain and completely forced me to sleep without feeling tired. Medicine has come a long way and I feel very comforted know that drugs are well received and tolerated.
+It's a very strange feeling to know that your brain completely forgot any type of pain you felt during a specific time. My experience with propofol felt like someone hit the power button in my brain and completely forced me to sleep without feeling tired. I felt like a character in a game going through a save and then loading back only to find out time has passed.
+
+I had a pleasant experience with no postoperative nausea or vomiting and its definitely comforting knowing that drugs are constantly being researched and developed to reduce unwanted side effects.
