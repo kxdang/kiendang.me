@@ -36,7 +36,7 @@ The discovery and development of propofol came from <a href="http://www.laskerfo
 
 Propofol works by binding to various neurotransmitter receptors in the central nervous system (CNS). In order for propofol to bind to these neurotransmitters in the brain, it must be able to cross the blood-brain barrier (BBB).
 
-The BBB is a highly selective semipermeable border that separates the blood from the extracellular fluid in the CNS. Propofol is very lipophilic (meaning its lipid soluble) and this helps it cross the BBB as it is one of the properties drugs can be manufactured to cross the barrier <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6238258/" target="_blank">[3]</sup></a>.
+The BBB is a highly selective semipermeable border that separates the blood from the extracellular fluid in the CNS. Propofol is very lipophilic (meaning its lipid soluble) and this helps it cross the BBB. <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6238258/" target="_blank">[3]</sup></a>.
 
 Propofol works by enhancing the activity of the inhibitory neurotransmitter γ-aminobutyric acid (GABA) in the CNS by binding to GABA A receptors<sup><a href="https://www.eurekaselect.com/65739/article" target="_blank">[4]</sup></a><sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951778/" target="_blank">[5]</sup></a><sup><a href="https://www.cell.com/cell/fulltext/S0092-8674(18)31047-X?\_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS009286741831047X%3Fshowall%3Dtrue" target="_blank">[6]</sup></a>.
 
@@ -44,8 +44,8 @@ Propofol works by enhancing the activity of the inhibitory neurotransmitter γ-a
 
 They are a naturally occuring chemical messengers (neurotransmitter) that block or inhibit certain brain signals which decreases the activity in your CNS<sup><a href="https://pubchem.ncbi.nlm.nih.gov/compound/gamma-Aminobutyric-acid" target="_blank">[7]</sup></a>. Therefore, with propfol enhancing this neurotransmitter in your brain, you'll have a decreased level of consciousness and lack of memory<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951778/" target="_blank">[5]</sup></a>.
 
-In my previous post, I did research about my experience with ciprofloxacin and how that antibiotic made me very drowsy. I learned that once drugs start crossing the brain blood barrier, you're going to start feeling drowsy and dizzy which is not a fun time.
+In my previous post, I did research about my experience with [ciprofloxacin](/053-cipro-zzz/) and how that antibiotic made me very drowsy. I learned that once drugs start crossing the brain blood barrier, you're going to start feeling drowsy and dizzy which is not a fun time.
 
 ##<center>My final thoughts
 
-I thought it was really interesting to not remember what happened while I was induced with propofol. It's a very strange feeling to know that your brain completely forgot any type of pain you felt during a specific time. Medicine has come a long way and I feel very comforted know that drugs are well received.
+It's a very strange feeling to know that your brain completely forgot any type of pain you felt during a specific time. My experience with propofol felt like someone hit the power button in my brain and completely forced me to sleep without feeling tired. Medicine has come a long way and I feel very comforted know that drugs are well received and tolerated.
