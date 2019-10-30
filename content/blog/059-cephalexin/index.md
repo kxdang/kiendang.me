@@ -3,7 +3,7 @@ author: Kien
 date: 2019-10-20
 slug: cephalexin
 title: 💊Cephalexin
-description: My personal experience with this antibiotic lead me to create a bite-sized explanation on how cephalexin works.
+description: My personal experience with this antibiotic inspired me to write a bite-sized explanation on how cephalexin works.
 tags: ["biochemistry"]
 ---
 
