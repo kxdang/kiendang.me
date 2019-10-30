@@ -38,7 +38,7 @@ Propofol works by enhancing the activity of the inhibitory neurotransmitter γ-a
 
 ##<center>What is γ-aminobutyric acid (GABA)?
 
-They are a naturally occuring chemical messengers (neurotransmitter) that block or inhibit certain brain signals which decreases the activity in your CNS<sup><a href="https://pubchem.ncbi.nlm.nih.gov/compound/gamma-Aminobutyric-acid" target="_blank">[7]</sup></a>. Therefore, with propfol enhancing this neurotransmitter in your brain, you'll have a decreased level of consciousness and lack of memory<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951778/" target="_blank">[5]</sup></a>.
+GABA is naturally occuring chemical messenger (neurotransmitter) that block or inhibit certain brain signals which decreases the activity in your CNS<sup><a href="https://pubchem.ncbi.nlm.nih.gov/compound/gamma-Aminobutyric-acid" target="_blank">[7]</sup></a>. Therefore, with propfol enhancing this neurotransmitter in your brain, you'll have a decreased level of consciousness and lack of memory<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951778/" target="_blank">[5]</sup></a>.
 
 In my previous post, I did research about my experience with [ciprofloxacin](/053-cipro-zzz/) and how that antibiotic made me very drowsy. I learned that once drugs start crossing the brain blood barrier, you're going to start feeling drowsy and dizzy which is not a fun time.
 
