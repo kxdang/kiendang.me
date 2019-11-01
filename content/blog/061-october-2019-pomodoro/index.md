@@ -13,7 +13,7 @@ I’ve completed 53 total Pomodoro's (1325 minutes) in October which is 12 Pomod
 
 ![](./pomotodooct2019.png)
 
-I had a surgery mid October which has halted my progress, throughout my recovery, I spent some time researching all the drugs I've taken since June. I used my education in biochemistry to fuel some creative writing and research to keep me preoccupied while in bed.
+I had a surgery mid October which has halted my progress, throughout my recovery, I spent some time researching all the medications I've taken since June. I used my education in biochemistry to fuel some creative writing and research to keep me preoccupied while in bed.
 
 I'm more than satisfied at these current numbers as I haven't expected much from this month. I aim to finish this course by November, then start building projects for my portfolio.
 
