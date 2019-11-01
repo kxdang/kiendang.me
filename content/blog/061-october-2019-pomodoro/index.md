@@ -11,6 +11,8 @@ tags: ["productivity"]
 
 I’ve completed 53 total Pomodoro's (1325 minutes) in October which is 12 Pomodoro's less than [last month](/055-september-2019-pomodoro/). This is an decrease in productivity by 300 minutes. Having reflections allow me to measure how much I’ve done and what I’ve accomplished to achieve my goals. It helps me stay accountable in my journey in completing my NodeJS course which is about 84% completed.
 
+![](./pomotodooct2019.png)
+
 I had a surgery mid October which has halted my progress, throughout my recovery, I spent some time researching all the drugs I've taken since June. I tried to use my education in biochemistry to fuel some creative writing and research to keep me preoccupied while in bed.
 
 I'm more than satisfied at these current numbers as I haven't expected much from this month. I aim to finish this course by November, then start building projects for my portfolio.
