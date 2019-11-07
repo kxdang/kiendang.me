@@ -18,7 +18,9 @@
 
     Use the Gatsby CLI to create a new site, specifying the blog starter.
 
-## 🔌 Additional features added to starter blog.
+## 🔌 Additional features I added to starter blog.
+
+The starter blog didn't have the features that I was looking for so I did some research and found resources to guide me in adding the implementations below:
 
 1.  **Added extra pages**
 
@@ -34,10 +36,10 @@
 
 4.  **Pagination with post**
 
-    Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/adding-pagination/). Gatsby starter blog already had previous and next page but did not have pagination set-up, had to manually follow this guide [here](https://nickymeuleman.netlify.com/blog/gatsby-pagination)
+    Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/adding-pagination/). Gatsby starter blog had previous and next page but did not have pagination set-up, manually follow this guide [here](https://nickymeuleman.netlify.com/blog/gatsby-pagination) to complete pagination.
 
 5.  **Dark mode toggle**
-    Followed Gatsby blog tutorial [here](https://www.gatsbyjs.org/blog/2019-01-31-using-react-context-api-with-gatsby/). All components needed to be wrapped in `<ThemeContext.Provider>`.
+    Followed Gatsby blog tutorial [here](https://www.gatsbyjs.org/blog/2019-01-31-using-react-context-api-with-gatsby/). Used `<ThemeContext.Provider>` in React to toggle dark and light mode
 
 6.  **Adding Font Awesome**
     Added React Font Awesome using [react-icons](https://github.com/react-icons/react-icons) library, specifically for my github and LinkedIn logo in contact page.
@@ -45,11 +47,7 @@
 7.  **PrismJS**
     To allow for code syntax highlighting based on language. Gatsby documentation [here](https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/) and followed external post [here](https://dev.to/niklasmtj/implement-prismjs-in-gatsbyjs-fff)
 
-Please feel free to take a look at what I did and the code/commits that were labeled for each step. They are in the order of implementation.
-
-## 🐛 Known bug:
-
-Light mode does not function properly when user OS has a default theme of dark mode. This causes the browser to go set their own defaults in dark mode and overrides light mode settings. However, light mode works correctly when user has set to default light mode theme in OS.
+Please feel free to take a look at commit history. They are in the order of implementation since creation of blog.
 
 ## 🎓 Learning Gatsby
 
