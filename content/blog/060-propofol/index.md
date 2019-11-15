@@ -30,7 +30,7 @@ The discovery and development of propofol came from <a href="http://www.laskerfo
 
 ##<center>How does propofol work?
 
-Propofol works by binding to various neurotransmitter receptors in the central nervous system (CNS). In order for propofol to bind to these neurotransmitters in the brain, it must be able to cross the blood-brain barrier (BBB).
+Propofol works by binding to various neurotransmitter receptors in the central nervous system (CNS). In order for propofol to bind to these receptors in the brain, it must be able to cross the blood-brain barrier (BBB).
 
 The BBB is a highly selective semipermeable border that separates the blood from the extracellular fluid in the CNS. Propofol is very lipophilic (meaning its lipid soluble) and this helps it cross the BBB. <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6238258/" target="_blank">[3]</sup></a>.
 

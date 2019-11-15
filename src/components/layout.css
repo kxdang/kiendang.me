@@ -24,7 +24,15 @@
   color: #89ddff;
 }
 
+.dark strong {
+  color: #89ddff;
+}
+
 p {
+  color: #313b44;
+}
+
+strong {
   color: #313b44;
 }
 
