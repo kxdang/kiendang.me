@@ -31,7 +31,7 @@ Morphine binds to the mu receptor in the central and peripheral nervous system. 
 
 When a classical opioid binds to its receptor, it inhibits adenylyl cyclase which causes a reduction of the intracellular cyclic-AMP levels and increases potassium out of the cell. The increase in potassium out of the cell decreases the calcium conductase and reduces the neuronal firing rate and therefore reducing neurotransmitter release <sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>.
 
-Pain is associated with increase activity in the sensory neurons induced by strong stimuli from chemicals released by damaged tissue or inflamation, with the decrease in neuotransmitter activity, the signaling systems for pain are blunted and reduced <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708964/" target="_blank">[4]</sup></a>.
+Pain is associated with increase activity in the sensory neurons induced by strong stimuli from chemicals released by damaged tissue or inflammation, with the decrease in neuotransmitter activity, the signaling systems for pain are blunted and reduced <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708964/" target="_blank">[4]</sup></a>.
 
 ###<center>💊Codeine
 
