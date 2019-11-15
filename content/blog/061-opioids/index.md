@@ -69,3 +69,5 @@ Opioids are safe when used properly in the prescence of pain. However, when they
 At first, I was scared of taking all these prescribed opioids because of the news revolving addiction and the dangers of opioids but after going through it and using them properly, I'm quite relieved that we have medications to deal with pain. For me, I was constantly bothered by the fact that it made me sleepy all the time which hindered my ability to be productive and do other things, but I guess thats just life sometimes.
 
 As long as you are properly using them as prescribed, they are a great addition to the medical arsenal in improving quality of life✌.
+
+_Disclaimer: All mentioned opioids were prescribed and taken as directed by my doctor. Under no circumstances were these drugs misused or abused. My experience led to my understanding of opioids through a biochemical perspective which inspired me to write about my personal experience._
