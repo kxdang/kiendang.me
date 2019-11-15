@@ -11,7 +11,7 @@ tags: ["biochemistry"]
 
 Life bites in you in the ass when you least expect it. When your health takes a hit through uncontrollable circumstances, there are only a few things you can do: trust the medical professionals, take your medication and rest as much as you can.
 
-So with all the antibiotic posts, now comes the opioids which conveniently counteracted the diarrhea side-effects that came with them. For post surgery, they are generally prescribed together to manage pain and to prevent infection. I figured I'd leave the interesting research for last.
+So with all the antibiotic posts, now comes the opioids which conveniently counteracted the diarrhea side-effects that came with them. For post-surgery, they are generally prescribed together to manage pain and to prevent infection. I figured I'd leave the interesting research for last.
 
 #<center>What are opioids?
 
