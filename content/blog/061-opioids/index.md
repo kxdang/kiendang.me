@@ -27,7 +27,7 @@ Opioid receptors belong to a family of 7-transmembrane G-protein-coupled recepto
 
 ###<center>💊Morphine
 
-Morphine binds to the mu receptor in the central and pheripheral nervous system. It is also considered a classical opioid analgesic <sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK526115" target="_blank">[3]</sup></a>.
+Morphine binds to the mu receptor in the central and peripheral nervous system. It is also considered a classical opioid analgesic <sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK526115" target="_blank">[3]</sup></a>.
 
 When a classical opioid binds to its receptor, it inhibits adenylyl cyclase which causes a reduction of the intracellular cyclic-AMP levels and increases potassium out of the cell. The increase in potassium out of the cell decreases the calcium conductase and reduces the neuronal firing rate and therefore reducing neurotransmitter release <sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>.
 
