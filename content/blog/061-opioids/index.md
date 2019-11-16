@@ -23,7 +23,7 @@ There are many different opioid receptors; the opioid system is a very complex s
 
 Opioiods work by binding to opioid receptors found throughout the body. The opioid receptors are categorized into 3 major groups: mu, delta, kappa. These receptors mediate spinal analgesia (inability to feel pain)<sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>.
 
-Opioid receptors belong to a family of 7-transmembrane G-protein-coupled receptors and they are made up of 3 subunits, alpha, beta and gamma <sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>. Many different types of opioids work on different opioid receptors, so, unfortunately, the answer to this can't be easily summarized into a bite-sized paragraph. The ones I will be reseaching are: codeine, morphine, hydromorphone and tramodol.
+Opioid receptors belong to a family of 7-transmembrane G-protein-coupled receptors and they are made up of 3 subunits, alpha, beta and gamma <sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>. Many different types of opioids work on different opioid receptors, so, unfortunately, the answer to this can't be easily summarized into a bite-sized paragraph. The ones I will be discussing below are: codeine, morphine, hydromorphone and tramodol.
 
 ###<center>💊Morphine
 
@@ -72,4 +72,4 @@ For me, I was constantly bothered by the fact that it made me sleepy all the tim
 
 As long as you are properly using them as prescribed, they are a great addition to the medical arsenal in improving quality of life✌.
 
-_Disclaimer: All mentioned opioids were prescribed and taken as directed by my doctor. Under no circumstances were these drugs misused or abused. My experience led to my understanding of opioids through a biochemical perspective which inspired me to write about my personal experience._
+_Disclaimer: All mentioned opioids were prescribed and taken as directed by my doctor and pharmacist. Under no circumstances were these drugs misused or abused. My experience led to my understanding of opioids through a biochemical perspective which inspired me to write about my personal experience._
