@@ -41,7 +41,7 @@ Codeine is a weak opioid. It is the methylated version of morphine, meaning it h
 
 Hydromophone, also known as Dilaudid, is used to treat severe acute pain, severe chronic pain and cancer-related pain. It is the hydrogenated ketone of morphine and thus have a similar analgesic characteristic to morphine <sup><a href="https://www.jpsmjournal.com/article/S0885-3924(05)00033-3/fulltext" target="_blank">[7]</sup></a>.
 
-My hospital stay gave me IV morphine every 3 hours, however, my pain got so bad the doctor prescribed me IV hydromorphone. Hydromorphone is commonly viewed as the second line of defence after morphine which is about about 5-7 more potent <sup><a href="https://www.jpsmjournal.com/article/S0885-3924(05)00033-3/fulltext" target="_blank">[6]</sup></a>. Summer was a bad time, I was on IV opioids around the clock and receiving IV antibiotics. I'm glad to be out and properly recovering at home.
+My hospital stay gave me IV morphine every 3 hours, however, my pain got so bad the doctor prescribed me IV hydromorphone. Hydromorphone is commonly viewed as the second line of defence after morphine which is about about 5-7 times more potent <sup><a href="https://www.jpsmjournal.com/article/S0885-3924(05)00033-3/fulltext" target="_blank">[6]</sup></a>. Summer was a bad time, I was on IV opioids around the clock and receiving IV antibiotics. I'm glad to be out and properly recovering at home.
 
 ###<center>💊Tramadol
 
