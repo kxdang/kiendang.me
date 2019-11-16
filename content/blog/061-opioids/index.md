@@ -11,7 +11,7 @@ tags: ["biochemistry"]
 
 Life bites in you in the ass when you least expect it. When your health takes a hit through uncontrollable circumstances, there are only a few things you can do: trust the medical professionals, take your medication and rest as much as you can.
 
-So with all the antibiotic posts, now comes the opioids which conveniently counteracted the diarrhea side-effects that came with them. For post-surgery, they are generally prescribed together to manage pain and to prevent infection. I figured I'd leave the interesting research for last.
+So with all the antibiotic posts, now comes the opioids experience post which conveniently counteracted the diarrhea side-effects that antibiotics had. For post-surgery, they are generally prescribed together to manage pain and to prevent infection. I figured I'd leave the interesting research for last.
 
 #<center>What are opioids?
 
@@ -23,7 +23,7 @@ There are many different opioid receptors; the opioid system is a very complex s
 
 Opioiods work by binding to opioid receptors found throughout the body. The opioid receptors are categorized into 3 major groups: mu, delta, kappa. These receptors mediate spinal analgesia (inability to feel pain)<sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>.
 
-Opioid receptors belong to a family of 7-transmembrane G-protein-coupled receptors and they are made up of 3 subunits, alpha, beta and gamma <sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>. Many different types of opioids work on different opioid receptors, so, unfortunately, the answer to this can't be easily summarized into a bite-sized paragraph. The ones I will be reseaching are: codeine, morphine, hydromorphone and tramodol - because of my first hand experience with them.
+Opioid receptors belong to a family of 7-transmembrane G-protein-coupled receptors and they are made up of 3 subunits, alpha, beta and gamma <sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>. Many different types of opioids work on different opioid receptors, so, unfortunately, the answer to this can't be easily summarized into a bite-sized paragraph. The ones I will be reseaching are: codeine, morphine, hydromorphone and tramodol.
 
 ###<center>💊Morphine
 
@@ -35,7 +35,7 @@ Pain is associated with increase activity in the sensory neurons induced by stro
 
 ###<center>💊Codeine
 
-Codeine is a weak opioid. It is the methylated version of morphine, meaning it has an extra CH3 group. In order for codeine to work, it must undergo demethylation to be converted to morphine and thus have a similar mode of action <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3658028" target="_blank">[5]</sup></a>. I was taking Tylenol 3's which are an opioid cominbation drug that contains acetaminophen and codeine. They didn't work well for me, unfortunately.
+Codeine is a weak opioid. It is the methylated version of morphine, meaning it has an extra CH3 group. For codeine to work, it must undergo demethylation to be converted to morphine and thus have a similar mode of action <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3658028" target="_blank">[5]</sup></a>. I was taking Tylenol 3's which are an opioid cominbation drug that contains acetaminophen and codeine. They didn't work well for me, unfortunately.
 
 ###<center>✨Hydromorphone
 
@@ -45,7 +45,7 @@ Hydromophone also known as Dilaudid, is used to treat severe acute pain, severe 
 
 ###<center>💊Tramadol
 
-A few weeks after my hospitalization I came in for another surgery which led me to my second experience with [propofol](/060-propofol/). I was prescribed tramadol which is another opioid that selectively binds to a different opiate receptor in the central nervous system. It does not bind as strongly to the mu receptor compared to morphine, therefore, they are much less potent and comes with a relatively low risk of addiction or withdrawal<sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK537060/" target="_blank">[8]</sup></a>.
+A few weeks after my hospitalization, I came in for another surgery which led me to my second experience with [propofol](/060-propofol/). I was prescribed tramadol, another opioid that selectively binds to a different opiate receptor in the central nervous system. It does not bind as strongly to the mu receptor compared to morphine, therefore, are much less potent and comes with a relatively low risk of addiction or withdrawal<sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK537060/" target="_blank">[8]</sup></a>.
 
 ##<center>Why do opioids cause constipation? 💩
 
@@ -57,16 +57,18 @@ One of the unwanted side effects of opioid use is constipation. The stimulation 
   <img src="https://media3.giphy.com/media/3NtY188QaxDdC/giphy.gif?cid=790b761137df0768193e2e041f8539e610962fa0614cac05&rid=giphy.gif" />
 </p>
 
-One of the sites that morphine and other opioids act on are in the reward center of the brain (mesolimbic pathway). This area in the brain is what makes eating and other essential processes feel pleasurable <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851054" target="_blank">[10]</sup></a>.
+Morphine and other opioids act on the reward center of the brain (mesolimbic pathway). This area is what makes eating and other essential processes feel pleasurable <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851054" target="_blank">[10]</sup></a>.
 
-Ironically, while I was recovering on my bed with tramadol in my system, I started watching an HBO series called <a href="https://www.imdb.com/title/tt8772296/" target="_blank">Euphoria</a>, which was an excellent show btw, I highly recommend it.
+Ironically, while I was recovering on my bed with tramadol in my system, I started an HBO series called <a href="https://www.imdb.com/title/tt8772296/" target="_blank">Euphoria</a>, which was an excellent show btw, I highly recommend it.
 
-The euphoric effect can be explained by opioids binding to mu and delta-receptors which causes the ion channels in our brain to open and reduce the excitability of neurons which causes a euphoric effect from opioids. The euphoric effect involves another mechanism by inhibiting the GABA being released. GABA is used to reduce the amount of dopamine activity in the brain, however, with GABA being inhibited, this ultimately increases the dopamine production in the brain and thus giving a pleasurable feeling<sup><a href="https://thebrain.mcgill.ca/flash/i/i_03/i_03_m/i_03_m_par/i_03_m_par_heroine.html" target="_blank">[11]</sup></a><sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851054/" target="_blank">[12]</sup></a><sup><a href="https://www.drugabuse.gov/publications/teaching-packets/neurobiology-drug-addiction/section-iii-action-heroin-morphine/4-opiates-binding-to-opiate-rece" target="_blank">[13]</sup></a>.
+The euphoric effect occurs when opioids bind to mu and delta-receptors; it causes the ion channels in our brain to open and reduce the excitability of neurons. While this happens, another mechanism occurs during the binding of opioids. It prevents the release of GABA neurotransmitters causing the reduction of dopamine activity in the brain. Therefore with the inability to inhibit dopamine levels in the brain, we experience euphoria.<sup><a href="https://thebrain.mcgill.ca/flash/i/i_03/i_03_m/i_03_m_par/i_03_m_par_heroine.html" target="_blank">[11]</sup></a><sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851054/" target="_blank">[12]</sup></a><sup><a href="https://www.drugabuse.gov/publications/teaching-packets/neurobiology-drug-addiction/section-iii-action-heroin-morphine/4-opiates-binding-to-opiate-rece" target="_blank">[13]</sup></a>.
 
 ##<center>**Final thoughts**
 Opioids are safe when used properly in the prescence of pain. However, when they are abused and used without pain, they can motivate the repeated use of the drug simply for pleasure and this is what causes addiction <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3658028" target="_blank">[14]</sup></a>.
 
-At first, I was scared of taking all these prescribed opioids because of the news revolving addiction and the dangers of opioids but after going through it and using them properly, I'm quite relieved that we have medications to deal with pain. For me, I was constantly bothered by the fact that it made me sleepy all the time which hindered my ability to be productive and do other things, but I guess thats just life sometimes.
+At first, I was scared of taking all these prescribed opioids because of the news revolving addiction and the dangers of opioids but after going through it and using them properly, I'm quite relieved that we have medications to deal with pain.
+
+For me, I was constantly bothered by the fact that it made me sleepy all the time which hindered my ability to be productive and do other things, but I guess thats just life sometimes.
 
 As long as you are properly using them as prescribed, they are a great addition to the medical arsenal in improving quality of life✌.
 
