@@ -17,4 +17,4 @@ I had a surgery mid October which has halted my progress, throughout my recovery
 
 I'm more than satisfied at these current numbers as I haven't expected much from this month. I aim to finish this course by November, then start building projects for my portfolio.
 
-To supplement my learning I will be going through <a href='https://www.udemy.com/course/understand-javascript/' target="_target">JavaScript: Understanding the Weird Parts</a> on Udemy to have a deeper understanding of JS and then pivot over to React.
+To supplement my learning I will be going through <a href='https://www.udemy.com/course/understand-javascript/' target="_target">JavaScript: Understanding the Weird Parts</a> on Udemy to have a deeper understanding of JS and then transition over to React.
