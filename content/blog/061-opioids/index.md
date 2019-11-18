@@ -21,9 +21,9 @@ Opioids are a family of drugs that are medically prescribed to treat severe pain
 
 There are many different opioid receptors; the opioid system is a very complex system that play a role in various biological processes and are involved in many different physiological functions such as pain, respiratory depression, constipation, sedation and euphoria <sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>.
 
-Opioiods work by binding to opioid receptors found throughout the body. The opioid receptors are categorized into 3 major groups: mu, delta, kappa. These receptors mediate spinal analgesia (inability to feel pain)<sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>.
+Opioids work by binding to opioid receptors found throughout the body. The opioid receptors are categorized into 3 major groups: mu, delta, kappa. These receptors mediate spinal analgesia (inability to feel pain)<sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>.
 
-Opioid receptors belong to a family of 7-transmembrane G-protein-coupled receptors and they are made up of 3 subunits, alpha, beta and gamma <sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>. Many different types of opioids work on different opioid receptors, so, unfortunately, the answer to this can't be easily summarized into a bite-sized paragraph. The ones I will be discussing below are: codeine, morphine, hydromorphone and tramodol.
+Opioid receptors belong to a family of 7-transmembrane G-protein-coupled receptors and they are made up of 3 subunits, alpha, beta and gamma <sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK532899" target="_blank">[2]</sup></a>. Many different types of opioids work on different opioid receptors, so, unfortunately, the answer to this can't be easily summarized into a bite-sized paragraph. The opioids I will be discussing below are: codeine, morphine, hydromorphone and tramodol.
 
 ###<center>💊Morphine
 
@@ -35,7 +35,7 @@ Pain is associated with increase activity in the sensory neurons induced by stro
 
 ###<center>💊Codeine
 
-Codeine is a weak opioid. It is the methylated version of morphine, meaning it has an extra CH3 group. For codeine to work, it must undergo demethylation to be converted to morphine and thus have a similar mode of action <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3658028" target="_blank">[5]</sup></a>. I was taking Tylenol 3's which are an opioid cominbation drug that contains acetaminophen and codeine. They didn't work well for me, unfortunately.
+Codeine is a weak opioid. It is the methylated version of morphine, meaning it has an extra CH3 group. For codeine to work, it must undergo demethylation to be converted to morphine and thus have a similar mode of action <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3658028" target="_blank">[5]</sup></a>. I was taking Tylenol 3's which are an opioid combination drug that contains acetaminophen and codeine. They didn't work well for me, unfortunately.
 
 ###<center>✨Hydromorphone
 
