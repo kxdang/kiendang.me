@@ -101,7 +101,11 @@ a {
 }
 
 li {
-  color: #39adc4;
+  color: #226597;
+}
+
+.dark li {
+  color: #89ddff;
 }
 
 .gatsby-highlight pre[class*="language-"] {
