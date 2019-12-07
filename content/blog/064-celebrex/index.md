@@ -15,7 +15,7 @@ The nurse told me to take Celebrex along with Tylenol an hour before my surgery 
 
 #<center>What is Celebrex?
 
-Celebrix is a non-steriodal anti-inflammatory drug (NSAID) used to relieve pain, swelling and inflammation<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3303994/" target="_blank">[1]</sup></a>.
+Celebrix is a non-steroidal anti-inflammatory drug (NSAID) used to relieve pain, swelling and inflammation<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3303994/" target="_blank">[1]</sup></a>.
 
 ##<center>How does it work?
 
