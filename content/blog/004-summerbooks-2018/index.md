@@ -15,7 +15,7 @@ From time to time, I like to read thriller and mystery novels but now that I’m
 
 Here’s a few books I read this summer and recommend:
 
-# **Never Split the Difference**![](http://t2.gstatic.com/images?q=tbn:ANd9GcQOdi2PoYfDciMmMW3sjOzMbYaF__xYOSBViz_Pp-LPfLyZCHJc)
+# **Never Split the Difference**![](https://t2.gstatic.com/images?q=tbn:ANd9GcQOdi2PoYfDciMmMW3sjOzMbYaF__xYOSBViz_Pp-LPfLyZCHJc)
 
 A book about a former international hostage negotiator for the FBI reveals some of his insights and tested approaches to high level negotiations and translates it to the reader to learn about his experience. The author tries to bring his experiences to relate to the readers such as negotiating for a better wage, a better deal and even making business decisions.
 
@@ -45,7 +45,7 @@ Personal accountability is not always easy. I admit, I am struggling with this f
 
 # **I Will Teach You To Be Rich**
 
-![](http://t3.gstatic.com/images?q=tbn:ANd9GcSKzAJq7RAs_iAImXKaZKwCRgY5uOWxLIrseqKekeNDQTFkdzCA)
+![](https://t3.gstatic.com/images?q=tbn:ANd9GcSKzAJq7RAs_iAImXKaZKwCRgY5uOWxLIrseqKekeNDQTFkdzCA)
 
 School never taught me anything about building wealth and what you should do with your money. I always hear that we should always “save up”, don’t spend your money etc. But how do we effectively do that? It’s very hard to save up when you have expenses and wants. It is very easy spending money and so hard to save without good discipline.
 
