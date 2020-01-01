@@ -19,7 +19,7 @@ Having reflections allow me to measure how much I've done and what I've accompli
 
 Now that 2019 is officially over, I think it's a good idea to clump December's Pomodoro with a year end summary. I officially started reflecting my Pomodoro's back in July shortly after [I resigned back in May](/041-the-jump/). A summary of my accomplishments this year, I hoping for a better year in 2020!
 
-##<center>📃Accomplishments
+##<center>📃2019 Accomplishments
 
 ✅Learned how to use Git and Github for version control <br>
 ✅Learned Java with Android Development as side hobby <br>
