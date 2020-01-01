@@ -11,13 +11,13 @@ tags: ["productivity"]
 
 #<center>Happy New Year!
 
+![](pomotodoDecember2019.png)
+
 I've completed 90 Pomodoro's (2250 minutes) in December. This is a decrease of 2 Pomodoro's compared to last month, a difference of 50 minutes.
 
 Having reflections allow me to measure how much I've done and what I've accomplish to achieve my goals. It helps me stay accountable in my journey in completing a MERN Udemy course and becoming a self-taught developer.
 
 Now that 2019 is officially over, I think it's a good idea to clump December's Pomodoro with a year end summary. I officially started reflecting my Pomodoro's back in July shortly after [I resigned back in May](/041-the-jump/). A summary of my accomplishments this year, I hoping for a better year in 2020!
-
-![](pomotodoDecember2019.png)
 
 ##<center>📃Accomplishments
 
