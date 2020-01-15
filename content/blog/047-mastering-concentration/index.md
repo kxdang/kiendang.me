@@ -34,7 +34,7 @@ Below is a snapshot of my tracked Pomodoros last month, I left my full-time job 
 
 ![](./92pomo.jpg)
 
-There was a total of 92 pomodoros, equivalent to 106 hours and 47 minutes last month that was split between my React course, learning about algorithms and from freeCodeCamp. The pomodoros are now on full effect compared to what I had before with a full-time.
+There was a total of 92 pomodoros, equivalent to 38 hours last month and that was split between my React course, learning about algorithms and from freeCodeCamp. The pomodoros are now on full effect compared to what I had before with a full-time.
 
 Previously, with a full-time job, weekends were the only times I really did any programming work, but now the difference is literally night and day as seen above and below respectively (best work time from night to noon - pun intended).
 
