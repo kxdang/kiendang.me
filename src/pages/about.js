@@ -46,9 +46,19 @@ class about extends React.Component {
               >
                 <button className="dark-switcher" onClick={theme.toggleDark}>
                   {theme.dark ? (
-                    <div id="lightmodebutton">Light mode 🌞</div>
+                    <div id="lightmodebutton">
+                      Light mode{" "}
+                      <span role="img" aria-label="sun">
+                        🌞
+                      </span>
+                    </div>
                   ) : (
-                    <div id="darkmodebutton">Dark mode 🌒</div>
+                    <div id="darkmodebutton">
+                      Dark mode{" "}
+                      <span role="img" aria-label="moon">
+                        🌒
+                      </span>
+                    </div>
                   )}
                 </button>
               </div>
