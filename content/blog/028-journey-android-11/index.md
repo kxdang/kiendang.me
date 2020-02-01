@@ -1,7 +1,7 @@
 ---
 author: Kien
 date: 2019-01-09 03:05:00+00:00
-title: Journey Into Android Development Pt. 11 (Tab View Navigation)
+title: Journey to Android Development Pt. 11 (Tab View Navigation)
 tags: ["java"]
 ---
 
