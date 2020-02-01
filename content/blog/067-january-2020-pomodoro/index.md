@@ -8,7 +8,9 @@ tags: ["productivity"]
 ---
 
 ![](https://images.unsplash.com/photo-1507732052797-d22258ac2f96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
-I've completed 124 Pomodoro's (3100 minutes) in January. This is 34 more Pomodoro's than [last month](/066-december-2019-yearend-pomodoro/), an increase in productivity by 850 minutes. Having reflections allow me to measure how much I've done and what I've accomplished to achieve my goals. It helps me stay accountable in my journey in completing my Udemy courses I have set out and gaining the skills to be a well-rounded developer.
+I've completed 124 Pomodoro's (3100 minutes) in January. This is 34 more Pomodoro's than [last month](/066-december-2019-yearend-pomodoro/), an increase in productivity by 850 minutes.
+
+Having reflections allow me to measure how much I've done and what I've accomplished to achieve my goals. It helps me stay accountable in my journey in completing my Udemy courses I have set out and gaining the skills to be a well-rounded developer.
 
 ![](/pomotodojan2020.png)
 
