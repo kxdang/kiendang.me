@@ -34,7 +34,7 @@ Eventually, after many co-op experiences, I realized science wasn't for me. I wa
 
 This perseverance led me to my success in achieving a Bachelors of Science in Honours Biochemistry.
 
-#### <center><h2>**THE JOURNEY**</h2></center>
+#### <center><h2>**MY JOURNEY**</h2></center>
 
 Biochemistry has taught me the core fundamentals of science and understanding life through a biochemical lens. It has shaped the way I think, how I view and solve problems and the way I do my research.
 
@@ -42,4 +42,4 @@ It has been the catalyst for me to keep up with the latest scientific trends whi
 
 It has been 2 years since I've touched any science related work as of writing this post. It has given me a deep appreciation of the science academia and their contributions to improving the quality of human life.
 
-A degree is what you make out of it, for me, it has laid the fundamentals of learning and persevering through hardships as it arises. It has made me become the person who I am, a life long learner. I look forward to learning new technologies and use these skills to develop my own path.
+My degree has laid the fundamentals of learning and persevering through hardships as it arises. It has made me become the person who I am, a life long learner. I look forward to learning new technologies and use these skills to develop my own path.

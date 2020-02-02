@@ -3,6 +3,10 @@ import { rhythm, scale } from "../utils/typography"
 import Bio from "../components/bio"
 import { Link } from "gatsby"
 
+import { GiBookshelf, GiMouse } from "react-icons/gi"
+import { FiLink } from "react-icons/fi"
+import { FaLinkedin } from "react-icons/fa"
+
 import ThemeContext from "../context/ThemeContext"
 
 import "../components/layout.css"
@@ -62,17 +66,16 @@ class about extends React.Component {
                   )}
                 </button>
               </div>
-
               <Bio />
-
-              <h3>About Me</h3>
+              <h3 style={{ textAlign: `center` }}>Who am I?</h3>
               <p>
-                Hello, my name is Kien Dang. I have a Bachelors of Science in
-                Honours Biochemistry from the University of Waterloo. I’ve held
-                many job positions while I was in co-op ranging from lab
-                research to corporate positions.
+                Hello, my name is Kien. I have a Bachelors of Science in Honours
+                Biochemistry from the University of Waterloo. I’ve held many
+                positions during my co-op education. I have over 2 years of
+                professional work experience in a chemical company specializing
+                in polyurethane technology for the automotive industry.
                 <br />
-                <br />I love technology ranging from computers, phones to cars.
+                <br />
                 I’m a self motivated learner who likes to program and one of my
                 favourite things to do is try to automate tasks I encounter
                 every day and improve the quality of life through science and
@@ -84,6 +87,79 @@ class about extends React.Component {
                 hope to become a better writer by blogging. Feel free to browse
                 around!{" "}
               </p>
+              <h3 style={{ textAlign: `center` }}>My Journey</h3>
+              <p>
+                I'm currently in the process of pursuing a programming career in
+                front-end web development. I resigned from my job back in May of
+                2019 and have been documenting my progress here on my blog.
+              </p>
+              <p style={{ textAlign: `center`, marginBottom: `0px` }}>
+                <a href="/025-biochemistry-story/">My Biochemistry Story</a>
+              </p>
+              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
+
+              <p style={{ textAlign: `center`, marginBottom: `0px` }}>
+                <a href="/040-new-chapter-2019/">Resignation May 2019 </a>
+              </p>
+              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
+              <p style={{ textAlign: `center`, marginBottom: `0px` }}>
+                <a href="/066-december-2019-yearend-pomodoro/">
+                  Year End Progress 2019
+                </a>
+              </p>
+              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
+              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
+              <p
+                style={{
+                  textAlign: `center`,
+                  verticalAlign: `middle`,
+                }}
+              >
+                <a
+                  href="https://www.linkedin.com/in/kien-dang/"
+                  style={{ verticalAlign: `middle` }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Maybe working for your company?{" "}
+                  <FaLinkedin style={{ fontSize: `1em` }} />
+                </a>
+              </p>
+              <p>
+                I still have a lot to learn and I'm in the process of gaining
+                experience by going the self-taught route. I'm always looking to
+                improve my skills and be the best version of myself. If you feel
+                like I'd be a great addition to your team, feel free to contact
+                me!
+              </p>
+              <h3 style={{ textAlign: `center` }}>Interests & Hobbies</h3>
+              <div className="about__icons">
+                <a
+                  href="https://www.goodreads.com/review/list/63733680-kien-dang?shelf=read"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GiBookshelf className="icon" /> Reader
+                </a>
+              </div>
+              <div className="about__icons">
+                <a
+                  href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GiMouse className="icon" /> PC Gamer
+                </a>
+              </div>
+              <div className="about__icons">
+                <a
+                  href="https://www.kien.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiLink className="icon" /> www.kien.dev
+                </a>
+              </div>
             </div>
           </div>
         )}

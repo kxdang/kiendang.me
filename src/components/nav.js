@@ -5,10 +5,10 @@ class nav extends React.Component {
   render() {
     return (
       <div>
-        <Link to="/about" style={{ boxShadow: `none` }}>
+        <Link to="/about" style={{ boxShadow: `none`, paddingRight: `10px` }}>
           About
         </Link>
-        <Link
+        {/* <Link
           to="/contact"
           style={{
             boxShadow: `none`,
@@ -16,7 +16,7 @@ class nav extends React.Component {
           }}
         >
           Contact
-        </Link>
+        </Link> */}
       </div>
     )
   }

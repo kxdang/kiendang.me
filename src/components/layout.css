@@ -37,10 +37,6 @@ strong {
   color: #313b44;
 }
 
-.dark a:hover {
-  filter: brightness(150%);
-}
-
 .dark p {
   color: #f5f5f5;
 }
@@ -87,6 +83,20 @@ small {
 a {
   color: #226597;
   box-shadow: none;
+}
+
+a:hover {
+  color: #226597;
+  filter: brightness(150%);
+}
+
+a:hover svg.icon {
+  color: inherit;
+  filter: brightness(150%);
+}
+
+.dark a:hover {
+  filter: brightness(150%);
 }
 
 #lightmodebutton {
@@ -201,4 +211,28 @@ a.travel {
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
+}
+
+.about__icons {
+  color: #313b44;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* .dark .about__icons svg:hover {
+  color: #f78c6c;
+}
+.light .about__icons svg:hover {
+  color: #f78c6c;
+} */
+
+.light svg.icon {
+  color: #313b44;
+  font-size: 1.5em;
+}
+
+.dark svg {
+  color: white;
+  font-size: 1.5em;
 }
