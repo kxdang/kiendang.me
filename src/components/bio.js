@@ -52,7 +52,7 @@ function Bio() {
                   margin: `auto`,
                 }}
               >
-                A blog by <strong>Kien</strong>
+                A blog by <strong>Kien Dang</strong>
               </p>
             </div>
 
