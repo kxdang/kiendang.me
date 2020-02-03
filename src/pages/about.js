@@ -73,7 +73,7 @@ class about extends React.Component {
                 Biochemistry from the University of Waterloo. I’ve held many
                 positions during my co-op education. I have over 2 years of
                 professional work experience at chemical company specializing in
-                polyurethane technology for the automotive industry.
+                polyurethane foam for the automotive industry.
                 <br />
                 <br />
                 I’m a self motivated learner who likes to program and one of my
