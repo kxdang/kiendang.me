@@ -19,7 +19,7 @@ Initially, when I started 2 years ago, I felt a bit of impostor syndrome. As som
 
 I believe that having an open mind and the ability to learn was what made me excel in my position regardless of my degree. It took me a full year to finally grasp my job title and understand my position at my company.
 
-During my first year I saw a lot of opportunities to improve their process. I’ve made many improvements with excel macros alone which saved the company over [\$4500 yearly](/automated-job/). The second year was spent on improving my ability to meet tight deadlines and was now finally comfortable working in my position.
+During my first year I saw a lot of opportunities to improve their process. I’ve made many improvements with excel macros alone which saved the company over [\$4500 yearly](/029-automated-job-process/). The second year was spent on improving my ability to meet tight deadlines and was now finally comfortable working in my position.
 
 Unfortunately, being comfortable meant plateauing and I was no longer learning anything new. Manufacturing wasn’t something I wanted to do long term and ultimately made the decision to resign.
 

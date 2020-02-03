@@ -22,11 +22,11 @@ It is on the WHO List of Essential Medicines, the safest and most effective medi
 
 ##<center>How does it work?
 
-Chlorohexidine glucoonate works by binding to the bacterial cell wall which compromises the integrity of the bacteria. The molecule is positively charged which helps it bind to the negatively charged lipid layers of the cell membrane<sup><a href="https://chlorhexidinefacts.com/mechanism-of-action.html" target="_blank">[1]</sup></a>.
+Chlorohexidine gluconate works by binding to the bacterial cell wall which compromises the integrity of the bacteria. The molecule is positively charged which helps it bind to the negatively charged lipid layers of the cell membrane<sup><a href="https://chlorhexidinefacts.com/mechanism-of-action.html" target="_blank">[1]</sup></a>.
 When the bacterial cell wall is destroyed, it crosses into the cell and attacks the inner membrane causing more damage<sup><a href="https://chlorhexidinefacts.com/mechanism-of-action.html" target="_blank">[1]</sup></a>.
 
 The destabilization of the cell wall and cytoplasmic membrane causes interference with osmosis and eventually causes apoptosis (cell death).
 
-It is a very effective in oral applications because chlorhexidine gluconate binds to the mouth tissues, oral mucosa and teeth. Over time it is released which kills the bacteria in the mouth and prevents dental plaque<sup><a href="https://chlorhexidinefacts.com/mechanism-of-action.html" target="_blank">[1]</sup></a>.
+It is very effective in oral applications because chlorhexidine gluconate binds to the mouth tissues, oral mucosa and teeth. Over time it is released which kills the bacteria in the mouth and prevents dental plaque<sup><a href="https://chlorhexidinefacts.com/mechanism-of-action.html" target="_blank">[1]</sup></a>.
 
 When paired with an antibiotic like amoxicillin, it becomes a combination therapy treatment making it more effective in killing bacteria. I guess I can't catch a break with these bacterias.

@@ -1,7 +1,7 @@
 ---
 author: Kien
 date: 2019-01-13 17:39:09+00:00
-title: How I automated a process at work using Excel VBA
+title: 🤖How I automated a process at work using Excel VBA
 description: I automated a work process after learning how to program and translated it in VB6
 tags: ["productivity"]
 ---
