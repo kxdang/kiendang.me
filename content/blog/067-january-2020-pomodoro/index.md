@@ -50,11 +50,11 @@ I talked about [running](/008-managing-energy/) before back in 2018 where I star
 
 It's important to keep a routine every day and go to bed and wake up at the same time. However, I tend to play a lot of games at night to decompress which leads me to sleeping in a little late.
 
-I had a sleep study done 3 months ago; I've been feeling very tired the last few months which is expected as part of recovering,. However, I constantly wake up in the middle of the night which has been giving me sleeping issues. I consulted a medical professional to discuss any abnormalities in my sleep pattern and found that it might just be internal stress.
+I had a sleep study done 3 months ago; I've been feeling very tired the last few months which is expected as part of recovering. However, I constantly wake up in the middle of the night which has been giving me sleeping issues. I consulted a medical professional to discuss any abnormalities in my sleep pattern and the results show that it might just be internal stress and not sleep apnea.
 
-In addition, I found keeping this routine difficult as I tend to almost doze off mid-day due to low quality sleep. Perhaps this is due to the stress from my health and many other factors including the process of changing career paths and how it's been lagging behind due to uncontrollable circumstances.
+In addition, my low quality of sleep tends to add a never ending cycle of quick naps and leaving myself wide awake at night. Perhaps this is due to the stress from my health and many other factors including the process of changing career paths and how it's been lagging behind.
 
-Atomic habits has taught me to make my environments very distinct when it comes to productivity and leisure. Unfortunately, my gaming, productivity and resting place is all in my bedroom. I cannot dedicate any other spaces to certain activities which definitely causes sleep issues. I need to find a solution.
+Atomic habits has taught me to make my environments very distinct when it comes to productivity and leisure. Unfortunately, my gaming, productivity and resting place is all in my bedroom. I cannot dedicate any other spaces to certain activities which definitely causes sleep issues. I need to find a solution somehow.
 
 ## <center>Energy and Stress management
 
@@ -64,4 +64,4 @@ I started to jog this month to gain more energy physically as well as increasing
 
 I've been doing Pomodoro's as I feel like it. I do 25 minute and then take a break for more than 5 minutes that is allocated. I noticed my calendar having gaps and I tend to space out my Pomodoro's over a longer period than I would like. Partly due to the fact that I either need to cook food or I need a bit more time to start up again.
 
-I found that doing Pomodoro's early in the morning is my optimal time to do work, but I'm either dead tired when I wake up or too cold to get up. I need to work on this somehow and it definitely starts with improvement #1.
+I found that doing Pomodoro's early in the morning is my optimal time to do work, but I'm either dead tired when I wake up or too cold to get up. I need to work on this somehow and it definitely starts with sleep.
