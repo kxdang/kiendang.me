@@ -157,7 +157,7 @@ class about extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FiLink className="icon" /> www.kien.dev
+                  <FiLink className="icon" /> kien.dev
                 </a>
               </div>
             </div>
