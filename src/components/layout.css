@@ -64,6 +64,10 @@ h1 {
   color: #226597;
 }
 
+h1 a {
+  border-bottom: none;
+}
+
 h2 {
   color: #313b44;
 }
@@ -83,11 +87,13 @@ small {
 a {
   color: #226597;
   box-shadow: none;
+  border-bottom: dotted 1px #226597;
 }
 
 a:hover {
   color: #226597;
   filter: brightness(150%);
+  border-bottom-style: solid;
 }
 
 a:hover svg.icon {
@@ -111,10 +117,6 @@ a:hover svg.icon {
   color: bisque;
 }
 
-li {
-  color: #226597;
-}
-
 .dark li {
   color: #f5f5f5;
 }
@@ -130,6 +132,7 @@ a.productivity {
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
+  border-bottom: none;
 }
 
 a.money {
@@ -139,6 +142,7 @@ a.money {
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
+  border-bottom: none;
 }
 
 a.technology {
@@ -148,6 +152,7 @@ a.technology {
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
+  border-bottom: none;
 }
 
 a.java {
@@ -157,6 +162,7 @@ a.java {
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
+  border-bottom: none;
 }
 
 a.life {
@@ -166,6 +172,7 @@ a.life {
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
+  border-bottom: none;
 }
 
 a.biochemistry {
@@ -175,6 +182,7 @@ a.biochemistry {
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
+  border-bottom: none;
 }
 
 a.books {
@@ -184,6 +192,7 @@ a.books {
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
+  border-bottom: none;
 }
 
 a.python {
@@ -193,6 +202,7 @@ a.python {
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
+  border-bottom: none;
 }
 
 a.food {
@@ -202,6 +212,7 @@ a.food {
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
+  border-bottom: none;
 }
 
 a.travel {
@@ -211,13 +222,14 @@ a.travel {
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
+  border-bottom: none;
 }
 
 .about__icons {
   color: #313b44;
   vertical-align: middle;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 /* .dark .about__icons svg:hover {
@@ -229,7 +241,7 @@ a.travel {
 
 .light svg.icon {
   color: #313b44;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .dark svg {
