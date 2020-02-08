@@ -67,7 +67,7 @@ The most important lesson I've learned this year is that things will never go ac
 ##<center>2020 Goals
 
 ✨Hoping my body doesn't fail me <br>
-✨Finish my MERN course - full-stack developer course <br>
+✨Finish my MERN course - Full-stack developer course <br>
 ✨Finish Algorithms and Data-structure course from Frontend Masters <br>
 ✨Build a few personal applications from scratch <br>
 ✨Create a new personal portfolio <br>
