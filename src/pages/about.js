@@ -175,7 +175,7 @@ class about extends React.Component {
               </div>
               <div className="about__icons">
                 <a
-                  href="https://www.hodinkee.com/"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
