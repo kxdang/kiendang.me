@@ -111,18 +111,25 @@ class about extends React.Component {
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
               <p
                 style={{
-                  textAlign: `center`,
-                  verticalAlign: `middle`,
+                  display: `flex`,
+                  justifyItems: `center`,
                 }}
               >
                 <a
                   href="https://www.linkedin.com/in/kien-dang/"
-                  style={{ verticalAlign: `middle` }}
+                  style={{
+                    display: `flex`,
+                    justifyContent: `center`,
+                    alignItems: `center`,
+                    margin: `auto`,
+                  }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Maybe working for your company?{" "}
-                  <FaLinkedin style={{ fontSize: `1em` }} />
+                  <FaLinkedin
+                    style={{ fontSize: `1.3em`, marginLeft: `0.2em` }}
+                  />
                 </a>
               </p>
               <p>
@@ -138,8 +145,18 @@ class about extends React.Component {
                   href="https://www.goodreads.com/review/list/63733680-kien-dang?shelf=read"
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{
+                    display: `flex`,
+                    justifyContent: `center`,
+                    alignItems: `center`,
+                    margin: `auto`,
+                  }}
                 >
-                  <GiBookshelf className="icon" /> Reader
+                  <GiBookshelf
+                    className="icon"
+                    style={{ marginRight: `0.3rem` }}
+                  />{" "}
+                  Reader
                 </a>
               </div>
               <div className="about__icons">
@@ -147,6 +164,12 @@ class about extends React.Component {
                   href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{
+                    display: `flex`,
+                    justifyContent: `center`,
+                    alignItems: `center`,
+                    margin: `auto`,
+                  }}
                 >
                   <GiMouse className="icon" /> PC Gamer
                 </a>
@@ -156,8 +179,18 @@ class about extends React.Component {
                   href="https://www.kien.dev"
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{
+                    display: `flex`,
+                    justifyContent: `center`,
+                    alignItems: `center`,
+                    margin: `auto`,
+                  }}
                 >
-                  <FiLink className="icon" /> kien.dev
+                  <FiLink
+                    className="icon"
+                    style={{ fontSize: `1rem`, marginRight: `0.3rem` }}
+                  />{" "}
+                  kien.dev
                 </a>
               </div>
             </div>

@@ -227,10 +227,17 @@ a.travel {
 
 .about__icons {
   color: #313b44;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  /* vertical-align: middle;
   text-align: center;
-  font-size: 1em;
+  font-size: 1em; */
 }
+
+/* //  display: `flex`,
+                    justifyContent: `center`,
+                    alignItems: `center`,
+                    margin: `auto`, */
 
 /* .dark .about__icons svg:hover {
   color: #f78c6c;
@@ -246,5 +253,5 @@ a.travel {
 
 .dark svg {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
