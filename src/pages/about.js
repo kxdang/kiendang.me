@@ -4,8 +4,7 @@ import Bio from "../components/bio"
 import { Link } from "gatsby"
 
 import { GiBookshelf, GiMouse } from "react-icons/gi"
-import { FiLink } from "react-icons/fi"
-import { FaLinkedin } from "react-icons/fa"
+import { FaLinkedin, FaKeyboard, FaClock } from "react-icons/fa"
 
 import ThemeContext from "../context/ThemeContext"
 
@@ -85,7 +84,7 @@ class about extends React.Component {
                 My blog is a platform to share my experiences, interests,
                 hobbies and current progress with programming. In addition, I
                 hope to become a better writer by blogging. Feel free to browse
-                around!{" "}
+                around! (Click on Dang it above){" "}
               </p>
               <h3 style={{ textAlign: `center` }}>My Journey</h3>
               <p>
@@ -156,7 +155,7 @@ class about extends React.Component {
                     className="icon"
                     style={{ marginRight: `0.3rem` }}
                   />{" "}
-                  Reader
+                  Books
                 </a>
               </div>
               <div className="about__icons">
@@ -176,7 +175,7 @@ class about extends React.Component {
               </div>
               <div className="about__icons">
                 <a
-                  href="https://www.kien.dev"
+                  href="https://www.hodinkee.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -186,11 +185,30 @@ class about extends React.Component {
                     margin: `auto`,
                   }}
                 >
-                  <FiLink
+                  <FaClock
                     className="icon"
                     style={{ fontSize: `1rem`, marginRight: `0.3rem` }}
                   />{" "}
-                  kien.dev
+                  Watches
+                </a>
+              </div>
+              <div className="about__icons">
+                <a
+                  href="https://www.reddit.com/r/MechanicalKeyboards/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: `flex`,
+                    justifyContent: `center`,
+                    alignItems: `center`,
+                    margin: `auto`,
+                  }}
+                >
+                  <FaKeyboard
+                    className="icon"
+                    style={{ fontSize: `1rem`, marginRight: `0.3rem` }}
+                  />{" "}
+                  r/mk
                 </a>
               </div>
             </div>
