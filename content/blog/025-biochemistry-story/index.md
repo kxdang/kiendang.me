@@ -42,4 +42,4 @@ It has been the catalyst for me to keep up with the latest scientific trends whi
 
 It has been 2 years since I've touched any science related work as of writing this post. It has given me a deep appreciation of the science academia and their contributions to improving the quality of human life.
 
-My degree has laid the fundamentals of learning and persevering through hardships as it arises. It has made me become the person who I am, a life long learner. I look forward to learning new technologies and use these skills to develop my own path.
+My degree has laid the fundamentals of learning and persevering through hardships as it arises. It has made me become the person who I am, a lifelong learner. I look forward to learning new technologies and use these skills to develop my own path.

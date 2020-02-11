@@ -56,17 +56,19 @@ In the beginning of 2019, I decided to learn how to make applications and starte
 
 I quickly burned out after the initial motivation from January; Pomodoro's were supposed to keep me focused but I had no energy left after work. I noticed when you're staring at the computer all day for work, the last thing you want to do is have your eyes glued to the monitor when you're at home. I made the decision to resign to free up time and energy from a position that didn't align with my career goals.
 
-I jumped into React after learning HTML and CSS. I knew enough React to start playing with gatsbyjs and read through the documentation to start my blog. I was missing the fundamentals with JavaScript so I decided to back peddle by taking a JavaScript modern bootcamp and then a Nodejs course to iron out any missing knowledge.
+I jumped into React after learning HTML and CSS. I knew enough React to start playing with Gatsby and read through the documentation to start my blog. I was missing the fundamentals with JavaScript so I decided to back peddle by taking a JavaScript modern bootcamp and then a Nodejs course to iron out any missing knowledge.
 
-Unfortunately, a month after my resignation I was hit with a terrible infection which left me unable to focus for months. However, I stuck with my process to slowly put myself back on my feet and build momentum. 9 courses of antibiotics, 4 different opioids and 2 surgeries later, November and December were much better but I know I still have a long way to go.
+###<center>The highs and lows
 
-The most important lesson I've learned this year is that things will never go according to plan and life just gets in the way. There are factors outside of our control and we'll just have to find a way to deal with them. Despite being through a lot of physical pain, learned a lot about myself and how I deal with hardships. I found that being healthy is a blessing and that it's usually taken for granted until you become sick.
+Unfortunately, a month after my resignation I was hit with a terrible infection which left me unable to focus for months. However, I stuck with my process to slowly put myself back on my feet and build momentum. After four exhausting months of recovery, taking [9 courses of antibiotics](/tags/biochemistry/), [4 different opioids](060-propofol/) and having 2 surgeries, I somehow managed to complete two online courses and created this blog. I found that near the end of my 2019, November and December were much better but I know I still have a long way to go.
+
+The most important lesson I've learned this year is that things will never go according to plan and life just gets in the way. There are factors outside of our control and we'll just have to find a way to deal with them. Despite being through a lot of physical pain and mental exhaustion, I learned a lot about myself and how I deal with hardships. I found that being healthy is a blessing and that it's usually taken for granted until you become sick.
 
 ##<center>2020 Goals
 
 ✨Hoping my body doesn't fail me <br>
-✨Finish my MERN course - full-stack developer course <br>
+✨Finish my MERN course - Full-stack developer course <br>
 ✨Finish Algorithms and Data-structure course from Frontend Masters <br>
 ✨Build a few personal applications from scratch <br>
 ✨Create a new personal portfolio <br>
-✨Find employment by Febuary 2020🤞 Full-stack or front-end web developer <br>
+✨Find employment by February 2020🤞<br>

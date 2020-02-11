@@ -15,7 +15,7 @@ I’ve learned the skills to collaborate in team environments, problem solve and
 
 My programs included Chrysler, Nissan and Ford. A large portion of my day goes to slicing 3D data using Teamcenter VisView and reading 2D blueprints of car seats and making sure they’re costed according to our standards and review data with different units to ensure manufacturing feasibility.
 
-Initially, when I started 2 years ago, I felt a bit of impostor syndrome. As someone who did not have an engineering degree, I was nervous when taking on a job description that had nothing to do with my background in sciences. But they felt that my skill set would be a great fit to the position based on previous experiences. As a bonus, the job was 8 minutes away from home!
+Initially, when I started 2 years ago, I felt a bit of impostor syndrome. As someone who did not have an engineering degree, I was nervous when taking on a job description that had nothing to do with my background in sciences. But they felt that my skill set would be a great fit to the position based on previous experiences.
 
 I believe that having an open mind and the ability to learn was what made me excel in my position regardless of my degree. It took me a full year to finally grasp my job title and understand my position at my company.
 
