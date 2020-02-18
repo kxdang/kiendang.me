@@ -68,11 +68,12 @@ class about extends React.Component {
               <Bio />
               <h3 style={{ textAlign: `center` }}>Who am I?</h3>
               <p>
-                Hello, my name is Kien. I have a Bachelors of Science in Honours
-                Biochemistry from the University of Waterloo. I’ve held many
-                positions during my co-op education. I have over 2 years of
-                professional work experience at a chemical company specializing
-                in polyurethane foam for the automotive industry.
+                Hello, my name is Kien (pronounced "key in"). I have a Bachelors
+                of Science in Honours Biochemistry from the University of
+                Waterloo. I’ve held many positions during my co-op education. I
+                have over 2 years of professional work experience at a chemical
+                company specializing in polyurethane foam for the automotive
+                industry.
                 <br />
                 <br />
                 I’m a self motivated learner who likes to program and one of my
