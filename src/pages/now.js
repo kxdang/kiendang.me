@@ -88,8 +88,10 @@ class now extends React.Component {
 
               <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
               <p>I am helping my friend with his application for CS:GO called <a href="https://scrim.app/" target="_blank" rel="noopener noreferrer">Scrim.app</a> and building multiple projects with React found in my <a href="https://github.com/kxdang" target="_blank" rel="noopener noreferrer">Github.</a></p>
+
+              <p style={{ textAlign: "center", marginBottom: "0", fontSize: "0.8em", fontStyle: "italic" }}>Last updated (March 1st 2020)</p>
             </div>
-            <footer><p style={{ textAlign: "center", marginBottom: "0", fontSize: "1em", fontStyle: "italic" }}>/now page inspired by <a href="https://sivers.org/nowff" target="_blank" rel="noopener noreferrer">Derek Sivers</a></p></footer>
+            <footer><p style={{ textAlign: "center", marginBottom: "0", fontSize: "0.8em", fontStyle: "italic" }}>/now page inspired by <a href="https://sivers.org/nowff" target="_blank" rel="noopener noreferrer">Derek Sivers</a></p></footer>
           </div>
         )}
       </ThemeContext.Consumer>
