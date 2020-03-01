@@ -4,7 +4,7 @@ date: 2020-02-01
 slug: january-2020-pomodoro
 title: 🍅January Pomodoro Reflection
 description: A monthly progress for January. My current status and reflection on my productivity, goals and achievements.
-tags: ["productivity"]
+tags: ["pomodoro"]
 ---
 
 ![](https://images.unsplash.com/photo-1507732052797-d22258ac2f96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
@@ -65,3 +65,6 @@ I started to jog this month to gain more energy physically as well as increasing
 I've been doing Pomodoro's as I feel like it. I do 25 minute and then take a break for more than 5 minutes that is allocated. I noticed my calendar having gaps and I tend to space out my Pomodoro's over a longer period than I would like. Partly due to the fact that I either need to cook food or I need a bit more time to start up again.
 
 I found that doing Pomodoro's early in the morning is my optimal time to do work, but I'm either dead tired when I wake up or too cold to get up. I need to work on this somehow and it definitely starts with sleep.
+
+<div align="right"><a href="/069-february-2020-pomodoro/">February 2020 Pomodoro &rarr;</a></div>
+

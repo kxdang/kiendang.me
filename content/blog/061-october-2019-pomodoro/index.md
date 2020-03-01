@@ -4,7 +4,7 @@ date: 2019-11-01
 slug: october-2019-pomodoro-reflection
 title: 🍅October Pomodoro Reflection
 description: A monthly progress for October. My current status and reflection on my productivity, goals and achievements.
-tags: ["productivity"]
+tags: ["pomodoro"]
 ---
 
 ![](https://images.unsplash.com/photo-1474591424615-7fe467c7fac9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80)
@@ -18,3 +18,5 @@ I had a surgery mid October which has halted my progress, throughout my recovery
 I'm more than satisfied at these current numbers as I haven't expected much from this month. I aim to finish this course by November, then start building projects for my portfolio.
 
 To supplement my learning I will be going through <a href='https://www.udemy.com/course/understand-javascript/' target="_target">JavaScript: Understanding the Weird Parts</a> on Udemy to have a deeper understanding of JS and then transition over to React.
+
+<div align="right"><a href="/063-november-2019-pomodoro/">November 2019 Pomodoro &rarr;</a></div>

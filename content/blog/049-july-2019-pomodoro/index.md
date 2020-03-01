@@ -4,7 +4,7 @@ date: 2019-08-01
 slug: July-pomodoro-reflection
 title: 🍅July Pomodoro Reflection
 description: A monthly progress for July. My current status and reflection on my productivity, goals and achievements.
-tags: ["productivity"]
+tags: ["pomodoro"]
 ---
 
 ![](https://images.unsplash.com/photo-1504279412591-227dd2310b22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
@@ -26,3 +26,5 @@ No matter how much you’ve planned for something, life will always get in the w
 ###<center>Reflection
 
 I’m actually quite surprised. In June, I had 90 pomodoros all focused on many different projects including React, JavaScript and learning Gatsby. Last month, my main focus was just transferring over to Gatsby after learning the basics. I did more of my JavaScript course than I expected; I really thought this month was going to be a bad one despite my circumstances. Looking forward to seeing my results go up when I’m better this month in August.
+
+<div align="right"><a href="/054-august-2019-pomodoro/">August 2019 Pomodoro &rarr;</a></div>

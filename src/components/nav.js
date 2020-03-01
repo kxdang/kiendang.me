@@ -15,15 +15,17 @@ class nav extends React.Component {
         >
           About
         </Link>
-        {/* <Link
-          to="/contact"
+        <Link
+          to="/now"
           style={{
             boxShadow: `none`,
             paddingLeft: `20px`,
+            paddingRight: `10px`,
+            borderBottom: `none`,
           }}
         >
-          Contact
-        </Link> */}
+          Now
+        </Link>
       </div>
     )
   }

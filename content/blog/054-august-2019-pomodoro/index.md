@@ -4,7 +4,7 @@ date: 2019-09-03
 slug: August-pomodoro-reflection
 title: 🍅August Pomodoro Reflection
 description: A monthly progress for August. My current status and reflection on my productivity, goals and achievements.
-tags: ["productivity"]
+tags: ["pomodoro"]
 ---
 
 ![](https://images.unsplash.com/photo-1546094096-0df4bcaaa337?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80)
@@ -15,3 +15,5 @@ Taking a look at my August pomodoros shows a very similar trend. I’ve been hit
 ![](./PomotodoAugust2019.png)
 
 I realized that having a solid system such as the Pomodoro technique is essential for building momentum and help bring back a productive routine. I’m hoping that once I’m cleared I can go back to hitting my 8 pomodoros daily.
+
+<div align="right"><a href="/055-september-2019-pomodoro/">September 2019 Pomodoro &rarr;</a></div>

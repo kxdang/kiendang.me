@@ -56,17 +56,17 @@ class about extends React.Component {
                       </span>
                     </div>
                   ) : (
-                    <div id="darkmodebutton">
-                      Dark mode{" "}
-                      <span role="img" aria-label="moon">
-                        🌒
+                      <div id="darkmodebutton">
+                        Dark mode{" "}
+                        <span role="img" aria-label="moon">
+                          🌒
                       </span>
-                    </div>
-                  )}
+                      </div>
+                    )}
                 </button>
               </div>
               <Bio />
-              <h3 style={{ textAlign: `center` }}>Who am I?</h3>
+              <h3 style={{ textAlign: `center` }}>About me</h3>
               <p>
                 Hello, my name is Kien (pronounced "key in"). I have a Bachelors
                 of Science in Honours Biochemistry from the University of
@@ -108,6 +108,12 @@ class about extends React.Component {
                 </a>
               </p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
+              <p style={{ textAlign: `center`, marginBottom: `0px` }}>
+                <a href="/067-january-2020-pomodoro/">
+                  Current Progress for 2020
+                </a>
+              </p>
+              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
               <p
                 style={{
@@ -132,6 +138,7 @@ class about extends React.Component {
                   />
                 </a>
               </p>
+              <blockquote style={{ textAlign: "center" }}>Everything is a skill, and thus everything can be learned, improved on, and mastered, given enough time and effort. — Serena Chen</blockquote>
               <p>
                 I still have a lot to learn and I'm in the process of gaining
                 experience by going the self-taught route. I'm always looking to

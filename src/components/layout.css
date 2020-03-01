@@ -127,6 +127,16 @@ a:hover svg.icon {
 
 a.productivity {
   color: white;
+  background-color: #4a47a3;
+  padding: 3px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
+  border-bottom: none;
+}
+
+a.pomodoro {
+  color: white;
   background-color: #ff0000;
   padding: 3px;
   border-radius: 0.2em;

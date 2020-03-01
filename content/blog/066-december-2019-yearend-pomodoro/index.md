@@ -4,7 +4,7 @@ date: 2020-01-01
 slug: december-2019-pomodoro-yearend-reflection
 title: 🍅December Pomodoro Reflection - Year End Summary
 description: A monthly progress for December. My current status and reflection on my productivity, goals and achievements. A year end summary.
-tags: ["productivity"]
+tags: ["pomodoro"]
 ---
 
 ![https://images.unsplash.com/photo-1560653510-4e50f8a2bf58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1388&q=80](https://images.unsplash.com/photo-1560653510-4e50f8a2bf58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1388&q=80)
@@ -72,3 +72,5 @@ The most important lesson I've learned this year is that things will never go ac
 ✨Build a few personal applications from scratch <br>
 ✨Create a new personal portfolio <br>
 ✨Find employment by February 2020🤞<br>
+
+<div align="right"><a href="/067-january-2020-pomodoro/">January Pomodoro - Year End Summary &rarr;</a></div>
