@@ -127,7 +127,7 @@ a:hover svg.icon {
 
 a.productivity {
   color: white;
-  background-color: #4a47a3;
+  background-color: #f78c6c;
   padding: 3px;
   border-radius: 0.2em;
   font-weight: bold;
@@ -186,8 +186,8 @@ a.life {
 }
 
 a.biochemistry {
-  color: black;
-  background-color: #f78c6c;
+  color: white;
+  background-color: #4a47a3;
   padding: 3px;
   border-radius: 0.2em;
   font-weight: bold;

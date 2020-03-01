@@ -15,7 +15,7 @@ const Tags = ({ pageContext, data }) => {
   const { edges, totalCount } = data.allMarkdownRemark
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
+    } tagged with "${tag}"`
 
   return (
     <ThemeContext.Consumer>
@@ -61,13 +61,13 @@ const Tags = ({ pageContext, data }) => {
                     </span>
                   </div>
                 ) : (
-                  <div id="darkmodebutton">
-                    Dark mode{" "}
-                    <span role="img" aria-label="moon">
-                      🌒
+                    <div id="darkmodebutton">
+                      Dark mode{" "}
+                      <span role="img" aria-label="moon">
+                        🌒
                     </span>
-                  </div>
-                )}
+                    </div>
+                  )}
               </button>
             </div>
             <Bio />
@@ -77,9 +77,24 @@ const Tags = ({ pageContext, data }) => {
                 {edges.map(({ node }) => {
                   const { slug } = node.fields
                   const { title } = node.frontmatter
+                  const { date } = node.frontmatter
+                  const { description } = node.frontmatter
                   return (
                     <li key={slug}>
-                      <Link to={slug}>{title}</Link>
+                      <Link style={{
+                        borderBottom: "none"
+                      }} to={slug}>{title}</Link>
+                      <p><small>{date} - {node.fields.readingTime.text} {node.fields.readingTime.minutes > 0 &&
+                        node.fields.readingTime.minutes <= 2
+                        ? "🍵"
+                        : node.fields.readingTime.minutes > 2 &&
+                          node.fields.readingTime.minutes <= 3
+                          ? "🍵🍵"
+                          : node.fields.readingTime.minutes > 3 &&
+                            node.fields.readingTime.minutes <= 5
+                            ? "🍵🍵🍵"
+                            : "🍵🍵🍵🍵"}</small></p>
+                      <p>{description}</p>
                     </li>
                   )
                 })}
@@ -135,16 +150,22 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: { frontmatter: { tags: { in: [$tag] }} }
     ) {
       totalCount
       edges {
         node {
           fields {
+            readingTime {
+              text
+              minutes
+            }
             slug
           }
           frontmatter {
             title
+            date (formatString: "MMMM DD, YYYY")
+            description
           }
         }
       }

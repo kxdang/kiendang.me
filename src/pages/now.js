@@ -79,10 +79,10 @@ class now extends React.Component {
                 <img style={{ width: `35%`, height: "auto" }} src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1515589515l/186074._SX318_.jpg" />
                 <img style={{ width: `35%`, height: "auto" }} src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575009552l/18693655._SY475_.jpg" />
               </div>
-              <p>I want to learn more effectively and efficiently to make the most out of my Pomodoro's.</p>
+              <p>I believe the secret to success is building a system to improve and constantly to refine your skills. I want to learn more effectively and efficiently to make the most out of my Pomodoro process and become a better writer.</p>
 
               <h3 style={{ textAlign: "center" }}>Games</h3>
-              <p>I am playing CS:GO but I have been bouncing between Vermintide 2 with a couple of my friends and playing Borderlands 3!</p>
+              <p>I still play CS:GO during my leisure time 😎. I have been bouncing between Vermintide 2 with a couple of my friends and playing Borderlands 3!</p>
 
               <h3 style={{ textAlign: "center" }}>Projects</h3>
               <p>I am helping my friend with his application for CS:GO called <a href="https://scrim.app/" target="_blank">Scrim.app</a> and building multiple projects with React found in my <a href="https://github.com/kxdang" target="_blank">Github.</a></p>
