@@ -183,9 +183,8 @@ class about extends React.Component {
               </div>
               <div className="about__icons">
                 <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/024-watches/"
+
                   style={{
                     display: `flex`,
                     justifyContent: `center`,
@@ -220,6 +219,7 @@ class about extends React.Component {
                 </a>
               </div>
             </div>
+
           </div>
         )}
       </ThemeContext.Consumer>

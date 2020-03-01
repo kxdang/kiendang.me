@@ -78,7 +78,7 @@ const Tags = ({ pageContext, data }) => {
                   const { slug } = node.fields
                   const { title } = node.frontmatter
                   const { date } = node.frontmatter
-                  const { description } = node.frontmatter
+
                   return (
                     <li key={slug}>
                       <Link style={{
@@ -94,7 +94,7 @@ const Tags = ({ pageContext, data }) => {
                             node.fields.readingTime.minutes <= 5
                             ? "🍵🍵🍵"
                             : "🍵🍵🍵🍵"}</small></p>
-                      <p>{description}</p>
+                      {/* <p>{description}</p> */}
                     </li>
                   )
                 })}
@@ -165,7 +165,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             date (formatString: "MMMM DD, YYYY")
-            description
+          
           }
         }
       }
