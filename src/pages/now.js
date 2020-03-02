@@ -72,7 +72,7 @@ class now extends React.Component {
               <p>
                 I am currently working on completing <a href="https://www.udemy.com/course/modern-react-bootcamp/" target="_blank" rel="noopener noreferrer">The Modern React Bootcamp (Hooks, Context, NextJS, Router)</a>.  I'm excited to start building React applications.
                   <br></br>
-                <br></br>I have been applying to front-end development positions as I feel confident in applying the skills I've learned to a professional setting.
+                <br></br>I have been applying to front-end development positions as I feel confident in applying the skills in a professional setting.
               </p>
 
               <h3 style={{ textAlign: "center" }}>Books</h3>
