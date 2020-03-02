@@ -138,7 +138,6 @@ class about extends React.Component {
                   />
                 </a>
               </p>
-              <blockquote style={{ textAlign: "center" }}>Everything is a skill, and thus everything can be learned, improved on, and mastered, given enough time and effort. — Serena Chen</blockquote>
               <p>
                 I still have a lot to learn and I'm in the process of gaining
                 experience by going the self-taught route. I'm always looking to
@@ -146,6 +145,8 @@ class about extends React.Component {
                 like I'd be a great addition to your team, feel free to contact
                 me!
               </p>
+              <blockquote>Everything is a skill, and thus everything can be learned, improved on, and mastered, given enough time and effort. — Serena Chen</blockquote>
+
               <h3 style={{ textAlign: `center` }}>Interests & Hobbies</h3>
               <div className="about__icons">
                 <a
