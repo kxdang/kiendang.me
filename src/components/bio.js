@@ -54,7 +54,7 @@ function Bio() {
               >
                 A blog by{" "}
                 <strong>
-                  <a href="https://www.kien.dev/">Kien Dang</a>
+                  <a href="https://www.kien.dev/">Kien</a>
                 </strong>
               </p>
             </div>
