@@ -56,13 +56,13 @@ class about extends React.Component {
                       </span>
                     </div>
                   ) : (
-                      <div id="darkmodebutton">
-                        Dark mode{" "}
-                        <span role="img" aria-label="moon">
-                          🌒
+                    <div id="darkmodebutton">
+                      Dark mode{" "}
+                      <span role="img" aria-label="moon">
+                        🌒
                       </span>
-                      </div>
-                    )}
+                    </div>
+                  )}
                 </button>
               </div>
               <Bio />
@@ -109,7 +109,7 @@ class about extends React.Component {
               </p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
-                <a href="/067-january-2020-pomodoro/">
+                <a href="/069-february-2020-pomodoro/">
                   Current Progress for 2020
                 </a>
               </p>
@@ -145,7 +145,11 @@ class about extends React.Component {
                 like I'd be a great addition to your team, feel free to contact
                 me!
               </p>
-              <blockquote>Everything is a skill, and thus everything can be learned, improved on, and mastered, given enough time and effort. — Serena Chen</blockquote>
+              <blockquote>
+                Everything is a skill, and thus everything can be learned,
+                improved on, and mastered, given enough time and effort. —
+                Serena Chen
+              </blockquote>
 
               <h3 style={{ textAlign: `center` }}>Interests & Hobbies</h3>
               <div className="about__icons">
@@ -185,7 +189,6 @@ class about extends React.Component {
               <div className="about__icons">
                 <a
                   href="/024-watches/"
-
                   style={{
                     display: `flex`,
                     justifyContent: `center`,
@@ -220,7 +223,6 @@ class about extends React.Component {
                 </a>
               </div>
             </div>
-
           </div>
         )}
       </ThemeContext.Consumer>
