@@ -2,7 +2,7 @@
 author: Kien
 date: 2020-01-01
 slug: december-2019-pomodoro-yearend-reflection
-title: 🍅December Pomodoro Reflection - Year End Summary
+title: 🍅Year End Summary 2019
 description: A monthly progress for December. My current status and reflection on my productivity, goals and achievements. A year end summary.
 tags: ["pomodoro"]
 ---
@@ -60,7 +60,7 @@ I jumped into React after learning HTML and CSS. I knew enough React to start pl
 
 ###<center>The highs and lows
 
-Unfortunately, a month after my resignation I was hit with a terrible infection which left me unable to focus for months. However, I stuck with my process to slowly put myself back on my feet and build momentum. After four exhausting months of recovery, taking [9 courses of antibiotics](/tags/biochemistry/), [4 different opioids](062-opioids/) and having 2 surgeries, I somehow managed to complete two online courses and created this blog. I found that near the end of my 2019, November and December were much better but I know I still have a long way to go.
+Unfortunately, a month after my resignation I was hit with a terrible infection which left me unable to focus for months. However, I stuck with my process to slowly put myself back on my feet and build momentum. After four exhausting months of recovery, taking [9 courses of antibiotics](/tags/biochemistry/), [4 different opioids](/062-opioids/) and having 2 surgeries, I somehow managed to complete two online courses and created this blog. I found that near the end of my 2019, November and December were much better but I know I still have a long way to go.
 
 The most important lesson I've learned this year is that things will never go according to plan and life just gets in the way. There are factors outside of our control and we'll just have to find a way to deal with them. Despite being through a lot of physical pain and mental exhaustion, I learned a lot about myself and how I deal with hardships. I found that being healthy is a blessing and that it's usually taken for granted until you become sick.
 
