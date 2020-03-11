@@ -11,7 +11,7 @@ Amsterdam was absolutely beautiful! First time outside of the country and my gir
 
 My first experience outside of Canada and we planned a lot in Amsterdam. Many have told us its a good 2-3 day trip but since this was going to be our very first trip to Europe, we decided to relax and enjoy our time there.
 
-A very walk-able city, we stayed in an Airbnb at the west location of Amsterdam.
+A very walkable city, we stayed in an Airbnb at the west location of Amsterdam.
 
 We had planned many events during our stay and had a list that we wanted to do each day. These included visiting:
 
