@@ -29,5 +29,5 @@ Our brain didn't come with an instruction manual, but definitely has a lot of am
 
 The book is simply for people who do not excel at math or science. However, it is also for professionals who have a background in math or science as they will find many benefits in learning the techniques to greatly improve existing skills and learn new ones. Lastly, it is also for those looking to learn, the book covers the simplest, most effective, and most efficient techniques that researchers know about how to learn. 
 
-If you'd like to do the video module of this book, I highly recommend enrolling in the free course from the Coursera.
+If you'd like to do the video module of this book, I highly recommend enrolling in the free course from Coursera.
 
