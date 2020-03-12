@@ -87,26 +87,19 @@ class now extends React.Component {
               </p>
 
               <h3 style={{ textAlign: "center" }}>Books</h3>
-              <p style={{ textAlign: "center" }}>
-                I am reading two books at the moment.{" "}
-              </p>
+              <p style={{ textAlign: "center" }}>I am reading: </p>
               <div style={{ display: "flex", justifyContent: "space-evenly" }}>
                 <img
                   style={{ width: `35%`, height: "auto" }}
                   alt="The Name Of The Wind Book"
                   src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1515589515l/186074._SX318_.jpg"
                 />
-                <img
-                  style={{ width: `35%`, height: "auto" }}
-                  alt="A Mind for Numbers Book"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575009552l/18693655._SY475_.jpg"
-                />
               </div>
               <p>
-                I believe the secret to success is to constantly improve and
-                refine your skills. I want to learn more effectively and
-                efficiently to make the most out of my Pomodoro process and
-                become a better writer.
+                The Name of the Wind by Patrick Rothfuss. A friend of mine
+                recommended me a book outside my usual genre of mystery
+                thriller. Looking to expand my vocabulary and improve writing
+                skills.
               </p>
 
               <h3 style={{ textAlign: "center" }}>Games</h3>
@@ -147,7 +140,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on March 1st 2020
+                Last updated on March 12th 2020
               </p>
             </div>
             <footer>
