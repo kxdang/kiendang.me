@@ -54,13 +54,13 @@ class now extends React.Component {
                       </span>
                     </div>
                   ) : (
-                    <div id="darkmodebutton">
-                      Dark mode{" "}
-                      <span role="img" aria-label="moon">
-                        🌒
+                      <div id="darkmodebutton">
+                        Dark mode{" "}
+                        <span role="img" aria-label="moon">
+                          🌒
                       </span>
-                    </div>
-                  )}
+                      </div>
+                    )}
                 </button>
               </div>
 
@@ -80,9 +80,9 @@ class now extends React.Component {
                 </a>
                 . I'm excited to start building React applications.
                 <br></br>
-                <br></br>I have been applying to front-end development positions
+                <br></br>I have been applying to front end development positions
                 as I feel confident in applying the skills I have learned. I'm
-                looking for new opportunties and for a company that allows me to
+                looking for new opportunties at a company that allows me to
                 grow professionally as a developer.
               </p>
 

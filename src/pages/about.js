@@ -56,13 +56,13 @@ class about extends React.Component {
                       </span>
                     </div>
                   ) : (
-                    <div id="darkmodebutton">
-                      Dark mode{" "}
-                      <span role="img" aria-label="moon">
-                        🌒
+                      <div id="darkmodebutton">
+                        Dark mode{" "}
+                        <span role="img" aria-label="moon">
+                          🌒
                       </span>
-                    </div>
-                  )}
+                      </div>
+                    )}
                 </button>
               </div>
               <Bio />
@@ -139,11 +139,7 @@ class about extends React.Component {
                 </a>
               </p>
               <p>
-                I still have a lot to learn and I'm in the process of gaining
-                experience by going the self-taught route. I'm always looking to
-                improve my skills and be the best version of myself. If you feel
-                like I'd be a great addition to your team, feel free to contact
-                me!
+                I'm always looking to improve my skills and be the best version of myself. If you feel like I'd be a great addition to your team, feel free to contact me!
               </p>
               <blockquote>
                 Everything is a skill, and thus everything can be learned,
