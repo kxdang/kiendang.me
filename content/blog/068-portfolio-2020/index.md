@@ -19,7 +19,7 @@ It is nice to see how others implement the BEM structure in a React project. I c
 
 The changes I made below:
 
-- The overall colour scheme, I found inspiration from colorhunt.com
+- The overall colour scheme, I found inspiration from <a href="https://colorhunt.co/" target="_blank">colorhunt</a>
 - <a href="https://github.com/react-icons/react-icons" target="_blank">Migration from React-icons v2 to v3 </a>
 - Adding a bigger personal picture and center aligned the design for the first page
 - Added a small snippet of text below to redirect to this blog
