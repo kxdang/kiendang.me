@@ -54,13 +54,13 @@ class now extends React.Component {
                       </span>
                     </div>
                   ) : (
-                      <div id="darkmodebutton">
-                        Dark mode{" "}
-                        <span role="img" aria-label="moon">
-                          🌒
+                    <div id="darkmodebutton">
+                      Dark mode{" "}
+                      <span role="img" aria-label="moon">
+                        🌒
                       </span>
-                      </div>
-                    )}
+                    </div>
+                  )}
                 </button>
               </div>
 
@@ -80,10 +80,13 @@ class now extends React.Component {
                 </a>
                 . I'm excited to start building React applications.
                 <br></br>
-                <br></br>I have been applying to front end development positions
+                <br></br>I am open for new opportunities but no longer active in
+                applying for positions at the moment due to outbreak and
+                personal circumstances.
+                {/* <br></br>I have been applying to front end development positions
                 as I feel confident in applying the skills I have learned. I'm
                 looking for new opportunties at a company that allows me to
-                grow professionally as a developer.
+                grow professionally as a developer. */}
               </p>
 
               <h3 style={{ textAlign: "center" }}>Books</h3>
@@ -140,7 +143,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on March 12th 2020
+                Last updated on March 17th 2020
               </p>
             </div>
             <footer>
