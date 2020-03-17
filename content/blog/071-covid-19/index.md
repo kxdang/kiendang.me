@@ -16,7 +16,7 @@ Looks like March of 2020 really hit the peak of COVID-19 news. Earlier this mont
 
 Shortly after the news broke, other <a href="https://www.cbssports.com/general/news/coronavirus-live-updates-japan-olympic-committee-deputy-head-has-covid-19-kentucky-derby-postponed/live/" target="\_blank">US sport organizations</a> go on pause for 8 weeks and panic buying cause toilet paper to <a href="https://globalnews.ca/news/6651464/covid-19-panic-buying-shortages/" target="_blank">fly off the shelf.</a> Then, Ontario public schools and Universities are closing an extra week during March break and many other countries closing tourist areas, including the Anne Frank house we were in earlier last week.
 
-Today, Doug Ford declares a <a href="https://www.cbc.ca/news/canada/toronto/coronavirus-covid-19-ontario-tuesday-1.5500006" target="_blank">state of emergency due</a> to the COVID-19 outbreak causing restaurants to close except those offering takeout, social events with 50 or greater to be cancelled as well as theatres and other recreational centers. However, all vital business will not be affected and remain open.
+Today, Doug Ford declares a <a href="https://www.cbc.ca/news/canada/toronto/coronavirus-covid-19-ontario-tuesday-1.5500006" target="_blank">state of emergency</a> due to the COVID-19 outbreak causing restaurants to close except those offering takeout, social events with 50 or greater to be cancelled as well as theatres and other recreational centers. However, all vital business will not be affected and remain open.
 
 It seems like the moment I came home, everything literally changed overnight.
 
