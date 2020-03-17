@@ -3,7 +3,7 @@ author: Kien
 date: 2020-03-17
 slug: covid-19
 title: 🏥 COVID19 - Ontario state of emergency
-description: Ontario is officially in a state of emergency amid COVID-19 outbreak. My last and upcoming surgery has been cancelled😞.
+description: Ontario is officially in a state of emergency amid COVID-19 outbreak. All elective surgeries has been cancelled.
 tags: ["life"]
 ---
 
@@ -20,6 +20,8 @@ Today, Doug Ford declares a <a href="https://www.cbc.ca/news/canada/toronto/coro
 
 It seems like the moment I came home, everything literally changed overnight. It is insane to realize how something so microscopically small like a virus do so much damage on a macroscopic scale.
 
-One major problem during an outbreak is the strain it has on the health care system. Health Ontario advises to <a href="https://globalnews.ca/news/6680786/ontario-hospitals-coronavirus-elective-surgeries/" target="_blank">ramp down elective surgeries</a> to help preserve capacity. As a result, my third and last surgery has been cancelled until further notice. Unfortunately, that means my timeline for a career change has been delayed as I need to consider the post-surgery recovery time and wait for the COVID-19 outbreak to settle.
+One major problem during an outbreak is the strain it has on the health care system. Health Ontario advises to <a href="https://globalnews.ca/news/6680786/ontario-hospitals-coronavirus-elective-surgeries/" target="_blank">ramp down elective surgeries</a> to help preserve capacity. As a result, my third and last surgery has been cancelled until further notice.
+
+Unfortunately, that means my timeline for a career change has been delayed as I need to consider the post-surgery recovery time and wait for the COVID-19 outbreak to settle.
 
 During this time, I will still dedicate to learning and exploring the new technologies by building applications from the skills I have acquired in the past few months.
