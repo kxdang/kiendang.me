@@ -2,7 +2,7 @@
 author: Kien
 date: 2020-03-17
 slug: covid-19
-title: 🏥 COVID19 - Ontario state of emergency
+title: 🏥 COVID19 - Ontario declares a state of emergency
 description: Ontario is officially in a state of emergency amid COVID-19 outbreak. All elective surgeries have been cancelled.
 tags: ["life"]
 ---
