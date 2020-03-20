@@ -81,8 +81,8 @@ class now extends React.Component {
                 . I'm excited to start building React applications.
                 <br></br>
                 <br></br>I am open for new opportunities but no longer active in
-                applying for positions at the moment due to outbreak and
-                personal circumstances.
+                applying for positions at the moment due to the COVID-19
+                pandemic and pending a delayed surgery.
                 {/* <br></br>I have been applying to front end development positions
                 as I feel confident in applying the skills I have learned. I'm
                 looking for new opportunties at a company that allows me to
