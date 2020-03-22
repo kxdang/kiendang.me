@@ -56,13 +56,13 @@ class about extends React.Component {
                       </span>
                     </div>
                   ) : (
-                      <div id="darkmodebutton">
-                        Dark mode{" "}
-                        <span role="img" aria-label="moon">
-                          🌒
+                    <div id="darkmodebutton">
+                      Dark mode{" "}
+                      <span role="img" aria-label="moon">
+                        🌒
                       </span>
-                      </div>
-                    )}
+                    </div>
+                  )}
                 </button>
               </div>
               <Bio />
@@ -93,15 +93,15 @@ class about extends React.Component {
                 front-end web development. I resigned from my job back in May of
                 2019 and have been documenting my progress here on my blog.
               </p>
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>
+              {/* <p style={{ textAlign: `center`, marginBottom: `0px` }}>
                 <a href="/025-biochemistry-story/">My Biochemistry Story</a>
               </p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
 
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
                 <a href="/040-new-chapter-2019/">Resignation May 2019 </a>
-              </p>
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
+              </p> 
+              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p> */}
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
                 <a href="/066-december-2019-yearend-pomodoro/">
                   Year End Progress 2019
@@ -139,7 +139,9 @@ class about extends React.Component {
                 </a>
               </p>
               <p>
-                I'm always looking to improve my skills and be the best version of myself. If you feel like I'd be a great addition to your team, feel free to contact me!
+                I'm always looking to improve my skills and be the best version
+                of myself. If you feel like I'd be a great addition to your
+                team, feel free to contact me!
               </p>
               <blockquote>
                 Everything is a skill, and thus everything can be learned,
