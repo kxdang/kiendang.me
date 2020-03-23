@@ -9,7 +9,7 @@ tags: ["life"]
 
 ![](https://images.unsplash.com/photo-1552670070-7c3a4ffba6a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 
-While the world is working hard to control the outbreak, I can't help but think about the timing of everything. It signficiantly effects the economic, social and political systems world wide and disrupts the international community negatively.
+While the world is working hard to control the outbreak, I can't help but think about the timing of everything. It significiantly effects the economic, social and political systems world wide and disrupts the international community negatively.
 
 The summer of last year really took me by surprise. I went through some rough times that left me dealing with extreme pain and on constant rounds of antibiotics; it really made me realize the importance of my own health. Not only did this pause my journey, it was a learning opportunity about myself and how I function under physical and mental stress. A lot of self-reflection was done while I was laying in bed recovering.
 
