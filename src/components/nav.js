@@ -6,6 +6,10 @@ class nav extends React.Component {
     return (
       <div>
         <Link
+          activeStyle={{
+            color: "#F78C6C",
+            fontWeight: "bold",
+          }}
           to="/about"
           style={{
             boxShadow: `none`,
@@ -16,6 +20,10 @@ class nav extends React.Component {
           About
         </Link>
         <Link
+          activeStyle={{
+            color: "#F78C6C",
+            fontWeight: "bold",
+          }}
           to="/now"
           style={{
             boxShadow: `none`,

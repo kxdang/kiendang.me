@@ -92,7 +92,7 @@ a {
 
 a:hover {
   color: #226597;
-  filter: brightness(150%);
+  filter: brightness(120%);
   border-bottom-style: solid;
 }
 
