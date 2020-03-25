@@ -22,83 +22,83 @@ const TagsPage = ({
     },
   },
 }) => (
-  <ThemeContext.Consumer>
-    {theme => (
-      <div className={theme.dark ? "dark" : "light"}>
-        <div>
-          <div
-            style={{
-              marginLeft: `auto`,
-              marginRight: `auto`,
-              maxWidth: rhythm(24),
-              padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-              minHeight: `100vh`,
-            }}
-          >
-            <h1
+    <ThemeContext.Consumer>
+      {theme => (
+        <div className={theme.dark ? "dark" : "light"}>
+          <div>
+            <div
               style={{
-                ...scale(1.5),
-                marginBottom: rhythm(1.5),
-                marginTop: 0,
+                marginLeft: `auto`,
+                marginRight: `auto`,
+                maxWidth: rhythm(24),
+                padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+                minHeight: `100vh`,
               }}
             >
-              <Link
+              <h1
                 style={{
-                  boxShadow: `none`,
-                  textDecoration: `none`,
-                  color: `inherit`,
+                  ...scale(1.5),
+                  marginBottom: rhythm(1.5),
+                  marginTop: 0,
                 }}
-                to={`/`}
               >
-                {title}
-              </Link>
-            </h1>
-            <div
-              id="toggleTheme"
-              style={{ display: `flex`, justifyContent: `flex-end` }}
-            >
-              <button className="dark-switcher" onClick={theme.toggleDark}>
-                {theme.dark ? (
-                  <div id="lightmodebutton">
-                    Light mode{" "}
-                    <span role="img" aria-label="sun">
-                      🌞
-                    </span>
-                  </div>
-                ) : (
-                  <div id="darkmodebutton">
-                    Dark mode{" "}
-                    <span role="img" aria-label="moon">
-                      🌒
-                    </span>
-                  </div>
-                )}
-              </button>
-            </div>
-            <Bio />
-            <Helmet title={title} />
+                <Link
+                  style={{
+                    boxShadow: `none`,
+                    textDecoration: `none`,
+                    color: `inherit`,
+                  }}
+                  to={`/`}
+                >
+                  {title}
+                </Link>
+              </h1>
+              <div
+                id="toggleTheme"
+                style={{ display: `flex`, justifyContent: `flex-end` }}
+              >
+                <button className="dark-switcher" onClick={theme.toggleDark}>
+                  {theme.dark ? (
+                    <div id="lightmodebutton">
 
-            <div>
-              <h1>Tags</h1>
-              <ul>
-                {group.map(tag => (
-                  <li key={tag.fieldValue} style={{ listStyle: `none` }}>
-                    <Link
-                      to={`/tags/${kebabCase(tag.fieldValue)}/`}
-                      className={tag.fieldValue}
-                    >
-                      {tag.fieldValue} ({tag.totalCount})
+                      <span role="img" aria-label="sun" style={{ fontSize: '1.4rem' }}>
+                        🌞
+                    </span>
+                    </div>
+                  ) : (
+                      <div id="darkmodebutton">
+
+                        <span role="img" aria-label="moon" style={{ fontSize: '1.4rem' }}>
+                          🌒
+                    </span>
+                      </div>
+                    )}
+                </button>
+              </div>
+              <Bio />
+              <Helmet title={title} />
+
+              <div>
+                <h1>Tags</h1>
+                <ul>
+                  {group.map(tag => (
+                    <li key={tag.fieldValue} style={{ listStyle: `none` }}>
+                      <Link
+                        to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                        className={tag.fieldValue}
+                      >
+                        {tag.fieldValue} ({tag.totalCount})
                     </Link>
-                  </li>
-                ))}
-              </ul>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    )}
-  </ThemeContext.Consumer>
-)
+      )}
+    </ThemeContext.Consumer>
+  )
 
 TagsPage.propTypes = {
   data: PropTypes.shape({

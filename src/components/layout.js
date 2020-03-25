@@ -44,19 +44,19 @@ class Layout extends React.Component {
                 <button className="dark-switcher" onClick={theme.toggleDark}>
                   {theme.dark ? (
                     <div id="lightmodebutton">
-                      Light mode{" "}
-                      <span role="img" aria-label="sun">
+
+                      <span role="img" aria-label="sun" style={{ fontSize: '1.4rem' }}>
                         🌞
                       </span>
                     </div>
                   ) : (
-                    <div id="darkmodebutton">
-                      Dark mode{" "}
-                      <span role="img" aria-label="moon">
-                        🌒
+                      <div id="darkmodebutton">
+
+                        <span role="img" aria-label="moon" style={{ fontSize: '1.4rem' }}>
+                          🌒
                       </span>
-                    </div>
-                  )}
+                      </div>
+                    )}
                 </button>
               </div>
             </div>
@@ -89,19 +89,19 @@ class Layout extends React.Component {
                 <button className="dark-switcher" onClick={theme.toggleDark}>
                   {theme.dark ? (
                     <div id="lightmodebutton">
-                      Light mode{" "}
-                      <span role="img" aria-label="sun">
+
+                      <span role="img" aria-label="sun" style={{ fontSize: '1.4rem' }}>
                         🌞
                       </span>
                     </div>
                   ) : (
-                    <div id="darkmodebutton">
-                      Dark mode{" "}
-                      <span role="img" aria-label="moon">
-                        🌒
+                      <div id="darkmodebutton">
+
+                        <span role="img" aria-label="moon" style={{ fontSize: '1.4rem' }}>
+                          🌒
                       </span>
-                    </div>
-                  )}
+                      </div>
+                    )}
                 </button>
               </div>
             </div>

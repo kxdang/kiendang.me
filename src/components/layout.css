@@ -1,3 +1,23 @@
+html {
+  --scrollbarBG: #1b1e2b;
+  --thumbBG: #90A4AE;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
 /* Dark mode styles */
 .dark-switcher {
   color: #a0a0a0;
@@ -57,7 +77,7 @@ strong {
 
 .light {
   transition: all 0.6s ease;
-  background-color: #d3dadf;
+  background-color: #dfdfdf;
 }
 
 h1 {
