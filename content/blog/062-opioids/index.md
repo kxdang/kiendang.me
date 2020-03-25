@@ -4,7 +4,7 @@ date: 2019-11-15
 slug: opioids
 title: 🌺Opioids
 description: My personal experience with opioids inspired me to write a bite-sized explanation on how they work. None of this was recreational.
-tags: ["biochemistry"]
+tags: ["life"]
 ---
 
 ![](https://images.unsplash.com/photo-1494756159834-6fdaee7a9b7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)

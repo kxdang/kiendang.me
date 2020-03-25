@@ -27,4 +27,6 @@ No matter how much you’ve planned for something, life will always get in the w
 
 I’m actually quite surprised. In June, I had 90 pomodoros all focused on many different projects including React, JavaScript and learning Gatsby. Last month, my main focus was just transferring over to Gatsby after learning the basics. I did more of my JavaScript course than I expected; I really thought this month was going to be a bad one despite my circumstances. Looking forward to seeing my results go up when I’m better this month in August.
 
+The medications were researched at a later date as I am syncing my journey and timeline together for this month. [Cephalexin](/059-cephalexin/) and [Clindamycin](/057-clindamycin/) was taken in July.
+
 <div align="right"><a href="/054-august-2019-pomodoro/">August 2019 Pomodoro &rarr;</a></div>

@@ -4,7 +4,7 @@ date: 2019-10-09
 slug: augmentin-use
 title: 💊Amoxicillin and clavulanate (Augmentin)
 description: My personal experience with this antibiotic inspired me to write a bite-sized explanation on how amoxicillin and clavulante works.
-tags: ["biochemistry"]
+tags: ["life"]
 ---
 
 ![](https://images.unsplash.com/photo-1567427361984-0cbe7396fc6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1357&q=80)

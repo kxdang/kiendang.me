@@ -3,7 +3,7 @@ author: Kien
 date: 2019-08-18
 title: 💊Metronidazole (Flagyl) and consuming foods with alcohol.
 description: How does Flagyl work? My personal experience with this antibiotic.
-tags: ["biochemistry"]
+tags: ["life"]
 ---
 
 ![](https://images.unsplash.com/photo-1479796099910-b137a80acde4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=704&q=80)

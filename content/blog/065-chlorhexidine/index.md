@@ -4,7 +4,7 @@ date: 2019-12-08
 slug: chlorhexidine
 title: 🦷Chlorhexidine gluconate
 description: My personal experience with chlorhexidine gluconate inspired me to write a bite-sized explanation on how they work.
-tags: ["biochemistry"]
+tags: ["life"]
 ---
 
 ![](https://images.unsplash.com/photo-1542886961-dafff8e17d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80)

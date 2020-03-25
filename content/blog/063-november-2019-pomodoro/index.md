@@ -9,7 +9,11 @@ tags: ["pomodoro"]
 
 ![](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 
-I've completed 92 Pomodoro's (2300 minutes) in November. This is 39 Pomodoro's more than [last month](/061-october-2019-pomodoro/), an increase in productivity by 975 minutes. Having reflections allow me to measure how much I've done and what I've accomplished to achieve my goals. It helps me stay accountable in my journey in changing my career path.
+I've completed 92 Pomodoro's (2300 minutes) in November. This is 39 Pomodoro's more than [last month](/061-october-2019-pomodoro/), an increase in productivity by 975 minutes.
+
+Having reflections allow me to measure how much I've done and what I've accomplished to achieve my goals. It helps me stay accountable in my journey in changing my career path.
+
+After many courses of antibiotics, some with refills; I have finished taking my antibiotics. Throughout this entire journey, I have been prescribed [opioids](/062-opioids/) to deal with the pain that had accompanied this infection, each time getting worse and worse. I can't believe my 2019 summer has already finished and I feel like I am already so behind in everything. However, I am glad in my recovery and will be waiting til I'm 100%.
 
 ![](/pomotodoNovember2019.png)
 

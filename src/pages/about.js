@@ -89,9 +89,20 @@ class about extends React.Component {
               </p>
               <h3 style={{ textAlign: `center` }}>My Journey</h3>
               <p>
-                I'm currently in the process of pursuing a programming career in
-                front-end web development. I resigned from my job back in May of
-                2019 and have been documenting my progress here on my blog.
+                I resigned from my job back in May of 2019 and I'm currently in
+                the process of pursuing a programming career in front-end web
+                development.
+                <br />
+                <br />
+                Unfortunately, a month into my journey, I was hit with a
+                terrible infection that required multiple visits to the ER, a
+                hospitalization and several trips to the operating room.
+                <br />
+                <br />
+                Before I knew it, four exhausting months had passed by and I had
+                very limited time and energy left in becoming a developer. I
+                ended up documenting my entire journey and progress and
+                eventually found momentum to continue.
               </p>
               {/* <p style={{ textAlign: `center`, marginBottom: `0px` }}>
                 <a href="/025-biochemistry-story/">My Biochemistry Story</a>

@@ -176,8 +176,10 @@ a.java {
 }
 
 a.life {
-  color: black;
-  background-color: #f78c6c;
+  /* color: black;
+  background-color: #f78c6c; */
+  color: white;
+  background-color: #4a47a3;
   padding: 3px;
   border-radius: 0.2em;
   font-weight: bold;
