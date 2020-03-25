@@ -13,7 +13,7 @@ I've completed 92 Pomodoro's (2300 minutes) in November. This is 39 Pomodoro's m
 
 Having reflections allow me to measure how much I've done and what I've accomplished to achieve my goals. It helps me stay accountable in my journey in changing my career path.
 
-After many courses of antibiotics, some with refills; I have finished taking my antibiotics. Throughout this entire journey, I have been prescribed [opioids](/062-opioids/) to deal with the pain that had accompanied this infection, each time getting worse and worse. I can't believe my 2019 summer has already finished and I feel like I am already so behind in everything. However, I am glad in my recovery and will be waiting til I'm 100%.
+After many courses of antibiotics, some with refills, I have finished taking my antibiotics. Throughout this entire journey, I have been prescribed [opioids](/062-opioids/) to deal with the pain that had accompanied this infection, each time getting worse and worse. I can't believe my 2019 summer has already finished and I feel like I am already so behind in everything. However, I am glad in my recovery and will be waiting til I'm 100%.
 
 ![](/pomotodoNovember2019.png)
 
@@ -42,7 +42,7 @@ These topics included the Big O analysis, Recursion, Sorting, Data Structures an
 
 Continuation of courses include a MERN course I recently purchased. This will allow me to continue to practice Javasript with MongoDB, Express, React and Node.js by building applications will help me learn the material much quicker and the courses will guide me to current best practices.
 
-##<center>Todo for December - re-alignment plans:
+##<center>Todo for December - realignment plans:
 
 <p align="center">
   <img src="https://media.giphy.com/media/ir9ooRoyKZY8pRCJze/giphy.gif"/>
