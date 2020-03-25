@@ -50,18 +50,25 @@ class about extends React.Component {
                 <button className="dark-switcher" onClick={theme.toggleDark}>
                   {theme.dark ? (
                     <div id="lightmodebutton">
-
-                      <span role="img" aria-label="sun" style={{ fontSize: '1.4rem' }}>
+                      <span
+                        role="img"
+                        aria-label="sun"
+                        style={{ fontSize: "1.4rem" }}
+                      >
                         🌞
                       </span>
                     </div>
                   ) : (
-                      <div id="darkmodebutton">
-                        <span role="img" aria-label="moon" style={{ fontSize: '1.4rem' }}>
-                          🌒
+                    <div id="darkmodebutton">
+                      <span
+                        role="img"
+                        aria-label="moon"
+                        style={{ fontSize: "1.4rem" }}
+                      >
+                        🌒
                       </span>
-                      </div>
-                    )}
+                    </div>
+                  )}
                 </button>
               </div>
               <Bio />
@@ -100,7 +107,7 @@ class about extends React.Component {
                 <br />
                 Before I knew it, four exhausting months had passed by and I had
                 very limited time and energy left in becoming a developer. I
-                ended up documenting my entire journey and progress and
+                ended up documenting my entire journey and progress below and
                 eventually found momentum to continue.
               </p>
               {/* <p style={{ textAlign: `center`, marginBottom: `0px` }}>
