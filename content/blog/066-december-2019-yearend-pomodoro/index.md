@@ -6,16 +6,18 @@ title: 🍅Year End Summary 2019
 description: A monthly progress for December. My current status and reflection on my productivity, goals and achievements. A year end summary.
 tags: ["pomodoro"]
 ---
+#<center>Happy New Year!
 
 ![https://images.unsplash.com/photo-1560653510-4e50f8a2bf58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1388&q=80](https://images.unsplash.com/photo-1560653510-4e50f8a2bf58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1388&q=80)
 
-#<center>Happy New Year!
 
-![](pomotodoDecember2019.png)
 
-I've completed 90 Pomodoro's (2250 minutes) in December. This is a decrease of 2 Pomodoro's compared to last month, a difference of 50 minutes.
+
+I've completed 90 Pomodoro's (2250 minutes) in December. This is a decrease of 2 Pomodoro's compared to [last month](/063-november-2019-pomodoro/), a difference of 50 minutes.
 
 Having reflections allow me to measure how much I've done and what I've accomplish to achieve my goals. It helps me stay accountable in my journey in completing a MERN Udemy course and becoming a self-taught developer.
+
+![](pomotodoDecember2019.png)
 
 Now that 2019 is officially over, I think it's a good idea to clump December's Pomodoro with a year end summary. I officially started reflecting my Pomodoro's back in July shortly after [I resigned back in May](/041-the-jump/). A summary of my accomplishments this year, I hoping for a better year in 2020!
 
@@ -60,7 +62,7 @@ I jumped into React after learning HTML and CSS. I knew enough React to start pl
 
 ###<center>The highs and lows
 
-Unfortunately, a month after my resignation I was hit with a terrible infection which left me unable to focus for months. However, I stuck with my process to slowly put myself back on my feet and build momentum. After four exhausting months of recovery, taking [9 courses of antibiotics](/tags/life/), [4 different opioids](/062-opioids/) and having 2 surgeries, I stuck with my <a href="https://dev.to/kdang/trust-the-process-the-pomodoro-technique-2a37" target="_blank">Pomodoro process</a> and managed to complete two online courses and created this blog. I found that near the end of my 2019, November and December were much better but I know I still have a long way to go.
+Unfortunately, a month after my resignation I was hit with a terrible infection which left me unable to focus for months. After four exhausting months of recovery, taking [9 courses of antibiotics](/tags/life/), [4 different opioids](/062-opioids/) and having 2 surgeries, I stuck with my <a href="https://dev.to/kdang/trust-the-process-the-pomodoro-technique-2a37" target="_blank">Pomodoro process</a> to build momentum and managed to complete two online courses and create my personal blog using Gatsby. I found that near the end of my 2019, November and December were much better but I know I still have a long way to go.
 
 The most important lesson I've learned this year is that things will never go according to plan and life just gets in the way. There are factors outside of our control and we'll just have to find a way to deal with them. Despite being through a lot of physical pain and mental exhaustion, I learned a lot about myself and how I deal with hardships. I found that being healthy is a blessing and that it's usually taken for granted until you become sick.
 
@@ -73,4 +75,4 @@ The most important lesson I've learned this year is that things will never go ac
 ✨Create a new personal portfolio <br>
 ✨Find employment by February 2020🤞<br>
 
-<div align="right"><a href="/067-january-2020-pomodoro/">January Pomodoro - Year End Summary &rarr;</a></div>
+<div align="right"><a href="/067-january-2020-pomodoro/">January 2020 Pomodoro &rarr;</a></div>

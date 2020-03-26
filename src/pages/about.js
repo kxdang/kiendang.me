@@ -59,16 +59,16 @@ class about extends React.Component {
                       </span>
                     </div>
                   ) : (
-                    <div id="darkmodebutton">
-                      <span
-                        role="img"
-                        aria-label="moon"
-                        style={{ fontSize: "1.4rem" }}
-                      >
-                        🌒
+                      <div id="darkmodebutton">
+                        <span
+                          role="img"
+                          aria-label="moon"
+                          style={{ fontSize: "1.4rem" }}
+                        >
+                          🌒
                       </span>
-                    </div>
-                  )}
+                      </div>
+                    )}
                 </button>
               </div>
               <Bio />
@@ -90,8 +90,7 @@ class about extends React.Component {
                 <br />
                 My blog is a platform to share my experiences, interests,
                 hobbies and current progress with programming. In addition, I
-                hope to become a better writer by blogging. Feel free to browse
-                around! (Click on Dang it above){" "}
+                hope to become a better writer by blogging.
               </p>
               <h3 style={{ textAlign: `center` }}>My Journey</h3>
               <p>
@@ -108,7 +107,7 @@ class about extends React.Component {
                 Before I knew it, four exhausting months had passed by and I had
                 very limited time and energy left in becoming a developer. I
                 ended up documenting my entire journey and progress below and
-                eventually found momentum to continue.
+                eventually found momentum to continue and acquire the new skills I have today.
               </p>
               {/* <p style={{ textAlign: `center`, marginBottom: `0px` }}>
                 <a href="/025-biochemistry-story/">My Biochemistry Story</a>
