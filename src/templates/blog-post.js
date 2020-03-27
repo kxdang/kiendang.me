@@ -46,7 +46,7 @@ class BlogPostTemplate extends React.Component {
                   <Link
                     to={`/tags/` + t}
                     className={t}
-                    style={{ marginRight: `3px` }}
+                    style={{ marginRight: `3px`, bottomBorder: `none` }}
                   >
                     {t}
                   </Link>

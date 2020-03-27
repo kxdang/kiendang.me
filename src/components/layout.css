@@ -37,6 +37,8 @@ body::-webkit-scrollbar-thumb {
   color: white;
   background-color: #4f81c7;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -149,6 +151,8 @@ a.productivity {
   color: black;
   background-color: #f78c6c;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -189,6 +193,17 @@ a.technology {
   font-weight: bold;
   text-shadow: 1px;
   border-bottom: none;
+}
+
+a.CS {
+  color: white;
+  background-color: #0288d1;
+  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
 }
 
 a.java {
