@@ -59,31 +59,6 @@ class BlogPostTemplate extends React.Component {
                   {post.frontmatter.tags}
                 </Link>
               )}
-              {/* <Link
-                to={`/tags/` + post.frontmatter.tags}
-                className={post.frontmatter.tags}
-                style={{ boxShadow: `none` }}
-              >
-                {post.frontmatter.tags}
-              </Link> */}
-              {/* {node.frontmatter.tags.length > 1 ? (
-                node.frontmatter.tags.map(t => (
-                  <Link
-                    to={`/tags/` + t}
-                    className={[t]}
-                    style={{ marginRight: `3px` }}
-                  >
-                    {t}
-                  </Link>
-                ))
-              ) : (
-                <Link
-                  to={`/tags/` + node.frontmatter.tags}
-                  className={node.frontmatter.tags}
-                >
-                  {node.frontmatter.tags}
-                </Link>
-              )} */}
             </p>
           ) : null}
         </small>
