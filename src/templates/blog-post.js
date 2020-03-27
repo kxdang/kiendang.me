@@ -48,7 +48,7 @@ class BlogPostTemplate extends React.Component {
                     className={t}
                     style={{ marginRight: `3px`, bottomBorder: `none` }}
                   >
-                    {t}
+                    {t.replace(/-/g, " ")}
                   </Link>
                 ))
               ) : (
@@ -56,7 +56,7 @@ class BlogPostTemplate extends React.Component {
                   to={`/tags/` + post.frontmatter.tags}
                   className={post.frontmatter.tags}
                 >
-                  {post.frontmatter.tags}
+                  {post.frontmatter.tags[0].replace(/-/g, " ")}
                 </Link>
               )}
             </p>

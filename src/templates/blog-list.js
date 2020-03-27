@@ -58,7 +58,7 @@ class BlogIndex extends React.Component {
                         className={t}
                         style={{ marginRight: `3px`, borderBottom: `none` }}
                       >
-                        {t}
+                        {t.replace(/-/g, " ")}
                       </Link>
                     ))
                   ) : (
@@ -66,7 +66,7 @@ class BlogIndex extends React.Component {
                       to={`/tags/` + node.frontmatter.tags}
                       className={node.frontmatter.tags}
                     >
-                      {node.frontmatter.tags}
+                      {node.frontmatter.tags[0].replace(/-/g, " ")}
                     </Link>
                   )}
                 </p>
