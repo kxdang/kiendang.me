@@ -4,7 +4,7 @@ date: 2019-10-12
 slug: clindamycin
 title: 💊Clindamycin
 description: My personal experience with this antibiotic inspired me to write a bite-sized explanation on how clindamycin works.
-tags: ["life"]
+tags: ["life", "biochemistry"]
 ---
 
 ![](https://images.unsplash.com/photo-1544991875-5dc1b05f607d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80)

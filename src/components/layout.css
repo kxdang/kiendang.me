@@ -1,6 +1,6 @@
 html {
   --scrollbarBG: #1b1e2b;
-  --thumbBG: #90A4AE;
+  --thumbBG: #90a4ae;
 }
 body::-webkit-scrollbar {
   width: 11px;
@@ -13,7 +13,7 @@ body::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: var(--thumbBG) ;
+  background-color: var(--thumbBG);
   border-radius: 6px;
   border: 3px solid var(--scrollbarBG);
 }
@@ -146,7 +146,7 @@ a:hover svg.icon {
 }
 
 a.productivity {
-  color: white;
+  color: black;
   background-color: #f78c6c;
   padding: 3px;
   border-radius: 0.2em;
@@ -159,6 +159,8 @@ a.pomodoro {
   color: white;
   background-color: #ff0000;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -169,6 +171,8 @@ a.money {
   color: white;
   background-color: #1b5e20;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -179,6 +183,8 @@ a.technology {
   color: white;
   background-color: #0288d1;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -189,6 +195,8 @@ a.java {
   color: white;
   background-color: #ff5370;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -201,6 +209,8 @@ a.life {
   color: white;
   background-color: #4a47a3;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -211,6 +221,8 @@ a.biochemistry {
   color: white;
   background-color: #4a47a3;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -221,6 +233,8 @@ a.books {
   color: black;
   background-color: #ffcb6b;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -231,6 +245,8 @@ a.python {
   color: black;
   background-color: #ffcb6b;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -241,6 +257,8 @@ a.food {
   color: white;
   background-color: #bb80b3;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -251,6 +269,8 @@ a.travel {
   color: white;
   background-color: #c17e70;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;

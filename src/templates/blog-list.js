@@ -51,13 +51,34 @@ class BlogIndex extends React.Component {
                   ? "🍵🍵🍵"
                   : "🍵🍵🍵🍵"}
                 <p className="tagCategory">
-                  <Link
+                  {node.frontmatter.tags.length > 1 ? (
+                    node.frontmatter.tags.map(t => (
+                      <Link
+                        to={`/tags/` + t}
+                        className={t}
+                        style={{ marginRight: `3px` }}
+                      >
+                        {t}
+                      </Link>
+                    ))
+                  ) : (
+                    <Link
+                      to={`/tags/` + node.frontmatter.tags}
+                      className={node.frontmatter.tags}
+                    >
+                      {node.frontmatter.tags}
+                    </Link>
+                  )}
+
+                  {/* <Link
                     to={`/tags/` + node.frontmatter.tags}
                     className={node.frontmatter.tags}
                     style={{ boxShadow: `none`, borderBottom: "none" }}
                   >
-                    {node.frontmatter.tags}
-                  </Link>
+                    {node.frontmatter.tags.length > 1
+                      ? node.frontmatter.tags.map(t => `${t} `)
+                      : node.frontmatter.tags}
+                  </Link> */}
                 </p>
               </small>
               <p

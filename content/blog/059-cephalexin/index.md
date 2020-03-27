@@ -4,7 +4,7 @@ date: 2019-10-20
 slug: cephalexin
 title: 💊Cephalexin
 description: My personal experience with this antibiotic inspired me to write a bite-sized explanation on how cephalexin works.
-tags: ["life"]
+tags: ["life", "biochemistry"]
 ---
 
 ![](https://images.unsplash.com/photo-1501740326664-5571ff5e30a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3153&q=80)
