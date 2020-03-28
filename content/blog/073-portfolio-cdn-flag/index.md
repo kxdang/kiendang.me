@@ -1,6 +1,6 @@
 ---
 author: Kien
-date: 2020-03-21
+date: 2020-03-28
 slug: canadian-flag-react
 title: 🍁 Canadian Flag with React Icons
 description: I accidentally found a creative way to show the Canadian flag using React Icons!
