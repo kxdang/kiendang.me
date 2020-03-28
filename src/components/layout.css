@@ -145,116 +145,83 @@ a:hover svg.icon {
   background-color: #292d3e;
 }
 
-a.productivity {
-  color: white;
-  background-color: #f78c6c;
+a.alltags{ 
   padding: 3px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
   border-bottom: none;
+}
+
+a.webdev {
+  color: white;
+  background-color: #3b6978;
+}
+
+a.productivity {
+  color: white;
+  background-color: #f78c6c;
 }
 
 a.pomodoro {
   color: white;
   background-color: #ff0000;
-  padding: 3px;
-  border-radius: 0.2em;
-  font-weight: bold;
-  text-shadow: 1px;
-  border-bottom: none;
 }
 
 a.money {
   color: white;
   background-color: #1b5e20;
-  padding: 3px;
-  border-radius: 0.2em;
-  font-weight: bold;
-  text-shadow: 1px;
-  border-bottom: none;
+
 }
 
 a.technology {
   color: white;
   background-color: #0288d1;
-  padding: 3px;
-  border-radius: 0.2em;
-  font-weight: bold;
-  text-shadow: 1px;
-  border-bottom: none;
+
 }
 
 a.java {
   color: white;
   background-color: #ff5370;
-  padding: 3px;
-  border-radius: 0.2em;
-  font-weight: bold;
-  text-shadow: 1px;
-  border-bottom: none;
+
 }
 
 a.life {
-  /* color: black;
-  background-color: #f78c6c; */
+
   color: white;
   background-color: #4a47a3;
-  padding: 3px;
-  border-radius: 0.2em;
-  font-weight: bold;
-  text-shadow: 1px;
-  border-bottom: none;
+ 
+
 }
 
 a.biochemistry {
   color: white;
   background-color: #4a47a3;
-  padding: 3px;
-  border-radius: 0.2em;
-  font-weight: bold;
-  text-shadow: 1px;
-  border-bottom: none;
+
 }
 
 a.books {
   color: black;
   background-color: #ffcb6b;
-  padding: 3px;
-  border-radius: 0.2em;
-  font-weight: bold;
-  text-shadow: 1px;
-  border-bottom: none;
+
 }
 
 a.python {
   color: black;
   background-color: #ffcb6b;
-  padding: 3px;
-  border-radius: 0.2em;
-  font-weight: bold;
-  text-shadow: 1px;
-  border-bottom: none;
+
 }
 
 a.food {
   color: white;
   background-color: #bb80b3;
-  padding: 3px;
-  border-radius: 0.2em;
-  font-weight: bold;
-  text-shadow: 1px;
-  border-bottom: none;
+
 }
 
 a.travel {
   color: white;
   background-color: #c17e70;
-  padding: 3px;
-  border-radius: 0.2em;
-  font-weight: bold;
-  text-shadow: 1px;
-  border-bottom: none;
+
 }
 
 .about__icons {

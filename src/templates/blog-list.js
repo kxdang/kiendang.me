@@ -41,19 +41,19 @@ class BlogIndex extends React.Component {
               <small>
                 {node.frontmatter.date} - {node.fields.readingTime.text}{" "}
                 {node.fields.readingTime.minutes > 0 &&
-                node.fields.readingTime.minutes <= 2
+                  node.fields.readingTime.minutes <= 2
                   ? "🍵"
                   : node.fields.readingTime.minutes > 2 &&
                     node.fields.readingTime.minutes <= 3
-                  ? "🍵🍵"
-                  : node.fields.readingTime.minutes > 3 &&
-                    node.fields.readingTime.minutes <= 5
-                  ? "🍵🍵🍵"
-                  : "🍵🍵🍵🍵"}
+                    ? "🍵🍵"
+                    : node.fields.readingTime.minutes > 3 &&
+                      node.fields.readingTime.minutes <= 5
+                      ? "🍵🍵🍵"
+                      : "🍵🍵🍵🍵"}
                 <p className="tagCategory">
                   <Link
                     to={`/tags/` + node.frontmatter.tags}
-                    className={node.frontmatter.tags}
+                    className={`${node.frontmatter.tags} alltags`}
                     style={{ boxShadow: `none`, borderBottom: "none" }}
                   >
                     {node.frontmatter.tags}
@@ -106,7 +106,7 @@ class BlogIndex extends React.Component {
           ))}
 
           {!isLast && (
-            <Link to={nextPage} rel="next">
+            <Link to={`/${nextPage}`} rel="next">
               Next Page →
             </Link>
           )}
