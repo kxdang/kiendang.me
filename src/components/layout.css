@@ -1,6 +1,6 @@
 html {
   --scrollbarBG: #1b1e2b;
-  --thumbBG: #90A4AE;
+  --thumbBG: #90a4ae;
 }
 body::-webkit-scrollbar {
   width: 11px;
@@ -13,7 +13,7 @@ body::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: var(--thumbBG) ;
+  background-color: var(--thumbBG);
   border-radius: 6px;
   border: 3px solid var(--scrollbarBG);
 }
@@ -37,6 +37,8 @@ body::-webkit-scrollbar-thumb {
   color: white;
   background-color: #4f81c7;
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -147,6 +149,8 @@ a:hover svg.icon {
 
 a.alltags{ 
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 0.2em;
   font-weight: bold;
   text-shadow: 1px;
@@ -171,19 +175,27 @@ a.pomodoro {
 a.money {
   color: white;
   background-color: #1b5e20;
-
 }
 
 a.technology {
   color: white;
   background-color: #0288d1;
+}
 
+a.computer-science {
+  color: white;
+  background-color: #0288d1;
+  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px;
 }
 
 a.java {
   color: white;
   background-color: #ff5370;
-
 }
 
 a.life {
@@ -197,31 +209,26 @@ a.life {
 a.biochemistry {
   color: white;
   background-color: #4a47a3;
-
 }
 
 a.books {
   color: black;
   background-color: #ffcb6b;
-
 }
 
 a.python {
   color: black;
   background-color: #ffcb6b;
-
 }
 
 a.food {
   color: white;
   background-color: #bb80b3;
-
 }
 
 a.travel {
   color: white;
   background-color: #c17e70;
-
 }
 
 .about__icons {

@@ -39,8 +39,9 @@ class BlogPostTemplate extends React.Component {
                 ? "🍵🍵🍵"
                 : "🍵🍵🍵🍵"}
           {post.frontmatter.tags ? (
-            <p>
+            <p className="tagCategory">
               Tags:{" "}
+<<<<<<< HEAD
               <Link
                 to={`/tags/` + post.frontmatter.tags}
                 className={`${post.frontmatter.tags} alltags`}
@@ -48,6 +49,26 @@ class BlogPostTemplate extends React.Component {
               >
                 {post.frontmatter.tags}
               </Link>
+=======
+              {post.frontmatter.tags.length > 1 ? (
+                post.frontmatter.tags.map(t => (
+                  <Link
+                    to={`/tags/` + t}
+                    className={t}
+                    style={{ marginRight: `3px`, bottomBorder: `none` }}
+                  >
+                    {t.replace(/-/g, " ")}
+                  </Link>
+                ))
+              ) : (
+                <Link
+                  to={`/tags/` + post.frontmatter.tags}
+                  className={post.frontmatter.tags}
+                >
+                  {post.frontmatter.tags[0].replace(/-/g, " ")}
+                </Link>
+              )}
+>>>>>>> 144a3d7104863d53527da11d5e1542d5ae4d1081
             </p>
           ) : null}
         </small>

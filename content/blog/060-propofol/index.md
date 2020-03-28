@@ -4,7 +4,7 @@ date: 2019-10-29
 slug: propofol
 title: 🌌Propofol - Milk of Amnesia
 description: My personal experience with this anesthetic inspired me to write a bite-sized explanation on how propofol works.
-tags: ["life"]
+tags: ["life", "biochemistry"]
 ---
 
 ![](https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2084&q=80)
