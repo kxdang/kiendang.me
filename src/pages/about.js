@@ -59,22 +59,22 @@ class about extends React.Component {
                       </span>
                     </div>
                   ) : (
-                      <div id="darkmodebutton">
-                        <span
-                          role="img"
-                          aria-label="moon"
-                          style={{ fontSize: "1.4rem" }}
-                        >
-                          🌒
+                    <div id="darkmodebutton">
+                      <span
+                        role="img"
+                        aria-label="moon"
+                        style={{ fontSize: "1.4rem" }}
+                      >
+                        🌒
                       </span>
-                      </div>
-                    )}
+                    </div>
+                  )}
                 </button>
               </div>
               <Bio />
               <h3 style={{ textAlign: `center` }}>About me</h3>
               <p>
-                Hello, my name is Kien (pronounced "key in"). I have a Bachelors
+                Hello, my name is Kien (pronounced "key in"). I have a Bachelor
                 of Science in Honours Biochemistry from the University of
                 Waterloo. I have held many positions during my co-op education
                 and have over 2 years of professional work experience at a
@@ -107,7 +107,8 @@ class about extends React.Component {
                 Before I knew it, four exhausting months had passed by and I had
                 very limited time and energy left in becoming a developer. I
                 ended up documenting my entire journey and progress below and
-                eventually found momentum to continue and acquire the new skills I have today.
+                eventually found momentum to continue and acquire the new skills
+                I have today.
               </p>
               {/* <p style={{ textAlign: `center`, marginBottom: `0px` }}>
                 <a href="/025-biochemistry-story/">My Biochemistry Story</a>
