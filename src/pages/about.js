@@ -59,16 +59,16 @@ class about extends React.Component {
                       </span>
                     </div>
                   ) : (
-                    <div id="darkmodebutton">
-                      <span
-                        role="img"
-                        aria-label="moon"
-                        style={{ fontSize: "1.4rem" }}
-                      >
-                        🌒
+                      <div id="darkmodebutton">
+                        <span
+                          role="img"
+                          aria-label="moon"
+                          style={{ fontSize: "1.4rem" }}
+                        >
+                          🌒
                       </span>
-                    </div>
-                  )}
+                      </div>
+                    )}
                 </button>
               </div>
               <Bio />
@@ -96,29 +96,9 @@ class about extends React.Component {
               <p>
                 I resigned from my job back in May of 2019 and I'm currently in
                 the process of pursuing a programming career in front-end web
-                development.
-                <br />
-                <br />
-                Unfortunately, a month into my journey, I was hit with a
-                terrible infection that required multiple visits to the ER, a
-                hospitalization and several trips to the operating room.
-                <br />
-                <br />
-                Before I knew it, four exhausting months had passed by and I had
-                very limited time and energy left in becoming a developer. I
-                ended up documenting my entire journey and progress below and
-                eventually found momentum to continue and acquire the new skills
-                I have today.
+                development. I documented my entire journey through a process called Pomodoro's which is a time management technique structured around 25-minute interval of focus followed by a 5-minute break:
               </p>
-              {/* <p style={{ textAlign: `center`, marginBottom: `0px` }}>
-                <a href="/025-biochemistry-story/">My Biochemistry Story</a>
-              </p>
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
 
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>
-                <a href="/040-new-chapter-2019/">Resignation May 2019 </a>
-              </p> 
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p> */}
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
                 <a href="/066-december-2019-yearend-pomodoro/">
                   Year End Progress 2019

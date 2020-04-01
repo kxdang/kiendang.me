@@ -80,13 +80,7 @@ class now extends React.Component {
                 </a>
                 . I'm excited to start building React applications.
                 <br></br>
-                <br></br>I am open for new opportunities but no longer active in
-                applying for positions at the moment due to the COVID-19
-                pandemic and pending a rescheduled surgery.
-                {/* <br></br>I have been applying to front end development positions
-                as I feel confident in applying the skills I have learned. I'm
-                looking for new opportunties at a company that allows me to
-                grow professionally as a developer. */}
+                <br></br>I am open for new opportunities and looking for a company that will allow me to grow professionally as a developer.
               </p>
 
               <h3 style={{ textAlign: "center" }}>Books</h3>
@@ -112,33 +106,23 @@ class now extends React.Component {
               </p>
 
               <h3 style={{ textAlign: "center" }}>Games</h3>
-              <p>
-                I still play CS:GO during my leisure time
+              <p style={{ textAlign: "center" }}>
+                Playing CS:GO and Borderlands 3
                 <span role="img" aria-label="SunglassSmiley">
                   😎
                 </span>
-                . I have been bouncing between Vermintide 2 with a couple of my
-                friends and playing Borderlands 3!
               </p>
 
               <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
               <p>
-                I am helping my friend with his service for CS:GO called{" "}
-                <a
-                  href="https://scrim.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Scrim.app
-                </a>{" "}
-                and building multiple projects with React found in my{" "}
+                I am building multiple projects with React found on my{" "}
                 <a
                   href="https://github.com/kxdang"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Github.
-                </a>
+                  Github
+                </a> and currently working on a React Colour Palette application.
               </p>
 
               <p
@@ -149,7 +133,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on March 17th 2020
+                Last updated on April 1st 2020
               </p>
             </div>
             <footer>
