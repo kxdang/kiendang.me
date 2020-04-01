@@ -9,7 +9,7 @@ tags: ["pomodoro"]
 
 ![](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 
-I've completed 92 Pomodoro's (2300 minutes) in November. This is 39 Pomodoro's more than [last month](/061-october-2019-pomodoro/), an increase in productivity by 975 minutes.
+I've completed 92 [Pomodoro's](/022-pomodoro-technique/) (2300 minutes) in November. This is 39 Pomodoro's more than [last month](/061-october-2019-pomodoro/), an increase in productivity by 975 minutes.
 
 Having reflections allow me to measure how much I've done and what I've accomplished to achieve my goals. It helps me stay accountable in my journey in changing my career path.
 

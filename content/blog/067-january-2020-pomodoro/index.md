@@ -8,7 +8,7 @@ tags: ["pomodoro"]
 ---
 
 ![](https://images.unsplash.com/photo-1507732052797-d22258ac2f96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
-I've completed 124 Pomodoro's (3100 minutes) in January. This is 34 more Pomodoro's than [last month](/066-december-2019-yearend-pomodoro/), an increase in productivity by 850 minutes.
+I've completed 124 [Pomodoro's](/022-pomodoro-technique/) (3100 minutes) in January. This is 34 more Pomodoro's than [last month](/066-december-2019-yearend-pomodoro/), an increase in productivity by 850 minutes.
 
 Having reflections allow me to measure how much I've done and what I've accomplished to achieve my goals. It helps me stay accountable in my journey in completing my Udemy courses I have set out and gaining the skills to be a well-rounded developer.
 
@@ -67,4 +67,3 @@ I've been doing Pomodoro's as I feel like it. I do 25 minute and then take a bre
 I found that doing Pomodoro's early in the morning is my optimal time to do work, but I'm either dead tired when I wake up or too cold to get up. I need to work on this somehow and it definitely starts with sleep.
 
 <div align="right"><a href="/069-february-2020-pomodoro/">February 2020 Pomodoro &rarr;</a></div>
-

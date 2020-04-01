@@ -9,7 +9,7 @@ tags: ["pomodoro"]
 
 ![](https://images.unsplash.com/photo-1474591424615-7fe467c7fac9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80)
 
-I’ve completed 53 total Pomodoro's (1325 minutes) in October which is 12 Pomodoro's less than [last month](/055-september-2019-pomodoro/). This is an decrease in productivity by 300 minutes.
+I’ve completed 53 total [Pomodoro's](/022-pomodoro-technique/) (1325 minutes) in October which is 12 Pomodoro's less than [last month](/055-september-2019-pomodoro/). This is an decrease in productivity by 300 minutes.
 
 Having reflections allow me to measure how much I’ve done and what I’ve accomplished to achieve my goals. It helps me stay accountable in my journey in completing my NodeJS course which is about 84% completed.
 

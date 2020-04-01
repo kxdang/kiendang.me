@@ -112,6 +112,11 @@ a {
   border-bottom: dotted 1px #226597;
 }
 
+.gatsby-resp-image-link,
+.gatsby-resp-image-link:hover {
+  border-bottom: none;
+}
+
 a:hover {
   color: #226597;
   filter: brightness(120%);
@@ -147,7 +152,7 @@ a:hover svg.icon {
   background-color: #292d3e;
 }
 
-a.alltags{ 
+a.alltags {
   padding: 3px;
   padding-left: 6px;
   padding-right: 6px;

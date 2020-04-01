@@ -11,7 +11,7 @@ tags: ["pomodoro"]
 
 ![https://images.unsplash.com/photo-1560653510-4e50f8a2bf58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1388&q=80](https://images.unsplash.com/photo-1560653510-4e50f8a2bf58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1388&q=80)
 
-I've completed 90 Pomodoro's (2250 minutes) in December. This is a decrease of 2 Pomodoro's compared to [last month](/063-november-2019-pomodoro/), a difference of 50 minutes.
+I've completed 90 [Pomodoro's](/022-pomodoro-technique/) (2250 minutes) in December. This is a decrease of 2 Pomodoro's compared to [last month](/063-november-2019-pomodoro/), a difference of 50 minutes.
 
 Having reflections allow me to measure how much I've done and what I've accomplished to achieve my goals. It helps me stay accountable in my journey in completing a MERN Udemy course and becoming a self-taught developer.
 
