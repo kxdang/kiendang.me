@@ -93,7 +93,7 @@ const TagsPage = ({
                       to={`/tags/${kebabCase(tag.fieldValue)}/`}
                       className={`${tag.fieldValue} alltags`}
                     >
-                      {tag.fieldValue} ({tag.totalCount})
+                      {tag.fieldValue.replace(/-/g, " ")} ({tag.totalCount})
                     </Link>
                   </li>
                 ))}

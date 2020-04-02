@@ -41,23 +41,34 @@ class BlogIndex extends React.Component {
               <small>
                 {node.frontmatter.date} - {node.fields.readingTime.text}{" "}
                 {node.fields.readingTime.minutes > 0 &&
-                  node.fields.readingTime.minutes <= 2
+                node.fields.readingTime.minutes <= 2
                   ? "🍵"
                   : node.fields.readingTime.minutes > 2 &&
                     node.fields.readingTime.minutes <= 3
-                    ? "🍵🍵"
-                    : node.fields.readingTime.minutes > 3 &&
-                      node.fields.readingTime.minutes <= 5
-                      ? "🍵🍵🍵"
-                      : "🍵🍵🍵🍵"}
+                  ? "🍵🍵"
+                  : node.fields.readingTime.minutes > 3 &&
+                    node.fields.readingTime.minutes <= 5
+                  ? "🍵🍵🍵"
+                  : "🍵🍵🍵🍵"}
                 <p className="tagCategory">
-                  <Link
-                    to={`/tags/` + node.frontmatter.tags}
-                    className={`${node.frontmatter.tags} alltags`}
-                    style={{ boxShadow: `none`, borderBottom: "none" }}
-                  >
-                    {node.frontmatter.tags}
-                  </Link>
+                  {node.frontmatter.tags.length > 1 ? (
+                    node.frontmatter.tags.map(t => (
+                      <Link
+                        to={`/tags/` + t}
+                        className={`${t} alltags`}
+                        style={{ marginRight: `3px` }}
+                      >
+                        {t.replace(/-/g, " ")}
+                      </Link>
+                    ))
+                  ) : (
+                    <Link
+                      to={`/tags/` + node.frontmatter.tags}
+                      className={`${node.frontmatter.tags} alltags`}
+                    >
+                      {node.frontmatter.tags[0].replace(/-/g, " ")}
+                    </Link>
+                  )}
                 </p>
               </small>
               <p

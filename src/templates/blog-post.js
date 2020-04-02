@@ -29,25 +29,36 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date} - {post.fields.readingTime.text}{" "}
           {post.fields.readingTime.minutes > 0 &&
-            post.fields.readingTime.minutes <= 2
+          post.fields.readingTime.minutes <= 2
             ? "🍵"
             : post.fields.readingTime.minutes > 2 &&
               post.fields.readingTime.minutes <= 3
-              ? "🍵🍵"
-              : post.fields.readingTime.minutes > 3 &&
-                post.fields.readingTime.minutes <= 5
-                ? "🍵🍵🍵"
-                : "🍵🍵🍵🍵"}
+            ? "🍵🍵"
+            : post.fields.readingTime.minutes > 3 &&
+              post.fields.readingTime.minutes <= 5
+            ? "🍵🍵🍵"
+            : "🍵🍵🍵🍵"}
           {post.frontmatter.tags ? (
             <p>
               Tags:{" "}
-              <Link
-                to={`/tags/` + post.frontmatter.tags}
-                className={`${post.frontmatter.tags} alltags`}
-                style={{ boxShadow: `none` }}
-              >
-                {post.frontmatter.tags}
-              </Link>
+              {post.frontmatter.tags.length > 1 ? (
+                post.frontmatter.tags.map(t => (
+                  <Link
+                    to={`/tags/` + t}
+                    className={`${t} alltags`}
+                    style={{ marginRight: `3px` }}
+                  >
+                    {t.replace(/-/g, " ")}
+                  </Link>
+                ))
+              ) : (
+                <Link
+                  to={`/tags/` + post.frontmatter.tags}
+                  className={`${post.frontmatter.tags} alltags`}
+                >
+                  {post.frontmatter.tags[0].replace(/-/g, " ")}
+                </Link>
+              )}
             </p>
           ) : null}
         </small>
