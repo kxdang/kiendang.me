@@ -15,7 +15,7 @@ Having reflections allow me to measure how much I've done and what I've accompli
 
 ## <center>Reflection
 
-March has been very eventful and uneventful month. I was in Amsterdam this month for 5 days, and shortly after coming home, [COVID-19 news](/071-covid-19/) took over in North America.
+March has been both eventful and uneventful. I was in Amsterdam this month for 5 days, and shortly after coming home, [COVID-19 news](/071-covid-19/) took over in North America.
 
 I managed to put in work this month and completing a lot more Pomodoro's than I expected even though I had 5 days of non-productive work. Undoubtedly due to the self quarantining and social distancing required by the government.
 
