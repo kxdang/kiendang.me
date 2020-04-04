@@ -84,26 +84,30 @@ const Tags = ({ pageContext, data }) => {
             </div>
             <Bio />
             <h1>{tagHeader}</h1>
-            <div>
+            <Link to="/tags" className="alltags" style={{ color: `white` }}>
+              All tags
+            </Link>
+            <div style={{ paddingTop: `1rem` }}>
               <ul style={{ listStyle: `none` }}>
                 {edges.map(({ node }) => {
                   const { slug } = node.fields
                   const { title } = node.frontmatter
                   const { date } = node.frontmatter
+                  const { description } = node.frontmatter
 
                   return (
                     <li key={slug}>
                       <Link
                         style={{
                           borderBottom: "none",
+                          fontSize: `1.2rem`,
+                          fontWeight: `bold`,
                         }}
                         to={slug}
                       >
-                        {title}
-                      </Link>
-                      <p>
+                        {title} -{" "}
                         <small>
-                          {date} - {node.fields.readingTime.text}{" "}
+                          {node.fields.readingTime.text}{" "}
                           {node.fields.readingTime.minutes > 0 &&
                           node.fields.readingTime.minutes <= 2
                             ? "🍵"
@@ -115,8 +119,12 @@ const Tags = ({ pageContext, data }) => {
                             ? "🍵🍵🍵"
                             : "🍵🍵🍵🍵"}
                         </small>
+                      </Link>
+
+                      {/* <p style={{ marginBottom: `3px` }}> </p> */}
+                      <p style={{ fontSize: `0.8rem`, marginBottom: `1.8rem` }}>
+                        {description}
                       </p>
-                      {/* <p>{description}</p> */}
                     </li>
                   )
                 })}
@@ -127,9 +135,6 @@ const Tags = ({ pageContext, data }) => {
               This links to a page that does not yet exist.
               We'll come back to it!
             */}
-            <Link to="/tags" className="alltags" style={{ color: `white` }}>
-              All tags
-            </Link>
           </div>
         </div>
       )}
@@ -187,6 +192,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")
+            description
           }
         }
       }

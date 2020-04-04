@@ -50,7 +50,7 @@ class BlogIndex extends React.Component {
                     node.fields.readingTime.minutes <= 5
                   ? "🍵🍵🍵"
                   : "🍵🍵🍵🍵"}
-                <p className="tagCategory">
+                <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
                   {node.frontmatter.tags.length > 1 ? (
                     node.frontmatter.tags.map(t => (
                       <Link

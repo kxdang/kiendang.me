@@ -190,12 +190,6 @@ a.technology {
 a.computer-science {
   color: white;
   background-color: #0288d1;
-  padding: 3px;
-  padding-left: 6px;
-  padding-right: 6px;
-  border-radius: 0.2em;
-  font-weight: bold;
-  text-shadow: 1px;
 }
 
 a.java {
