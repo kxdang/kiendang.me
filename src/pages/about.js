@@ -2,6 +2,7 @@ import React from "react"
 import { rhythm, scale } from "../utils/typography"
 import Bio from "../components/bio"
 import { Link } from "gatsby"
+import Switch from "react-switch";
 
 import { GiBookshelf, GiMouse } from "react-icons/gi"
 import { FaLinkedin, FaKeyboard, FaClock } from "react-icons/fa"
@@ -47,7 +48,21 @@ class about extends React.Component {
                 id="toggleTheme"
                 style={{ display: `flex`, justifyContent: `flex-end` }}
               >
-                <button className="dark-switcher" onClick={theme.toggleDark}>
+
+                <Switch
+                  onChange={theme.toggleDark}
+                  checked={theme.dark}
+                  onColor="#292D3E"
+                  offColor="#292D3E"
+                  checkedIcon={<span style={{ marginLeft: "0.3rem" }}>🌞</span>}
+                  uncheckedIcon={<span style={{ marginLeft: "0.3rem" }}>🌒</span>}
+                  boxShadow="0 0 2px 3px #226597"
+                  activeBoxShadow="0 0 2px 3px #89ddff"
+                />
+
+
+
+                {/* <button className="dark-switcher" onClick={theme.toggleDark}>
                   {theme.dark ? (
                     <div id="lightmodebutton">
                       <span
@@ -69,7 +84,7 @@ class about extends React.Component {
                       </span>
                       </div>
                     )}
-                </button>
+                </button> */}
               </div>
               <Bio />
               <h3 style={{ textAlign: `center` }}>About me</h3>

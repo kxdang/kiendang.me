@@ -2,6 +2,7 @@ import React from "react"
 import { rhythm, scale } from "../utils/typography"
 import Bio from "../components/bio"
 import { Link } from "gatsby"
+import Switch from "react-switch";
 
 import ThemeContext from "../context/ThemeContext"
 
@@ -45,23 +46,16 @@ class now extends React.Component {
                 id="toggleTheme"
                 style={{ display: `flex`, justifyContent: `flex-end` }}
               >
-                <button className="dark-switcher" onClick={theme.toggleDark}>
-                  {theme.dark ? (
-                    <div id="lightmodebutton">
-
-                      <span role="img" aria-label="sun" style={{ fontSize: '1.4rem' }}>
-                        🌞
-                      </span>
-                    </div>
-                  ) : (
-                      <div id="darkmodebutton">
-
-                        <span role="img" aria-label="moon" style={{ fontSize: '1.4rem' }}>
-                          🌒
-                      </span>
-                      </div>
-                    )}
-                </button>
+                <Switch
+                  onChange={theme.toggleDark}
+                  checked={theme.dark}
+                  onColor="#292D3E"
+                  offColor="#292D3E"
+                  checkedIcon={<span style={{ marginLeft: "0.3rem" }}>🌞</span>}
+                  uncheckedIcon={<span style={{ marginLeft: "0.3rem" }}>🌒</span>}
+                  boxShadow="0 0 2px 3px #226597"
+                  activeBoxShadow="0 0 2px 3px #89ddff"
+                />
               </div>
 
               <Bio />

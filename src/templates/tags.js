@@ -9,6 +9,7 @@ import { rhythm, scale } from "../utils/typography"
 //Importing Dark Theme Light Theme Toggler
 import ThemeContext from "../context/ThemeContext"
 import "../components/layout.css"
+import Switch from "react-switch";
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
@@ -52,23 +53,16 @@ const Tags = ({ pageContext, data }) => {
               id="toggleTheme"
               style={{ display: `flex`, justifyContent: `flex-end` }}
             >
-              <button className="dark-switcher" onClick={theme.toggleDark}>
-                {theme.dark ? (
-                  <div id="lightmodebutton">
-
-                    <span role="img" aria-label="sun" style={{ fontSize: '1.4rem' }}>
-                      🌞
-                    </span>
-                  </div>
-                ) : (
-                    <div id="darkmodebutton">
-
-                      <span role="img" aria-label="moon" style={{ fontSize: '1.4rem' }}>
-                        🌒
-                    </span>
-                    </div>
-                  )}
-              </button>
+              <Switch
+                onChange={theme.toggleDark}
+                checked={theme.dark}
+                onColor="#292D3E"
+                offColor="#292D3E"
+                checkedIcon={<span style={{ marginLeft: "0.3rem" }}>🌞</span>}
+                uncheckedIcon={<span style={{ marginLeft: "0.3rem" }}>🌒</span>}
+                boxShadow="0 0 2px 3px #226597"
+                activeBoxShadow="0 0 2px 3px #89ddff"
+              />
             </div>
             <Bio />
             <h1>{tagHeader}</h1>
