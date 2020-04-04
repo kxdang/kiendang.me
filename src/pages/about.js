@@ -2,7 +2,7 @@ import React from "react"
 import { rhythm, scale } from "../utils/typography"
 import Bio from "../components/bio"
 import { Link } from "gatsby"
-import Switch from "react-switch";
+import Switch from "react-switch"
 
 import { GiBookshelf, GiMouse } from "react-icons/gi"
 import { FaLinkedin, FaKeyboard, FaClock } from "react-icons/fa"
@@ -48,19 +48,34 @@ class about extends React.Component {
                 id="toggleTheme"
                 style={{ display: `flex`, justifyContent: `flex-end` }}
               >
-
                 <Switch
                   onChange={theme.toggleDark}
                   checked={theme.dark}
                   onColor="#292D3E"
                   offColor="#292D3E"
-                  checkedIcon={<span style={{ marginLeft: "0.3rem" }} role="img" aria-label="sun">🌞</span>}
-                  uncheckedIcon={<span style={{ marginLeft: "0.3rem" }} role="img" aria-label="moon">🌒</span>}
+                  offHandleColor="#fefefe"
+                  onHandleColor="#292D3E"
+                  checkedIcon={
+                    <span
+                      style={{ marginLeft: "0.3rem" }}
+                      role="img"
+                      aria-label="sun"
+                    >
+                      🌞
+                    </span>
+                  }
+                  uncheckedIcon={
+                    <span
+                      style={{ marginLeft: "0.3rem" }}
+                      role="img"
+                      aria-label="moon"
+                    >
+                      🌒
+                    </span>
+                  }
                   boxShadow="0 0 2px 3px #226597"
                   activeBoxShadow="0 0 2px 3px #89ddff"
                 />
-
-
 
                 {/* <button className="dark-switcher" onClick={theme.toggleDark}>
                   {theme.dark ? (
@@ -111,7 +126,10 @@ class about extends React.Component {
               <p>
                 I resigned from my job back in May of 2019 and I'm currently in
                 the process of pursuing a programming career in front-end web
-                development. I documented my entire journey through a process called Pomodoro's which is a time management technique structured around 25-minute interval of focus followed by a 5-minute break:
+                development. I documented my entire journey through a process
+                called Pomodoro's which is a time management technique
+                structured around 25-minute interval of focus followed by a
+                5-minute break:
               </p>
 
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>

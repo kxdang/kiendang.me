@@ -9,14 +9,14 @@ import { rhythm, scale } from "../utils/typography"
 //Importing Dark Theme Light Theme Toggler
 import ThemeContext from "../context/ThemeContext"
 import "../components/layout.css"
-import Switch from "react-switch";
+import Switch from "react-switch"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
-    } tagged with "${tag}"`
+  } tagged with "${tag}"`
 
   return (
     <ThemeContext.Consumer>
@@ -58,8 +58,26 @@ const Tags = ({ pageContext, data }) => {
                 checked={theme.dark}
                 onColor="#292D3E"
                 offColor="#292D3E"
-                checkedIcon={<span style={{ marginLeft: "0.3rem" }} role="img" aria-label="sun">🌞</span>}
-                uncheckedIcon={<span style={{ marginLeft: "0.3rem" }} role="img" aria-label="moon">🌒</span>}
+                offHandleColor="#fefefe"
+                onHandleColor="#292D3E"
+                checkedIcon={
+                  <span
+                    style={{ marginLeft: "0.3rem" }}
+                    role="img"
+                    aria-label="sun"
+                  >
+                    🌞
+                  </span>
+                }
+                uncheckedIcon={
+                  <span
+                    style={{ marginLeft: "0.3rem" }}
+                    role="img"
+                    aria-label="moon"
+                  >
+                    🌒
+                  </span>
+                }
                 boxShadow="0 0 2px 3px #226597"
                 activeBoxShadow="0 0 2px 3px #89ddff"
               />
@@ -75,19 +93,29 @@ const Tags = ({ pageContext, data }) => {
 
                   return (
                     <li key={slug}>
-                      <Link style={{
-                        borderBottom: "none"
-                      }} to={slug}>{title}</Link>
-                      <p><small>{date} - {node.fields.readingTime.text} {node.fields.readingTime.minutes > 0 &&
-                        node.fields.readingTime.minutes <= 2
-                        ? "🍵"
-                        : node.fields.readingTime.minutes > 2 &&
-                          node.fields.readingTime.minutes <= 3
-                          ? "🍵🍵"
-                          : node.fields.readingTime.minutes > 3 &&
-                            node.fields.readingTime.minutes <= 5
+                      <Link
+                        style={{
+                          borderBottom: "none",
+                        }}
+                        to={slug}
+                      >
+                        {title}
+                      </Link>
+                      <p>
+                        <small>
+                          {date} - {node.fields.readingTime.text}{" "}
+                          {node.fields.readingTime.minutes > 0 &&
+                          node.fields.readingTime.minutes <= 2
+                            ? "🍵"
+                            : node.fields.readingTime.minutes > 2 &&
+                              node.fields.readingTime.minutes <= 3
+                            ? "🍵🍵"
+                            : node.fields.readingTime.minutes > 3 &&
+                              node.fields.readingTime.minutes <= 5
                             ? "🍵🍵🍵"
-                            : "🍵🍵🍵🍵"}</small></p>
+                            : "🍵🍵🍵🍵"}
+                        </small>
+                      </p>
                       {/* <p>{description}</p> */}
                     </li>
                   )
@@ -144,7 +172,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] }} }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
       edges {
@@ -158,8 +186,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            date (formatString: "MMMM DD, YYYY")
-          
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }

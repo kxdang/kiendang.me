@@ -2,7 +2,7 @@ import React from "react"
 import { rhythm, scale } from "../utils/typography"
 import Bio from "../components/bio"
 import { Link } from "gatsby"
-import Switch from "react-switch";
+import Switch from "react-switch"
 
 import ThemeContext from "../context/ThemeContext"
 
@@ -51,8 +51,26 @@ class now extends React.Component {
                   checked={theme.dark}
                   onColor="#292D3E"
                   offColor="#292D3E"
-                  checkedIcon={<span style={{ marginLeft: "0.3rem" }} role="img" aria-label="sun">🌞</span>}
-                  uncheckedIcon={<span style={{ marginLeft: "0.3rem" }} role="img" aria-label="moon">🌒</span>}
+                  offHandleColor="#fefefe"
+                  onHandleColor="#292D3E"
+                  checkedIcon={
+                    <span
+                      style={{ marginLeft: "0.3rem" }}
+                      role="img"
+                      aria-label="sun"
+                    >
+                      🌞
+                    </span>
+                  }
+                  uncheckedIcon={
+                    <span
+                      style={{ marginLeft: "0.3rem" }}
+                      role="img"
+                      aria-label="moon"
+                    >
+                      🌒
+                    </span>
+                  }
                   boxShadow="0 0 2px 3px #226597"
                   activeBoxShadow="0 0 2px 3px #89ddff"
                 />
@@ -74,7 +92,9 @@ class now extends React.Component {
                 </a>
                 . I'm excited to start building React applications.
                 <br></br>
-                <br></br>I am open for new opportunities and looking for a company that will allow me to grow professionally as a developer.
+                <br></br>I am open for new opportunities and looking for a
+                company that will allow me to grow professionally as a
+                developer.
               </p>
 
               <h3 style={{ textAlign: "center" }}>Books</h3>
@@ -90,7 +110,6 @@ class now extends React.Component {
                   alt="The Name Of The Wind Book"
                   src="https://vignette.wikia.nocookie.net/nameofthewind/images/9/9e/The_Name_of_the_Wind_%28UK%29_cover.jpg/revision/latest?cb=20150620153806"
                 />
-
               </div>
               <p>
                 The Name of the Wind by Patrick Rothfuss. A friend of mine
@@ -116,7 +135,8 @@ class now extends React.Component {
                   rel="noopener noreferrer"
                 >
                   Github
-                </a> and currently working on a React Colour Palette application.
+                </a>{" "}
+                and currently working on a React Colour Palette application.
               </p>
 
               <p
