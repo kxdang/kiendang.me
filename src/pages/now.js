@@ -51,8 +51,8 @@ class now extends React.Component {
                   checked={theme.dark}
                   onColor="#292D3E"
                   offColor="#292D3E"
-                  checkedIcon={<span style={{ marginLeft: "0.3rem" }}>🌞</span>}
-                  uncheckedIcon={<span style={{ marginLeft: "0.3rem" }}>🌒</span>}
+                  checkedIcon={<span style={{ marginLeft: "0.3rem" }} role="img" aria-label="sun">🌞</span>}
+                  uncheckedIcon={<span style={{ marginLeft: "0.3rem" }} role="img" aria-label="moon">🌒</span>}
                   boxShadow="0 0 2px 3px #226597"
                   activeBoxShadow="0 0 2px 3px #89ddff"
                 />
