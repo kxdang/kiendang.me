@@ -231,24 +231,10 @@ a.travel {
   color: #313b44;
   display: flex;
   justify-content: center;
-  /* vertical-align: middle;
-  text-align: center;
-  font-size: 1em; */
 }
 
-/* //  display: `flex`,
-                    justifyContent: `center`,
-                    alignItems: `center`,
-                    margin: `auto`, */
 
-/* .dark .about__icons svg:hover {
-  color: #f78c6c;
-}
-.light .about__icons svg:hover {
-  color: #f78c6c;
-} */
-
-.light svg.icon {
+.light svg{
   color: #313b44;
   font-size: 1.3em;
 }
@@ -256,4 +242,14 @@ a.travel {
 .dark svg {
   color: white;
   font-size: 1.3em;
+}
+
+.socialsLogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialsLogos svg:hover {
+  color: #226597;
 }

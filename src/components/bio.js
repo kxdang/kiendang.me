@@ -50,6 +50,7 @@ function Bio() {
                 id="bio"
                 style={{
                   margin: `auto`,
+                  textAlign: 'left'
                 }}
               >
                 A blog by{" "}
@@ -60,7 +61,7 @@ function Bio() {
             </div>
 
             <Nav />
-          </div>
+          </div >
         )
       }}
     />
