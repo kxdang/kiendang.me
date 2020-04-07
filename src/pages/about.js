@@ -36,7 +36,7 @@ class about extends React.Component {
                   style={{
                     boxShadow: `none`,
                     textDecoration: `none`,
-                    color: `inherit`,
+
                   }}
                   to="/"
                 >
@@ -77,34 +77,12 @@ class about extends React.Component {
                   activeBoxShadow="0 0 2px 3px #89ddff"
                 />
 
-                {/* <button className="dark-switcher" onClick={theme.toggleDark}>
-                  {theme.dark ? (
-                    <div id="lightmodebutton">
-                      <span
-                        role="img"
-                        aria-label="sun"
-                        style={{ fontSize: "1.4rem" }}
-                      >
-                        🌞
-                      </span>
-                    </div>
-                  ) : (
-                      <div id="darkmodebutton">
-                        <span
-                          role="img"
-                          aria-label="moon"
-                          style={{ fontSize: "1.4rem" }}
-                        >
-                          🌒
-                      </span>
-                      </div>
-                    )}
-                </button> */}
+
               </div>
               <Bio />
               <h3 style={{ textAlign: `center` }}>About me</h3>
               <p>
-                Hello, my name is Kien (pronounced "key in"). I have a Bachelor
+                Hello, my name is Kien (pronounced /'key in/). I have a Bachelor
                 of Science in Honours Biochemistry from the University of
                 Waterloo. I have held many positions during my co-op education
                 and have over 2 years of professional work experience at a
@@ -126,10 +104,7 @@ class about extends React.Component {
               <p>
                 I resigned from my job back in May of 2019 and I'm currently in
                 the process of pursuing a programming career in front-end web
-                development. I documented my entire journey through a process
-                called Pomodoro's which is a time management technique
-                structured around 25-minute interval of focus followed by a
-                5-minute break:
+                development. I documented my entire journey on my blog and have been using the <a href="/022-pomodoro-technique/">Pomodoro Technique</a> to track my progress.
               </p>
 
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
