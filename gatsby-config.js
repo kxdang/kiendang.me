@@ -10,6 +10,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-catch-links",
+    'gatsby-remark-reading-time',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

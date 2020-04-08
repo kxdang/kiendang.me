@@ -33,16 +33,16 @@ class BlogPostTemplate extends React.Component {
 
           {post.frontmatter.date} - {post.frontmatter.tags}
         </small>
-        {/* {post.fields.readingTime.minutes > 0 &&
-            post.fields.readingTime.minutes <= 2
-            ? "🍵"
-            : post.fields.readingTime.minutes > 2 &&
-              post.fields.readingTime.minutes <= 3
-              ? "🍵🍵"
-              : post.fields.readingTime.minutes > 3 &&
-                post.fields.readingTime.minutes <= 5
-                ? "🍵🍵🍵"
-                : "🍵🍵🍵🍵"} */}
+        {post.fields.readingTime.minutes > 0 &&
+          post.fields.readingTime.minutes <= 2
+          ? "🍵"
+          : post.fields.readingTime.minutes > 2 &&
+            post.fields.readingTime.minutes <= 3
+            ? "🍵🍵"
+            : post.fields.readingTime.minutes > 3 &&
+              post.fields.readingTime.minutes <= 5
+              ? "🍵🍵🍵"
+              : "🍵🍵🍵🍵"}
         {/* {post.frontmatter.tags ? (
           <p>
             Tags:{" "}
@@ -122,6 +122,11 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         tags
+      }
+      fields {
+        readingTime{
+          text
+        }
       }
     }
   }

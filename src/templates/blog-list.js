@@ -39,7 +39,17 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <small>
-                {node.frontmatter.date}
+                {node.frontmatter.date} - {node.fields.readingTime.text}{" "}
+                {node.fields.readingTime.minutes > 0 &&
+                  node.fields.readingTime.minutes <= 2
+                  ? "🍵"
+                  : node.fields.readingTime.minutes > 2 &&
+                    node.fields.readingTime.minutes <= 3
+                    ? "🍵🍵"
+                    : node.fields.readingTime.minutes > 3 &&
+                      node.fields.readingTime.minutes <= 5
+                      ? "🍵🍵🍵"
+                      : "🍵🍵🍵🍵"}
                 <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
                   <Link
                     to={`/tags/` + node.frontmatter.tags}
@@ -51,35 +61,25 @@ class BlogIndex extends React.Component {
                 </p>
               </small>
 
-              {/*                 
-                {node.frontmatter.tags.length > 1 ? (
-                  node.frontmatter.tags.map(t => (
-                    <Link
-                      to={`/tags/` + t}
-                      className={`${t} alltags`}
-                      style={{ marginRight: `3px` }}
-                    >
-                      {t.replace(/-/g, " ")}
-                    </Link>
-                  ))
-                ) : (
+
+              {/* {node.frontmatter.tags.length > 1 ? (
+                node.frontmatter.tags.map(t => (
+                  <Link
+                    to={`/tags/` + t}
+                    className={`${t} alltags`}
+                    style={{ marginRight: `3px` }}
+                  >
+                    {t.replace(/-/g, " ")}
+                  </Link>
+                ))
+              ) : (
                    
                   )} */}
-              {/* - {node.fields.readingTime.text}{" "}
-                {node.fields.readingTime.minutes > 0 &&
-                node.fields.readingTime.minutes <= 2
-                  ? "🍵"
-                  : node.fields.readingTime.minutes > 2 &&
-                    node.fields.readingTime.minutes <= 3
-                  ? "🍵🍵"
-                  : node.fields.readingTime.minutes > 3 &&
-                    node.fields.readingTime.minutes <= 5
-                  ? "🍵🍵🍵"
-                  : "🍵🍵🍵🍵"}
-                <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
-             
 
-                </p> */}
+              <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
+
+
+              </p>
 
 
 
@@ -158,6 +158,10 @@ export const pageQuery = graphql`
           excerpt
           fields {
             slug
+            readingTime {
+              text
+              minutes
+            }
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
