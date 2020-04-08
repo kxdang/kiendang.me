@@ -1,3 +1,14 @@
+:root {
+  --light-bg: #dfdfdf;
+  --primary-color-light: #226597;
+ 
+
+  --dark-bg: #1b1e2b;
+  --primary-color-dark: #89ddff;
+  --secondary-color-dark: rgb(247, 140, 108);
+
+}
+
 html {
   --scrollbarBG: #1b1e2b;
   --thumbBG: #90a4ae;
@@ -29,7 +40,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .dark {
-  background-color: #1b1e2b;
+  background-color: var(--dark-bg);
   transition: all 0.6s ease;
 }
 
@@ -44,11 +55,11 @@ body::-webkit-scrollbar-thumb {
   text-shadow: 1px;
 }
 .dark a {
-  color: #89ddff;
+  color: var(--primary-color-dark);
 }
 
 .dark strong {
-  color: #89ddff;
+  color: var(--primary-color-dark);
 }
 
 p {
@@ -64,13 +75,13 @@ strong {
 }
 
 .dark h3 {
-  color: #89ddff;
+  color: var(--primary-color-dark);
 }
 .dark h1 {
-  color: rgb(247, 140, 108);
+  color: var(--secondary-color-dark);
 }
 .dark h2 {
-  color: rgb(247, 140, 108);
+  color: var(--secondary-color-dark);
 }
 
 .dark small {
@@ -79,37 +90,30 @@ strong {
 
 .light {
   transition: all 0.6s ease;
-  background-color: #dfdfdf;
+  background-color: var(--light-bg);
 }
 
-h1 {
-  color: #226597;
+h1, h2, h3 {
+  color: var(--primary-color-light);
 }
 
 h1 a {
   border-bottom: none;
 }
 
-h2 {
-  color: #313b44;
-}
-
-h3 {
-  color: #313b44;
-}
 
 .dark h4 {
   color: #f5f5f5;
 }
 
 small {
-  color: #313b44;
+  color: #27496d;
 }
 
 a {
-  color: #226597;
+  color: var(--primary-color-light);
   box-shadow: none;
-  border-bottom: dotted 1px #226597;
+  border-bottom: dotted 1px var(--primary-color-light);
 }
 
 .gatsby-resp-image-link,
@@ -118,7 +122,7 @@ a {
 }
 
 a:hover {
-  color: #226597;
+  color: var(--primary-color-light);
   filter: brightness(120%);
   border-bottom-style: solid;
 }
@@ -130,14 +134,6 @@ a:hover svg.icon {
 
 .dark a:hover {
   filter: brightness(150%);
-}
-
-#lightmodebutton {
-  color: #f5f5f5;
-}
-
-#darkmodebutton {
-  color: rgb(99, 99, 99);
 }
 
 .dark blockquote {
@@ -174,7 +170,7 @@ a.productivity {
 
 a.pomodoro {
   color: white;
-  background-color: #ff0000;
+  background-color: #eb4559;
 }
 
 a.money {
@@ -189,7 +185,7 @@ a.technology {
 
 a.computer-science {
   color: white;
-  background-color: #0288d1;
+  background-color: #005082;
 }
 
 a.java {

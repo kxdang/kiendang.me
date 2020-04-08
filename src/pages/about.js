@@ -76,35 +76,11 @@ class about extends React.Component {
                   boxShadow="0 0 2px 3px #226597"
                   activeBoxShadow="0 0 2px 3px #89ddff"
                 />
-
-                {/* <button className="dark-switcher" onClick={theme.toggleDark}>
-                  {theme.dark ? (
-                    <div id="lightmodebutton">
-                      <span
-                        role="img"
-                        aria-label="sun"
-                        style={{ fontSize: "1.4rem" }}
-                      >
-                        🌞
-                      </span>
-                    </div>
-                  ) : (
-                      <div id="darkmodebutton">
-                        <span
-                          role="img"
-                          aria-label="moon"
-                          style={{ fontSize: "1.4rem" }}
-                        >
-                          🌒
-                      </span>
-                      </div>
-                    )}
-                </button> */}
               </div>
               <Bio />
               <h3 style={{ textAlign: `center` }}>About me</h3>
               <p>
-                Hello, my name is Kien (pronounced "key in"). I have a Bachelor
+                Hello, my name is Kien (pronounced /'key in/). I have a Bachelor
                 of Science in Honours Biochemistry from the University of
                 Waterloo. I have held many positions during my co-op education
                 and have over 2 years of professional work experience at a
@@ -126,10 +102,8 @@ class about extends React.Component {
               <p>
                 I resigned from my job back in May of 2019 and I'm currently in
                 the process of pursuing a programming career in front-end web
-                development. I documented my entire journey through a process
-                called Pomodoro's which is a time management technique
-                structured around 25-minute interval of focus followed by a
-                5-minute break:
+                development. I documented my entire journey on my blog and tracked my progress using the <a href="/022-pomodoro-technique/">Pomodoro technique</a>.
+
               </p>
 
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
@@ -139,7 +113,7 @@ class about extends React.Component {
               </p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
-                <a href="/069-february-2020-pomodoro/">
+                <a href="/074-march-2020-pomodoro/">
                   Current Progress for 2020
                 </a>
               </p>
