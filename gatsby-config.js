@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Dang it`,
     author: `Kien Dang`,
-    description: `A starter blog created from Gatsby`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `A blog by Kien Dang`,
+    siteUrl: `https://www.kiendang.me/`,
     social: {
-      twitter: `kxdang`,
+      twitter: `k1dang`,
     },
   },
   plugins: [
