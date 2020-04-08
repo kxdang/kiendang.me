@@ -10,7 +10,7 @@ tags: ["life", "biochemistry"]
 
 It’s almost the end of August with an infection I’ve been trying to kill off since July, almost 5 antibiotics later and I’m back on these two bad boys, metronidazole and ciprofloxacin.
 
-## Why does Ciprofloxacin make me so tired?
+## <center>Why does Ciprofloxacin make me so tired? </center>
 
 When you start Googling symptoms, it’s always the most extreme and worst-case scenarios, it's always important to go to your medical professional to be diagnosed. However, once diagnosed, I thought it would be beneficial to do extra research on what's going in my body. Ultimately, I try to figure out the answers to my curious mind and unfortunately, found more than I would like.
 
@@ -19,11 +19,11 @@ When you start Googling symptoms, it’s always the most extreme and worst-case 
 
 <p><a href="https://en.wikipedia.org/wiki/Ciprofloxacin" target="_blank">Ciprofloxacin</a> is an antibiotic that falls under the class of quinolones used to treat common bacterial infections. Fluoroquinolones kill bacteria by binding to a bacterial enzyme called DNA-gyrase which is responsible for its DNA replication and repairs<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/1657531" target="_blank">[1]</a></sup>.</p>
 
-## <center>Drowsiness
+## <center>Drowsiness </center>
 
 There are some adverse side effects of fluoroquinolones which include the central nervous system (CNS). Quinolones can enter the brain tissue readily which causes side effects such as mild headaches, drowsiness and dizziness<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/2672249" target="_blank">[2]</a></sup>. In addition to ciprofloxacin, combining it with metronidazole makes it a very effective drug therapy for the treatment of aerobic and anaerobic infections<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/3182096" target="_blank">[3]</a></sup>. Metronidazole’s common side effect includes drowsiness as well. It penetrates the blood-brain barrier which adds to the drowsiness<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2952976/" target="_blank">[4]</a></sup>. I guess it’s a double whammy.
 
-###<center>Serious Side Effects
+### <center>Serious Side Effects</center>
 
 <p align="center">
   <img src="https://media.giphy.com/media/5t9wJjyHAOxvnxcPNk/giphy.gif" />

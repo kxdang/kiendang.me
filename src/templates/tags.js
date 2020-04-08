@@ -92,7 +92,6 @@ const Tags = ({ pageContext, data }) => {
                 {edges.map(({ node }) => {
                   const { slug } = node.fields
                   const { title } = node.frontmatter
-                  const { date } = node.frontmatter
                   const { description } = node.frontmatter
 
                   return (

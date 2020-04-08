@@ -22,7 +22,7 @@ In September and November, I've completed two Udemy courses both by Andrew Mead:
 1. <a href="https://www.udemy.com/certificate/UC-RIO305CO/" target="_blank">The Modern Javascript Bootcamp</a>
 2. <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">The Complete Node.js Developer Course (3rd Edition)</a>
 
-## Misuse of attention
+## <center>Misuse of attention</center>
 
 My time and energy has diverted quite a bit after finishing the two courses above. I did not have a clear direction and started random JavaScript projects, freeCodeCamp exercises, playing with CSS and dabbled in a project with Vue.js. I had a very good month in terms of Pomodoro's but not quite where I wanted to be, thus, a monthly reflection is always good to have.
 
@@ -32,7 +32,7 @@ My time and energy has diverted quite a bit after finishing the two courses abov
 
 I'm currently feeling overwhelmed which led to my distraction and diverted focus; not having a clear path can be detrimental for my progress. In order to circumvent this, I took a step back the beginning of this month and review what I wanted to do next to achieve my goal in becoming a Full Stack Developer.
 
-## Current objectives and goals
+## <center>Current objectives and goals </center>
 
 I want to be more comfortable with JavaScript and be able to use the tools in web development such as Node.js, MongoDB and Express.js to build applications. Taking the above courses really helped me get started, however, once finished, I needed to figure out my next steps are and re-align my time and effort. This month shows that I'm back to where I started before I got sick and stuffed up with opioids but now I'm much better.
 
@@ -42,7 +42,7 @@ These topics included the Big O analysis, Recursion, Sorting, Data Structures an
 
 Continuation of courses include a MERN course I recently purchased. This will allow me to continue to practice Javasript with MongoDB, Express, React and Node.js by building applications will help me learn the material much quicker and the courses will guide me to current best practices.
 
-## Todo for December - realignment plans:
+## <center>Todo for December - realignment plans: </center>
 
 <p align="center">
   <img src="https://media.giphy.com/media/ir9ooRoyKZY8pRCJze/giphy.gif"/>

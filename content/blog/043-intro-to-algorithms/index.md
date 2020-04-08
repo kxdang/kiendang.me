@@ -11,11 +11,11 @@ Active recall is an effective learning technique to help solidify the material l
 
 Below are my active recall questions. Materials have been taken from either the textbook, Introduction to Algorithms 3rd Edition by Thomas H. Cormen et al. or from the MIT course.
 
-## **What is an Algorithm?**
+## <center> What is an Algorithm? </center>
 
 An algorithm is the sequence of computational steps that transforms input into output.
 
-## **Why do we care about Algorithms?**
+## <center> Why do we care about Algorithms?</center> 
 
 We care about algorithms because computing is time bounded and so are the resources (e.g space in memory). Algorithms can solve all sorts of problems such as identifying the genes in a human genome and determining sequences of base pairs, finding the shortest distance on a map, automation and any problem that can be solved with step by step instructions to produce a result.
 
@@ -23,7 +23,7 @@ It is important to be able to develop different algorithms to tackle different p
 
 I’ve used a Python course I found <a href="https://runestone.academy/runestone/static/pythonds/index.html" target="_blank">here</a> with interactive examples to help me learn this concept as well as this <a href="https://www.youtube.com/watch?v=D6xkbGLQesk" target="_blank">YouTube</a> video to explain. I found that the textbook gets really in depth with the technical side, using other resources helped clear any confusion I had.
 
-## **Explain the Big-O Notation**
+## <center>Explain the Big-O Notation</center>
 
 An algorithm can be broken down into different time complexities which can be explained in a systematic and mathematical way, hence, the **Big-O** **Notation**. There are common functions for the Big-O which will be explored throughout this journey.
 

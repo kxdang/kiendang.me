@@ -10,7 +10,7 @@ Concentration is a skill that takes time to develop; we live in an era where eve
 
 The simple and effective concept of 25 minutes of focus and 5 minute break. I remember struggling with 25 minutes of focus when I was in school. Studying was boring, I couldn’t sit still for 10 minutes because I was easily distracted with Facebook, games and other mundane things on the internet. Eventually, I became better at concentrating by working my way up, I would increase the focus time by 5 minutes starting at 10 until I was able to do one pomodoro.
 
-## **Pomodoros help mimic a due date.**
+## <center>Pomodoros help mimic a due date.</center>
 
 If you’ve ever procrastinated before, you definitely know the feeling of urgency to complete something before it's due. Getting started is probably the hardest thing to do and pomodoros help create a sense of urgency to complete a task within 25 minutes. Most of the time, once you start working, you get into a state of **flow** (in the zone).
 
@@ -18,7 +18,7 @@ If you’ve ever procrastinated before, you definitely know the feeling of urgen
 
 You are most productive in a state of flow and pomodoros are meant to capitalize this state. There will be times where you work past the 25 minutes, which is completely normal and when you are stuck then that would be the ideal time to take your 5 minute break.
 
-## **Pomodoro as a unit of measure for productivity.**
+## <center>Pomodoro as a unit of measure for productivity.</center>
 
 Tracking productivity can be tricky, however, with pomodoros, you know they are only 25 minute time blocks which are allocated for a particular task. If you do not finish the task within 25 minutes, then you can always try another pomodoro. Do not get caught up in the idea that if it is not completed in 25 minutes, then you have been unproductive. The most important thing is that you have spent 25 minutes putting in the effort to a particular task or problem.
 
@@ -26,7 +26,7 @@ Sometimes you might hear others putting “_endless_” hours trying to do a tas
 
 I’ve been using pomodoros to keep track of my studying and how many hours I’m using to actively learn a new topic. During May, I wanted to see my progress and track them as I go along and I found some valuable information about myself.
 
-# **Self Reflection**
+# <center>Self Reflection</center>
 
 Below is a snapshot of my tracked Pomodoros last month, I left my full-time job on the first Friday of May.
 

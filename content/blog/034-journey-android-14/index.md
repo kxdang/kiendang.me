@@ -11,11 +11,11 @@ RecyclerViews are more flexible than List Views. It efficiently manages a small 
 
 When creating and generating data on our device, we generally want to use a RecyclerView. The data flows goes as follows: Datasource -> Adapter -> RecyclerView
 
-#### **Adding Design Support Libraries**
+#### <center> **Adding Design Support Libraries** </center>
 
 Navigate to File -> Project Structure -> app -> Dependencies and the + button and find the dependency and add them to the project.
 
-#### **Building the RecyclerView Adapter**
+#### <center> **Building the RecyclerView Adapter** </center>
 
 There are two main objectives of adapters:
 
@@ -168,7 +168,7 @@ The `CaptionedImagesArrayAdapter` passes the array to the adapter.
      }
 ```
 
-### Layout of Cards
+### <center> Layout of Cards </center>
 
 The `GridLayoutManager` allows us to create the layout in a grid like orientation. We can also change this to be a linear list by calling a `LinearLayoutManager` using the code snippet below:
 
@@ -181,7 +181,7 @@ The `GridLayoutManager` allows us to create the layout in a grid like orientatio
 
 This code snippet will give us this look below.
 
-### **Responding to User Clicks**
+### <center> Responding to User Clicks </center>
 
 In a ListView, there are a large number of superclasses that is inherited which allows the developer to use onItemClickListener when a specific view is pressed on the list. The built-in features allow the developer to override these methods. However, for a RecyclerView, they do not inherit the superclasses that ListView has. Therefore, RecyclerViews require extra work to respond to user clicks. There are two ways in approaching this.
 

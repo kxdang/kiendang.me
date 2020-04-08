@@ -7,7 +7,7 @@ description: "Learning about containers in Java"
 tags: ["java"]
 ---
 
-### **Containers**
+### <center>Containers</center>
 
 You don’t know how many objects you will need to solve a problem or how to store them or even how much space is required if the information isn’t known until the program is ran.
 
@@ -29,16 +29,16 @@ Downcasting and runtime checks require cost extra for running the program, so in
     ArrayList<Shape> shapes = new ArrayList<Shape>();
 ```
 
-### **Object Creation and Life Time**
+### <center>Object Creation and Life Time </center>
 
 One of the major issues working with object is the way they are created and destroyed as they require resources and most importantly, memory to exist. When an object is destroyed, it frees up resources to be reused.
 
 The issue becomes more prominent when you want to destroy objects and you don’t know when to. The resolution for this is to create objects dynamically in memory called the heap. Java uses a dynamic memory allocation and you would use the **new **operator to build a dyanmic instance of that object. The lifetime of that object is determined when the **garbage collector** (feature in Java) discovers that the object is no longer in use and destroys it. The garbage collector feature in Java knows when an object is not in use and automatically frees up memory.
 
-### **Exception Handling in Java**
+### <center>Exception Handling in Java</center>
 
 Exception handling helps your code simpler to write because you aren’t constantly checking for errors, when something goes wrong a thrown exception. An exception cannot be ignored and provide away to recover your code and create robust programs.
 
-### **Concurrent Programming**
+### <center>Concurrent Programming </center>
 
 A fundamental concept of programming is the idea off handling multiple tasks at the same time. Within a program, these separate running “threads” provide a more responsive program. The tasks can run in parallel if your operating system can support multiple processors. However, there is a catch when you are trying to access the shared resources. This becomes a bottleneck and two processes cannot access a single resource at the same time. Java's concurrency is built into the language.

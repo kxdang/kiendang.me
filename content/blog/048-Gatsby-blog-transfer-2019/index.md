@@ -16,7 +16,7 @@ Another friend of mine briefly mentioned Gatsby, a framework based on React. It 
 
 I found that it deploys with Netlify via github which made updating and adding posts very seamless through commits. Most importantly, the hosting from <a href="https://www.netlify.com/" target="_blank">Netlify</a> is completely free!
 
-## Features I Added
+## <center>Features I Added</center>
 
 My current blog is based off of a Gatsby Starter Blog found <a href="https://gatsby-starter-blog-demo.netlify.com/" target="_blank">here</a>.
 
@@ -40,7 +40,7 @@ All the changes made to the Gatsby Starter Blog, in the exact order of changes a
 9. <b style="color: #FF5370">Adding gatsby plugin catch links</b> - helps load pages locally on my blog instead of refreshing the page, preserving the Single Page Application feel
 10. <b style="color: #FF5370">Adding PrismJS</b> - helps add colour to my code snippets. <a href="https://prismjs.com/" target="_blank">PrismJS</a>
 
-### Wordpress Blog Posts to Gatsby Blog Posts (Markdown)
+### <center>Wordpress Blog Posts to Gatsby Blog Posts (Markdown)</center>
 
 After completing all the features I wanted in this blog, I had to figure out a way to convert all my Wordpress blog posts into a markdown file. I tried multiple plugins from Wordpress but all had failed as they were no longer up to date. I exported all of my blog post into a single xml file using the Wordpress export settings and found that xml can be converted over to markdown files.
 
@@ -52,7 +52,7 @@ Overall, I’m extremely happy with the result, I love how fast Gatsby is and I'
 
 I wish I had finished this earlier but due to a recent surgery, my productivity has been set back quite a bit. I’m hoping my second set of antibiotics will help me recover so I can get back to programming; I definitely needed this win!
 
-### Things to complete
+### <center>Things to complete</center>
 
 1. Adding clickable categories tag on blog post
 
