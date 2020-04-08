@@ -39,7 +39,16 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <small>
-                {node.frontmatter.date} -
+                {node.frontmatter.date}
+                <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
+                  <Link
+                    to={`/tags/` + node.frontmatter.tags}
+                    className={`${node.frontmatter.tags} alltags`}
+                  >
+                    {node.frontmatter.tags}
+                  </Link>
+
+                </p>
               </small>
 
               {/*                 
@@ -71,15 +80,7 @@ class BlogIndex extends React.Component {
              
 
                 </p> */}
-              <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
-                <Link
-                  to={`/tags/` + node.frontmatter.tags}
-                  className={`${node.frontmatter.tags} alltags`}
-                >
-                  {node.frontmatter.tags}
-                </Link>
 
-              </p>
 
 
               <p
