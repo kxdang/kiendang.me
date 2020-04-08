@@ -30,43 +30,41 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-
-          {post.frontmatter.date} - {post.frontmatter.tags}
+          {post.frontmatter.date} - {post.fields.readingTime.text}{" "}
+          {post.fields.readingTime.minutes > 0 &&
+            post.fields.readingTime.minutes <= 2
+            ? "🍵"
+            : post.fields.readingTime.minutes > 2 &&
+              post.fields.readingTime.minutes <= 3
+              ? "🍵🍵"
+              : post.fields.readingTime.minutes > 3 &&
+                post.fields.readingTime.minutes <= 5
+                ? "🍵🍵🍵"
+                : "🍵🍵🍵🍵"}
+          {post.frontmatter.tags ? (
+            <p>
+              Tags:{" "}
+              {post.frontmatter.tags.length > 1 ? (
+                post.frontmatter.tags.map(t => (
+                  <Link
+                    to={`/tags/` + t}
+                    className={`${t} alltags`}
+                    style={{ marginRight: `3px` }}
+                  >
+                    {t.replace(/-/g, " ")}
+                  </Link>
+                ))
+              ) : (
+                  <Link
+                    to={`/tags/` + post.frontmatter.tags}
+                    className={`${post.frontmatter.tags} alltags`}
+                  >
+                    {post.frontmatter.tags[0].replace(/-/g, " ")}
+                  </Link>
+                )}
+            </p>
+          ) : null}
         </small>
-        {post.fields.readingTime.minutes > 0 &&
-          post.fields.readingTime.minutes <= 2
-          ? "🍵"
-          : post.fields.readingTime.minutes > 2 &&
-            post.fields.readingTime.minutes <= 3
-            ? "🍵🍵"
-            : post.fields.readingTime.minutes > 3 &&
-              post.fields.readingTime.minutes <= 5
-              ? "🍵🍵🍵"
-              : "🍵🍵🍵🍵"}
-        {/* {post.frontmatter.tags ? (
-          <p>
-            Tags:{" "}
-            {post.frontmatter.tags.length > 1 ? (
-              post.frontmatter.tags.map(t => (
-                <Link
-                  to={`/tags/` + t}
-                  className={`${t} alltags`}
-                  style={{ marginRight: `3px` }}
-                >
-                  {t.replace(/-/g, " ")}
-                </Link>
-              ))
-            ) : (
-                <Link
-                  to={`/tags/` + post.frontmatter.tags}
-                  className={`${post.frontmatter.tags} alltags`}
-                >
-                  {post.frontmatter.tags[0].replace(/-/g, " ")}
-                </Link>
-              )}
-          </p> */}
-
-
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
