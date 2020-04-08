@@ -7,7 +7,7 @@ tags: ["java"]
 
 This is the continuation of the Workout app. One of the biggest issues I've been having was dealing with fragments and how to effectively use them. Below is a demonstration of an added feature that includes a timer in a separate fragment. ![](./stopwatch.gif)
 
-####<h2> Fragments Continued </h2>
+#### <center><h2> Fragments Continued </h2></center>
 
 Fragment lifecycle methods are the same as activity lifecycle methods but the major difference is that activity lifecycle methods are protected whereas fragment methods are public
 
@@ -19,7 +19,7 @@ Activities lose their state of any instance variables when rotated because activ
 
 So when the device becomes rotated, it recreates the activity and if it contains the fragment element, it **re-inserts a new version of the fragment each time the activity is recreated.** That means any instance of the variables in fragments get discarded and set back to zero.
 
-**How do we solve this issue?**
+## <center>How do we solve this issue?</center>
 
 We use something called a **Fragment Transaction**. We add a placeholder for the fragment in the activity’s layout. We add a frame layout to the layout and give it an ID to refer back to Java. Replaced the `<fragment>` element with `<FrameLayout>` in the xml file.
 

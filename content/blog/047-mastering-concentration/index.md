@@ -26,7 +26,7 @@ Sometimes you might hear others putting “_endless_” hours trying to do a tas
 
 I’ve been using pomodoros to keep track of my studying and how many hours I’m using to actively learn a new topic. During May, I wanted to see my progress and track them as I go along and I found some valuable information about myself.
 
-# <center>**Self Reflection**
+# **Self Reflection**
 
 Below is a snapshot of my tracked Pomodoros last month, I left my full-time job on the first Friday of May.
 

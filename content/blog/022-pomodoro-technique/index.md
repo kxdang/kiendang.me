@@ -12,7 +12,7 @@ Pomodoro Technique is a time management technique that allocates 25 minutes of f
 
 During my undergrad, I’ve struggled with focusing and studying which eventually led me to finding this technique. I recently read <a href="https://www.goodreads.com/book/show/7117789-pomodoro-technique-illustrated" target="_blank">Pomodoro Technique Illustrated by Staffan Noteberg</a>, to learn how to use this technique more effectively and came up with the summaries below for reference.
 
-# Core Fundamentals of the Technique:
+# <center>Core Fundamentals of the Technique:</center>
 
 1. Choose the highest-priority activity on the To Do Today sheet and only focus on that activity
 
@@ -22,7 +22,7 @@ During my undergrad, I’ve struggled with focusing and studying which eventuall
 
 **Do not switch or stop an activity in the middle of a Pomodoro.** It takes you off your rhythm. The idea is to build rhythm to generate flow.
 
-## Dealing with distractions and interruptions
+## <center> Dealing with distractions and interruptions</center>
 
 One of the main things culprits that disrupts Pomodoro's are distractions and interruptions.
 
@@ -32,7 +32,7 @@ For interruptions, which are things we can't control, we would need to write the
 
 There are two main types of interruptions and they must be documented.  We need to be able to measure our process and document events that distract us so we can identify and minimize them.
 
-####<center> **Internal Interruptions**
+#### <center>**Internal Interruptions** </center>
 
 **_A sudden urge to do something while in Pomodoro, completely urgent and unplanned._**
 
@@ -43,7 +43,7 @@ Write it down on your unplanned part of your "to do today" list and document it 
 
 **Solution:** Shrink your Pomodoro to 15 minutes instead and eventually work your way up to 25 minutes. We need to remember that these 25 minute time blocks are precious and cannot be interrupted or we lose focus.
 
-#### <center>**External Interruptions**
+#### <center>**External Interruptions** </center>
 
 **_When emails constantly go off or someone at work requires help._**
 
@@ -51,7 +51,7 @@ Write it down on your unplanned part of your "to do today" list and document it 
 
 For other external interruptions, communication with your teammates might not count as an interruption as it is work related. It is up to your discretion whether to abandon your time block.
 
-#### <center>**Conclusion**
+#### <center>**Conclusion**</center>
 
 When doing the Pomodoro Technique, wind the timer when you **feel ready** and in the **right mood.** The Pomodoro Technique might not be for everyone, but I highly recommend it for those who need to find a way to stay productive. You might fall into two categories below which Steffan outlines in the book:
 

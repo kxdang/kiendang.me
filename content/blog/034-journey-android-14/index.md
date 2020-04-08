@@ -11,11 +11,11 @@ RecyclerViews are more flexible than List Views. It efficiently manages a small 
 
 When creating and generating data on our device, we generally want to use a RecyclerView. The data flows goes as follows: Datasource -> Adapter -> RecyclerView
 
-#### <center>**Adding Design Support Libraries**
+#### **Adding Design Support Libraries**
 
 Navigate to File -> Project Structure -> app -> Dependencies and the + button and find the dependency and add them to the project.
 
-#### <center>**Building the RecyclerView Adapter**
+#### **Building the RecyclerView Adapter**
 
 There are two main objectives of adapters:
 
@@ -168,7 +168,7 @@ The `CaptionedImagesArrayAdapter` passes the array to the adapter.
      }
 ```
 
-### <center>Layout of Cards
+### Layout of Cards
 
 The `GridLayoutManager` allows us to create the layout in a grid like orientation. We can also change this to be a linear list by calling a `LinearLayoutManager` using the code snippet below:
 

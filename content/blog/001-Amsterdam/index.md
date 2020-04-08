@@ -31,23 +31,23 @@ We had planned many events during our stay and had a list that we wanted to do e
 
 Food experience was also one of the biggest highlights in Amsterdam. Dutch food was something we were looking forward to trying. We did our research and found that there were plenty of unique dishes.
 
-# **Bitterballen**
+# <center> **Bitterballen** </center>
 
 ![](./bitterballen.jpg)
 
-# **Raw Herring**
+# <center> **Raw Herring** </center>
 
 Tasted like sushi, but with a kick. You have an option of having it all in one piece, cut into pieces like shown on the left or having it served on a bun. I recommend the pieces being cut over the bun.
 
 ![](./rawherring.jpg)
 
-# **Stroopwafel**
+# <center> **Stroopwafel** </center>
 
 Two thin waffels stuck together with some sweet caramel like syrup. They are the best when made fresh and hot. We found this stand in Alberts Cuyp market.
 
 ![](./stroopwafel.jpg)
 
-# **FEBO**
+# <center> **FEBO** </center>
 
 A Dutch chain fast food restaurant that provides vending type machines where you select the food in a mini preheated glass oven. These were super delicious and filling.
 

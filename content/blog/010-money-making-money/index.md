@@ -7,7 +7,7 @@ tags: ["money"]
 description: "Making your money work for you, a Canadian guide from a millenial."
 ---
 
-###**Getting started with Investing**
+### <center> Getting started with Investing </center>
 
 WTF is investing? Simply put, it’s to take your money and put it into financial systems, shares, property or any commercial venture with expectation of generating profit.
 
@@ -23,7 +23,7 @@ For example, if you agree to contribute 5% of your annual income to your work pe
 
 TFSAs are accounts designed to help you save. Any money you gain from it is tax-free. You can open these up at a bank, broker or an insurance company. Every year, the contribution amount increases by a fixed amount based on inflation. If your TFSA investments do well, you increase your total contribution room by the gained amount.
 
-### **How do you make money from a TFSA?**
+### <center> **How do you make money from a TFSA?** </center>
 
 ![](./Annotation.png)
 
