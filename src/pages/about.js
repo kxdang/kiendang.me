@@ -76,8 +76,11 @@ class about extends React.Component {
                   boxShadow="0 0 2px 3px #226597"
                   activeBoxShadow="0 0 2px 3px #89ddff"
                 />
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> master
               </div>
               <Bio />
               <h3 style={{ textAlign: `center` }}>About me</h3>
@@ -104,7 +107,12 @@ class about extends React.Component {
               <p>
                 I resigned from my job back in May of 2019 and I'm currently in
                 the process of pursuing a programming career in front-end web
+<<<<<<< HEAD
                 development. I documented my entire journey on my blog and have been using the <a href="/022-pomodoro-technique/">Pomodoro Technique</a> to track my progress.
+=======
+                development. I documented my entire journey on my blog and tracked my progress using the <a href="/022-pomodoro-technique/">Pomodoro technique</a>.
+
+>>>>>>> master
               </p>
 
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
@@ -114,7 +122,7 @@ class about extends React.Component {
               </p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
-                <a href="/069-february-2020-pomodoro/">
+                <a href="/074-march-2020-pomodoro/">
                   Current Progress for 2020
                 </a>
               </p>

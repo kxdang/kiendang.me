@@ -1,9 +1,20 @@
 :root {
+<<<<<<< HEAD
   --primary-dark-color: #89ddff;
   --primary-light-color: #226597;
 
   --primary-dark-bg: #1b1e2b;
   --primary-light-bg: #dfdfdf;
+=======
+  --light-bg: #dfdfdf;
+  --primary-color-light: #226597;
+ 
+
+  --dark-bg: #1b1e2b;
+  --primary-color-dark: #89ddff;
+  --secondary-color-dark: rgb(247, 140, 108);
+
+>>>>>>> master
 }
 
 html {
@@ -37,7 +48,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .dark {
+<<<<<<< HEAD
   background-color: var(--primary-dark-bg);
+=======
+  background-color: var(--dark-bg);
+>>>>>>> master
   transition: all 0.6s ease;
 }
 
@@ -52,11 +67,19 @@ body::-webkit-scrollbar-thumb {
   text-shadow: 1px;
 }
 .dark a {
+<<<<<<< HEAD
   color: var(--primary-dark-color);
 }
 
 .dark strong {
   color: var(--primary-dark-color);
+=======
+  color: var(--primary-color-dark);
+}
+
+.dark strong {
+  color: var(--primary-color-dark);
+>>>>>>> master
 }
 
 p {
@@ -71,12 +94,18 @@ strong {
   color: #f5f5f5;
 }
 
+<<<<<<< HEAD
 
+=======
+.dark h3 {
+  color: var(--primary-color-dark);
+}
+>>>>>>> master
 .dark h1 {
-  color: rgb(247, 140, 108);
+  color: var(--secondary-color-dark);
 }
 .dark h2 {
-  color: rgb(247, 140, 108);
+  color: var(--secondary-color-dark);
 }
 
 .dark h3 {
@@ -89,29 +118,43 @@ strong {
 
 .light {
   transition: all 0.6s ease;
-  background-color: #dfdfdf;
+  background-color: var(--light-bg);
 }
 
 h1, h2, h3 {
+<<<<<<< HEAD
   color: var(--primary-light-color);
+=======
+  color: var(--primary-color-light);
+>>>>>>> master
 }
 
 h1 a {
   border-bottom: none;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 .dark h4 {
   color: #f5f5f5;
 }
 
 small {
-  color: #313b44;
+  color: #27496d;
 }
 
 a {
+<<<<<<< HEAD
   color: var(--primary-light-color);
   box-shadow: none;
   border-bottom: dotted 1px var(--primary-light-color);
+=======
+  color: var(--primary-color-light);
+  box-shadow: none;
+  border-bottom: dotted 1px var(--primary-color-light);
+>>>>>>> master
 }
 
 .gatsby-resp-image-link,
@@ -120,7 +163,11 @@ a {
 }
 
 a:hover {
+<<<<<<< HEAD
   color: var(--primary-light-color);
+=======
+  color: var(--primary-color-light);
+>>>>>>> master
   filter: brightness(120%);
   border-bottom-style: solid;
 }
@@ -183,7 +230,7 @@ a.technology {
 
 a.computer-science {
   color: white;
-  background-color: #0288d1;
+  background-color: #005082;
 }
 
 a.java {
