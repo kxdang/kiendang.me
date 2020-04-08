@@ -34,7 +34,6 @@ class now extends React.Component {
                   style={{
                     boxShadow: `none`,
                     textDecoration: `none`,
-                    color: `inherit`,
                   }}
                   to="/"
                 >
