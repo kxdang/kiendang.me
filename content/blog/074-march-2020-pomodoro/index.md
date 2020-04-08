@@ -1,6 +1,6 @@
 ---
 author: Kien
-date: 2020-04-01
+date: "2020-04-01"
 slug: march-2020-pomodoro
 title: 🍅March Pomodoro Reflection
 description: A monthly progress for March. My current status and reflection on my productivity, goals and achievements.
@@ -13,7 +13,7 @@ Having reflections allow me to measure how much I've done and what I've accompli
 
 ![](/pomotodomar2020.png)
 
-## <center>Reflection
+## <center>Reflection</center>
 
 March has been both eventful and uneventful. I was in Amsterdam this month for 5 days, and shortly after coming home, [COVID-19 news](/071-covid-19/) took over in North America.
 
@@ -23,7 +23,7 @@ I'm about 70% done the Modern React Bootcamp and have already learned so much. I
 
 I have changed my status to looking for work. I am trying to see if I can still enter the job market during these unsure times. In the meantime, I will continue to stick with my Pomodoro process and continue learning.
 
-## <center>Changing over to PomoDoneApp
+## <center>Changing over to PomoDoneApp </center>
 
 I will no longer be using Pomotodo to track my Pomodoro's. My subscription will be ending next month for their premium model and will be moving over to <a href="https://pomodoneapp.com/" target="__blank"> PomoDoneApp </a> using Zapier to trigger calendar events.
 

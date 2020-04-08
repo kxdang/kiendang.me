@@ -6,9 +6,12 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+import { MDXRenderer } from "gatsby-plugin-mdx"
+
+
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
+    const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
@@ -27,31 +30,33 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date} - {post.fields.readingTime.text}{" "}
-          {post.fields.readingTime.minutes > 0 &&
-          post.fields.readingTime.minutes <= 2
+
+          {post.frontmatter.date} - {post.frontmatter.tags}
+        </small>
+        {/* {post.fields.readingTime.minutes > 0 &&
+            post.fields.readingTime.minutes <= 2
             ? "🍵"
             : post.fields.readingTime.minutes > 2 &&
               post.fields.readingTime.minutes <= 3
-            ? "🍵🍵"
-            : post.fields.readingTime.minutes > 3 &&
-              post.fields.readingTime.minutes <= 5
-            ? "🍵🍵🍵"
-            : "🍵🍵🍵🍵"}
-          {post.frontmatter.tags ? (
-            <p>
-              Tags:{" "}
-              {post.frontmatter.tags.length > 1 ? (
-                post.frontmatter.tags.map(t => (
-                  <Link
-                    to={`/tags/` + t}
-                    className={`${t} alltags`}
-                    style={{ marginRight: `3px` }}
-                  >
-                    {t.replace(/-/g, " ")}
-                  </Link>
-                ))
-              ) : (
+              ? "🍵🍵"
+              : post.fields.readingTime.minutes > 3 &&
+                post.fields.readingTime.minutes <= 5
+                ? "🍵🍵🍵"
+                : "🍵🍵🍵🍵"} */}
+        {/* {post.frontmatter.tags ? (
+          <p>
+            Tags:{" "}
+            {post.frontmatter.tags.length > 1 ? (
+              post.frontmatter.tags.map(t => (
+                <Link
+                  to={`/tags/` + t}
+                  className={`${t} alltags`}
+                  style={{ marginRight: `3px` }}
+                >
+                  {t.replace(/-/g, " ")}
+                </Link>
+              ))
+            ) : (
                 <Link
                   to={`/tags/` + post.frontmatter.tags}
                   className={`${post.frontmatter.tags} alltags`}
@@ -59,10 +64,10 @@ class BlogPostTemplate extends React.Component {
                   {post.frontmatter.tags[0].replace(/-/g, " ")}
                 </Link>
               )}
-            </p>
-          ) : null}
-        </small>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          </p> */}
+
+
+        <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -108,22 +113,15 @@ export const pageQuery = graphql`
         author
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
-      html
+      body
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
         description
         tags
-      }
-      fields {
-        slug
-        readingTime {
-          text
-          minutes
-        }
       }
     }
   }

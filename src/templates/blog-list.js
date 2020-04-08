@@ -10,7 +10,7 @@ class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+    const posts = data.allMdx.edges
     const { currentPage, numPages } = this.props.pageContext
     const isFirst = currentPage === 1
     const isLast = currentPage === numPages
@@ -39,7 +39,24 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <small>
-                {node.frontmatter.date} - {node.fields.readingTime.text}{" "}
+                {node.frontmatter.date} -
+              </small>
+
+              {/*                 
+                {node.frontmatter.tags.length > 1 ? (
+                  node.frontmatter.tags.map(t => (
+                    <Link
+                      to={`/tags/` + t}
+                      className={`${t} alltags`}
+                      style={{ marginRight: `3px` }}
+                    >
+                      {t.replace(/-/g, " ")}
+                    </Link>
+                  ))
+                ) : (
+                   
+                  )} */}
+              {/* - {node.fields.readingTime.text}{" "}
                 {node.fields.readingTime.minutes > 0 &&
                 node.fields.readingTime.minutes <= 2
                   ? "🍵"
@@ -51,26 +68,20 @@ class BlogIndex extends React.Component {
                   ? "🍵🍵🍵"
                   : "🍵🍵🍵🍵"}
                 <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
-                  {node.frontmatter.tags.length > 1 ? (
-                    node.frontmatter.tags.map(t => (
-                      <Link
-                        to={`/tags/` + t}
-                        className={`${t} alltags`}
-                        style={{ marginRight: `3px` }}
-                      >
-                        {t.replace(/-/g, " ")}
-                      </Link>
-                    ))
-                  ) : (
-                    <Link
-                      to={`/tags/` + node.frontmatter.tags}
-                      className={`${node.frontmatter.tags} alltags`}
-                    >
-                      {node.frontmatter.tags[0].replace(/-/g, " ")}
-                    </Link>
-                  )}
-                </p>
-              </small>
+             
+
+                </p> */}
+              <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
+                <Link
+                  to={`/tags/` + node.frontmatter.tags}
+                  className={`${node.frontmatter.tags} alltags`}
+                >
+                  {node.frontmatter.tags}
+                </Link>
+
+              </p>
+
+
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
@@ -136,7 +147,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(
+    allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
@@ -153,14 +164,9 @@ export const pageQuery = graphql`
             description
             tags
           }
-          fields {
-            readingTime {
-              text
-              minutes
-            }
           }
         }
       }
     }
-  }
+  
 `
