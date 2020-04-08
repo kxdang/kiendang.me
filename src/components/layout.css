@@ -121,6 +121,9 @@ a {
   border-bottom: none;
 }
 
+.gatsby-resp-image-background-image {
+  display: none !important;
+}
 a:hover {
   color: var(--primary-color-light);
   filter: brightness(120%);
