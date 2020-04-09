@@ -7,7 +7,7 @@ tags: ["java"]
 
 Treat everything as an object using consistent syntax. The identifier you manipulate will be a reference to the object. For example, a TV and a remote. The TV is the object, the remote is the reference to the object. So when you want to perform a change on the TV, you use the remote to modify the TV. You can still change the TV’s state anywhere in the room, just take the remote with you.
 
-### **You must create all objects**
+### <center>**You must create all objects** </center>
 
 You create objects by using the **new** operator. For example, creating a String s = new String(“hello world”). If everything is an object, then using the class keyword followed by the name of the new type.
 
@@ -60,7 +60,7 @@ Your object might contain other objects so you would keep connecting the dots:
     myCar.gasTank.capacity = 13;
 ```
 
-### **Methods, arguments and return values**
+### <center> Methods, arguments and return values </center>
 
 A function is used to describe a subroutine, this is true in languages such as C and C++. However, in Java, these are called **methods,** thinking of methods as a way to do something. As stated in previous post, methods determine what the objects can receive. The important part of methods are
 
@@ -88,7 +88,7 @@ Remember:
 
 Objects are instances of classes. For example, we can take Human as an example of a class, and the objects would be individuals such as you and me. In the class of Humans, we can have methods such as walk, which applies to every individual.
 
-### **Return**
+### <center> Return </center>
 
 The return keyword does two things:
 

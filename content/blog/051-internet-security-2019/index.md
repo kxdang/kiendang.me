@@ -20,13 +20,13 @@ I’ve made significant steps on improving my security the past few days, includ
 
 After this incident, I’ve learned a lot about streamlining my passwords, U2F keys and informing myself on how to become more secure online. I’ve also gone ahead and learned how to encrypt sensitive files on my computer and my portable USB drives using <a href="https://www.veracrypt.fr/en/Home.html" target="_blank">VeraCrypt</a> which is an open source utility to encrypt data.
 
-#<center>Universal 2nd Factor (U2F)
+# <center> Universal 2nd Factor (U2F) </center>
 
 <a href="https://www.yubico.com/solutions/fido-u2f/" target="_blank">U2F (Universal 2nd Factor)</a> is an open authentication standard that enables users to strengthen and simplify 2FA (two-factor authentication) using a USB key or an NFC device. Basically, it’s a physical USB key that relies on public key cryptography which helps protect against phishing, hijacking and malware attacks.
 
 There are many ways a 2FA is implemented, usually, when you enter a password, you are prompted to answer a personal question or provide a one time passcode (OTP) from an SMS text or from an authenticator app. These provide a good additional layer of protection, however, they are vulnerable to man-in-the-middle attacks. A U2F key aims to solve this issue.
 
-###<center>How the Yubico Key Works
+### <center> How the Yubico Key Works </center>
 
 When you log in to a service that supports U2F, a prompt will ask you to insert the USB key and requires a physical touch to activate it to ensure that a human is trying to log in and not a computer. During this process, the key does its magic and makes sure that the website is the real deal, otherwise, it will reject the log in. You can learn more <a href="https://www.yubico.com/getstarted/meet-the-yubikey/" target="_blank">here.</a>
 
@@ -34,7 +34,7 @@ Luckily, there are many companies that support U2F, including Facebook, Google, 
 
 Google said they’ve completely <a href="https://www.extremetech.com/computing/274067-google-eliminated-phishing-by-giving-all-85000-employees-usb-security-keys" target="_blank"> eliminated phishing attacks for 85,000 employees</a> by adopting these U2F keys. Although I’m not a high profile person who is subjected to attacks, I’d like to have a peace of mind when it comes to online security.
 
-##<center>Bitwarden
+## <center>Bitwarden </center>
 
 I’ve used Last Pass and DashLane previously, but I’ve never liked their freemium models as they seem very intrusive in collecting your data. After doing a bit more digging, I found a service called <a href="https://bitwarden.com/" target="_blank">Bitwarden</a>, a free and open source software that can be audited by anyone ensuring there is no fancy stuff happening.
 

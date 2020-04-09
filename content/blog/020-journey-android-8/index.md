@@ -15,7 +15,7 @@ First and foremost, I spent a lot of time researching tips for beginners who are
 
 For the calculator app, I made multiple **fragments** instead of building in one activity. Fragments are reusable components or sub activities. They can be used to control certain parts of the screen and allows for a more versatile control over [multiple devices](https://kiendang.me/index.php/2018/11/11/journey-to-android-development-pt-2/).
 
-## **Building the Calculator UI**
+## <center>**Building the Calculator UI** </center>
 
 The first fragment was the `input_fragment` seen below:
 
@@ -37,7 +37,7 @@ Key points:
 
 1. Specified the orientation to be horizontal which is the primary layout we need to stack buttons
 
-2) Height is equal to `0dp` because we want to make it stretch as much as the device will allow it to stretch based on the number of rows we create
+2. Height is equal to `0dp` because we want to make it stretch as much as the device will allow it to stretch based on the number of rows we create
 
 3. Weight is considered to be 1 so that all buttons can be equal.
 

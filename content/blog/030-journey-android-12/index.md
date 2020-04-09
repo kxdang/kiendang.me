@@ -7,7 +7,7 @@ tags: ["java"]
 
 In this post, I’ll be adding features to the Bits and Pizzas app and implement them while writing out this blog as a way to teach myself for self reference. In this exercise, the Android Design Support Library is explored to give a seamless UI.
 
-#### <center>**Adding the hiding Toolbar on Scroll**
+#### <center>Adding the hiding Toolbar on Scroll** </center>
 
 ![](./scrollbar.gif)
 

@@ -8,19 +8,19 @@ tags: ["java"]
 ![](https://images.unsplash.com/photo-1422207049116-cfaf69531072?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80)
 Inheritance was covered here in this [post](/java-fundamentals-1/). The other concepts are explained here using my own words. These are my active recall questions.
 
-## What is Encapsulation?
+## <center>What is Encapsulation? </center>
 
 In object oriented programming, encapsulation is the process of wrapping the data (variables) and the code acting on the data (methods) together as a single unit. That means that the variables are considered private and not accessible to other classes except its own.
 
-## Why is Encapsulation Important?
+## <center>Why is Encapsulation Important? </center>
 
 It is important because a class can have total control over what is stored in its field. It allows for data hiding which means the user will not have any information regarding the inner implementations. Other advantages are increased flexibility and re-usability like most of the concepts here.
 
-## What is Abstraction?
+## <center>What is Abstraction? </center>
 
 It is the process of hiding the implementation details from the user and only functionality will be accessible.
 
-## **Why is Abstraction important in OPP?**
+## <center>Why is Abstraction important in OPP? </center>
 
 It is important because the subclasses that are created inherit the parent class methods and require their **own** implementation of the parent method. You cannot instantiate the parent class and must provide an override of the abstract method or declare it as abstract.
 
@@ -28,7 +28,7 @@ Data abstraction is a property which only the essential details are displayed to
 
 An example would be having a superclass called Employee where it contains a `calculateSalary()` method. We set Employee as an abstract class and can have instances of either Contractor or FullTime. When Contractor or FullTime is created, its own implementation of calculateSalary will be required, therefore, being able to separate the calculateSalary method based on the class type.
 
-## What is Polymorphism?
+## <center>What is Polymorphism? </center>
 
 Polymorphism is a robust feature of object oriented programming. The reference type can point to a different object at any given time (the simplest form of polymorphism). It is based on the concept of inheritance and overriding concepts.
 
@@ -64,13 +64,13 @@ Now we can create a Trainer that teaches the animal to speak:
 
 The parameter anim can take any Animal base class, whether its a fish or a bird it will execute its method according to the base class.
 
-## Why is Polymorphism important?
+## <center>Why is Polymorphism important?</center>
 
 It is important because it allows for re-usability and flexibility with minimal modifications to the code. We do not need to write if statements for this type of problem.
 
 There was also one question that I needed to clarify:
 
-## What is the different between extends and implements in Java?
+## <center>What is the different between extends and implements in Java?</center>
 
 The difference is that extends is for extending a class, you can extend and override its methods (a.k.a creating subclasses)
 

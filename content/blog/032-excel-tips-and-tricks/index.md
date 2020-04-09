@@ -10,11 +10,11 @@ My post here is to keep a reference of the functions and VBA codes I’ve found 
 
 I deal with Excel spreadsheets at work. One of my favourite things to do is try to automate the work I find by programming in VBA. Below are a few Excel tips and tricks I learned.
 
-#### <center> **Tip #1: Automatically save a spreadsheet using cell reference**
+#### <center>Tip #1: Automatically save a spreadsheet using cell reference </center>
 
 ![](./Excel.gif)
 
-#### Purpose
+#### <center> Purpose </center>
 
 It saves the Excel spreadsheet with a referenced cell in your workbook. It will make your workflow faster and prevents the Excel file from being overwritten. The file will save on the path it is currently on. However, you can also tell Excel to save to a certain directory or create new folders using `MkDir`. Code snippet:
 
@@ -23,13 +23,13 @@ It saves the Excel spreadsheet with a referenced cell in your workbook. It will 
     ActiveWorkbook.SaveAs Filename:=ActiveWorkbook.Path & "\" & ThisFile
     End Sub
 
-####
 
-#### <center>**Tip #2: Automatically send emails using Excel**
+
+#### <center> Tip #2: Automatically send emails using Excel** </center>
 
 ![](./email.gif)
 
-#### <center><h3>Purpose</h3>
+#### <center> Purpose </center>
 
 When completing an excel spreadsheet, such as filling out a sales inquiry, the user would want to send the email to the appropriate party to call an action item. The text in the outlook email can be seen in the code snippet, the demo above shows the Excel calling the outlook app and all fields are auto-filled in from the VBA code.
 

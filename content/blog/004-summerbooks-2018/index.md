@@ -7,7 +7,7 @@ title: Summer Books for 2018
 tags: [books]
 ---
 
-# **Books**
+# <center> **Books** </center>
 
 I was never an avid reader back in school. Fast forward a few years later into my high school years, my friend recommended a Dan Brown book called Deception Point. After picking up the book, the words made an imaginary movie in my head. That is the first time I've experienced the magic of words.
 
@@ -15,7 +15,7 @@ From time to time, I like to read thriller and mystery novels but now that I’m
 
 Here’s a few books I read this summer and recommend:
 
-# **Never Split the Difference**![](https://books.google.com/books/content/images/frontcover/RmdqCgAAQBAJ?fife=w400-h600)
+# <center> **Never Split the Difference**![](https://books.google.com/books/content/images/frontcover/RmdqCgAAQBAJ?fife=w400-h600)</center>
 
 A book about a former international hostage negotiator for the FBI reveals some of his insights and tested approaches to high level negotiations and translates it to the reader to learn about his experience. The author tries to bring his experiences to relate to the readers such as negotiating for a better wage, a better deal and even making business decisions.
 
@@ -33,7 +33,7 @@ Everyone is a protagonist of their own life. It is important to always understan
 
 These are just some of the key important points that stood out to me. Chris Voss Never Split the Difference was a great book to read and something I definitely would recommend to my friends.
 
-# **The Question Behind the Question**
+# <center> **The Question Behind the Question**</center>
 
 ![](https://images-na.ssl-images-amazon.com/images/I/81SgFlPuFUL.jpg)
 
@@ -43,7 +43,7 @@ It talks about the questions that can lead to change e.g “What can I do to imp
 
 Personal accountability is not always easy. I admit, I am struggling with this from time to time but after reading this book, it reveals some very interest points that provide valuable take home messages.
 
-# **I Will Teach You To Be Rich**
+# <center> **I Will Teach You To Be Rich**</center>
 
 ![](https://books.google.com/books/content/images/frontcover/A-hrDwAAQBAJ?fife=w400-h600)
 

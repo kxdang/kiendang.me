@@ -35,7 +35,7 @@ Another description of an object from Booch:
 
 An object has a state (internal data), behaviour (methods) and identity (unique address in memory).
 
-### <center> **Interfaces**
+### <center>Interfaces</center>
 
 All objects are unique but are part of a class of objects that share characteristics and behaviours. Creating abstract classes (data types) is a fundamental concept in OOP, we can create variable types (e.g objects or instances) and manipulate them. For the bank teller example, tellers, customers, accounts etc, are represented with a unique entity in the computer program. This unique entity is the object and each object belongs to a class that defines the characteristics and behaviours.
 
@@ -52,7 +52,7 @@ The interface determines the request you can make for a specific object. The cod
 
 The Light is the name of the class and is called **lt**, the requests you can make from a Light object are turning it on, off, brighten or dim. The Light object is defined by a reference “**lt**” and calling new to create a new object. From there, the way to connect the interface is using the dot to manage the request to execute a function.
 
-### **Think about objects as service providers**
+### <center>Think about objects as service providers</center>
 
 The program provides services to the user by utilizing the functions of other objects. The idea is to locate existing code libraries (set of objects) that provide the ideal service to solve the problem.
 
@@ -82,13 +82,13 @@ Java uses the three keywords to set boundaries in a class called access specifie
 
 `protected` - acts like private but allows an inheriting class to access it.
 
-### <center>**Reusing implementation - Composition (Member object)**
+### <center>Reusing implementation - Composition (Member object) </center>
 
 Reusing a class is as easy as using an object of that class directly but also putting that object inside of a new class - “creating a member object”. Your new class can be made up of any combination of other objects to achieve functionality. This concept is called **composition**. If it happens dynamically, it's called **aggregation**. An example of composition is “A car has an engine”. Composition allows for a lot of flexibility as member objects of new classes are private and allow changes to them without disturbing client code.
 
 It is ideal for a beginner to use compositions first when creating new classes; it will help the design be cleaner and with experience it will be obvious when to use inheritance over compositions.
 
-### <center>**Inheritance (class extends from another)**
+### <center>Inheritance (class extends from another) </center>
 
 Instead of creating classes and be forced to create a new one that might have similar functionality, we can clone the existing class and make additions and modifications to the clone. This is called inheritance. However, if the original class (e.g superclass or base class) is changed, then the modified cloned (inherited class or subclass) also reflects those changes.
 
@@ -104,7 +104,7 @@ When the derived class is exactly the same type as the base class but only overr
 
 An example would be having an air conditioner pump that's broken and you replace it with a pump that can cool and heat. Therefore the new pump can be an object that has been extended and the air conditioner system only knows how to interact with the cooling interface of the pump and not the heat.
 
-### **Polymorphism**
+### <center>Polymorphism</center>
 
 When dealing with type hierarchies, we should treat an object as the base type and not the specific type. The benefit of this is that we can write code that is not dependent on a specific type, but rather, its base type.
 

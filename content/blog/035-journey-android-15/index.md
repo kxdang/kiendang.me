@@ -19,7 +19,7 @@ By implementing a navigation drawer, we need to add the drawer layout to the act
 
 There will be four main steps to create this navigation drawer
 
-## <center>**Creating the fragments and activities**
+## <center> Creating the fragments and activities</center>
 
 The important thing we need to remember is we will be displaying a toolbar over all of these activities and the navigation drawer. We first need to create the fragments and activities individually and hook them up to the navigation.
 
@@ -67,7 +67,7 @@ In order to remove the built in one, we need to update the `styles.xml` and repl
     </resources>
 ```
 
-## <center>**Creating the Header of the Navigation Drawer**
+## <center>Creating the Header of the Navigation Drawer </center>
 
 The navigation drawer header is usually a picture and contain basic information. It is an optional component, however, its recommended to make the application look nicer. There are a set of options below and this is where we will connect the fragments and activities based on the users inputs.
 
@@ -110,7 +110,7 @@ For this navigation header, we create it in a separate Layout resource file and 
     </FrameLayout></code>
 ```
 
-### <center>**Creating the Options of the Navigation View**
+### <center>Creating the Options of the Navigation View </center>
 
 For the list of options, we need to create another resource file called `menu_nav` and give it a resource type of “**Menu**”. You’ll see how the menu is created and pay close attention to the way it is grouped. The `android:checkableBehaviour=”single”` is set to the parent group that contains the items which allow the android to know when each individual item is clicked in the menu list.
 
@@ -156,7 +156,7 @@ The strings will all be listed under the resource component like so:
 
 ```
 
-### <center>**Implementing the Navigation Drawer in the MainActivity**
+### <center>Implementing the Navigation Drawer in the MainActivity</center>
 
 There are two main things we need to finish doing, the first step is to adjust our Main Activity XML and the second step is to connect everything together in the MainActivity java file.
 
