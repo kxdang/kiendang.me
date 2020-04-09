@@ -25,9 +25,27 @@ const data = {
             '#aa9cbc',
             '#db7d93'
         ]
-    }]
+    }],
+}
 
-};
+const option = {
+    tooltips: {
+        callbacks: {
+            label: function (tooltipItem, data) {
+                var dataset = data.datasets[tooltipItem.datasetIndex];
+                var meta = dataset._meta[Object.keys(dataset._meta)[0]];
+                var total = meta.total;
+                var currentValue = dataset.data[tooltipItem.index];
+                var percentage = parseFloat((currentValue / total * 100).toFixed(1));
+                return percentage + '%';
+            },
+            title: function (tooltipItem, data) {
+                return data.labels[tooltipItem[0].index];
+            }
+        }
+    }
+}
+
 
 export default class PieChart extends Component {
 
@@ -36,7 +54,7 @@ export default class PieChart extends Component {
         return (
             <div>
                 <h2 style={{ textAlign: "center" }}>Kien Dang</h2>
-                <Pie data={data} />
+                <Pie data={data} options={option} />
             </div>
         );
     }
