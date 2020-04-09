@@ -101,14 +101,13 @@ class about extends React.Component {
               <p>
                 I resigned from my job back in May of 2019 and I'm currently in
                 the process of pursuing a programming career in front-end web
-                development. I documented my entire journey on my blog and tracked my progress using the <a href="/022-pomodoro-technique/">Pomodoro technique</a>.
-
+                development. I documented my entire journey on my blog and
+                tracked my progress using the{" "}
+                <a href="/022-pomodoro-technique/">Pomodoro technique</a>.
               </p>
 
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
-                <a href="/066-december-2019-yearend-pomodoro/">
-                  Year End Progress 2019
-                </a>
+                <a href="/066-2019-yearend-pomodoro/">Year End Progress 2019</a>
               </p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
