@@ -1,0 +1,25 @@
+---
+title: 🙌 Woohoo MDX sucess!
+date: "2020-04-08"
+description: "I added MDX support for my blog!"
+tags: ["webdev"]
+---
+
+import Pie from './pie.js'
+
+<Pie/>
+
+
+<p style={{paddingTop: "2rem"}}>For the past month, I've been learning React which has slowly given me the confidence to tweak my blog. Recently, I added support for multiple tags in a post and having GraphQL to properly query for them. </p>
+
+In addition, I added a nicer button to toggle between dark and light mode, something I've been meaning to figure out how to do. After learning how to use external libraries, I went ahead and installed a Switch component for React and viola, a nicer button.
+
+I am always looking for improvements because I have fun while doing them. I've learned so much just from building my blog and adding the features that I wanted. 
+
+Today I added <a href="https://www.gatsbyjs.org/docs/mdx/" target="_blank">MDX</a>  support which allows me to insert JSX into markdown files. 
+
+Having both markdown and JSX is a perfect environment for me to add cooler interactive graphs for my monthly Pomodoro reports. In turn, this helps build a lot of momentum in my journey.
+
+I followed the guide <a href="https://www.gatsbyjs.org/blog/2019-11-21-how-to-convert-an-existing-gatsby-blog-to-use-mdx/" target="_blank">here</a> and found that I had to do a lot more refactoring as I had my remark-reading-time plugin installed and my tags page all hooked up to the inital starter blog setup. After 3 hours of tinkering, I finally got it to work!
+
+I am using a React wrapper for Chartjs and then importing them in my markdown. Now I can make my blog look a little more technical!

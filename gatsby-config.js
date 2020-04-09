@@ -10,6 +10,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-catch-links",
+    'gatsby-remark-reading-time',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -25,10 +26,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
-          `gatsby-remark-reading-time`,
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -55,7 +56,7 @@ module.exports = {
         trackingId: `UA-128969767-2`,
       },
     },
-    `gatsby-plugin-feed`,
+    `gatsby-plugin-feed-mdx`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

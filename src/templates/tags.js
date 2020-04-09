@@ -13,10 +13,10 @@ import Switch from "react-switch"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
-  const { edges, totalCount } = data.allMarkdownRemark
+  const { edges, totalCount } = data.allMdx
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
+    } tagged with "${tag}"`
 
   return (
     <ThemeContext.Consumer>
@@ -92,7 +92,6 @@ const Tags = ({ pageContext, data }) => {
                 {edges.map(({ node }) => {
                   const { slug } = node.fields
                   const { title } = node.frontmatter
-                  const { date } = node.frontmatter
                   const { description } = node.frontmatter
 
                   return (
@@ -105,20 +104,20 @@ const Tags = ({ pageContext, data }) => {
                         }}
                         to={slug}
                       >
-                        {title} -{" "}
-                        <small>
+                        {title}
+                        {/* <small>
                           {node.fields.readingTime.text}{" "}
                           {node.fields.readingTime.minutes > 0 &&
-                          node.fields.readingTime.minutes <= 2
+                            node.fields.readingTime.minutes <= 2
                             ? "🍵"
                             : node.fields.readingTime.minutes > 2 &&
                               node.fields.readingTime.minutes <= 3
-                            ? "🍵🍵"
-                            : node.fields.readingTime.minutes > 3 &&
-                              node.fields.readingTime.minutes <= 5
-                            ? "🍵🍵🍵"
-                            : "🍵🍵🍵🍵"}
-                        </small>
+                              ? "🍵🍵"
+                              : node.fields.readingTime.minutes > 3 &&
+                                node.fields.readingTime.minutes <= 5
+                                ? "🍵🍵🍵"
+                                : "🍵🍵🍵🍵"}
+                        </small> */}
                       </Link>
 
                       {/* <p style={{ marginBottom: `3px` }}> </p> */}
@@ -147,7 +146,7 @@ Tags.propTypes = {
     tag: PropTypes.string.isRequired,
   }),
   data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
+    allMdx: PropTypes.shape({
       totalCount: PropTypes.number.isRequired,
       edges: PropTypes.arrayOf(
         PropTypes.shape({
@@ -174,7 +173,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(
+    allMdx(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
@@ -183,10 +182,6 @@ export const pageQuery = graphql`
       edges {
         node {
           fields {
-            readingTime {
-              text
-              minutes
-            }
             slug
           }
           frontmatter {

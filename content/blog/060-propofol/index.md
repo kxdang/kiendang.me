@@ -20,33 +20,33 @@ At this point, I wasn't sure if I felt comforted by the fact that I'm going to e
 
 A few moments later, I'm counting down from 10 and a cold white viscous liquid starts running through my second IV line.
 
-###<center> What happened?
+### <center> What happened?</center>
 I've been trying to recover from an infection with multiple visits to the ER and had taken multiple prescribed antibiotics. The infection got worse and on my fourth visit, I had an emergency surgical procedure to remove and clear the infection.
 
-#<center>What is propofol?
-Propofol is commonly dubbed as "milk of anesthesia" is an extremely popular intravenous anesthetic agent in modern medicine. It is used to induce general anesthesia for procedural and critical care patients. It can also be paired with opioids for pain relief which makes them ideal for ICU patients<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4554966/" target="_blank">[1]</sup></a>.
+# <center> What is propofol?</center>
+Propofol is commonly dubbed as "milk of anesthesia" is an extremely popular intravenous anesthetic agent in modern medicine. It is used to induce general anesthesia for procedural and critical care patients. It can also be paired with opioids for pain relief which makes them ideal for ICU patients<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4554966/" target="_blank">[1]</a></sup>.
 
-Propofol has a rapid and short duration onset of action thanks to its high lipid solubility which allow them to penetrate the blood-brain barrier. It is very easy to control the level of sedation by injection and continuous infusion<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4554966/" target="_blank">[2]</sup></a>.
+Propofol has a rapid and short duration onset of action thanks to its high lipid solubility which allow them to penetrate the blood-brain barrier. It is very easy to control the level of sedation by injection and continuous infusion<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4554966/" target="_blank">[2]</a></sup>.
 
-One of the greatest benefits of propofol are the reduced side effects that are common with other anesthetic agents such as postoperative nausea and vomiting<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4554966/" target="_blank">[2]</sup></a>.
+One of the greatest benefits of propofol are the reduced side effects that are common with other anesthetic agents such as postoperative nausea and vomiting<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4554966/" target="_blank">[2]</a></sup>.
 
 The discovery and development of propofol came from <a href="http://www.laskerfoundation.org/awards/show/discovery-and-development-propofol-widely-used-anesthetic/" target="_blank"> John B. Glen</a>, who recently won the 2018 Lasker-DeBakey Clinical Medical Research Award. Since his discovery of propofol in 1970s, more than 190 million people have received his drug and has been put on the WHO list of essential medicine.
 
-##<center>How does propofol work?
+## <center> How does propofol work? </center>
 
 Propofol works by binding to various neurotransmitter receptors in the central nervous system (CNS). In order for propofol to bind to these receptors in the brain, it must be able to cross the blood-brain barrier (BBB).
 
-The BBB is a highly selective semipermeable border that separates the blood from the extracellular fluid in the CNS. Propofol is very lipophilic (meaning its lipid soluble) and this helps it cross the BBB. <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6238258/" target="_blank">[3]</sup></a>.
+The BBB is a highly selective semipermeable border that separates the blood from the extracellular fluid in the CNS. Propofol is very lipophilic (meaning its lipid soluble) and this helps it cross the BBB. <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6238258/" target="_blank">[3]</a></sup>.
 
-Propofol works by enhancing the activity of the inhibitory neurotransmitter γ-aminobutyric acid (GABA) in the CNS by binding to GABA A receptors<sup><a href="https://www.eurekaselect.com/65739/article" target="_blank">[4]</sup></a><sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951778/" target="_blank">[5]</sup></a><sup><a href="https://www.cell.com/cell/fulltext/S0092-8674(18)31047-X?\_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS009286741831047X%3Fshowall%3Dtrue" target="_blank">[6]</sup></a>.
+Propofol works by enhancing the activity of the inhibitory neurotransmitter γ-aminobutyric acid (GABA) in the CNS by binding to GABA A receptors<sup><a href="https://www.eurekaselect.com/65739/article" target="_blank">[4]</a></sup><sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951778/" target="_blank">[5]</a></sup><sup><a href="https://www.cell.com/cell/fulltext/S0092-8674(18)31047-X?\_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS009286741831047X%3Fshowall%3Dtrue" target="_blank">[6]</a></sup>.
 
-##<center>What is γ-aminobutyric acid (GABA)?
+## <center> What is γ-aminobutyric acid (GABA)? </center>
 
-GABA is naturally occuring chemical messenger (neurotransmitter) that block or inhibit certain brain signals which decreases the activity in your CNS<sup><a href="https://pubchem.ncbi.nlm.nih.gov/compound/gamma-Aminobutyric-acid" target="_blank">[7]</sup></a>. Therefore, with propfol enhancing this neurotransmitter in your brain, you'll have a decreased level of consciousness and lack of memory<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951778/" target="_blank">[5]</sup></a>.
+GABA is naturally occuring chemical messenger (neurotransmitter) that block or inhibit certain brain signals which decreases the activity in your CNS<sup><a href="https://pubchem.ncbi.nlm.nih.gov/compound/gamma-Aminobutyric-acid" target="_blank">[7]</a></sup>. Therefore, with propfol enhancing this neurotransmitter in your brain, you'll have a decreased level of consciousness and lack of memory<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951778/" target="_blank">[5]</a></sup>.
 
 In my previous post, I did research about my experience with [ciprofloxacin](/053-cipro-zzz/) and how that antibiotic made me very drowsy. I learned that once drugs start crossing the brain blood barrier, you're going to start feeling drowsy and dizzy.
 
-##<center>Final thoughts
+## <center> Final thoughts</center>
 
 It's a very strange feeling to know that your brain completely forgot any type of pain you felt during a specific time. My experience with propofol felt like someone hit the power button in my brain and completely forced me to sleep without feeling tired.
 

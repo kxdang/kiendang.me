@@ -1,6 +1,6 @@
 ---
 author: Kien
-date: 2020-03-28
+date: "2020-03-28"
 slug: canadian-flag-react
 title: 🍁 Canadian Flag with React Icons
 description: I accidentally found a creative way to show the Canadian flag using React Icons!
@@ -17,14 +17,6 @@ Eventually, as I was browsing through the [React Icons](https://react-icons.netl
 What happened next was a complete surprise, I initially had the circle version of the Github logo but I remembered Github had a square one and made the switch, and lo and behold, a subtle Canadian flag. I'm actually quite proud of this, so I thought I'd share my source code below, feel free to take this and tweet me if you ever use it [@k1dang](https://twitter.com/k1dang)!
 
 A live preview on my [portfolio](https://www.kien.dev). Created with React Icons and CSS grid.
-
-   <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-        <img
-            style={{ width: `35%`, height: "auto" }}
-            alt="The Name Of The Wind Book"
-            src="/flag.gif"
-        />
-    <div>
 
 The HTML setup:
 

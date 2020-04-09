@@ -6,9 +6,12 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+import { MDXRenderer } from "gatsby-plugin-mdx"
+
+
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
+    const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
@@ -29,15 +32,15 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date} - {post.fields.readingTime.text}{" "}
           {post.fields.readingTime.minutes > 0 &&
-          post.fields.readingTime.minutes <= 2
+            post.fields.readingTime.minutes <= 2
             ? "🍵"
             : post.fields.readingTime.minutes > 2 &&
               post.fields.readingTime.minutes <= 3
-            ? "🍵🍵"
-            : post.fields.readingTime.minutes > 3 &&
-              post.fields.readingTime.minutes <= 5
-            ? "🍵🍵🍵"
-            : "🍵🍵🍵🍵"}
+              ? "🍵🍵"
+              : post.fields.readingTime.minutes > 3 &&
+                post.fields.readingTime.minutes <= 5
+                ? "🍵🍵🍵"
+                : "🍵🍵🍵🍵"}
           {post.frontmatter.tags ? (
             <p>
               Tags:{" "}
@@ -52,17 +55,17 @@ class BlogPostTemplate extends React.Component {
                   </Link>
                 ))
               ) : (
-                <Link
-                  to={`/tags/` + post.frontmatter.tags}
-                  className={`${post.frontmatter.tags} alltags`}
-                >
-                  {post.frontmatter.tags[0].replace(/-/g, " ")}
-                </Link>
-              )}
+                  <Link
+                    to={`/tags/` + post.frontmatter.tags}
+                    className={`${post.frontmatter.tags} alltags`}
+                  >
+                    {post.frontmatter.tags[0].replace(/-/g, " ")}
+                  </Link>
+                )}
             </p>
           ) : null}
         </small>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -108,10 +111,10 @@ export const pageQuery = graphql`
         author
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
-      html
+      body
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
@@ -119,8 +122,7 @@ export const pageQuery = graphql`
         tags
       }
       fields {
-        slug
-        readingTime {
+        readingTime{
           text
           minutes
         }

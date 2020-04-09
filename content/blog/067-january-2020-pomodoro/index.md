@@ -14,19 +14,19 @@ Having reflections allow me to measure how much I've done and what I've accompli
 
 ![](/pomotodojan2020.png)
 
-## <center>Reflection
+## <center> Reflection </center>
 
 A great start to the year as this month is the most Pomodoro's I've ever completed. I completed the MERN application which can be found [here](https://mern-places-udemy.firebaseapp.com/) and now moved over to an advanced CSS course to increase my CSS skills to create beautiful frontend websites.
 
 There were a couple of reasons why I think I had such a high Pomodoro count this month. I think I've narrowed it down to 5 reasons:
 
-### 1. Completion of the Udemy course 💪
+### 1. Completion of the Udemy course 💪 
 
 Another small victory, I learned how a full stack application is made with Express, React and MongoDB. Created the ability to store data user, hashing passwords using bcrypt.js, dealing with JWT tokens to keep users logged in and many more.
 
 My certification from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Udemy!</a>
 
-### 2. Coffee☕ - artificially enhancing concentration
+### 2. Coffee☕ - artificially enhancing concentration 
 
 I was never a coffee drinker. The number of times I've had coffee during my 5-year undergrad was probably about 6 times. Coffee would do more harm than good as it made my stomach hurt and often times made me sleepy.
 
@@ -44,9 +44,9 @@ The idea is that no day will go free from a Pomodoro. I'm using this technique I
 
 I talked about [running](/008-managing-energy/) before back in 2018 where I started to track my previous summer. The summer of 2019 had running out of the equation because of my health issue. I've been feeling much better lately and started to jog this month, slowly introducing it to my routine.
 
-#<center>Improvements needed
+# <center> Improvements needed </center>
 
-## <center>Sleep hygene 😴
+## Sleep hygene 😴
 
 It's important to keep a routine every day and go to bed and wake up at the same time. However, I tend to play a lot of games at night to decompress which leads me to sleeping in a little late.
 
@@ -56,11 +56,11 @@ In addition, my low quality of sleep tends to add a never ending cycle of quick 
 
 Atomic habits has taught me to make my environments very distinct when it comes to productivity and leisure. Unfortunately, my gaming, productivity and resting place is all in my bedroom. I cannot dedicate any other spaces to certain activities which definitely causes sleep issues. I need to find a solution somehow.
 
-## <center>Energy and Stress management
+## <center> Energy and Stress management </center>
 
 I started to jog this month to gain more energy physically as well as increasing my mental energy. Stress management is being dealt with meditation. I've incorparated 5 minutes of meditation into my day but I've only completed about 11 days out of the 31 this month. I've been slacking on trying to find just 5 minutes of my time to meditate. I will start putting in calendar events and block time.
 
-## <center>Reduce gaps inbetween Pomodoro's
+## <center> Reduce gaps inbetween Pomodoro's </center>
 
 I've been doing Pomodoro's as I feel like it. I do 25 minute and then take a break for more than 5 minutes that is allocated. I noticed my calendar having gaps and I tend to space out my Pomodoro's over a longer period than I would like. Partly due to the fact that I either need to cook food or I need a bit more time to start up again.
 

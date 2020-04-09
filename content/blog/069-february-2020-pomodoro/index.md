@@ -14,7 +14,7 @@ Having reflections allow me to measure how much I've done and what I've accompli
 
 ![](/pomotodofeb2020.png)
 
-## <center>Reflection
+## <center>Reflection</center>
 
 Another 100 Pomodoro month! 🙌🎉 One feature of the Pomotodo app is the synchronization with Google Calendar so I can visually see the number of Pomodoro's completed per day.
 
@@ -22,7 +22,7 @@ Earlier this month, I noticed I had a rough time starting up my Pomodoro streak 
 
 However, I’m more surprised I reached another 100 Pomodoro’s this month as it is now the second highest number of Pomodoro’s I’ve ever done. I have been running and meditating and it has been increasing my overall energy and well-being respectively. It is introduced as running twice a week and meditating for 5 minutes every day. My focus has now shifted in completing the Modern React Bootcamp to gain more knowledge in React and building a few small projects to practice my JavaScript.
 
-## <center>Accomplishments
+## <center>Accomplishments</center>
 
 - <a href="www.kien.dev" target="_blank">Personal Portfolio</a>
 - Completed the Advanced CSS and SASS course from Udemy (Nature site, Trillo app, Realtor site) found in my portfolio. I’m excited to use flexbox and CSS grid in my future projects.
