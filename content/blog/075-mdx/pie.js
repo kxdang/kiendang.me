@@ -19,9 +19,11 @@ const data = {
             '#d7385e'
         ],
         hoverBackgroundColor: [
-            '#FF6384',
-            '#36A2EB',
-            '#FFCE56'
+            '#FFF',
+            '#b8f2f1',
+            '#8b9db9',
+            '#aa9cbc',
+            '#db7d93'
         ]
     }]
 
