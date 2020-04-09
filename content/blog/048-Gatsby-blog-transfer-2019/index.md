@@ -2,7 +2,7 @@
 author: Kien
 date: 2019-07-23
 title: Gatsby Blog Transfer - Success!
-tags: ["technology"]
+tags: ["webdev"]
 description: "Made the switch from Wordpress to Gatsby"
 ---
 

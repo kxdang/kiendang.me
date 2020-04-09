@@ -36,7 +36,7 @@ Take away points:
 
 - `onCreateView()` method is called every time Android requires the fragment layout
 
-- We use the <fragment> element and name attribute to reference in XML
+- We use the `<fragment>` element and name attribute to reference in XML
 
 - Fragments do not extend Activity class or implement Contents class
 

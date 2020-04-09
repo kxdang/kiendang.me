@@ -11,7 +11,7 @@ const data = {
             borderWidth: 1,
             hoverBackgroundColor: 'rgba(255,99,132,0.4)',
             hoverBorderColor: 'rgba(255,99,132,1)',
-            data: [65, 59, 80, 81, 56, 55, 40, 46, 50, 12, 60, 12]
+            data: [78, 35, 11, 6, 92, 90, 39, 42, 65, 56, 92, 90]
         }
     ]
 };
@@ -20,7 +20,7 @@ export default class BarChart extends Component {
     render() {
 
         return (<div>
-            <h2>Bar Example</h2>
+            <h2 style={{ textAlign: "center" }}>Year Summary</h2>
             <Bar
                 data={data}
                 width={100}
