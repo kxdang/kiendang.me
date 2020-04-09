@@ -7,13 +7,13 @@ description: A Mind for Numbers, a book about learning how to learn and improvin
 tags: ["books"]
 ---
 
-   <div style="display:flex; justify-content:center">
-        <img
-            style={ width: `35%`, height: "auto" }
-            alt="A Mind for Numbers Book"
-            src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575009552l/18693655._SY475_.jpg"
-        />
-    </div>
+<div style="display:flex; justify-content:center">
+    <img
+        style="width: 35%; height: auto"
+        alt="A Mind for Numbers Book"
+        src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575009552l/18693655._SY475_.jpg"
+    />
+</div>
 
 Shortly after graduating from the University of Waterloo, I ventured on to the world of online courses looking to learn new materials that interests me. I believe continuous improvement and the ability to develop new skills are essential to personal growth.
 
