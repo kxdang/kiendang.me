@@ -81,10 +81,13 @@ class about extends React.Component {
               <p>
                 Hello, my name is Kien (pronounced /'key in/). I have a Bachelor
                 of Science in Honours Biochemistry from the University of
-                Waterloo. I have held many positions during my co-op education
-                and have over 2 years of professional work experience at a
-                chemical company specializing in polyurethane foam for the
-                automotive industry.
+                Waterloo.
+                <br />
+                <br />
+                I have held many positions during my co-op education and have
+                over 2 years of professional work experience at a chemical
+                company specializing in polyurethane foam for the automotive
+                industry.
                 <br />
                 <br />
                 I’m a self motivated learner who likes to program and one of my

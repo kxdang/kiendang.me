@@ -19,12 +19,14 @@ Initially, when I started 2 years ago, I felt a bit of impostor syndrome. As som
 
 I believe that having an open mind and the ability to learn was what made me excel in my position regardless of my degree. It took me a full year to finally grasp my job title and understand my position at my company.
 
-During my first year I saw a lot of opportunities to improve their process. I’ve made many improvements with excel macros alone which saved the company over [\$4500 yearly](/029-automated-job-process/). The second year was spent on improving my ability to meet tight deadlines and was now finally comfortable working in my position.
+During my first year I saw a lot of opportunities to improve their process. I’ve made many improvements with excel macros alone which saved the company over <!-- prettier-ignore -->[$4500 yearly](/029-automated-job-process/). The second year was spent on improving my ability to meet tight deadlines and was now finally comfortable working in my position.
 
 Unfortunately, being comfortable meant plateauing and I was no longer learning anything new. Manufacturing wasn’t something I wanted to do long term and ultimately made the decision to resign.
 
 I wanted to spend more time on programming. I was making progress but at a slow pace. I realized that the energy and time I had was very limited with a full-time job. I knew that commitment to change requires 100% focus. I gave ample time in my notice to allow them to find a replacement.
 
-Being in my 20's and still having the energy to learn was something I wanted to capitalize on. I wanted a career that involved programming because it is something I'm interested in. I would program on the side to develop new skills and eventually automate a part of my job. I found that being able to develop something to solve a problem was a lot more fun which eventually sparked my interest in programming.
+Being in my 20's and still having the energy to learn was something I wanted to capitalize on. I wanted a career that involved programming because it is something I'm interested in.
 
-Being unemployed means having more free time to work towards developing my skills in programming and learning various languages that will help me with my career path.
+I would program on the side to develop new skills and eventually automate a part of my job. I found that being able to develop something to solve a problem was a lot more fun which eventually sparked my interest in programming.
+
+Now that I'm no longer working, having more free time enables me to work towards developing my skills in programming and learning various languages that will help develop my new career path.

@@ -1,12 +1,10 @@
 :root {
   --light-bg: #dfdfdf;
   --primary-color-light: #226597;
- 
 
   --dark-bg: #1b1e2b;
   --primary-color-dark: #89ddff;
   --secondary-color-dark: rgb(247, 140, 108);
-
 }
 
 html {
@@ -93,14 +91,15 @@ strong {
   background-color: var(--light-bg);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--primary-color-light);
 }
 
 h1 a {
   border-bottom: none;
 }
-
 
 .dark h4 {
   color: #f5f5f5;
@@ -232,8 +231,7 @@ a.travel {
   justify-content: center;
 }
 
-
-.light svg{
+.light svg {
   color: #313b44;
   font-size: 1.3em;
 }
@@ -241,4 +239,12 @@ a.travel {
 .dark svg {
   color: white;
   font-size: 1.3em;
+}
+
+.dark table {
+  color: white;
+}
+
+.light table {
+  color: #313b44;
 }

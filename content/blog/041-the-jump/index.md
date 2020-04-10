@@ -8,7 +8,7 @@ tags: ["life"]
 ![](https://images.unsplash.com/photo-1519817914152-22d216bb9170?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60)
 First day of unemployment. I have no idea what lies ahead of me but I do know where I want to be and how to get there.
 
-Having a full-time job and programming on the side was difficult, however, I did manage to get farther than I thought I would using the [Pomodoro Technique](/pomodoro-technique/). My progress was tracked using the <a href="https://pomotodo.com" target="_blank">Pomotodo</a> tracker from Sept 1st 2018 to May 3rd 2019:
+Having a full-time job and programming on the side was difficult, however, I did manage to get farther than I thought I would using the [Pomodoro Technique](/022-pomodoro-technique/). My progress was tracked using the <a href="https://pomotodo.com" target="_blank">Pomotodo</a> tracker from Sept 1st 2018 to May 3rd 2019:
 
 ![](./PomoToDo.PNG)
 
