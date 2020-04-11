@@ -1,15 +1,19 @@
 import React from "react"
 import { rhythm, scale } from "../utils/typography"
 import Bio from "../components/bio"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Switch from "react-switch"
-
+import Img from "gatsby-image"
 import ThemeContext from "../context/ThemeContext"
 
 import "../components/layout.css"
 
 class now extends React.Component {
+
+
   render() {
+    const book = this.props.data
+    console.log(book)
     return (
       <ThemeContext.Consumer>
         {theme => (
@@ -98,17 +102,9 @@ class now extends React.Component {
 
               <h3 style={{ textAlign: "center" }}>Books</h3>
               <p style={{ textAlign: "center" }}>I am reading: </p>
-              <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-                <img
-                  style={{ width: `35%`, height: "auto" }}
-                  alt="The Name Of The Wind Book"
-                  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcScPPmotRjeCKBuB3kTrkSHiD6orWz94lAxk1AX5fInIqK6x7Td"
-                />
-                <img
-                  style={{ width: `35%`, height: "auto" }}
-                  alt="The Name Of The Wind Book"
-                  src="https://vignette.wikia.nocookie.net/nameofthewind/images/9/9e/The_Name_of_the_Wind_%28UK%29_cover.jpg/revision/latest?cb=20150620153806"
-                />
+              <div style={{ display: "flex", justifyContent: "space-evenly", paddingBottom: "2rem" }}>
+                <Img fixed={book.bookone.childImageSharp.fixed} alt="The Name Of The Wind Book" />
+                <Img fixed={book.booktwo.childImageSharp.fixed} alt="The Daily Stoic" />
               </div>
               <p>
                 The Name of the Wind by Patrick Rothfuss. A friend of mine
@@ -176,3 +172,23 @@ class now extends React.Component {
 }
 
 export default now
+
+export const pageQuery = graphql`
+query Books {
+  bookone: file(relativePath: { eq: "books/book1.png"}) {
+    childImageSharp{
+      fixed(width: 220) {
+        ...GatsbyImageSharpFixed
+      } 
+    }
+  }
+  booktwo: file(relativePath: { eq: "books/book2.jpg"}) {
+    childImageSharp{
+      fixed(width: 220) {
+        ...GatsbyImageSharpFixed
+      } 
+    }
+  }
+}
+  
+`
