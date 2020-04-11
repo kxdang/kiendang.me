@@ -105,20 +105,20 @@ const Tags = ({ pageContext, data }) => {
                         to={slug}
                       >
                         {title}
-                        {/* <small>
-                          {node.fields.readingTime.text}{" "}
-                          {node.fields.readingTime.minutes > 0 &&
-                            node.fields.readingTime.minutes <= 2
-                            ? "🍵"
-                            : node.fields.readingTime.minutes > 2 &&
-                              node.fields.readingTime.minutes <= 3
-                              ? "🍵🍵"
-                              : node.fields.readingTime.minutes > 3 &&
-                                node.fields.readingTime.minutes <= 5
-                                ? "🍵🍵🍵"
-                                : "🍵🍵🍵🍵"}
-                        </small> */}
                       </Link>
+
+                      <small>{" "}- {node.fields.readingTime.text}{" "}
+                        {node.fields.readingTime.minutes > 0 &&
+                          node.fields.readingTime.minutes <= 2
+                          ? "🍵"
+                          : node.fields.readingTime.minutes > 2 &&
+                            node.fields.readingTime.minutes <= 3
+                            ? "🍵🍵"
+                            : node.fields.readingTime.minutes > 3 &&
+                              node.fields.readingTime.minutes <= 5
+                              ? "🍵🍵🍵"
+                              : "🍵🍵🍵🍵"}</small>
+
 
                       {/* <p style={{ marginBottom: `3px` }}> </p> */}
                       <p style={{ fontSize: `0.8rem`, marginBottom: `1.8rem` }}>
@@ -183,6 +183,10 @@ export const pageQuery = graphql`
         node {
           fields {
             slug
+            readingTime {
+              text
+              minutes
+            }
           }
           frontmatter {
             title
