@@ -103,8 +103,8 @@ class now extends React.Component {
               <h3 style={{ textAlign: "center" }}>Books</h3>
               <p style={{ textAlign: "center" }}>I am reading: </p>
               <div style={{ display: "flex", justifyContent: "space-evenly", paddingBottom: "2rem" }}>
-                <Img fixed={book.bookone.childImageSharp.fixed} alt="The Name Of The Wind Book" />
-                <Img fixed={book.booktwo.childImageSharp.fixed} alt="The Daily Stoic" />
+                <Img style={{ width: "35%" }} fluid={book.bookone.childImageSharp.fluid} alt="The Name Of The Wind Book" />
+                <Img style={{ width: "35%" }} fluid={book.booktwo.childImageSharp.fluid} alt="The Daily Stoic" />
               </div>
               <p>
                 The Name of the Wind by Patrick Rothfuss. A friend of mine
@@ -177,15 +177,15 @@ export const pageQuery = graphql`
 query Books {
   bookone: file(relativePath: { eq: "books/book1.png"}) {
     childImageSharp{
-      fixed(width: 220) {
-        ...GatsbyImageSharpFixed
+      fluid {
+        ...GatsbyImageSharpFluid
       } 
     }
   }
   booktwo: file(relativePath: { eq: "books/book2.jpg"}) {
     childImageSharp{
-      fixed(width: 220) {
-        ...GatsbyImageSharpFixed
+      fluid {
+        ...GatsbyImageSharpFluid
       } 
     }
   }
