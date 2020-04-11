@@ -102,12 +102,12 @@ class now extends React.Component {
                 <img
                   style={{ width: `35%`, height: "auto" }}
                   alt="The Name Of The Wind Book"
-                  src="../../content/assets/books/book2.jpg"
+                  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcScPPmotRjeCKBuB3kTrkSHiD6orWz94lAxk1AX5fInIqK6x7Td"
                 />
                 <img
                   style={{ width: `35%`, height: "auto" }}
                   alt="The Name Of The Wind Book"
-                  src="../../content/assets/books/book2.png"
+                  src="https://vignette.wikia.nocookie.net/nameofthewind/images/9/9e/The_Name_of_the_Wind_%28UK%29_cover.jpg/revision/latest?cb=20150620153806"
                 />
               </div>
               <p>
