@@ -13,7 +13,7 @@ class now extends React.Component {
 
   render() {
     const book = this.props.data
-    console.log(book)
+
     return (
       <ThemeContext.Consumer>
         {theme => (
@@ -108,7 +108,7 @@ class now extends React.Component {
               </div>
               <p>
                 The Name of the Wind by Patrick Rothfuss. A friend of mine
-                recommended me a book outside my usual genre of mystery
+                recommended a book outside my usual genre of mystery
                 thriller. Looking to expand my vocabulary and improve writing
                 skills.
               </p>
