@@ -77,9 +77,9 @@ class about extends React.Component {
                 />
               </div>
               <Bio />
-              <h3 style={{ textAlign: `center` }}>About me</h3>
+              <h3 style={{ textAlign: `center` }}>Hello <span role="img" aria-label="wave">👋</span></h3>
               <p>
-                Hello, my name is Kien (pronounced /'key in/). I have a Bachelor
+                My name is Kien (pronounced /'key in/). I have a Bachelor
                 of Science in Honours Biochemistry from the University of
                 Waterloo.
                 <br />
@@ -100,13 +100,13 @@ class about extends React.Component {
                 hobbies and current progress with programming. In addition, I
                 hope to become a better writer by blogging.
               </p>
-              <h3 style={{ textAlign: `center` }}>My Journey</h3>
+              <h3 style={{ textAlign: `center` }}>Career Change</h3>
               <p>
-                I resigned from my job back in May of 2019 and I'm currently in
+                I <a href="/040-new-chapter-2019/">resigned </a>from my job back in May of 2019 and I'm currently in
                 the process of pursuing a programming career in front-end web
                 development. I documented my entire journey on my blog and
                 tracked my progress using the{" "}
-                <a href="/022-pomodoro-technique/">Pomodoro technique</a>.
+                <a href="/022-pomodoro-technique/">Pomodoro Technique</a>.
               </p>
 
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
@@ -226,8 +226,9 @@ class about extends React.Component {
                 </a>
               </div>
             </div>
-          </div>
-        )}
+          </div >
+        )
+        }
       </ThemeContext.Consumer>
     )
   }

@@ -23,7 +23,7 @@ I'm about 70% done the Modern React Bootcamp and have already learned so much. I
 
 I have changed my status to looking for work. I am trying to see if I can still enter the job market during these unsure times. In the meantime, I will continue to stick with my Pomodoro process and continue learning.
 
-## <center>Changing over to PomoDoneApp </center>
+## <center>Improvements to Pomodoro Reporting </center>
 
 I will no longer be using Pomotodo to track my Pomodoro's. My subscription will be ending next month for their premium model and will be moving over to <a href="https://pomodoneapp.com/" target="__blank"> PomoDoneApp </a> using Zapier to trigger calendar events.
 
@@ -31,4 +31,4 @@ It has been a great journey using Pomotodo, I'm happy to say that I've tracked a
 
 ![](/pomotodoalltime.png)
 
-I'm looking forward to using PomoDoneApp as it seems to have much more features which can help me improve my organization.
+I'm looking forward to using <a href="https://pomodoneapp.com/" target="_blank">PomoDoneApp</a> as it seems to have much more features which can help me improve organizing my workflow.
