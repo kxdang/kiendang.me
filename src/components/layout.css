@@ -166,7 +166,7 @@ a.webdev {
 }
 
 a.productivity {
-  color: white;
+  color: black;
   background-color: #f78c6c;
 }
 
@@ -223,6 +223,11 @@ a.food {
 a.travel {
   color: white;
   background-color: #c17e70;
+}
+
+a.javascript {
+  color: #323330;
+  background-color: #f0db4f;
 }
 
 .about__icons {
