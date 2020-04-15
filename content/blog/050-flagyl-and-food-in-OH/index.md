@@ -34,7 +34,7 @@ Alcohol dehydrogenase takes the ethanol in your blood, it turns it into a toxic 
 
 Metronidazole causes a disulfiram-like reaction by inhibiting the aldehyde dehydrogenase (ALDH) step in alcohol metabolism. Inhibition of an enzyme means it decreases its enzymatic activity to do work on the metabolite. Therefore, acetaldehyde will end up building in your bloodstream causing these unwanted effects side effects.<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/8947362" target="_blank">[4]</a></sup>.
 
-<a href="https://en.wikipedia.org/wiki/Disulfiram" target="_blank">Disulfiram</a> is a drug that helps treat alcohol addiction by inhibiting this exact enzyme making the effects of alcohol much stronger. It causes acetaldehyde build-up and an acute sensitivity to alcohol.
+<p><a href="https://en.wikipedia.org/wiki/Disulfiram" target="_blank">Disulfiram</a> is a drug that helps treat alcohol addiction by inhibiting this exact enzyme making the effects of alcohol much stronger. It causes acetaldehyde build-up and an acute sensitivity to alcohol.</p>
 
 ## <center>Are you safe to consume foods that are cooked in alcohol while on this antibiotic? </center>
 

@@ -16,12 +16,13 @@ When you start Googling symptoms, it’s always the most extreme and worst-case 
 
 ### <center>Ciprofloxacin </center>
 
-
 <p><a href="https://en.wikipedia.org/wiki/Ciprofloxacin" target="_blank">Ciprofloxacin</a> is an antibiotic that falls under the class of quinolones used to treat common bacterial infections. Fluoroquinolones kill bacteria by binding to a bacterial enzyme called DNA-gyrase which is responsible for its DNA replication and repairs<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/1657531" target="_blank">[1]</a></sup>.</p>
 
 ## <center>Drowsiness </center>
 
-There are some adverse side effects of fluoroquinolones which include the central nervous system (CNS). Quinolones can enter the brain tissue readily which causes side effects such as mild headaches, drowsiness and dizziness<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/2672249" target="_blank">[2]</a></sup>. In addition to ciprofloxacin, combining it with metronidazole makes it a very effective drug therapy for the treatment of aerobic and anaerobic infections<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/3182096" target="_blank">[3]</a></sup>. Metronidazole’s common side effect includes drowsiness as well. It penetrates the blood-brain barrier which adds to the drowsiness<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2952976/" target="_blank">[4]</a></sup>. I guess it’s a double whammy.
+There are some adverse side effects of fluoroquinolones which include the central nervous system (CNS). Quinolones can enter the brain tissue readily which causes side effects such as mild headaches, drowsiness and dizziness<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/2672249" target="_blank">[2]</a></sup>.
+
+In addition to ciprofloxacin, combining it with metronidazole makes it a very effective drug therapy for the treatment of aerobic and anaerobic infections<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/3182096" target="_blank">[3]</a></sup>. Metronidazole’s common side effect includes drowsiness as well. It penetrates the blood-brain barrier which adds to the drowsiness<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2952976/" target="_blank">[4]</a></sup>. I guess it’s a double whammy.
 
 ### <center>Serious Side Effects</center>
 

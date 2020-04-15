@@ -15,10 +15,10 @@ I discovered Trello through a friend and found it to be a great way to visually 
 
 ### <center> Pomotodo </center>
 
-<a href="https://pomotodo.com/" target="_blank">Pomotodo</a> is a web application specifically made to do the [**Pomodoro Technique**](/022-pomodoro-technique/). The app has features such as a graph visualizer to see how many Pomodoro's you've completed in a day, week or month and shows your productive hours as well as your optimal days. Visualization of Pomodoros are a great motivator. With their hashtag functions, it makes organizing your accomplishments easier.
+<p><a href="https://pomotodo.com/" target="_blank">Pomotodo</a> is a web application specifically made to do the [Pomodoro Technique](/022-pomodoro-technique/). The app has features such as a graph visualizer to see how many Pomodoro's you've completed in a day, week or month and shows your productive hours as well as your optimal days. Visualization of Pomodoros are a great motivator. With their hashtag functions, it makes organizing your accomplishments easier.</p>
 
 ### <center> OneNote </center>
 
-<a href="https://products.office.com/en-ca/onenote/digital-note-taking-app?rtc=1" target="_blank">OneNote</a> is a free fully featured notebook developed by Microsoft. It is a digital binder that helps you store your notes and ideas. After using this application for school, I've been able to use the features for work. I've helped my department utilize this tool and streamline our notes together using its cloud based capabilities.
+<p><a href="https://products.office.com/en-ca/onenote/digital-note-taking-app?rtc=1" target="_blank">OneNote</a> is a free fully featured notebook developed by Microsoft. It is a digital binder that helps you store your notes and ideas. After using this application for school, I've been able to use the features for work. I've helped my department utilize this tool and streamline our notes together using its cloud based capabilities.</p>
 
 There are tons of useful features that are integrated with Outlook including tasks, archiving specific emails, integrating meeting notes and being able to query information in an instant. I highly recommend learning how to use this!
