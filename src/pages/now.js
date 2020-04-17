@@ -6,6 +6,7 @@ import Switch from "react-switch"
 import Img from "gatsby-image"
 import ThemeContext from "../context/ThemeContext"
 
+
 import "../components/layout.css"
 
 class now extends React.Component {
@@ -85,20 +86,16 @@ class now extends React.Component {
                 What am I doing at the moment?
               </h3>
               <p>
-                I am currently working on completing{" "}
-                <a
-                  href="https://www.udemy.com/course/modern-react-bootcamp/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  The Modern React Bootcamp (Hooks, Context, NextJS, Router)
-                </a>
-                . I'm excited to start building React applications.
+                I am currently studying algorithms and data structures to understand the fundamentals of computer science.
+                <br></br>
+                <br></br>
+                I am actively applying and working on a MERN full stack application side-project to gain TypeScript and Apollo GraphQL experience.
                 <br></br>
                 <br></br>I am open for new opportunities and looking for a
                 company that will allow me to grow professionally as a
                 developer.
               </p>
+
 
               <h3 style={{ textAlign: "center" }}>Books</h3>
               <p style={{ textAlign: "center" }}>I am reading: </p>
@@ -113,25 +110,25 @@ class now extends React.Component {
                 skills.
               </p>
 
+
               <h3 style={{ textAlign: "center" }}>Games</h3>
               <p style={{ textAlign: "center" }}>
-                Playing CS:GO and Borderlands 3
+                Currently enjoying Valorant
                 <span role="img" aria-label="SunglassSmiley">
-                  😎
+                  🙂
                 </span>
               </p>
 
               <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
               <p>
-                I am building multiple projects with React found on my{" "}
+                I am using Gatsby to build a website and currently working on a full stack application found on my {" "}
                 <a
                   href="https://github.com/kxdang"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Github
-                </a>{" "}
-                and currently working on a React Colour Palette application.
+                  Github.
+                </a>
               </p>
 
               <p

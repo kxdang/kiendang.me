@@ -2,16 +2,16 @@
 author: Kien
 date: 2020-04-15
 slug: first-javascript-post
-title: What are closures?
+title: ✍What are closures?
 description: What are closures and why are they useful?
 tags: ["javascript"]
 ---
 
-Writing will help me stay accountable while also improving my writing skills. I want to be able look back in the future to see my own progression on the topics I've learned.
-
 Recently, most of my time has been devoted to development and learning the tools to build projects related web development and I feel like I should start posting about the material I've learned to help me retain important concepts that I might see or use in the future.
 
-## <center> What are closures </center>
+Writing will help me stay accountable while also improving my writing skills. I want to be able look back in the future to see my own progression on the topics I've learned.
+
+## <center> What are closures? </center>
 
 A closure in JavaScript refers to the combination of a function and the lexical scope in which the function was defined.
 
