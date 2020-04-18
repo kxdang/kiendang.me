@@ -230,6 +230,11 @@ a.javascript {
   background-color: #f0db4f;
 }
 
+a.react {
+  color: #61DBFB;
+  background-color: #333;
+}
+
 .about__icons {
   color: #313b44;
   display: flex;
