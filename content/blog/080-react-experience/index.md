@@ -19,7 +19,7 @@ I realized how tedious and cumbersome it was to add data to the DOM. What should
 
 I definitely realized that simple UI interfaces without the use of a library or framework can take a lot of work and I now understand why these frameworks exists and what problems it aims to solve. 
 
-There are more complicated topics such as dealing with an application that has user authentication and how the UI is shown versus a non-authenticated user. The built in life-cycle methods help maintain this and I am excited to start building full stack applications using React in the next few months to learn more.
+There are more complicated topics such as dealing with an application that has user authentication and how the UI is shown versus a non-authenticated user. I am excited to start building full stack applications using React in the next few months to learn more.
 
 ## <center>What exactly is React?</center>
 

@@ -31,4 +31,4 @@ It has been a great journey using Pomotodo, I'm happy to say that I've tracked a
 
 ![](/pomotodoalltime.png)
 
-I'm looking forward to using <a href="https://pomodoneapp.com/" target="_blank">PomoDoneApp</a> as it seems to have much more features which can help me improve organizing my workflow.
+I'm looking forward to using <a href="https://pomodoneapp.com/" target="_blank">PomoDoneApp</a> as it seems to have much more features which can help improve my organization and workflow.
