@@ -89,7 +89,7 @@ class now extends React.Component {
                 I am currently studying algorithms and data structures to understand the fundamentals of computer science.
                 <br></br>
                 <br></br>
-                I am actively applying and working on a MERN full stack application side-project to gain TypeScript and Apollo GraphQL experience.
+                I am working on a MERN full stack application side-project to gain TypeScript and Apollo GraphQL experience.
                 <br></br>
                 <br></br>I am open for new opportunities and looking for a
                 company that will allow me to grow professionally as a

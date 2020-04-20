@@ -4,10 +4,10 @@ date: 2020-04-18
 slug: react-experience
 title: ✍My experience with React
 description: I realized the potential of using a framework versus using vanilla JavaScript to build web applications. Also, what is React and its purpose?
-tags: ["react", "javascript", "webdev"]
+tags: [ "webdev","react", "javascript"  ]
 ---
 
-I finally completed The Modern React Bootcamp from Colt Steele’s course! I wrote a ton of notes and actively applied my new skills throughout my projects including making tweaks to my blog and having a long list of React projects found on my [portfolio](www.kien.dev).
+I finally completed The Modern React Bootcamp from Colt Steele’s course! I wrote a ton of notes and actively applied my new skills throughout my projects including making tweaks to my blog and having a long list of React projects found on my <a href="www.kien.dev" target="_blank">portfolio</a>.
 
 Last year, I wanted to build a blog to document my journey and stumbled upon Gatsby which used React. Building my blog using Gatsby gave me a project that I wanted to work on and eventually became a little more comfortable with React.
 
