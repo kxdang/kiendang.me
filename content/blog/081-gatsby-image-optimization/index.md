@@ -123,4 +123,4 @@ At this point, all that was left was to map through the images I had queried and
 
 Another thing I added was the `Link` component. Since I queried for the name, I made the images clickable and routed the name to static page generated using Markdown files.
 
-The Markdown files were created in their respective names and therefore generate a static post for each image which was a perfect place to let her show case her sketches related to the artwork or even write about the images. 
+The Markdown files were created in their respective names and therefore generating a static post for each image which was a perfect place to let her show case her sketches related to the artwork or even write about the images. 
