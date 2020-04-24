@@ -1,3 +1,52 @@
+require("dotenv").config({
+  path: `.env`
+})
+
+
+console.log(process.env);
+const blogQuery = `
+{
+  allMdx {
+    edges {
+      node {
+        id
+        frontmatter {
+          description
+          date(formatString: "MMMM DD, YYYY")
+          tags
+          title
+        }
+        fields {
+          readingTime {
+            minutes
+            text
+          }
+        }
+        excerpt
+        body
+      }
+    }
+  }
+}
+`
+
+const flatten = arr =>
+  arr.map(({ node: { frontmatter, ...rest } }) => ({
+    ...frontmatter,
+    ...rest,
+  }))
+
+const settings = { attributesToSnippet: [`excerpt:20`] }
+
+const queries = [
+  {
+    query: blogQuery,
+    indexName: "Blog",
+    transformer: ({ data }) => flatten(data.allMdx.edges),
+    settings,
+  }
+]
+
 module.exports = {
   siteMetadata: {
     title: `Dang it`,
@@ -11,6 +60,15 @@ module.exports = {
   plugins: [
     "gatsby-plugin-catch-links",
     'gatsby-remark-reading-time',
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries,
+        chunkSize: 1000, // default: 1000
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
