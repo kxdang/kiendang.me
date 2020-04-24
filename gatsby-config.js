@@ -2,11 +2,9 @@ require("dotenv").config({
   path: `.env`
 })
 
-
-console.log(process.env);
 const blogQuery = `
 {
-  allMdx {
+  allMdx (sort: { fields: [frontmatter___date], order: DESC }) {
     edges {
       node {
         id

@@ -7,6 +7,21 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import { graphql } from "gatsby"
 
+import {
+  InstantSearch,
+  Index,
+  Hits,
+  connectStateResults,
+  SearchBox,
+} from "react-instantsearch-dom"
+import algoliasearch from "algoliasearch/lite"
+
+const searchClient = algoliasearch(
+  process.env.GATSBY_ALGOLIA_APP_ID,
+  process.env.GATSBY_ALGOLIA_SEARCH_KEY
+)
+
+
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
@@ -22,6 +37,11 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="A blog by Kien" />
         <Bio />
+
+        <InstantSearch searchClient={searchClient} indexName="Blog">
+          <SearchBox />
+          <Hits />
+        </InstantSearch>
 
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
