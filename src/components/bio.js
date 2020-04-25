@@ -22,7 +22,7 @@ function Bio() {
           <div
             style={{
               display: `flex`,
-              marginBottom: `35px`,
+              marginBottom: `0rem`,
               justifyContent: `space-between`,
               alignItems: `center`,
             }}

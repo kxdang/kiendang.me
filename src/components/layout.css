@@ -326,7 +326,7 @@ a.graphql {
   padding: 0 6px;
 }
 
-.ais-SearchBox-form:focus {
+.ais-SearchBox-input:focus {
   width: 240px;
   padding: 0 6px;
 } 
@@ -348,7 +348,6 @@ a.graphql {
 
 .dark .ais-SearchBox-submitIcon {
   fill: white !important;
-
 }
 
 
@@ -356,6 +355,12 @@ a.graphql {
   background: none;
   border: none;
   fill: white
+}
+
+.light .ais-SearchBox-reset {
+  background: none;
+  border: none;
+  fill: #313b44
 }
 
 mark {

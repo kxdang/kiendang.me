@@ -21,7 +21,7 @@ export default function SearchPreview({ hit, title, date, readingTime, descripti
 
         <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
         </p>
-        <p className="date">{date} - {readingTime.text}</p>
+        <small>{date} - {readingTime.text}</small><br />
         <Highlight hit={hit} attribute="excerpt" tagName="mark" />
         {/* <p
             dangerouslySetInnerHTML={{
