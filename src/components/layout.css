@@ -286,3 +286,49 @@ a.graphql {
 .gatsby-highlight pre[class*="language-"].line-numbers {
   padding-left: 2.8em; 
 }
+
+
+/* .dark .ais-SearchBox-input {
+  border:none;
+  background: none;
+  outline:none;
+  float:left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+.light .ais-SearchBox-input {
+  border:none;
+  background: none;
+  outline:none;
+  float:left;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+.ais-SearchBox-form:hover > .ais-SearchBox-input {
+  width: 240px;
+  padding: 0 6px;
+}
+
+
+
+.ais-SearchBox-submit{
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+} */
+

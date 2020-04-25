@@ -1,49 +1,9 @@
+const queries = require("./src/utils/algolia")
+
 require("dotenv").config({
   path: `.env`
 })
 
-const blogQuery = `
-{
-  allMdx (sort: { fields: [frontmatter___date], order: DESC }) {
-    edges {
-      node {
-        id
-        frontmatter {
-          description
-          date(formatString: "MMMM DD, YYYY")
-          tags
-          title
-        }
-        fields {
-          readingTime {
-            minutes
-            text
-          }
-        }
-        excerpt
-        body
-      }
-    }
-  }
-}
-`
-
-const flatten = arr =>
-  arr.map(({ node: { frontmatter, ...rest } }) => ({
-    ...frontmatter,
-    ...rest,
-  }))
-
-const settings = { attributesToSnippet: [`excerpt:20`] }
-
-const queries = [
-  {
-    query: blogQuery,
-    indexName: "Blog",
-    transformer: ({ data }) => flatten(data.allMdx.edges),
-    settings,
-  }
-]
 
 module.exports = {
   siteMetadata: {

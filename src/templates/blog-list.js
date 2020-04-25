@@ -7,12 +7,17 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import { graphql } from "gatsby"
 
+import PostPreview from '../components/PostPreview'
+import SearchPreview from '../components/SearchPreview'
+
 import {
   InstantSearch,
   Index,
   Hits,
-  connectStateResults,
+  Highlight,
+  searchState,
   SearchBox,
+  connectStateResults
 } from "react-instantsearch-dom"
 import algoliasearch from "algoliasearch/lite"
 
@@ -33,6 +38,19 @@ class BlogIndex extends React.Component {
     const prevPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString()
     const nextPage = (currentPage + 1).toString()
 
+    const Results = connectStateResults(({ searchState, children }) =>
+      searchState && searchState.query ? (
+        <div>
+          <p>Searching for query {searchState.query}</p>
+          {children}
+        </div>
+      ) : (
+          <div>No query</div>
+        )
+    );
+
+    const Hit = ({ hit }) => <SearchPreview title={hit.title} expert={hit.exerpt} description={hit.description} slug={hit.fields.slug} readingTime={hit.fields.readingTime} date={hit.date} />
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="A blog by Kien" />
@@ -40,74 +58,19 @@ class BlogIndex extends React.Component {
 
         <InstantSearch searchClient={searchClient} indexName="Blog">
           <SearchBox />
-          <Hits />
+          <Results>
+            <Hits hitComponent={Hit} />
+          </Results>
         </InstantSearch>
 
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
+          const { slug, readingTime } = node.fields
+          const { date, tags, excerpt, description } = node.frontmatter
           return (
             <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link
-                  style={{ boxShadow: `none`, borderBottom: "none" }}
-                  to={node.fields.slug}
-                >
-                  {title}
-                </Link>
-              </h3>
-              <small>
-                {node.frontmatter.date} - {node.fields.readingTime.text}{" "}
-                {node.fields.readingTime.minutes > 0 &&
-                  node.fields.readingTime.minutes <= 2
-                  ? "🍵"
-                  : node.fields.readingTime.minutes > 2 &&
-                    node.fields.readingTime.minutes <= 3
-                    ? "🍵🍵"
-                    : node.fields.readingTime.minutes > 3 &&
-                      node.fields.readingTime.minutes <= 5
-                      ? "🍵🍵🍵"
-                      : "🍵🍵🍵🍵"}
-                <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
-                  {node.frontmatter.tags.length > 1 ? (
-                    node.frontmatter.tags.map(t => (
-                      <Link
-                        to={`/tags/` + t}
-                        className={`${t} alltags`}
-                        style={{ marginRight: `3px` }}
-                      >
-                        {t.replace(/-/g, " ")}
-                      </Link>
-                    ))
-                  ) : (<Link
-                    to={`/tags/` + node.frontmatter.tags}
-                    className={`${node.frontmatter.tags} alltags`}
-                  >
-                    {node.frontmatter.tags}
-                  </Link>
-                    )}
 
-
-                </p>
-              </small>
-
-
-
-              <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
-
-
-              </p>
-
-
-
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
+              <PostPreview key={slug} title={title} date={date} tags={tags} description={description} excerpt={excerpt} slug={slug} readingTime={readingTime} />
             </div>
           )
         })}
