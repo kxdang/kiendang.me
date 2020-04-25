@@ -25,20 +25,20 @@ const blogQuery = `
 `
 
 const flatten = arr =>
-    arr.map(({ node: { frontmatter, ...rest } }) => ({
-        ...frontmatter,
-        ...rest,
-    }))
+  arr.map(({ node: { frontmatter, ...rest } }) => ({
+    ...frontmatter,
+    ...rest,
+  }))
 
 const settings = { attributesToSnippet: [`excerpt:3`] }
 
 const queries = [
-    {
-        query: blogQuery,
-        indexName: "Blog",
-        transformer: ({ data }) => flatten(data.allMdx.edges),
-        settings
-    }
+  {
+    query: blogQuery,
+    indexName: "Blog",
+    transformer: ({ data }) => flatten(data.allMdx.edges),
+    settings
+  }
 ]
 
 module.exports = queries
