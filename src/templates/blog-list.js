@@ -41,20 +41,21 @@ class BlogIndex extends React.Component {
     const Results = connectStateResults(({ searchState, children }) =>
       searchState && searchState.query ? (
         <div>
-          <p>Searching for query {searchState.query}</p>
+          <p style={{ marginTop: `1rem`, textAlign: `right` }}>Searching for query {searchState.query}</p>
           {children}
         </div>
       ) : (
-          <div>No query</div>
+          null
         )
     );
 
-    const Hit = ({ hit }) => <SearchPreview title={hit.title} expert={hit.exerpt} description={hit.description} slug={hit.fields.slug} readingTime={hit.fields.readingTime} date={hit.date} />
+    const Hit = ({ hit }) => <SearchPreview hit={hit} title={hit.title} expert={hit.exerpt} description={hit.description} slug={hit.fields.slug} readingTime={hit.fields.readingTime} date={hit.date} />
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="A blog by Kien" />
         <Bio />
+
 
         <InstantSearch searchClient={searchClient} indexName="Blog">
           <SearchBox />
@@ -62,6 +63,8 @@ class BlogIndex extends React.Component {
             <Hits hitComponent={Hit} />
           </Results>
         </InstantSearch>
+
+
 
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug

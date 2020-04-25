@@ -1,8 +1,10 @@
 import React from 'react'
 import { rhythm } from "../utils/typography"
 import { Link } from "gatsby"
+import { Highlight } from "react-instantsearch-dom"
+import "./layout.css"
 
-export default function SearchPreview({ title, date, readingTime, description, excerpt, slug }) {
+export default function SearchPreview({ hit, title, date, readingTime, description, excerpt, slug }) {
     return (<div>
         <h3
             style={{
@@ -13,17 +15,18 @@ export default function SearchPreview({ title, date, readingTime, description, e
                 style={{ boxShadow: `none`, borderBottom: "none" }}
                 to={slug}
             >
-                {title}
+                <Highlight hit={hit} attribute="title" tagName="mark" />
             </Link>
         </h3>
 
         <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
         </p>
-        <p>{date} - {readingTime.text}</p>
-        <p
+        <p className="date">{date} - {readingTime.text}</p>
+        <Highlight hit={hit} attribute="excerpt" tagName="mark" />
+        {/* <p
             dangerouslySetInnerHTML={{
                 __html: description || excerpt,
             }}
-        />
+        /> */}
     </div>)
 }

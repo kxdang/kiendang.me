@@ -86,6 +86,11 @@ strong {
   color: #c3e88d;
 }
 
+.dark .date {
+  color: #c3e88d;
+  margin-bottom: 0rem;
+}
+
 .light {
   transition: all 0.6s ease;
   background-color: var(--light-bg);
@@ -288,7 +293,7 @@ a.graphql {
 }
 
 
-/* .dark .ais-SearchBox-input {
+.dark .ais-SearchBox-input {
   border:none;
   background: none;
   outline:none;
@@ -299,6 +304,7 @@ a.graphql {
   transition: 0.4s;
   line-height: 40px;
   width: 0px;
+
 }
 
 .light .ais-SearchBox-input {
@@ -314,21 +320,56 @@ a.graphql {
   width: 0px;
 }
 
+
 .ais-SearchBox-form:hover > .ais-SearchBox-input {
   width: 240px;
   padding: 0 6px;
 }
 
+.ais-SearchBox-form:focus {
+  width: 240px;
+  padding: 0 6px;
+} 
+
 
 
 .ais-SearchBox-submit{
-  background: white;
+  background: none;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
   border: none;
   justify-content: center;
   align-items: center;
   transition: 0.4s;
-} */
+  padding-right: 2rem;
+  cursor: pointer;
+ 
+}
 
+.dark .ais-SearchBox-submitIcon {
+  fill: white !important;
+
+}
+
+
+.dark .ais-SearchBox-reset {
+  background: none;
+  border: none;
+  fill: white
+}
+
+mark {
+  background-color: var(--primary-color-light);
+  font-style: italic;
+}
+
+.ais-Hits-list {
+  list-style: none;
+}
+
+.ais-SearchBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0rem;
+  height: 2rem;
+}
