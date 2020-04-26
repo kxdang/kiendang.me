@@ -12,10 +12,8 @@ import SearchPreview from '../components/SearchPreview'
 
 import {
   InstantSearch,
-  Index,
   Hits,
-  Highlight,
-  searchState,
+  Stats,
   SearchBox,
   connectStateResults
 } from "react-instantsearch-dom"
@@ -38,16 +36,33 @@ class BlogIndex extends React.Component {
     const prevPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString()
     const nextPage = (currentPage + 1).toString()
 
+    // const Stats = ({ processingTimeMS, nbHits }) => (
+    //   <div>
+    //     Found {nbHits} results in {processingTimeMS}
+    //     ms
+    //   </div>
+    // );
+
     const Results = connectStateResults(({ searchState, children }) =>
       searchState && searchState.query ? (
         <div>
-          <p style={{ marginTop: `1rem`, textAlign: `right` }}>Searching for query {searchState.query}</p>
+          <Stats
+            translations={{
+              stats(nbHits, timeSpentMS) {
+                return <div style={{ display: "flex", justifyContent: "center", marginTop: `1rem`, textAlign: `center` }}><p style={{ textAlign: "center", marginBottom: "0rem", borderBottom: "dotted 1px", }}>{nbHits} results found in {timeSpentMS}ms</p></div>;
+              },
+            }}
+          />
+          <p style={{ marginTop: `0.1rem`, textAlign: `center` }}>Searching for query {searchState.query}</p>
           {children}
         </div>
       ) : (
           null
         )
     );
+
+
+
 
     const Hit = ({ hit }) => <SearchPreview hit={hit} title={hit.title} expert={hit.exerpt} description={hit.description} slug={hit.fields.slug} readingTime={hit.fields.readingTime} date={hit.date} />
 
@@ -66,13 +81,16 @@ class BlogIndex extends React.Component {
 
 
 
+
+
+
+
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           const { slug, readingTime } = node.fields
           const { date, tags, excerpt, description } = node.frontmatter
           return (
             <div key={node.fields.slug}>
-
               <PostPreview key={slug} title={title} date={date} tags={tags} description={description} excerpt={excerpt} slug={slug} readingTime={readingTime} />
             </div>
           )
