@@ -19,7 +19,9 @@ They guided me into looking at something called debouncing and I successfully im
 A technique to improve browser performance by reducing the number of times a function is called.
 
 ### <center> Why is it important? </center>
-It is important because when you have multiple function calls that happen frequently, it will greatly affect the performance of the browser. JavaScript is a single threaded language and since the browser can only make so many requests, you’ll run into congestion with function calls.
+It is important because when you have multiple function calls that happen frequently, it will greatly affect the performance of the browser. 
+
+JavaScript is a single threaded language and since the browser can only make so many requests, you’ll run into congestion with function calls.
 Therefore, implementing debouncing is important. For my case, it helps me throttle my queries per second as I have it set up to fire after a certain interval.
 
 
