@@ -3,7 +3,7 @@ author: Kien
 date: 2020-04-26
 slug: gatsbyblog-algolia-install
 title: 🔨How to install Algolia on a Gatsby website
-description:  How to install Algolia on your Gatsby blog. An easy step by step guide created for beginners.
+description:  How to install Algolia on your Gatsby blog. An easy step by step guide created by a beginner.
 tags: ["gatsby", "react", "graphql"]
 ---
 

@@ -17,9 +17,9 @@ Since then, I’ve been browsing around their documentation and learned about th
 
 I created a website for a friend of mine that utilizes this plugin to see the potential benefits. This project helped familiarize myself with optimizing images which are usually the forefront of front-end performance and it has allowed me play around with GraphQL.
 
-Since my friend is an illustrator, she was the perfect candidate for this experiment with Gatsby. 
+Since my friend is an illustrator, her website was the perfect candidate for this experiment with Gatsby. 
 
-Her original website has full-fledged images that are around 1MB in size when the site loaded. After building her website using Gatsby and using the required plugins, I was able to get them down to 200kb!
+Her original website has full-fledged images that are around 1MB in size on initial load. After building her website using Gatsby and using the required plugins, I was able to get them down to 200kb!
 
 You’ll notice the images are blurry on initial load, gatsby-image uses a [Blur Up technique](https://using-gatsby-image.gatsbyjs.org/blur-up/) that uses progressive loading for optimal performance and provides a visually pleasing experience without showing a blank screen upon visiting.
 

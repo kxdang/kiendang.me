@@ -42,7 +42,6 @@ const Tags = ({ pageContext, data }) => {
                 style={{
                   boxShadow: `none`,
                   textDecoration: `none`,
-                  color: `inherit`,
                 }}
                 to={`/`}
               >
@@ -85,7 +84,7 @@ const Tags = ({ pageContext, data }) => {
             <Bio />
             <h1>{tagHeader}</h1>
             <Link to="/tags" className="alltags" style={{ color: `white` }}>
-              All tags
+              ALL TAGS
             </Link>
             <div style={{ paddingTop: `1rem` }}>
               <ul style={{ listStyle: `none` }}>

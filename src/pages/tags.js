@@ -47,7 +47,6 @@ const TagsPage = ({
                   style={{
                     boxShadow: `none`,
                     textDecoration: `none`,
-                    color: `inherit`,
                   }}
                   to={`/`}
                 >

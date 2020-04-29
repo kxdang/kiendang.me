@@ -3,7 +3,7 @@ import { rhythm } from "../utils/typography"
 import { Link } from "gatsby"
 
 export default function PostPreview({ title, date, tags, description, excerpt, slug, readingTime }) {
-    return (<div>
+    return (<div key={slug}>
         <h3
             style={{
                 marginBottom: rhythm(1 / 4),
@@ -32,6 +32,7 @@ export default function PostPreview({ title, date, tags, description, excerpt, s
                 {tags.length > 1 ? (
                     tags.map(t => (
                         <Link
+                            key={t}
                             to={`/tags/` + t}
                             className={`${t} alltags`}
                             style={{ marginRight: `3px` }}
