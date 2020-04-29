@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Bar } from 'react-chartjs-2';
 
 const data = {
@@ -16,19 +16,17 @@ const data = {
     ]
 };
 
-export default class BarChart extends Component {
-    render() {
-
-        return (<div>
-            <h2 style={{ textAlign: "center" }}>Year Summary</h2>
-            <Bar
-                data={data}
-                width={100}
-                height={200}
-                options={{
-                    maintainAspectRatio: false
-                }}
-            />
-        </div>)
-    }
+export default function BarChart() {
+    return (<div>
+        <h2 style={{ textAlign: "center" }}>Year Summary</h2>
+        <Bar
+            data={data}
+            width={100}
+            height={200}
+            options={{
+                maintainAspectRatio: false
+            }}
+        />
+    </div>)
 }
+
