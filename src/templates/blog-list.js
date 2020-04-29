@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Component } from "react"
 import { Link } from "gatsby"
 
 import Bio from "../components/bio"
@@ -9,12 +9,14 @@ import { graphql } from "gatsby"
 
 import PostPreview from '../components/PostPreview'
 import SearchPreview from '../components/SearchPreview'
+import SearchBox from '../utils/DebouncedSearchBox'
 
 import {
   InstantSearch,
   Hits,
   Stats,
-  SearchBox,
+  // SearchBox,
+  connectSearchBox,
   connectStateResults
 } from "react-instantsearch-dom"
 import algoliasearch from "algoliasearch/lite"
@@ -36,13 +38,6 @@ class BlogIndex extends React.Component {
     const prevPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString()
     const nextPage = (currentPage + 1).toString()
 
-    // const Stats = ({ processingTimeMS, nbHits }) => (
-    //   <div>
-    //     Found {nbHits} results in {processingTimeMS}
-    //     ms
-    //   </div>
-    // );
-
     const Results = connectStateResults(({ searchState, children }) =>
       searchState && searchState.query ? (
         <div>
@@ -62,7 +57,7 @@ class BlogIndex extends React.Component {
     );
 
 
-
+    const DebouncedSearchBox = connectSearchBox(SearchBox);
 
     const Hit = ({ hit }) => <SearchPreview hit={hit} title={hit.title} expert={hit.exerpt} description={hit.description} slug={hit.fields.slug} readingTime={hit.fields.readingTime} date={hit.date} />
 
@@ -73,28 +68,25 @@ class BlogIndex extends React.Component {
 
 
         <InstantSearch searchClient={searchClient} indexName="Blog">
-          <SearchBox />
+          <DebouncedSearchBox delay={400} />
           <Results>
             <Hits hitComponent={Hit} />
           </Results>
         </InstantSearch>
 
 
-
-
-
-
-
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          const { slug, readingTime } = node.fields
-          const { date, tags, excerpt, description } = node.frontmatter
-          return (
-            <div key={node.fields.slug}>
-              <PostPreview key={slug} title={title} date={date} tags={tags} description={description} excerpt={excerpt} slug={slug} readingTime={readingTime} />
-            </div>
-          )
-        })}
+        {
+          posts.map(({ node }) => {
+            const title = node.frontmatter.title || node.fields.slug
+            const { slug, readingTime } = node.fields
+            const { date, tags, excerpt, description } = node.frontmatter
+            return (
+              <div key={slug}>
+                <PostPreview key={slug} title={title} date={date} tags={tags} description={description} excerpt={excerpt} slug={slug} readingTime={readingTime} />
+              </div>
+            )
+          })
+        }
         <ul
           style={{
             display: "flex",
@@ -138,7 +130,7 @@ class BlogIndex extends React.Component {
             </Link>
           )}
         </ul>
-      </Layout>
+      </Layout >
     )
   }
 }

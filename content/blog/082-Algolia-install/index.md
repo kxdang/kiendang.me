@@ -2,20 +2,18 @@
 author: Kien
 date: 2020-04-26
 slug: gatsbyblog-algolia-install
-title: 🔨How to install Algolia on Gatsby
-description:  How to install Algolia on your Gatsby blog to search for your posts. A step by step guide created for beginners by a beginner.
+title: 🔨How to install Algolia on a Gatsby website
+description:  How to install Algolia on your Gatsby blog. An easy step by step guide created for beginners.
 tags: ["gatsby", "react", "graphql"]
 ---
 
-The guide I used was found on the Gatsby's documentation with a supplementary live stream found here. 
+The guide I used was found on the Gatsby's documentation with a supplementary live stream found <a href="https://www.gatsbyjs.org/docs/adding-search-with-algolia/" target="_blank">here</a>. 
 
 Both did a great job of explaining the process to help me get started, however, I ran into several issues that I couldn't fix and things have seemed to changed slightly since the recording of the stream. I had a lot of help from my friend Adrian. (Thanks Adrian!)
 
-The documentation felt a little overwhelming that included an installation of styled-components, so I decided to document and create my own guide for reference and for those just starting off building their own blog.
+The documentation felt a little overwhelming, it included an installation of styled-components which is something I'm not to familiar with, so I decided to document and create my own guide for reference and for those just starting off building their own blog.
  
-I'm still learning as I add small tweaks to my blog, I wanted a more beginner guide for me to follow and made my own below.
-
-Here are the steps I used to install Algolia on my own blog:
+I wanted a more beginner guide for me to follow and made my own below. Here are the steps I used to install Algolia on my own blog:
 
 ## <center>Step 1</center>
 Install the gatsby-plugin-algolia and react-instantsearch-dom, these two dependencies will be the main building blocks of this feature.
@@ -24,8 +22,6 @@ Install the gatsby-plugin-algolia and react-instantsearch-dom, these two depende
 npm install --save gatsby-plugin-algolia react-instantsearch-dom algoliasearch dotenv
 ```
 <br/>
-
-In the Gatsby's documentation, it suggested using styled-components, but for me, I didn't bother and overwrote the original CSS classes it provided. 
 
 ## <center>Step 2</center>
 
@@ -56,18 +52,17 @@ module.exports = {
 ```
 <br/>
 
-You're going to have to add 3 things to your `gatsby-config.js` shown above. I will be going through them one by on. After you update your `gatsby-config.js` file, you need to do the following steps below:
+You're going to have to add 3 things to your `gatsby-config.js` shown above. I will be going through them one by one. After you update your `gatsby-config.js` file, you need to do the following steps below:
 
 
 ### <center> Step 2a </center>
 
-Create an [Algolia](https://www.algolia.com/) account and create an index. I named my index "Blog" - this is important to remember as you will need to reference it in indexName to explicitly define your indices on Algolia, Algolia will use this to know which index to upload to.
-
+Create an [Algolia](https://www.algolia.com/) account and create an index. I named my index "Blog" - this is important to remember as you will need to reference it in indexName to explicitly define your indices on Algolia.
 
 ### <center> Step 2b </center>
 
 Create an .env file on your root folder that contains your credentials, you will need both:
-.env.production and .env.development - this will allow you to access the credentials when you build it locally to test.
+.env.production and .env.development - this will allow you to access the credentials when you build it locally.
 
 ```JavaScript
 GATSBY_ALGOLIA_APP_ID=YOURCREDIENTIALS
@@ -76,12 +71,12 @@ ALGOLIA_ADMIN_KEY=YOURCREDIENTIALS
 ```
 <br/>
 
-**When you push it to production, you will need to go to Netlify and enter these values for your project when you are deploying it under build settings**
+**When you deploy it to production, you will need to go to through your CMS and enter the API credentials. I use Netlify, so I entered my values under build settings**
 
-You'll find these credentials in your Algolia dashboard.
+You'll find these credentials on your Algolia dashboard.
 
 ### <center> Step 2c </center>
-Add a js file anywhere you like, it doesn't matter since we will be using the require method in Line 1 (in Step 2) to export queries to gatsby-config, this file will contain your GraphQL query. 
+Create a new file called algolia.js and save the file anywhere you like, it doesn't matter since we will be using the require method in Line 1 (in Step 2) to export queries to gatsby-config, this file will contain your GraphQL query. 
 
 In my case, I wanted to query for my blog posts so I ended up using the same information I use to display my posts. Yours might look a little different, I have MDX installed which allows me show both MD and MDX files, if you use regular MD posts, you can use the allMarkdownRemark query.
 
@@ -120,7 +115,7 @@ const flatten = arr =>
         ...rest,
     }))
 
- // OPTIONAL
+ // OPTIONAL SETTINGS
 const settings = { attributesToSnippet: [`excerpt:20`] }
 
 const queries = [
@@ -139,7 +134,7 @@ There are a couple of things happening in this file, the first section is queryi
 
 There is a function called flatten (lines 27-31). I took it from the documentation, it flattens the data so that Algolia can search through it. The settings function is optional but I put it in there anyways.
 
-Lines 35-42 is an an important key in the plugin's requirement, it is the query that will be uploaded to Algolia, I will be uploading blogQuery in line 37, referenced above in line 1. I provided the indexName in line 38 - which is the name created in the Algolia dashboard.
+Lines 35-42 is an an important key in the plugin's requirement, it is your graphql query that will connect to Algolia. I will be uploading blogQuery in line 37, referenced above in line 1. I provided the indexName in line 38 - which is the name created in the Algolia dashboard.
 
 ## <center> Step 3 </center>
 Based on where you want your search to show, this is where you want the data to show up when you search. It can be in a modal, a separate page or even the front page.
@@ -178,9 +173,9 @@ The `Hit` component will show the results of your search and you can pass it in 
 The data is extracted from the hit object just as if you were to query it out from GraphQL. I have only the title and excerpt extracted as seen above in the Hit function.
 
 ## <center>Remove default results</center>
-But I don't want it to show any results by default. Algolia's ReactInstantSearch always shows you results even when the query is empty, in their documentation it shows you how to handle this.
+Algolia's ReactInstantSearch always shows you results even when the query is empty, in their documentation it shows you how to handle this.
 
-Here's how I managed mine, I had to wrap my head around how HOC components are used and how they can contain the data. The children prop in the Results component contains my Hit searches and displays it based on the conditional that was written in Results.
+Here's how I managed mine, I had to wrap my head around how higher-order components are used and how they pass data to one another. The children prop in the Results component contains my Hit searches and displays it based on the conditional that was written in Results.
 
 ```jsx
 import {
@@ -226,7 +221,7 @@ Here's what it looks like now!
 
 Now it's just a bit of cleaning up, I made a separate component called SearchPreview, I made it look like my post preview and extracted the information from hit. So my Hit function looks like this:
 
-```jsx
+```jsx{numberLines:true}
 const Hit = ({ hit }) => 
     <SearchPreview
         hit={hit} 
@@ -240,9 +235,11 @@ const Hit = ({ hit }) =>
 ```
 
 ## <center> Installing Highlighting feature </center>
-If you want Highlight to work, you must add the Highlight component inside your component that generates inside the Hit function.
+If you want Highlight to work, you must add the Highlight component inside the component that generates inside the Hit function.
 
-For my case, I wanted to be able to search for the title of my blog and my excerpt. So inside my SearchPreview, searching for the title just requires you to replace the title with the Highlight component:
+For my case, I wanted to be able to search for the title of my blog and my excerpt. So inside my SearchPreview, I passed down the hit data as a prop in line 3 above. This will allow the Highlight component in the Search component to add the magic.
+
+Searching for the title just requires you to replace the title with the Highlight component:
 
 ```jsx
 //inside SearchPreview.js
@@ -272,7 +269,7 @@ function SearchPreview({ hit, title, excerpt, slug }) {
 export default SearchPreview
 ```
 
-You can add a tagName attribute which will allow you to italicize the searched query and highlight the word. It is customizable through CSS under the mark tag. After some CSS magic, it'll look something like below!
+You can add a tagName attribute which will allow you to italicize the searched query and highlight the word. It is customizable through CSS under the `mark` tag. After some CSS magic, it'll look something like below!
 
 ![](./highlight.gif)
 
@@ -280,4 +277,6 @@ A simple Algolia search for your blog! Algolia has a free tier which is the perf
 
 It's also a better way to peek into my brain instead of sifting through pages and laugh at my writing during during my initial days of this blog.
 
-My next step is learning how to denounce the Algolia search, perhaps using lodash to reduce the operations count per month in the free tier. If this post helped you out, please give me a tweet @ [k1dang](https://twitter.com/k1dang)!
+My next step is learning how to denounce the Algolia search, perhaps using lodash to reduce the operations count per month in the free tier. If this post helped you out feel free to buy me a coffee!
+
+<a href="https://www.buymeacoffee.com/notcodenames" target="_blank" style="border-bottom: none;"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important; display: block; max-width: 40%; margin-left: auto; margin-right:auto " /></a>
