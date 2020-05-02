@@ -129,7 +129,7 @@ class now extends React.Component {
                   Github.
                 </a>
 
-                {" "} I am periodically updating <a href="https://notcodenames.com/">notcodenames</a> by applying new React concept's I am learning. I hope to be able to create a dark mode theme toggle, add colour blind mode and fix current issues.
+                {" "} I am periodically updating <a href="https://notcodenames.com/">notcodenames</a> by applying new React concepts I am learning. I hope to be able to create a dark mode theme toggle, add colour blind mode and fix current issues.
               </p>
 
               <p
