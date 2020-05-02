@@ -3,7 +3,7 @@ author: Kien
 date: 2020-04-29
 slug: algolia-debouncing
 title: ❔How to debounce Algolia's Search
-description:  How I debounced my Algolia's ReactInstantSearch to reduce the number of operations being called to Algolia. What is JavaScript debouncing?
+description:  How I debounced my Algolia's ReactInstantSearch to reduce the number of operations being called to Algolia. Also, what is debouncing in JavaScript?
 tags: ["webdev", "react", "javascript"]
 ---
 Now that I have Algolia's search feature installed, I have been enjoying their instantly fast searches on my blog. In Algolia’s InstantSearch, each keystroke fires a function to query for a search.

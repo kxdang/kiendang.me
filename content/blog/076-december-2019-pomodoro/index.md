@@ -16,3 +16,5 @@ Having reflections allow me to measure how much I've done and what I've accompli
 ![](pomotodoDecember2019.png)
 
 My self-reflection for December has been combined with my [2019 summary](/066-2019-yearend-pomodoro/). I thought it would be a good idea to have a year summary of 2019.
+
+<div align="right"><a href="/067-january-2020-pomodoro/">January 2020 Pomodoro &rarr;</a></div>
