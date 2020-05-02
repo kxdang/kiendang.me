@@ -89,7 +89,7 @@ class now extends React.Component {
                 I am currently studying algorithms and data structures to understand the fundamentals of computer science.
                 <br></br>
                 <br></br>
-                I am working on a MERN full stack application side-project to gain TypeScript and Apollo GraphQL experience.
+                I am working on learning React Hooks in depth by building more projects.
                 <br></br>
                 <br></br>I am open for new opportunities and looking for a
                 company that will allow me to grow professionally as a
@@ -100,14 +100,13 @@ class now extends React.Component {
               <h3 style={{ textAlign: "center" }}>Books</h3>
               <p style={{ textAlign: "center" }}>I am reading: </p>
               <div style={{ display: "flex", justifyContent: "space-evenly", paddingBottom: "2rem" }}>
-                <Img style={{ width: "35%" }} fluid={book.bookone.childImageSharp.fluid} alt="The Name Of The Wind Book" />
+                <Img style={{ width: "35%" }} fluid={book.bookone.childImageSharp.fluid} alt="The Wise Man's Fear" />
                 <Img style={{ width: "35%" }} fluid={book.booktwo.childImageSharp.fluid} alt="The Daily Stoic" />
               </div>
               <p>
-                The Name of the Wind by Patrick Rothfuss. A friend of mine
+                The Wise Man's Fear by Patrick Rothfuss. A friend of mine
                 recommended a book outside my usual genre of mystery
-                thriller. Looking to expand my vocabulary and improve writing
-                skills.
+                thriller. I recently finished the first book and I am currently hooked! I am really hoping the author releases his final book sometime this year.
               </p>
 
 
@@ -121,7 +120,7 @@ class now extends React.Component {
 
               <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
               <p>
-                I am using Gatsby to build a website and currently working on a full stack application found on my {" "}
+                I am currently working on a full stack application and learning React Hooks by building multiple projects found here on my {" "}
                 <a
                   href="https://github.com/kxdang"
                   target="_blank"
@@ -129,6 +128,8 @@ class now extends React.Component {
                 >
                   Github.
                 </a>
+
+                {" "} I am periodically updating <a href="https://notcodenames.com/">notcodenames</a> by applying new React concept's I am learning. I hope to be able to create a dark mode theme toggle, add colour blind mode and fix current issues.
               </p>
 
               <p
@@ -139,7 +140,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on April 1st 2020
+                Last updated on May 1st 2020
               </p>
             </div>
             <footer>
