@@ -15,6 +15,14 @@ Writing will help me stay accountable while also improving my writing skills. I 
 
 A closure in JavaScript refers to the combination of a function and the lexical scope in which the function was defined.
 
+Honestly, this was pretty confusing until I looked further into the Global Execution Context to understand scope. 
+
+Basically, if you have a function within another function, the inner function will create a "closure" over the execution context variable environment of the parent function. 
+
+When the parent function has been popped off the call stack, the inner function will still have access to the previous variable since it created a closure scope.
+
+The process of a child function closing over the variable environment of its parent function is called a closure.
+
 A basic example of a closure:
 
 ```JavaScript

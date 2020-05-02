@@ -16,7 +16,7 @@ Another friend of mine briefly mentioned Gatsby, a framework based on React. It 
 
 Since Gatsby is based on React, a library that I’m familiar with, I was able to follow their tutorials via their documentation and was able to have a simple blog up and running.
 
-I found that it deploys with Netlify via github which made updating and adding posts very seamless through commits. Most importantly, the hosting from <a href="https://www.netlify.com/" target="_blank">Netlify</a> is completely free!
+I found that it deploys with Netlify via Github which made updating and adding posts very seamless through commits. Most importantly, the hosting from <a href="https://www.netlify.com/" target="_blank">Netlify</a> is completely free!
 
 ## <center>Features I Added</center>
 
@@ -39,14 +39,14 @@ All the changes made to the Gatsby Starter Blog, in the exact order of changes a
 6. <b style="color: #FF5370">Pagination with posts</b> - Gatsby's documentation had different code sample from template. I had to moved my index.js file to a template folder. This will allow me to serve it as a template instead of a main index.js file. 
 7. <b style="color: #FF5370">Dark mode toggle</b> - finally added this following documentation and from a tip from <a href="https://www.taniarascia.com/" target="_blank">Tania</a>. I sent her an email and she got back to me with a direction on how to implement <a href="https://www.gatsbyjs.org/blog/2019-01-31-using-react-context-api-with-gatsby/" target="_blank">dark mode</a>. Big thanks to her!
 8. <b style="color: #FF5370">Adding Font Awesome </b> to my React Pages using <a href="https://github.com/react-icons/react-icons" target="_blank">react-icons</a>
-9. <b style="color: #FF5370">Adding gatsby plugin catch links</b> - helps load pages locally on my blog instead of refreshing the page, preserving the Single Page Application feel
-10. <b style="color: #FF5370">Adding PrismJS</b> - helps add colour to my code snippets. <a href="https://prismjs.com/" target="_blank">PrismJS</a>
+
+9. <b style="color: #FF5370">Adding PrismJS</b> - helps add colour to my code snippets. <a href="https://prismjs.com/" target="_blank">PrismJS</a>
 
 ### <center>Wordpress Blog Posts to Gatsby Blog Posts (Markdown)</center>
 
 After completing all the features I wanted in this blog, I had to figure out a way to convert all my Wordpress blog posts into a markdown file. I tried multiple plugins from Wordpress but all had failed as they were no longer up to date. I exported all of my blog post into a single xml file using the Wordpress export settings and found that xml can be converted over to markdown files.
 
-I found Python tool to convert Wordpress blogs to the Jekyll blog engine which uses Markdown <a href="https://github.com/thomasf/exitwp" target="\_blank"> exitwp</a>. I was unable to get the Python script to work locally and stumbled upon a cloud version of this script which is called <a href="https://github.com/kxdang/travis-exitwp" target="_blank">Travis Exitwp</a>. I followed the instructions and was able to generate my Wordpress xml blog posts to the markdown format required for Gatsby.
+I found a Python tool to convert Wordpress blogs to the Jekyll blog engine which uses Markdown <a href="https://github.com/thomasf/exitwp" target="\_blank"> exitwp</a>. I was unable to get the Python script to work locally and stumbled upon a cloud version of this script which is called <a href="https://github.com/kxdang/travis-exitwp" target="_blank">Travis Exitwp</a>. I followed the instructions and was able to generate my Wordpress xml blog posts to the markdown format required for Gatsby.
 
 This basically did 50% of the work, the rest was adding it into the Gatsby folders and making sure I still had my images.
 
