@@ -4,7 +4,7 @@ date: 2020-02-06
 slug: portfolio-2020
 title: ✅ Portfolio Website
 description: I completed my personal website!
-tags: ["technology"]
+tags: ["webdev"]
 ---
 
 <img src="/kienwebsite.png"/>
