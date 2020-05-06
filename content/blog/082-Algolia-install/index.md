@@ -275,8 +275,8 @@ You can add a tagName attribute which will allow you to italicize the searched q
 
 A simple Algolia search for your blog! Algolia has a free tier which is the perfect use case since I will be writing about programming, I'll finally be able to search for topics I need to frequently review. 
 
-It's also a better way to peek into my brain instead of sifting through pages and laugh at my writing during during my initial days of this blog.
+It's also a better way to peek into my brain instead of sifting through pages and laugh at my writing during my initial days of this blog.
 
-My next step is learning how to denounce the Algolia search, perhaps using lodash to reduce the operations count per month in the free tier. If this post helped you out feel free to buy me a coffee!
+My next step is learning how to debounce the Algolia search, perhaps using lodash to reduce the operations count per month in the free tier. If this post helped you out feel free to buy me a coffee!
 
 <a href="https://www.buymeacoffee.com/notcodenames" target="_blank" style="border-bottom: none;"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important; display: block; max-width: 40%; margin-left: auto; margin-right:auto " /></a>
