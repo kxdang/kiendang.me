@@ -3,7 +3,7 @@ author: Kien
 date: 2020-05-11
 slug: react-useeffect
 title: 📺 React useEffect
-description: I write about useEffect and how I used it to call API's.
+description: What are useEffects used for?
 tags: ["react"]
 ---
 
