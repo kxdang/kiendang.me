@@ -10,7 +10,7 @@ tags: ["webdev","react"]
 Technology moves quickly and I realized that if you are not constantly learning, you'll feel behind in the world of web development. Developing skills to learn quickly is a lifelong journey and that is why I find web development a conducive environment for my visions of continuous learning.
 
 
-For the past few months, I’ve taken a deeper dive in learning how to build with React and what I noticed was when completing the Modern React Bootcamp, my `npx-create-react-app` boilerplate started off with a functional component. I finished the course building multiple class based React projects but had very little exposure to Hooks.
+For the past few months, I’ve taken a deeper dive in learning how to build with React and what I noticed was when completing the Modern React Bootcamp, my `npx create-react-app` boilerplate started off with a functional component. I finished the course building multiple class based React projects but had very little exposure to Hooks.
 
 
 It seems like the React community developers have been pushing for functional components. The newly added Hooks give extra functionality allowing function components to behave similarly to classes but with less code. 
