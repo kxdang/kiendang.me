@@ -122,31 +122,17 @@ class about extends React.Component {
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
               <p
                 style={{
-                  display: `flex`,
+                  textAlign: `center`,
                   justifyItems: `center`,
                 }}
               >
-                <a
-                  href="https://www.linkedin.com/in/kien-dang/"
-                  style={{
-                    display: `flex`,
-                    justifyContent: `center`,
-                    alignItems: `center`,
-                    margin: `auto`,
-                  }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Maybe working for your company?{" "}
-                  <FaLinkedin
-                    style={{ fontSize: `1.3em`, marginLeft: `0.2em` }}
-                  />
-                </a>
+
+                <span role="img" aria-label="celebrate">🎉</span>
+
               </p>
               <p>
                 I'm always looking to improve my skills and be the best version
-                of myself. If you feel like I'd be a great addition to your
-                team, feel free to contact me!
+                of myself. If you have any questions, please send me an email: <a href="mailto: hello@kien.dev">hello@kien.dev</a>
               </p>
               <blockquote>
                 Everything is a skill, and thus everything can be learned,

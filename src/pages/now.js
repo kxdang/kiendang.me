@@ -86,37 +86,32 @@ class now extends React.Component {
                 What am I doing at the moment?
               </h3>
               <p>
-                I am currently studying algorithms and data structures to understand the fundamentals of computer science.
+                📝I am currently learning Redux and TypeScript as a personal initiative to fill the knowledge I need for my new position.
+              <br></br>
                 <br></br>
-                <br></br>
-                I am working on learning React Hooks in depth by building more projects.
-                <br></br>
-                <br></br>I am open for new opportunities and looking for a
-                company that will allow me to grow professionally as a
-                developer.
+                🎯I am still focused on studying algorithms and data structures to understand the fundamentals of computer science.
+
               </p>
 
 
               <h3 style={{ textAlign: "center" }}>Books</h3>
               <p style={{ textAlign: "center" }}>I am reading: </p>
               <div style={{ display: "flex", justifyContent: "space-evenly", paddingBottom: "2rem" }}>
-                <Img style={{ width: "35%" }} fluid={book.bookone.childImageSharp.fluid} alt="The Wise Man's Fear" />
+                <Img style={{ width: "35%" }} fluid={book.bookone.childImageSharp.fluid} alt="Red Rising" />
                 <Img style={{ width: "35%" }} fluid={book.booktwo.childImageSharp.fluid} alt="The Daily Stoic" />
               </div>
               <p>
-                The Wise Man's Fear by Patrick Rothfuss. A friend of mine
-                recommended a book outside my usual genre of mystery
-                thriller. I recently finished the first book and I am currently hooked! I am really hoping the author releases his final book sometime this year.
+                I am reading a new book called Red Rising and hoping that the third book of the The Kingkiller Chronicle will release sometime this year.
               </p>
 
 
-              <h3 style={{ textAlign: "center" }}>Games</h3>
+              {/* <h3 style={{ textAlign: "center" }}>Games</h3>
               <p style={{ textAlign: "center" }}>
                 Currently enjoying Valorant
                 <span role="img" aria-label="SunglassSmiley">
                   🙂
                 </span>
-              </p>
+              </p> */}
 
               <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
               <p>
@@ -140,7 +135,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on May 1st 2020
+                Last updated on May 30th 2020
               </p>
             </div>
             <footer>
