@@ -40,7 +40,7 @@ const option = {
 export default function PomodoroDonut() {
     return (
         <div>
-            <h2 style={{ textAlign: "center" }}>April Overview</h2>
+            <h2 style={{ textAlign: "center" }}>May Overview</h2>
             <Doughnut data={data} options={option} />
         </div>
     )
