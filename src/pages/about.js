@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 import Switch from "react-switch"
 
 import { GiBookshelf, GiMouse } from "react-icons/gi"
-import { FaLinkedin, FaKeyboard, FaClock } from "react-icons/fa"
+import { FaKeyboard, FaClock } from "react-icons/fa"
 
 import ThemeContext from "../context/ThemeContext"
 

@@ -3,7 +3,7 @@ author: Kien
 date: 2020-05-30
 slug: mind-over-matter
 title: 🧠Mind Over Matter
-description: The story of how I fixed my sleeping problems and the steps I took to optimize for study, leisure, and sleep in my small bedroom.
+description: The story of how I fixed my sleeping problems and the steps I took to optimize for study, leisure, and sleep in my small bedroom. The things that worked for me throughout my journey in programming.
 tags: ["life"]
 ---
 
@@ -19,26 +19,26 @@ Anxiously, while I was waiting for my results, I Google'd sleep apnea machines a
 
 Likewise, a patient waiting to be tucked in for another sleep study at the clinic told me he was surprised to see a young fellow in for a study and said that sleep apnea machines are meant for bigger people like himself.
 
-I was confused and he told me that larger folks tend to snore more and thus, have their airways blocked at night which causes them to wake up at night. At the same time he also raved about how his machine gave him the best sleep he had in years. Thus, adding to excitement of finally getting a machine to help me sleep.
+I was confused and he told me that larger folks tend to snore more and thus, have their airways blocked which causes them to wake up at night. At the same time he also raved about how his machine gave him the best sleep he had in years. Thus, adding to excitement of finally getting a machine to help me sleep.
 
 I thought it would be super cool to have full blanket coverage over my head while I slept with a tube in my nose and machine helping me breathe externally. My girlfriend was not amused at the idea.
 
 After the results came in, my sleep medicine specialist looked at my graph and simply told me that I had a common problem he'd seen in many young patients, it was simply just "stress". He told me that I should try taking 5mg of melatonin at night to see if that helped and report back to him after 6 months of taking it.
 
-Bummer! I didn't get my sleep machine, but now I know for sure its not sleep apnea. At the time, I didn't *feel* stressed, but I decided to step back and reflect on what I was going through.
+Bummer! I didn't get my sleep machine, but now I'm able to confirm its not sleep apnea. At the time, I didn't *feel* stressed, but I decided to step back and reflect on what I was going through.
 
 Leaving my steady full-time job for something unknown and having a health crisis that left me recovering for 4 months really did put a dent in my plans and timeline. Perhaps this fear of the unknown led me to having poor sleep and thus increased my stress levels which in turn caused more restless sleep and the cycle never stops.
 
-I mentioned that I didn't feel stressed, but my body was going through physical stress. Stress can take many different forms and maybe when I slept, my brain had an internal stressor that it couldn't get rid of. Too many unknowns for it to handle and I had no good system to unwind.
+I mentioned that I didn't feel stressed, but my body was going through physical stress. Stress can take many different forms and maybe when I slept, my brain had an internal stressor that it couldn't get rid of, causing me to toss and turn and keeping me unrested. Too many unknowns for it to handle and I had no good system to unwind.
 
-So, I took it one step at a time, controlling what I could. I took my melatonin as directed and felt drowsy every night. It didn't seem to help because I woke up with a melatonin hangover and led me to feeling groggy the whole day.
+So, I took it one step at a time, controlling what I could. I took my melatonin as directed by my doctor and felt drowsy every night. It didn't seem to help because I woke up with a melatonin hangover which led me to feeling groggy the whole day.
 
-The next step I took was applying the techniques for stress management I read in a book called [The Power of Full Engagement](/008-managing-energy/). There were only 2 main things I took from the book in the stress management section:
+The next step I took was applying the techniques for stress management in a book I read called [The Power of Full Engagement](/008-managing-energy/). There were only 2 main things I took from the book in the stress management section:
 
 1.	Meditation - this helps calms the mind, allows you to let your mind rant and unwind while you focus on your breath which reduces stress
 2.	Running - generates dopamine and tires out my energy to sleep better and help build more energy in the long run
 
-Great, now that I started implementing my de-stressing techniques, I started focus on my environment and help turn it in my favour when it came to study time.
+Now that I started implementing my de-stressing techniques, I started focus on my environment and help turn it in my favour when it came to study time.
 
 ## <center>Increasing focus and concentration</center>
 As James Clear says in Atomic Habits, your environment impacts your behaviour.
@@ -57,15 +57,15 @@ Mixing the 4 things above probably added more stress and causing sleep issues wh
 
 However, there were a couple of tricks that really helped me stay focused and unfortunately, this might require some purchases, but in my opinion, they were well worth their investment.
 
-1.	Associating a different device for studying
+1.	<strong>Associating a different device for studying</strong>
 
 - Every time I would study or do work, I would only use my laptop. Doing this allows me to associate a physical object to studying. I had a hard time decoupling my main PC to studying simply because I've always played games on it. I initially invested in a very nice laptop before I had left work in anticipation for studying.
 
-2.	Using noise cancelling headphones
+2.	<strong>Using noise cancelling headphones</strong>
 
 - Having noise cancelling headphones while you are working not only drowns external noise but help you feel like you are in a completely different place. It's hard to explain but once you have noise cancelling headphones, it helps you zone into the work much easier (for me at least).
 
-3.	Controlling room ambience with Hue light bulbs
+3.	<strong>Controlling room ambience with Hue light bulbs</strong>
 
 - I splurged last year on a pair of smart lights during boxing day. I would make my room cool white for studying and then warm white for relaxing and leisure time. Eventually I'd turn them red for sleep time and reading.
 - This not only tricked my brain into thinking I was in a different room, but the whole mood lighting really effected how I studied and unwind.
@@ -74,7 +74,7 @@ However, there were a couple of tricks that really helped me stay focused and un
 Although these were very minor improvements, I found them to help tremendously in keeping me focused and concentrated.
 
 
-I made sure I meditated every day for 5 minutes and ran twice a week to de-stress and build up my energy levels.
+I made sure I meditated every day for 5 minutes and ran twice a week to de-stress and build up my energy levels. It has been almost my entire journey now that I am able to reflect back on what I have done and what I've improved. I'm glad to say that self-reflection has helped me pinpoint the issues and defaulted on action to help solve them.
 
 
 I know that health is wealth. Making sure you are mentally and physically healthy is the key to being productive. Your body houses your soul, and you want to make sure it is well oiled and maintained!
