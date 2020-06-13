@@ -1,5 +1,5 @@
 :root {
-  --light-bg: #dfdfdf;
+  --light-bg: #fafbfc;
   --primary-color-light: #226597;
 
   --dark-bg: #1b1e2b;
@@ -144,6 +144,10 @@ a:hover svg.icon {
 }
 
 .dark blockquote {
+  color: bisque;
+}
+
+.dark blockquote p{
   color: bisque;
 }
 

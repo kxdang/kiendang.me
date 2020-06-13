@@ -56,7 +56,7 @@ class now extends React.Component {
                   onColor="#292D3E"
                   offColor="#292D3E"
                   offHandleColor="#fefefe"
-                  onHandleColor="#292D3E"
+                  onHandleColor="#586184"
                   checkedIcon={
                     <span
                       style={{ marginLeft: "0.3rem" }}
@@ -75,8 +75,7 @@ class now extends React.Component {
                       🌒
                     </span>
                   }
-                  boxShadow="0 0 2px 3px #226597"
-                  activeBoxShadow="0 0 2px 3px #89ddff"
+                  activeBoxShadow="0 0 2px 3px #226597"
                 />
               </div>
 
@@ -86,22 +85,25 @@ class now extends React.Component {
                 What am I doing at the moment?
               </h3>
               <p>
-                📝I am currently learning Redux and TypeScript as a personal initiative to fill the knowledge I need for my new position.
-              <br></br>
+                <span role="img" aria-label="docs">📝</span>I am currently learning Redux and TypeScript as a personal initiative to fill the knowledge I need for my new position.
                 <br></br>
-                🎯I am still focused on studying algorithms and data structures to understand the fundamentals of computer science.
+                <br></br>
+                <span role="img" aria-label="tomato">🍅</span>I am looking at resources to learn how to debug effectively and efficiently for my new role as a Software Developer.
+                <br></br>
+                <br></br>
+                <span role="img" aria-label="goal">🎯</span>I am still focused on studying algorithms and data structures to understand the fundamentals of computer science.
 
               </p>
 
 
               <h3 style={{ textAlign: "center" }}>Books</h3>
-              <p style={{ textAlign: "center" }}>I am reading: </p>
+              <p style={{ textAlign: "center" }}>Currently reading: </p>
               <div style={{ display: "flex", justifyContent: "space-evenly", paddingBottom: "2rem" }}>
-                <Img style={{ width: "35%" }} fluid={book.bookone.childImageSharp.fluid} alt="Red Rising" />
-                <Img style={{ width: "35%" }} fluid={book.booktwo.childImageSharp.fluid} alt="The Daily Stoic" />
+                <Img style={{ width: "35%" }} fluid={book.bookone.childImageSharp.fluid} alt="The Daily Stoic" />
+                <Img style={{ width: "35%" }} fluid={book.booktwo.childImageSharp.fluid} alt="So You Want to Talk About Race" />
               </div>
               <p>
-                I am reading a new book called Red Rising and hoping that the third book of the The Kingkiller Chronicle will release sometime this year.
+                It is important to self educate on issues and events that have been happening the last month. I decided to read a book called <a href="https://www.goodreads.com/book/show/35099718-so-you-want-to-talk-about-race">So You Want to Talk About Race</a> by Iljeoma Oluo.
               </p>
 
 
@@ -123,8 +125,9 @@ class now extends React.Component {
                 >
                   Github.
                 </a>
-
-                {" "} I am periodically updating <a href="https://notcodenames.com/">notcodenames</a> by applying new React concepts I am learning. I hope to be able to create a dark mode theme toggle, add colour blind mode and fix current issues.
+                <br></br>
+                <br></br>
+                {" "} Creating React-Redux applications with TypeScript to have a better grasp of the technology stack at my current position at Coveo. For personal interest and as a personal initiative to be more effective at work.
               </p>
 
               <p
@@ -135,7 +138,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on May 30th 2020
+                Last updated on June 13th 2020
               </p>
             </div>
             <footer>

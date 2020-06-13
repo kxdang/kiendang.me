@@ -58,7 +58,7 @@ const Tags = ({ pageContext, data }) => {
                 onColor="#292D3E"
                 offColor="#292D3E"
                 offHandleColor="#fefefe"
-                onHandleColor="#292D3E"
+                onHandleColor="#586184"
                 checkedIcon={
                   <span
                     style={{ marginLeft: "0.3rem" }}
@@ -77,8 +77,8 @@ const Tags = ({ pageContext, data }) => {
                     🌒
                   </span>
                 }
-                boxShadow="0 0 2px 3px #226597"
-                activeBoxShadow="0 0 2px 3px #89ddff"
+
+                activeBoxShadow="0 0 2px 3px #226597"
               />
             </div>
             <Bio />
