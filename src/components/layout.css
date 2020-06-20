@@ -385,3 +385,18 @@ mark {
   margin-bottom: 0rem;
   height: 2rem;
 }
+
+.bio-links a {
+  border-bottom: none;
+}
+
+.bio-links svg:hover {
+  color: var(--primary-color-light);
+}
+.dark .bio-links svg {
+  color: #f5f5f5;
+}
+
+.dark .bio-links svg:hover {
+  color: var(--primary-color-dark)
+}

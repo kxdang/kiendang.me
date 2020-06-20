@@ -103,7 +103,10 @@ class about extends React.Component {
               <p>
                 I <a href="/040-new-chapter-2019/">resigned </a>from my job back in May of 2019 and I'm currently in
                 the process of pursuing a programming career in front-end web
-                development. I documented my entire journey on my blog and
+                development. I happy to say that I am employed as a Software Developer at <a href="https://www.coveo.com/Coveo" rel="noopener noreferrer" target="_blank">Coveo</a> <span role="img" aria-label="celebrate">💙🧡</span>
+                <br></br>
+                <br></br>
+                 I documented my entire journey on my blog and
                 tracked my progress using the{" "}
                 <a href="/022-pomodoro-technique/">Pomodoro Technique</a>.
               </p>
@@ -112,26 +115,25 @@ class about extends React.Component {
                 <a href="/066-2019-yearend-pomodoro/">Year End Progress 2019</a>
               </p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
+              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
+              <p style={{ textAlign: `center`, marginBottom: `12px` }}>
+                <span style={{ fontSize: `2rem` }} role="img" aria-label="drinks" >🍾</span><a href="/091-new-chapter/">
+                  Starting a new chapter in 2020!
+                </a><span style={{ fontSize: `2rem` }} role="img" aria-label="celebrate">🎉</span>
+              </p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
-                <a href="/090-may-2020-pomodoro/">
-                  Current Progress for 2020
-                </a>
+                <a href="/092-year-journey-summary/">
+                  What I did from May 2019 to May 2020 to become a developer
+                </a><span style={{ fontSize: `1.4rem` }} role="img" aria-label="celebrate">💻</span>
               </p>
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
-              <p
-                style={{
-                  textAlign: `center`,
-                  justifyItems: `center`,
-                }}
-              >
+              <p style={{ fontSize: `1.4rem`, textAlign: `center`, marginBottom: `0px` }}>&delta;</p>
 
-                <span role="img" aria-label="celebrate">🎉</span>
+              <p style={{ textAlign: `center`, marginBottom: `4rem` }}><a href="/090-may-2020-pomodoro/">Continuous Improvement Initiative</a><span style={{ fontSize: `1rem` }} role="img" aria-label="growth">📈</span></p>
 
-              </p>
+
               <p>
                 I'm always looking to improve my skills and be the best version
-                of myself. If you have any questions, please send me an email: <a href="mailto: hello@kien.dev">hello@kien.dev</a>
+                of myself. Feel free to browse around!
               </p>
               <blockquote>
                 Everything is a skill, and thus everything can be learned,

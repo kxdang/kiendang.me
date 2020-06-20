@@ -85,10 +85,10 @@ class now extends React.Component {
                 What am I doing at the moment?
               </h3>
               <p>
-                <span role="img" aria-label="docs">📝</span>I am currently learning Redux and TypeScript as a personal initiative to fill the knowledge I need for my new position.
+                <span role="img" aria-label="docs">📝</span>I am currently learning Redux and TypeScript as a personal initiative to fill the knowledge I need for my new position as a Software Developer at Coveo.
                 <br></br>
                 <br></br>
-                <span role="img" aria-label="tomato">🍅</span>I am looking at resources to learn how to debug effectively and efficiently for my new role as a Software Developer.
+                <span role="img" aria-label="tomato">🍅</span>I am looking at resources to learn how to debug effectively and efficiently for my new role.
                 <br></br>
                 <br></br>
                 <span role="img" aria-label="goal">🎯</span>I am still focused on studying algorithms and data structures to understand the fundamentals of computer science.
@@ -138,7 +138,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on June 13th 2020
+                Last updated on June 19th 2020
               </p>
             </div>
             <footer>
