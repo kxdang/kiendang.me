@@ -6,12 +6,9 @@ import Switch from "react-switch"
 import Img from "gatsby-image"
 import ThemeContext from "../context/ThemeContext"
 
-
 import "../components/layout.css"
 
 class now extends React.Component {
-
-
   render() {
     const book = this.props.data
 
@@ -85,27 +82,57 @@ class now extends React.Component {
                 What am I doing at the moment?
               </h3>
               <p>
-                <span role="img" aria-label="docs">📝</span>I am currently learning Redux and TypeScript as a personal initiative to fill the knowledge I need for my new position as a Software Developer at Coveo.
+                <span role="img" aria-label="docs">
+                  📝
+                </span>
+                I am currently learning Redux and TypeScript as a personal
+                initiative to fill the knowledge I need for my new position as a
+                Software Developer at Coveo.
                 <br></br>
                 <br></br>
-                <span role="img" aria-label="tomato">🍅</span>I am looking at resources to learn how to debug effectively and efficiently for my new role.
+                <span role="img" aria-label="tomato">
+                  🍅
+                </span>
+                I am looking at resources to learn how to debug effectively and
+                efficiently for my new role.
                 <br></br>
                 <br></br>
-                <span role="img" aria-label="goal">🎯</span>I am still focused on studying algorithms and data structures to understand the fundamentals of computer science.
-
+                <span role="img" aria-label="goal">
+                  🎯
+                </span>
+                I am still focused on studying algorithms and data structures to
+                understand the fundamentals of computer science.
               </p>
-
 
               <h3 style={{ textAlign: "center" }}>Books</h3>
               <p style={{ textAlign: "center" }}>Currently reading: </p>
-              <div style={{ display: "flex", justifyContent: "space-evenly", paddingBottom: "2rem" }}>
-                <Img style={{ width: "35%" }} fluid={book.bookone.childImageSharp.fluid} alt="The Daily Stoic" />
-                <Img style={{ width: "35%" }} fluid={book.booktwo.childImageSharp.fluid} alt="So You Want to Talk About Race" />
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-evenly",
+                  paddingBottom: "2rem",
+                }}
+              >
+                <Img
+                  style={{ width: "35%" }}
+                  fluid={book.bookone.childImageSharp.fluid}
+                  alt="The Daily Stoic"
+                />
+                <Img
+                  style={{ width: "35%" }}
+                  fluid={book.booktwo.childImageSharp.fluid}
+                  alt="So You Want to Talk About Race"
+                />
               </div>
               <p>
-                It is important to self educate on issues and events that have been happening the last month. I decided to read a book called <a href="https://www.goodreads.com/book/show/35099718-so-you-want-to-talk-about-race">So You Want to Talk About Race</a> by Iljeoma Oluo.
+                It is important to self educate on issues and events that have
+                been happening the last month. I am currently reading a book
+                called{" "}
+                <a href="https://www.goodreads.com/book/show/35099718-so-you-want-to-talk-about-race">
+                  So You Want to Talk About Race
+                </a>{" "}
+                by Iljeoma Oluo.
               </p>
-
 
               {/* <h3 style={{ textAlign: "center" }}>Games</h3>
               <p style={{ textAlign: "center" }}>
@@ -117,7 +144,8 @@ class now extends React.Component {
 
               <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
               <p>
-                I am currently working on a full stack application and learning React Hooks by building multiple projects found here on my {" "}
+                I am currently working on a full stack application and learning
+                React Hooks by building multiple projects found here on my{" "}
                 <a
                   href="https://github.com/kxdang"
                   target="_blank"
@@ -126,8 +154,10 @@ class now extends React.Component {
                   Github.
                 </a>
                 <br></br>
-                <br></br>
-                {" "} Creating React-Redux applications with TypeScript to have a better grasp of the technology stack at my current position at Coveo. For personal interest and as a personal initiative to be more effective at work.
+                <br></br> Creating React-Redux applications with TypeScript to
+                have a better grasp of the technology stack at my current
+                position at Coveo. For personal interest and as a personal
+                initiative to be more effective at work.
               </p>
 
               <p
@@ -170,21 +200,20 @@ class now extends React.Component {
 export default now
 
 export const pageQuery = graphql`
-query Books {
-  bookone: file(relativePath: { eq: "books/book1.png"}) {
-    childImageSharp{
-      fluid {
-        ...GatsbyImageSharpFluid
-      } 
+  query Books {
+    bookone: file(relativePath: { eq: "books/book1.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    booktwo: file(relativePath: { eq: "books/book2.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
     }
   }
-  booktwo: file(relativePath: { eq: "books/book2.jpg"}) {
-    childImageSharp{
-      fluid {
-        ...GatsbyImageSharpFluid
-      } 
-    }
-  }
-}
-  
 `

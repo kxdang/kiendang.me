@@ -76,11 +76,15 @@ class about extends React.Component {
                 />
               </div>
               <Bio />
-              <h3 style={{ textAlign: `center` }}>Hello <span role="img" aria-label="wave">👋</span></h3>
+              <h3 style={{ textAlign: `center` }}>
+                Hello{" "}
+                <span role="img" aria-label="wave">
+                  👋
+                </span>
+              </h3>
               <p>
-                My name is Kien (pronounced /'key in/). I have a Bachelor
-                of Science in Honours Biochemistry from the University of
-                Waterloo.
+                My name is Kien (pronounced /'key in/). I have a Bachelor of
+                Science in Honours Biochemistry from the University of Waterloo.
                 <br />
                 <br />
                 I have held many positions during my co-op education and have
@@ -101,13 +105,23 @@ class about extends React.Component {
               </p>
               <h3 style={{ textAlign: `center` }}>Career Change</h3>
               <p>
-                I <a href="/040-new-chapter-2019/">resigned </a>from my job back in May of 2019 and I'm currently in
-                the process of pursuing a programming career in front-end web
-                development. I happy to say that I am employed as a Software Developer at <a href="https://www.coveo.com/Coveo" rel="noopener noreferrer" target="_blank">Coveo</a> <span role="img" aria-label="celebrate">💙🧡</span>
+                I <a href="/040-new-chapter-2019/">resigned </a>from my job back
+                in May of 2019 and I'm currently in the process of pursuing a
+                programming career in front-end web development. I happy to say
+                that I am employed as a Software Developer at{" "}
+                <a
+                  href="https://www.coveo.com/Coveo"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Coveo
+                </a>{" "}
+                <span role="img" aria-label="celebrate">
+                  💙🧡
+                </span>
                 <br></br>
-                <br></br>
-                 I documented my entire journey on my blog and
-                tracked my progress using the{" "}
+                <br></br>I documented my entire journey on my blog and tracked
+                my progress using the{" "}
                 <a href="/022-pomodoro-technique/">Pomodoro Technique</a>.
               </p>
 
@@ -117,19 +131,56 @@ class about extends React.Component {
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
               <p style={{ textAlign: `center`, marginBottom: `12px` }}>
-                <span style={{ fontSize: `2rem` }} role="img" aria-label="drinks" >🍾</span><a href="/091-new-chapter/">
-                  Starting a new chapter in 2020!
-                </a><span style={{ fontSize: `2rem` }} role="img" aria-label="celebrate">🎉</span>
+                <span
+                  style={{ fontSize: `2rem` }}
+                  role="img"
+                  aria-label="drinks"
+                >
+                  🍾
+                </span>
+                <a href="/091-new-chapter/">Employment @ Coveo</a>
+                <span
+                  style={{ fontSize: `2rem` }}
+                  role="img"
+                  aria-label="celebrate"
+                >
+                  🎉
+                </span>
               </p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
                 <a href="/092-year-journey-summary/">
                   What I did from May 2019 to May 2020 to become a developer
-                </a><span style={{ fontSize: `1.4rem` }} role="img" aria-label="celebrate">💻</span>
+                </a>
+                <span
+                  style={{ fontSize: `1.4rem` }}
+                  role="img"
+                  aria-label="celebrate"
+                >
+                  💻
+                </span>
               </p>
-              <p style={{ fontSize: `1.4rem`, textAlign: `center`, marginBottom: `0px` }}>&delta;</p>
+              <p
+                style={{
+                  fontSize: `1.4rem`,
+                  textAlign: `center`,
+                  marginBottom: `0px`,
+                }}
+              >
+                &delta;
+              </p>
 
-              <p style={{ textAlign: `center`, marginBottom: `4rem` }}><a href="/090-may-2020-pomodoro/">Continuous Improvement Initiative</a><span style={{ fontSize: `1rem` }} role="img" aria-label="growth">📈</span></p>
-
+              <p style={{ textAlign: `center`, marginBottom: `4rem` }}>
+                <a href="/090-may-2020-pomodoro/">
+                  Continuous Improvement Initiative
+                </a>
+                <span
+                  style={{ fontSize: `1rem` }}
+                  role="img"
+                  aria-label="growth"
+                >
+                  📈
+                </span>
+              </p>
 
               <p>
                 I'm always looking to improve my skills and be the best version
@@ -213,9 +264,8 @@ class about extends React.Component {
                 </a>
               </div>
             </div>
-          </div >
-        )
-        }
+          </div>
+        )}
       </ThemeContext.Consumer>
     )
   }
