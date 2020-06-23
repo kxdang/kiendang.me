@@ -3,6 +3,7 @@ import { rhythm } from "../utils/typography"
 import { Link } from "gatsby"
 import { Highlight } from "react-instantsearch-dom"
 import "./layout.css"
+import { Twemoji } from "react-emoji-render"
 
 export default function SearchPreview({ hit, date, readingTime, slug }) {
   return (
@@ -13,7 +14,11 @@ export default function SearchPreview({ hit, date, readingTime, slug }) {
         }}
       >
         <Link style={{ boxShadow: `none`, borderBottom: "none" }} to={slug}>
-          <Highlight hit={hit} attribute="title" tagName="mark" />
+          <Highlight
+            hit={<Twemoji text={hit} />}
+            attribute="title"
+            tagName="mark"
+          />
         </Link>
       </h3>
 

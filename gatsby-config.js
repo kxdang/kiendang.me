@@ -1,9 +1,8 @@
 const queries = require("./src/utils/algolia")
 
 require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`
+  path: `.env.${process.env.NODE_ENV}`,
 })
-
 
 module.exports = {
   siteMetadata: {
@@ -17,7 +16,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-catch-links",
-    'gatsby-remark-reading-time',
+    "gatsby-remark-reading-time",
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
