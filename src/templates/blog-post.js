@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { Emojione } from "react-emoji-render"
+import { Twemoji } from "react-emoji-render"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -22,7 +22,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <h1>
-          <Emojione text={post.frontmatter.title} />
+          <Twemoji text={post.frontmatter.title} />
         </h1>
         <small
           style={{

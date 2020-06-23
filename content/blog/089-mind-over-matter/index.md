@@ -25,7 +25,7 @@ I thought it would be super cool to have full blanket coverage over my head whil
 
 After the results came in, my sleep medicine specialist looked at my graph and simply told me that I had a common problem he'd seen in many young patients, it was simply just "stress". He told me that I should try taking 5mg of melatonin at night to see if that helped and report back to him after 6 months of taking it.
 
-Bummer! I didn't get my sleep machine, but now I'm able to confirm its not sleep apnea. At the time, I didn't *feel* stressed, but I decided to step back and reflect on what I was going through.
+Bummer! I didn't get my sleep machine, but now I'm able to confirm its not sleep apnea. At the time, I didn't _feel_ stressed, but I decided to step back and reflect on what I was going through.
 
 Leaving my steady full-time job for something unknown and having a health crisis that left me recovering for 4 months really did put a dent in my plans and timeline. Perhaps this fear of the unknown led me to having poor sleep and thus increased my stress levels which in turn caused more restless sleep and the cycle never stops.
 
@@ -35,48 +35,43 @@ So, I took it one step at a time, controlling what I could. I took my melatonin 
 
 The next step I took was applying the techniques for stress management in a book I read called [The Power of Full Engagement](/008-managing-energy/). There were only 2 main things I took from the book in the stress management section:
 
-1.	Meditation - this helps calms the mind, allows you to let your mind rant and unwind while you focus on your breath which reduces stress
-2.	Running - generates dopamine and tires out my energy to sleep better and help build more energy in the long run
+1. Meditation - this helps calms the mind, allows you to let your mind rant and unwind while you focus on your breath which reduces stress
+2. Running - generates dopamine and tires out my energy to sleep better and help build more energy in the long run
 
 Now that I started implementing my de-stressing techniques, I started focus on my environment and help turn it in my favour when it came to study time.
 
 ## <center>Increasing focus and concentration</center>
+
 As James Clear says in Atomic Habits, your environment impacts your behaviour.
 
 For the past year, I have been studying in my bedroom because I live in a small townhouse. There were no extra rooms to add another desk space to study and I was not willing spend a large chunk of my energy moving all the junk in the basement until I've exhausted all my options.
 
 There were a couple of problems that I encountered into while studying in my bedroom, it basically made me associate my bedroom with:
 
-1.	Sleeping
-2.	Relaxing
-3.	Leisure
-4.	Studying
-
+1. Sleeping
+2. Relaxing
+3. Leisure
+4. Studying
 
 Mixing the 4 things above probably added more stress and causing sleep issues which resulted in the loss of concentration and focus. Not being able to distinctively differentiate activities became a problem.
 
 However, there were a couple of tricks that really helped me stay focused and unfortunately, this might require some purchases, but in my opinion, they were well worth their investment.
 
-1.	<strong>Associating a different device for studying</strong>
+1. <strong>Associating a different device for studying</strong>
 
 - Every time I would study or do work, I would only use my laptop. Doing this allows me to associate a physical object to studying. I had a hard time decoupling my main PC to studying simply because I've always played games on it. I initially invested in a very nice laptop before I had left work in anticipation for studying.
 
-2.	<strong>Using noise cancelling headphones</strong>
+2. <strong>Using noise cancelling headphones</strong>
 
 - Having noise cancelling headphones while you are working not only drowns external noise but help you feel like you are in a completely different place. It's hard to explain but once you have noise cancelling headphones, it helps you zone into the work much easier (for me at least).
 
-3.	<strong>Controlling room ambience with Hue light bulbs</strong>
+3. <strong>Controlling room ambience with Hue light bulbs</strong>
 
 - I splurged last year on a pair of smart lights during boxing day. I would make my room cool white for studying and then warm white for relaxing and leisure time. Eventually I'd turn them red for sleep time and reading.
 - This not only tricked my brain into thinking I was in a different room, but the whole mood lighting really effected how I studied and unwind.
 
-
 Although these were very minor improvements, I found them to help tremendously in keeping me focused and concentrated.
-
 
 I made sure I meditated every day for 5 minutes and ran twice a week to de-stress and build up my energy levels. It has been almost my entire journey now that I am able to reflect back on what I have done and what I've improved. I'm glad to say that self-reflection has helped me pinpoint the issues and defaulted on action to help solve them.
 
-
 I know that health is wealth. Making sure you are mentally and physically healthy is the key to being productive. Your body houses your soul, and you want to make sure it is well oiled and maintained!
-
-

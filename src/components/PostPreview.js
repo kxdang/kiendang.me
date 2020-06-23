@@ -1,5 +1,5 @@
 import React from "react"
-import { Emojione } from "react-emoji-render"
+import { Twemoji } from "react-emoji-render"
 import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
 
@@ -20,7 +20,7 @@ export default function PostPreview({
         }}
       >
         <Link style={{ boxShadow: `none`, borderBottom: "none" }} to={slug}>
-          <Emojione text={title} />
+          <Twemoji text={title} />
         </Link>
       </h3>
       <small>
