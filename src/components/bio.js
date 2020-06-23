@@ -10,7 +10,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 import Nav from "../components/nav"
 import { rhythm } from "../utils/typography"
-import { FaTwitter, FaLinkedinIn } from "react-icons/fa"
+import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa"
 
 import "./layout.css"
 function Bio() {
@@ -51,7 +51,7 @@ function Bio() {
                 id="bio"
                 style={{
                   margin: `auto`,
-                  textAlign: 'left'
+                  textAlign: "left",
                 }}
               >
                 A blog by{" "}
@@ -59,19 +59,28 @@ function Bio() {
                   <a href="https://www.kien.dev/">Kien</a>
                 </strong>
                 <br></br>
-                <div className="bio-links" >
-                  <a href="https://twitter.com/k1dang"><FaTwitter /></a>
-                  <a style={{ paddingLeft: `0.5rem` }} href="https://www.linkedin.com/in/kien-dang/"><FaLinkedinIn /></a>
+                <div className="bio-links">
+                  <a href="https://twitter.com/k1dang">
+                    <FaTwitter />
+                  </a>
+                  <a
+                    style={{ paddingLeft: `0.5rem` }}
+                    href="https://www.linkedin.com/in/kien-dang/"
+                  >
+                    <FaLinkedinIn />
+                  </a>
+                  <a
+                    style={{ paddingLeft: `0.5rem` }}
+                    href="https://github.com/kxdang"
+                  >
+                    <FaGithub />
+                  </a>
                 </div>
-
-
-
               </p>
-
             </div>
 
             <Nav />
-          </div >
+          </div>
         )
       }}
     />
@@ -82,7 +91,7 @@ const bioQuery = graphql`
   query BioQuery {
     avatar: file(absolutePath: { regex: "/Avatar.png/" }) {
       childImageSharp {
-        fixed(width: 70, height:70) {
+        fixed(width: 70, height: 70) {
           ...GatsbyImageSharpFixed
         }
       }
