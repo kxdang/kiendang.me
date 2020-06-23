@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { Emojione } from "react-emoji-render"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -7,7 +8,6 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
 import { MDXRenderer } from "gatsby-plugin-mdx"
-
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -21,7 +21,9 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <h1>
+          <Emojione text={post.frontmatter.title} />
+        </h1>
         <small
           style={{
             ...scale(-1 / 5),
@@ -32,15 +34,15 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date} - {post.fields.readingTime.text}{" "}
           {post.fields.readingTime.minutes > 0 &&
-            post.fields.readingTime.minutes <= 2
+          post.fields.readingTime.minutes <= 2
             ? "🍵"
             : post.fields.readingTime.minutes > 2 &&
               post.fields.readingTime.minutes <= 3
-              ? "🍵🍵"
-              : post.fields.readingTime.minutes > 3 &&
-                post.fields.readingTime.minutes <= 5
-                ? "🍵🍵🍵"
-                : "🍵🍵🍵🍵"}
+            ? "🍵🍵"
+            : post.fields.readingTime.minutes > 3 &&
+              post.fields.readingTime.minutes <= 5
+            ? "🍵🍵🍵"
+            : "🍵🍵🍵🍵"}
           {post.frontmatter.tags ? (
             <p>
               Tags:{" "}
@@ -55,13 +57,13 @@ class BlogPostTemplate extends React.Component {
                   </Link>
                 ))
               ) : (
-                  <Link
-                    to={`/tags/` + post.frontmatter.tags}
-                    className={`${post.frontmatter.tags} alltags`}
-                  >
-                    {post.frontmatter.tags[0].replace(/-/g, " ")}
-                  </Link>
-                )}
+                <Link
+                  to={`/tags/` + post.frontmatter.tags}
+                  className={`${post.frontmatter.tags} alltags`}
+                >
+                  {post.frontmatter.tags[0].replace(/-/g, " ")}
+                </Link>
+              )}
             </p>
           ) : null}
         </small>
@@ -122,7 +124,7 @@ export const pageQuery = graphql`
         tags
       }
       fields {
-        readingTime{
+        readingTime {
           text
           minutes
         }

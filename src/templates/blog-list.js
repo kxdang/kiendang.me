@@ -7,16 +7,16 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import { graphql } from "gatsby"
 
-import PostPreview from '../components/PostPreview'
-import SearchPreview from '../components/SearchPreview'
-import SearchBox from '../utils/DebouncedSearchBox'
+import PostPreview from "../components/PostPreview"
+import SearchPreview from "../components/SearchPreview"
+import SearchBox from "../utils/DebouncedSearchBox"
 
 import {
   InstantSearch,
   Hits,
   Stats,
   connectSearchBox,
-  connectStateResults
+  connectStateResults,
 } from "react-instantsearch-dom"
 import algoliasearch from "algoliasearch/lite"
 
@@ -24,7 +24,6 @@ const searchClient = algoliasearch(
   process.env.GATSBY_ALGOLIA_APP_ID,
   process.env.GATSBY_ALGOLIA_SEARCH_KEY
 )
-
 
 class BlogIndex extends React.Component {
   render() {
@@ -43,28 +42,55 @@ class BlogIndex extends React.Component {
           <Stats
             translations={{
               stats(nbHits, timeSpentMS) {
-                return <div style={{ display: "flex", justifyContent: "center", marginTop: `1rem`, textAlign: `center` }}><p style={{ textAlign: "center", marginBottom: "0rem", borderBottom: "dotted 1px", }}>{nbHits} results found in {timeSpentMS}ms</p></div>;
+                return (
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      marginTop: `1rem`,
+                      textAlign: `center`,
+                    }}
+                  >
+                    <p
+                      style={{
+                        textAlign: "center",
+                        marginBottom: "0rem",
+                        borderBottom: "dotted 1px",
+                      }}
+                    >
+                      {nbHits} results found in {timeSpentMS}ms
+                    </p>
+                  </div>
+                )
               },
             }}
           />
-          <p style={{ marginTop: `0.1rem`, textAlign: `center` }}>Searching for query {searchState.query}</p>
+          <p style={{ marginTop: `0.1rem`, textAlign: `center` }}>
+            Searching for query {searchState.query}
+          </p>
           {children}
         </div>
-      ) : (
-          null
-        )
-    );
+      ) : null
+    )
 
+    const DebouncedSearchBox = connectSearchBox(SearchBox)
 
-    const DebouncedSearchBox = connectSearchBox(SearchBox);
-
-    const Hit = ({ hit }) => <SearchPreview hit={hit} title={hit.title} expert={hit.exerpt} description={hit.description} slug={hit.fields.slug} readingTime={hit.fields.readingTime} date={hit.date} />
+    const Hit = ({ hit }) => (
+      <SearchPreview
+        hit={hit}
+        title={hit.title}
+        expert={hit.exerpt}
+        description={hit.description}
+        slug={hit.fields.slug}
+        readingTime={hit.fields.readingTime}
+        date={hit.date}
+      />
+    )
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="A blog by Kien" />
         <Bio />
-
 
         <InstantSearch searchClient={searchClient} indexName="Blog">
           <DebouncedSearchBox delay={400} />
@@ -73,19 +99,25 @@ class BlogIndex extends React.Component {
           </Results>
         </InstantSearch>
 
-
-        {
-          posts.map(({ node }) => {
-            const title = node.frontmatter.title || node.fields.slug
-            const { slug, readingTime } = node.fields
-            const { date, tags, excerpt, description } = node.frontmatter
-            return (
-              <div key={slug}>
-                <PostPreview key={slug} title={title} date={date} tags={tags} description={description} excerpt={excerpt} slug={slug} readingTime={readingTime} />
-              </div>
-            )
-          })
-        }
+        {posts.map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug
+          const { slug, readingTime } = node.fields
+          const { date, tags, excerpt, description } = node.frontmatter
+          return (
+            <div key={slug}>
+              <PostPreview
+                key={slug}
+                title={title}
+                date={date}
+                tags={tags}
+                description={description}
+                excerpt={excerpt}
+                slug={slug}
+                readingTime={readingTime}
+              />
+            </div>
+          )
+        })}
         <ul
           style={{
             display: "flex",
@@ -129,7 +161,7 @@ class BlogIndex extends React.Component {
             </Link>
           )}
         </ul>
-      </Layout >
+      </Layout>
     )
   }
 }
@@ -164,9 +196,8 @@ export const pageQuery = graphql`
             description
             tags
           }
-          }
         }
       }
     }
-  
+  }
 `
