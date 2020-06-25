@@ -2,6 +2,7 @@ import React from "react"
 import { Twemoji } from "react-emoji-render"
 import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
+import { timeWithTea } from "../utils/utils"
 
 export default function PostPreview({
   title,
@@ -25,13 +26,7 @@ export default function PostPreview({
       </h3>
       <small>
         {date} - {readingTime.text}{" "}
-        {readingTime.minutes > 0 && readingTime.minutes <= 2
-          ? "🍵"
-          : readingTime.minutes > 2 && readingTime.minutes <= 3
-          ? "🍵🍵"
-          : readingTime.minutes > 3 && readingTime.minutes <= 5
-          ? "🍵🍵🍵"
-          : "🍵🍵🍵🍵"}
+        {timeWithTea(readingTime.minutes)}
         <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
           {tags.length > 1 ? (
             tags.map(t => (
@@ -45,10 +40,10 @@ export default function PostPreview({
               </Link>
             ))
           ) : (
-            <Link to={`/tags/` + tags} className={`${tags} alltags`}>
-              {tags}
-            </Link>
-          )}
+              <Link to={`/tags/` + tags} className={`${tags} alltags`}>
+                {tags}
+              </Link>
+            )}
         </p>
       </small>
       <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}></p>
