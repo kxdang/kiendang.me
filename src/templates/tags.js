@@ -5,11 +5,13 @@ import PropTypes from "prop-types"
 import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import { rhythm, scale } from "../utils/typography"
+import { timeWithTea } from "../utils/utils.js"
 
 //Importing Dark Theme Light Theme Toggler
 import ThemeContext from "../context/ThemeContext"
 import "../components/layout.css"
 import Switch from "react-switch"
+import { Twemoji } from "react-emoji-render"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
@@ -103,20 +105,12 @@ const Tags = ({ pageContext, data }) => {
                         }}
                         to={slug}
                       >
-                        {title}
+                        <Twemoji text={title} />
                       </Link>
 
                       <small>{" "}- {node.fields.readingTime.text}{" "}
-                        {node.fields.readingTime.minutes > 0 &&
-                          node.fields.readingTime.minutes <= 2
-                          ? "🍵"
-                          : node.fields.readingTime.minutes > 2 &&
-                            node.fields.readingTime.minutes <= 3
-                            ? "🍵🍵"
-                            : node.fields.readingTime.minutes > 3 &&
-                              node.fields.readingTime.minutes <= 5
-                              ? "🍵🍵🍵"
-                              : "🍵🍵🍵🍵"}</small>
+                        {timeWithTea(node.fields.readingTime.minutes)}
+                      </small>
 
 
                       {/* <p style={{ marginBottom: `3px` }}> </p> */}

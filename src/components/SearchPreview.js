@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import { Highlight } from "react-instantsearch-dom"
 import "./layout.css"
 import { timeWithTea } from "../utils/utils"
+import { Twemoji } from "react-emoji-render"
 
 export default function SearchPreview({ hit, date, readingTime, slug }) {
   return (

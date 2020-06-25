@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { Twemoji } from "react-emoji-render"
+import { timeWithTea } from "../utils/utils.js"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -33,16 +34,7 @@ class BlogPostTemplate extends React.Component {
           }}
         >
           {post.frontmatter.date} - {post.fields.readingTime.text}{" "}
-          {post.fields.readingTime.minutes > 0 &&
-          post.fields.readingTime.minutes <= 2
-            ? "🍵"
-            : post.fields.readingTime.minutes > 2 &&
-              post.fields.readingTime.minutes <= 3
-            ? "🍵🍵"
-            : post.fields.readingTime.minutes > 3 &&
-              post.fields.readingTime.minutes <= 5
-            ? "🍵🍵🍵"
-            : "🍵🍵🍵🍵"}
+          {timeWithTea(post.fields.readingTime.minutes)}
           {post.frontmatter.tags ? (
             <p>
               Tags:{" "}
@@ -57,13 +49,13 @@ class BlogPostTemplate extends React.Component {
                   </Link>
                 ))
               ) : (
-                <Link
-                  to={`/tags/` + post.frontmatter.tags}
-                  className={`${post.frontmatter.tags} alltags`}
-                >
-                  {post.frontmatter.tags[0].replace(/-/g, " ")}
-                </Link>
-              )}
+                  <Link
+                    to={`/tags/` + post.frontmatter.tags}
+                    className={`${post.frontmatter.tags} alltags`}
+                  >
+                    {post.frontmatter.tags[0].replace(/-/g, " ")}
+                  </Link>
+                )}
             </p>
           ) : null}
         </small>

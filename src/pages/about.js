@@ -10,6 +10,7 @@ import { FaKeyboard, FaClock } from "react-icons/fa"
 import ThemeContext from "../context/ThemeContext"
 
 import "../components/layout.css"
+
 class about extends React.Component {
   render() {
     return (
@@ -149,7 +150,7 @@ class about extends React.Component {
               </p>
               <p style={{ textAlign: `center`, marginBottom: `0px` }}>
                 <a href="/092-year-journey-summary/">
-                  What I did from May 2019 to May 2020 to become a developer
+                  Year Progression Summary (May 2019-2020)
                 </a>
                 <span
                   style={{ fontSize: `1.4rem` }}
