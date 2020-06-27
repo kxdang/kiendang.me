@@ -9,7 +9,7 @@ import { FaKeyboard, FaClock } from "react-icons/fa"
 
 import ThemeContext from "../context/ThemeContext"
 
-import "../components/layout.css"
+import "../styles/styles.scss"
 
 class about extends React.Component {
   render() {
@@ -35,6 +35,7 @@ class about extends React.Component {
               >
                 <Link
                   style={{
+                    borderBottom: `none`,
                     boxShadow: `none`,
                     textDecoration: `none`,
                   }}

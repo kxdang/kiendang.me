@@ -12,7 +12,7 @@ import Nav from "../components/nav"
 import { rhythm } from "../utils/typography"
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa"
 
-import "./layout.css"
+import "../styles/styles.scss"
 function Bio() {
   return (
     <StaticQuery

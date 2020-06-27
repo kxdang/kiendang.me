@@ -13,7 +13,7 @@ import Bio from "../components/bio"
 import ThemeContext from "../context/ThemeContext"
 import Switch from "react-switch"
 
-import "../components/layout.css"
+import "../styles/styles.scss"
 
 const TagsPage = ({
   data: {
@@ -23,93 +23,93 @@ const TagsPage = ({
     },
   },
 }) => (
-    <ThemeContext.Consumer>
-      {theme => (
-        <div className={theme.dark ? "dark" : "light"}>
-          <div>
-            <div
+  <ThemeContext.Consumer>
+    {theme => (
+      <div className={theme.dark ? "dark" : "light"}>
+        <div>
+          <div
+            style={{
+              marginLeft: `auto`,
+              marginRight: `auto`,
+              maxWidth: rhythm(24),
+              padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+              minHeight: `100vh`,
+            }}
+          >
+            <h1
               style={{
-                marginLeft: `auto`,
-                marginRight: `auto`,
-                maxWidth: rhythm(24),
-                padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-                minHeight: `100vh`,
+                ...scale(1.5),
+                marginBottom: rhythm(1.5),
+                marginTop: 0,
               }}
             >
-              <h1
+              <Link
                 style={{
-                  ...scale(1.5),
-                  marginBottom: rhythm(1.5),
-                  marginTop: 0,
+                  boxShadow: `none`,
+                  textDecoration: `none`,
+                  borderBottom: `none`,
                 }}
+                to={`/`}
               >
-                <Link
-                  style={{
-                    boxShadow: `none`,
-                    textDecoration: `none`,
-                  }}
-                  to={`/`}
-                >
-                  {title}
-                </Link>
-              </h1>
-              <div
-                id="toggleTheme"
-                style={{ display: `flex`, justifyContent: `flex-end` }}
-              >
-                <Switch
-                  onChange={theme.toggleDark}
-                  checked={theme.dark}
-                  onColor="#292D3E"
-                  offColor="#292D3E"
-                  offHandleColor="#fefefe"
-                  onHandleColor="#586184"
-                  checkedIcon={
-                    <span
-                      style={{ marginLeft: "0.3rem" }}
-                      role="img"
-                      aria-label="sun"
-                    >
-                      🌞
+                {title}
+              </Link>
+            </h1>
+            <div
+              id="toggleTheme"
+              style={{ display: `flex`, justifyContent: `flex-end` }}
+            >
+              <Switch
+                onChange={theme.toggleDark}
+                checked={theme.dark}
+                onColor="#292D3E"
+                offColor="#292D3E"
+                offHandleColor="#fefefe"
+                onHandleColor="#586184"
+                checkedIcon={
+                  <span
+                    style={{ marginLeft: "0.3rem" }}
+                    role="img"
+                    aria-label="sun"
+                  >
+                    🌞
                   </span>
-                  }
-                  uncheckedIcon={
-                    <span
-                      style={{ marginLeft: "0.3rem" }}
-                      role="img"
-                      aria-label="moon"
-                    >
-                      🌒
+                }
+                uncheckedIcon={
+                  <span
+                    style={{ marginLeft: "0.3rem" }}
+                    role="img"
+                    aria-label="moon"
+                  >
+                    🌒
                   </span>
-                  }
+                }
+                activeBoxShadow="0 0 2px 3px #226597"
+              />
+            </div>
+            <Bio />
+            <Helmet title={title} />
 
-                  activeBoxShadow="0 0 2px 3px #226597"
-                />
-              </div>
-              <Bio />
-              <Helmet title={title} />
-
-              <div>
-                <h1>Tags</h1>
-                <ul>
-                  {group.map(tag => (
-                    <li key={tag.fieldValue} style={{ listStyle: `none` }}>
-                      <Link
-                        to={`/tags/${kebabCase(tag.fieldValue)}/`}
-                        className={`${tag.fieldValue} alltags`}
-                      >
-                        {tag.fieldValue.replace(/-/g, " ")} ({tag.totalCount})
+            <div>
+              <h1>Tags</h1>
+              <ul>
+                {group.map(tag => (
+                  <li key={tag.fieldValue} style={{ listStyle: `none` }}>
+                    <Link
+                      to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                      className={`${tag.fieldValue} alltags`}
+                    >
+                      {tag.fieldValue.replace(/-/g, " ")} ({tag.totalCount})
                     </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
-      )}
-    </ThemeContext.Consumer>
-  )
+      </div>
+    )}
+  </ThemeContext.Consumer>
+)
 
 TagsPage.propTypes = {
   data: PropTypes.shape({

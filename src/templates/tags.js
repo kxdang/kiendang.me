@@ -9,7 +9,7 @@ import { timeWithTea } from "../utils/utils.js"
 
 //Importing Dark Theme Light Theme Toggler
 import ThemeContext from "../context/ThemeContext"
-import "../components/layout.css"
+import "../styles/styles.scss"
 import Switch from "react-switch"
 import { EmojioneV4 } from "react-emoji-render"
 
@@ -44,6 +44,7 @@ const Tags = ({ pageContext, data }) => {
                 style={{
                   boxShadow: `none`,
                   textDecoration: `none`,
+                  borderBottom: `none`,
                 }}
                 to={`/`}
               >
@@ -84,7 +85,11 @@ const Tags = ({ pageContext, data }) => {
             </div>
             <Bio />
             <h1>{tagHeader}</h1>
-            <Link to="/tags" className="alltags" style={{ color: `white` }}>
+            <Link
+              to="/tags"
+              className="alltags"
+              style={{ color: `white`, backgroundColor: `#4f81c7` }}
+            >
               ALL TAGS
             </Link>
             <div style={{ paddingTop: `1rem` }}>
