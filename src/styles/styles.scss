@@ -112,6 +112,15 @@ body::-webkit-scrollbar-thumb {
       line-height: 40px;
       width: 0px;
     }
+    &-submitIcon {
+      margin-top: 15px;
+      fill: #f5f5f5 !important;
+      height: 12px;
+      width: 12px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
   table {
     color: white;
@@ -201,6 +210,15 @@ body::-webkit-scrollbar-thumb {
       transition: 0.4s;
       line-height: 40px;
       width: 0px;
+    }
+    &-submitIcon {
+      margin-top: 15px;
+      fill: #313b44 !important;
+      height: 12px;
+      width: 12px;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }
@@ -304,7 +322,11 @@ a.graphql {
   justify-content: center;
 }
 
-.dark .dark .light .gatsby-highlight {
+.bio-links {
+  padding-top: 0.4rem;
+}
+
+.gatsby-highlight {
   background-color: #292d3e;
   border-radius: 0.3em;
   margin: 0.5em 0;
@@ -347,27 +369,6 @@ a.graphql {
   cursor: pointer;
 }
 
-.ais-SearchBox-submitIcon {
-  margin-top: 15px;
-  fill: #313b44 !important;
-  height: 12px;
-  width: 12px;
-}
-
-.ais-SearchBox-submitIcon:hover {
-  cursor: pointer;
-}
-
-.dark .ais-SearchBox-submitIcon {
-  margin-top: 15px;
-  fill: #f5f5f5 !important;
-  height: 12px;
-  width: 12px;
-}
-.dark .ais-SearchBox-submitIcon:hover {
-  cursor: pointer;
-}
-
 mark {
   background-color: var(--primary-color-light);
   font-style: italic;
@@ -382,7 +383,4 @@ mark {
   justify-content: flex-end;
   margin-bottom: 0rem;
   height: 2rem;
-}
-.bio-links {
-  padding-top: 0.4rem;
 }
