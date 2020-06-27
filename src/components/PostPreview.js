@@ -1,5 +1,5 @@
 import React from "react"
-import { Twemoji } from "react-emoji-render"
+import { EmojioneV4 } from "react-emoji-render"
 import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
 import { timeWithTea } from "../utils/utils"
@@ -21,12 +21,11 @@ export default function PostPreview({
         }}
       >
         <Link style={{ boxShadow: `none`, borderBottom: "none" }} to={slug}>
-          <Twemoji text={title} />
+          <EmojioneV4 text={title} />
         </Link>
       </h3>
       <small>
-        {date} - {readingTime.text}{" "}
-        {timeWithTea(readingTime.minutes)}
+        {date} - {readingTime.text} {timeWithTea(readingTime.minutes)}
         <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}>
           {tags.length > 1 ? (
             tags.map(t => (
@@ -40,10 +39,10 @@ export default function PostPreview({
               </Link>
             ))
           ) : (
-              <Link to={`/tags/` + tags} className={`${tags} alltags`}>
-                {tags}
-              </Link>
-            )}
+            <Link to={`/tags/` + tags} className={`${tags} alltags`}>
+              {tags}
+            </Link>
+          )}
         </p>
       </small>
       <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}></p>

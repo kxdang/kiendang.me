@@ -18,6 +18,16 @@ module.exports = {
     "gatsby-plugin-catch-links",
     "gatsby-remark-reading-time",
     {
+      resolve: `gatsby-plugin-page-progress`,
+      options: {
+        includePath: [{ regex: "^/blog" }],
+        excludePath: [{ regex: "^/pages" }],
+        height: 3,
+        prependToBody: true,
+        color: `#226597`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-algolia`,
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,

@@ -396,3 +396,7 @@ mark {
 .dark .bio-links svg:hover {
   color: var(--primary-color-dark);
 }
+
+.dark .gatsby-plugin-page-progress {
+  background-color: aliceblue;
+}

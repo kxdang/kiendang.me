@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import { Highlight } from "react-instantsearch-dom"
 import "./layout.css"
 import { timeWithTea } from "../utils/utils"
-import { Twemoji } from "react-emoji-render"
 
 export default function SearchPreview({ hit, date, readingTime, slug }) {
   return (
@@ -21,8 +20,7 @@ export default function SearchPreview({ hit, date, readingTime, slug }) {
 
       <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}></p>
       <small>
-        {date} - {readingTime.text}{" "}
-        {timeWithTea(readingTime)}
+        {date} - {readingTime.text} {timeWithTea(readingTime)}
       </small>
       <br />
       <Highlight hit={hit} attribute="excerpt" tagName="mark" />
