@@ -9,55 +9,58 @@
 </h1>
 
 <p align="center">
-  <img src="BlogToggleDarkTrim.gif")
+  <img src="BlogToggleDarkTrim.gif">
 </p>
 
-## 💫 Quick start
+## ✍ Gatsby Blog
 
-1.  **Create a Gatsby site.**
+My blog is inspired by [Dan Abramov's](https://overreacted.io/) blog which is forked from the [Gatsby Starter Blog](https://gatsby-starter-blog-demo.netlify.app/) by [Kyle Matthews](https://github.com/KyleAMathews).
 
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
+I loved the simplicity of Dan's blog and added a bunch of features below during my journey in learning React and Gatsby.
 
-## 🔌 Additional features I added to starter blog.
+## 🔌 Features added to the starter blog
 
-The starter blog didn't have the features that I was looking for so I did some research and found resources to guide me in adding the implementations below:
+The starter blog didn't have the features that I was looking for so I did some research and found resources to guide me in adding the features below:
 
 1.  **Added extra pages**
 
-    Added about me and contact page in Bio component by following Gatsby guide [here](https://www.gatsbyjs.org/docs/creating-and-modifying-pages/)
+    Added about me and now page in Bio component by following Gatsby guide [here](https://www.gatsbyjs.org/docs/creating-and-modifying-pages/)
 
-2.  **Adding reading time and tea icons**
+2.  **Added reading time and tea icons**
 
     Added number of teas based on the length of the blog post. Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/creating-and-modifying-pages/)
 
-3.  **Adding tags page**
+3.  **Added tags page**
 
     Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/). Also added clickable tags on each post page by querying from GraphQL.
 
-4.  **Pagination with post**
+4.  **Pagination**
 
-    Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/adding-pagination/). Gatsby starter blog had previous and next page but did not have pagination set-up, manually follow this guide [here](https://nickymeuleman.netlify.com/blog/gatsby-pagination) to complete pagination.
+    Followed Gatsby documentation [here](https://www.gatsbyjs.org/docs/adding-pagination/). Gatsby starter blog had previous and next page but did not have pagination set-up, I also followed this guide [here](https://nickymeuleman.netlify.com/blog/gatsby-pagination) to complete pagination.
 
 5.  **Dark mode toggle**
-    Followed Gatsby blog tutorial [here](https://www.gatsbyjs.org/blog/2019-01-31-using-react-context-api-with-gatsby/). Used `<ThemeContext.Provider>` in React to toggle dark and light mode
 
-6.  **Adding Font Awesome**
-    Added React Font Awesome using [react-icons](https://github.com/react-icons/react-icons) library, specifically for my github and LinkedIn logo in contact page.
+    Followed Gatsby blog tutorial [here](https://www.gatsbyjs.org/blog/2019-01-31-using-react-context-api-with-gatsby/). Used `<ThemeContext.Provider>` in React to toggle dark and light mode with [React Switch](https://www.npmjs.com/package/react-switch)
 
-7.  **PrismJS**
+6.  **Added Font Awesome**
+
+    Added React Font Awesome using [react-icons](https://github.com/react-icons/react-icons) library, specifically for my Github and LinkedIn and Twitter logo.
+
+7.  **Prismjs**
+
     To allow for code syntax highlighting based on language. Gatsby documentation [here](https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/) and followed external post [here](https://dev.to/niklasmtj/implement-prismjs-in-gatsbyjs-fff)
 
-Please feel free to take a look at commit history. They are in the order of implementation since creation of blog.
+8. **Added Algolia's Search**
 
-## 🎓 Learning Gatsby
+    Installed [Algolia's](https://www.algolia.com/) search functionality. Instructions on how I did this on this blog [here](https://kiendang.me/082-Algolia-install/)
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+9. **Added MDX support for blog posts**
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+    Followed this guide [here](https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/) to integrate MDX which allows for React components in Markdown files.
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+Please feel free to take a look at commit history. They are in the order of implementation since creation of blog 😊.
 
-## 🚀 Deploy
+## 🚀 Deployed on Netlify
 
 Blog hosted on Netlify and deployed via link below:
 
