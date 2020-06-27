@@ -17,6 +17,7 @@ module.exports = {
   plugins: [
     "gatsby-plugin-catch-links",
     "gatsby-remark-reading-time",
+    "gatsby-plugin-sass",
     {
       resolve: `gatsby-plugin-page-progress`,
       options: {

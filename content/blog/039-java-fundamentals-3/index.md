@@ -31,7 +31,7 @@ You then must define methods in order to send messages. You define classes, make
 
 Example of a class with fields:
 
-```java
+```java{numberLines: true}
     Class DataOnly {
 
     Int i

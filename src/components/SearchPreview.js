@@ -2,7 +2,7 @@ import React from "react"
 import { rhythm } from "../utils/typography"
 import { Link } from "gatsby"
 import { Highlight } from "react-instantsearch-dom"
-import "./layout.css"
+import "../styles/styles.scss"
 import { timeWithTea } from "../utils/utils"
 
 export default function SearchPreview({ hit, date, readingTime, slug }) {

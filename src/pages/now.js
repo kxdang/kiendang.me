@@ -6,7 +6,7 @@ import Switch from "react-switch"
 import Img from "gatsby-image"
 import ThemeContext from "../context/ThemeContext"
 
-import "../components/layout.css"
+import "../styles/styles.scss"
 
 class now extends React.Component {
   render() {
@@ -34,6 +34,7 @@ class now extends React.Component {
               >
                 <Link
                   style={{
+                    borderBottom: `none`,
                     boxShadow: `none`,
                     textDecoration: `none`,
                   }}

@@ -6,7 +6,7 @@ import { rhythm, scale } from "../utils/typography"
 
 import ThemeContext from "../context/ThemeContext"
 
-import "./layout.css"
+import "../styles/styles.scss"
 
 class Layout extends React.Component {
   render() {
@@ -66,7 +66,6 @@ class Layout extends React.Component {
                       🌒
                     </span>
                   }
-
                   activeBoxShadow="0 0 2px 3px #226597"
                 />
               </div>
@@ -122,7 +121,6 @@ class Layout extends React.Component {
                       🌒
                     </span>
                   }
-
                   activeBoxShadow="0 0 2px 3px #226597"
                 />
               </div>
