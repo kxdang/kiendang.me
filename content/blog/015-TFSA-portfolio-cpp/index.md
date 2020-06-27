@@ -34,15 +34,13 @@ In Questrade, I’ve purchased 4 funds as per Canadian Couch Potato’s model - 
 
     1. VCN - Canada All Cap Index ETFs - Canadian Market (Equity)
 
-
     2. VAB - Canadian Aggregate Bond Index ETF (Bonds)
-
 
     3. XEF - iShares CORE MSCI Index ETF - International Market (Equity)
 
     4. VUN - U.S Total Market Index ETF (Equity)
 
-The updated Canadian Couch Potato (2017) replaced VAB with ZAG (BMO’s bond ETFs because of its aggressive MER of 0.09%). VAB has 80% government bonds, 20% corporates where as ZAG is 70% and 30% respectively.
+The updated Canadian Couch Potato (2017) replaced VAB with ZAG (BMO’s bond ETFs because of its aggressive MER of 0.09%). VAB has 80% government bonds, 20% stocks where as ZAG is 70% and 30% respectively.
 
 My risk tolerance is fairly aggressive at 85% equity, and 15% bonds because I’m young and could care less about volatility. I know that [long term growth](https://www.cnbc.com/2018/09/18/warren-buffett-and-jack-bogle-recommend-buying-and-holding.html) is the key to success.
 

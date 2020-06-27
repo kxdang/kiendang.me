@@ -107,9 +107,8 @@ class about extends React.Component {
               <h3 style={{ textAlign: `center` }}>Career Change</h3>
               <p>
                 I <a href="/040-new-chapter-2019/">resigned </a>from my job back
-                in May of 2019 and I'm currently in the process of pursuing a
-                programming career in front-end web development. I happy to say
-                that I am employed as a Software Developer at{" "}
+                in May of 2019 to pursue my passion in programming. I happy to
+                say that I am now employed as a Software Developer at{" "}
                 <a
                   href="https://www.coveo.com/Coveo"
                   rel="noopener noreferrer"
