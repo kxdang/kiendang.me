@@ -58,10 +58,10 @@ const Tags = ({ pageContext, data }) => {
               <Switch
                 onChange={theme.toggleDark}
                 checked={theme.dark}
-                onColor="#292D3E"
-                offColor="#292D3E"
+                onColor="#27374c"
+                offColor="#222831"
                 offHandleColor="#fefefe"
-                onHandleColor="#586184"
+                onHandleColor="#fefefe"
                 checkedIcon={
                   <span
                     style={{ marginLeft: "0.3rem" }}
