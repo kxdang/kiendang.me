@@ -2,7 +2,9 @@
   --light-bg: #fafbfc;
   --primary-color-light: #226597;
 
-  --dark-bg: #1b1e2b;
+  // --dark-bg: #1b1e2b;
+  --dark-bg: #142135;
+  // --primary-color-dark: #89ddff;
   --primary-color-dark: #89ddff;
   --secondary-color-dark: rgb(247, 140, 108);
 }
@@ -57,7 +59,8 @@ body::-webkit-scrollbar-thumb {
   }
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     color: var(--primary-color-dark);
   }
 

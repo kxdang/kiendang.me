@@ -3,7 +3,7 @@ import { rhythm, scale } from "../utils/typography"
 import Bio from "../components/bio"
 import { Link } from "gatsby"
 import Switch from "react-switch"
-
+import { Twemoji } from "react-emoji-render"
 import { GiBookshelf, GiMouse } from "react-icons/gi"
 import { FaKeyboard, FaClock } from "react-icons/fa"
 
@@ -52,17 +52,17 @@ class about extends React.Component {
                 <Switch
                   onChange={theme.toggleDark}
                   checked={theme.dark}
-                  onColor="#292D3E"
-                  offColor="#292D3E"
+                  onColor="#27374c"
+                  offColor="#222831"
                   offHandleColor="#fefefe"
-                  onHandleColor="#586184"
+                  onHandleColor="#fefefe"
                   checkedIcon={
                     <span
                       style={{ marginLeft: "0.3rem" }}
                       role="img"
                       aria-label="sun"
                     >
-                      🌞
+                      <Twemoji text="🌒" />
                     </span>
                   }
                   uncheckedIcon={
@@ -71,7 +71,7 @@ class about extends React.Component {
                       role="img"
                       aria-label="moon"
                     >
-                      🌒
+                      <Twemoji text="🌞" />
                     </span>
                   }
                   activeBoxShadow="0 0 2px 3px #226597"

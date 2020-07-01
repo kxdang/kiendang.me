@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { EmojioneV4 } from "react-emoji-render"
+import { Twemoji } from "react-emoji-render"
 import { timeWithTea } from "../utils/utils.js"
 
 import Bio from "../components/bio"
@@ -23,7 +23,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <h1>
-          <EmojioneV4 text={post.frontmatter.title} />
+          <Twemoji text={post.frontmatter.title} />
         </h1>
         <small
           style={{
@@ -49,13 +49,13 @@ class BlogPostTemplate extends React.Component {
                   </Link>
                 ))
               ) : (
-                <Link
-                  to={`/tags/` + post.frontmatter.tags}
-                  className={`${post.frontmatter.tags} alltags`}
-                >
-                  {post.frontmatter.tags[0].replace(/-/g, " ")}
-                </Link>
-              )}
+                  <Link
+                    to={`/tags/` + post.frontmatter.tags}
+                    className={`${post.frontmatter.tags} alltags`}
+                  >
+                    {post.frontmatter.tags[0].replace(/-/g, " ")}
+                  </Link>
+                )}
             </p>
           ) : null}
         </small>

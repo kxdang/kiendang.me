@@ -5,6 +5,8 @@ import { Link, graphql } from "gatsby"
 import Switch from "react-switch"
 import Img from "gatsby-image"
 import ThemeContext from "../context/ThemeContext"
+import { Twemoji } from "react-emoji-render"
+
 
 import "../styles/styles.scss"
 
@@ -61,7 +63,7 @@ class now extends React.Component {
                       role="img"
                       aria-label="sun"
                     >
-                      🌞
+                     <Twemoji text="🌒" />
                     </span>
                   }
                   uncheckedIcon={
@@ -70,7 +72,7 @@ class now extends React.Component {
                       role="img"
                       aria-label="moon"
                     >
-                      🌒
+                      <Twemoji text="🌞" />
                     </span>
                   }
                   activeBoxShadow="0 0 2px 3px #226597"
@@ -102,11 +104,11 @@ class now extends React.Component {
                   🎯
                 </span>
                 I am still focused on studying algorithms and data structures to
-                understand the fundamentals of computer science.
+                understand the fundamentals of computer science. However, I have now delayed this until I am able to figure a time frame of when I can fit this into my schedule.
               </p>
 
-              <h3 style={{ textAlign: "center" }}>Books</h3>
-              <p style={{ textAlign: "center" }}>Currently reading: </p>
+              <h3 style={{ textAlign: "center" }}>Currently Reading:</h3>
+
               <div
                 style={{
                   display: "flex",
@@ -125,6 +127,25 @@ class now extends React.Component {
                   alt="So You Want to Talk About Race"
                 />
               </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-evenly",
+                  paddingBottom: "2rem",
+                }}
+              >
+                <Img
+                  style={{ width: "35%" }}
+                  fluid={book.bookthree.childImageSharp.fluid}
+                  alt="Golden Son"
+                />
+                <Img
+                  style={{ width: "35%" }}
+                  fluid={book.bookfour.childImageSharp.fluid}
+                  alt="Deep Work"
+                />
+              </div>
               <p>
                 It is important to self educate on issues and events that have
                 been happening the last month. I am currently reading a book
@@ -133,6 +154,10 @@ class now extends React.Component {
                   So You Want to Talk About Race
                 </a>{" "}
                 by Iljeoma Oluo.
+              </p>
+
+              <p>
+                In addition, Deep Work by Cal Newport and Golden Son by Pierce Brown are in my rotation.
               </p>
 
               {/* <h3 style={{ textAlign: "center" }}>Games</h3>
@@ -210,6 +235,20 @@ export const pageQuery = graphql`
       }
     }
     booktwo: file(relativePath: { eq: "books/book2.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    bookthree: file(relativePath: { eq: "books/goldenson.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    bookfour: file(relativePath: { eq: "books/deepwork.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
