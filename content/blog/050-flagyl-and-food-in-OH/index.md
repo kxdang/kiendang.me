@@ -49,11 +49,11 @@ However, it becomes metabolized by the second enzyme aldehyde dehydrogenase (ALD
 
 ### <center><b style="color: #ff963b">Ethanol</b> --> <b style="color: #FF5370">Acetaldehyde</b> --> <b style="color: #79d70f">Acetate</b> + <b style="color: #79d70f">H<sub>2</sub>O</b> + <b style="color: #79d70f">CO<sub>2</sub></b></center>
 
-Metronidazole causes a disulfiram-like reaction by inhibiting the aldehyde dehydrogenase (ALDH) step in alcohol metabolism. This means it stops the <strong style="color: #FF5370">acetaldehyde</strong> from breaking down into the less harmful chemicals that your body can eliminate which is the <strong style="color: #79d70f">acetate, water</strong> and <strong style="color: #79d70f">carbon dioxide</strong>
+Metronidazole causes a disulfiram-like reaction by inhibiting the aldehyde dehydrogenase (ALDH) step in alcohol metabolism. This means it stops the <strong style="color: #FF5370">acetaldehyde</strong> from breaking down.
 
-Inhibition of (ALDH) means it decreases its enzymatic activity to do work on the metabolite. Therefore, <b style="color: #FF5370">acetaldehyde</b> will build up in your bloodstream causing unwanted effects side effects mentioned earlier.<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/8947362" target="_blank">[4]</a></sup>.
+Inhibition of (ALDH) means it decreases its enzymatic activity to do work on the metabolite. Therefore, <b style="color: #FF5370">acetaldehyde</b> will build up in your bloodstream causing unwanted effects side effects mentioned earlier<sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/8947362" target="_blank">[4]</a></sup>.
 
-<p><a href="https://en.wikipedia.org/wiki/Disulfiram" target="_blank">Disulfiram</a> is a drug that helps treat alcohol addiction by inhibiting this exact enzyme making the effects of alcohol much stronger. It causes <b style="color: #FF5370">acetaldehyde</b> build-up and an acute sensitivity to alcohol.</p>
+<p><a href="https://en.wikipedia.org/wiki/Disulfiram" target="_blank">Disulfiram</a> is a drug that helps treat alcohol addiction by inhibiting this exact enzyme making the effects of alcohol much stronger.</p>
 
 ## <center>Are you safe to consume foods that are cooked in alcohol while on this antibiotic? </center>
 

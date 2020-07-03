@@ -89,20 +89,13 @@ class about extends React.Component {
                 Science in Honours Biochemistry from the University of Waterloo.
                 <br />
                 <br />
-                I have held many positions during my co-op education and have
-                over 2 years of professional work experience at a chemical
-                company specializing in polyurethane foam for the automotive
-                industry.
-                <br />
-                <br />
                 I’m a self motivated learner who likes to program and one of my
                 favourite things to do is try to automate tasks I encounter
                 every day and improve the quality of life through science and
                 technology.
                 <br />
                 <br />
-                My blog is a platform to share my experiences, interests,
-                hobbies and current progress with programming. In addition, I
+                My blog is a platform to share my experiences, interests, introspection and current progress with programming. In addition, I
                 hope to become a better writer by blogging.
               </p>
               <h3 style={{ textAlign: `center` }}>Career Change</h3>
