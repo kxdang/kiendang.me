@@ -23,7 +23,7 @@ module.exports = {
       options: {
         includePath: [{ regex: "^/blog" }],
         excludePath: [{ regex: "^/pages" }],
-        height: 3,
+        height: 4,
         prependToBody: true,
         color: `#226597`,
       },
