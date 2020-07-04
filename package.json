@@ -52,7 +52,8 @@
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typography-theme-wordpress-2016": "^0.16.19",
+    "vertical-timeline-component-for-react": "^1.0.7"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
