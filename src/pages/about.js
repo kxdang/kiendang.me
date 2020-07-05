@@ -6,10 +6,14 @@ import Switch from "react-switch"
 import { Twemoji } from "react-emoji-render"
 import { GiBookshelf, GiMouse } from "react-icons/gi"
 import { FaKeyboard, FaClock } from "react-icons/fa"
+import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+
+
 
 import ThemeContext from "../context/ThemeContext"
 
 import "../styles/styles.scss"
+import "../styles/timeline.scss"
 
 class about extends React.Component {
   render() {
@@ -98,7 +102,7 @@ class about extends React.Component {
                 My blog is a platform to share my experiences, interests, introspection and current progress with programming. In addition, I
                 hope to become a better writer by blogging.
               </p>
-              <h3 style={{ textAlign: `center` }}>Career Change</h3>
+              <h3 style={{ textAlign: `center` }}>My Career Change Journey</h3>
               <p>
                 I <a href="/040-new-chapter-2019/">resigned </a>from my job back
                 in May of 2019 to pursue my passion in programming. I happy to
@@ -119,52 +123,116 @@ class about extends React.Component {
                 <a href="/022-pomodoro-technique/">Pomodoro Technique</a>.
               </p>
 
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>
-                <a href="/066-2019-yearend-pomodoro/">Year End Progress 2019</a>
-              </p>
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
-              <p style={{ textAlign: `center`, marginBottom: `12px` }}>
-                <span
-                  style={{ fontSize: `2rem` }}
-                  role="img"
-                  aria-label="drinks"
+              <Timeline lineColor={'#ddd'} className={'timeline-custom'}>
+                <TimelineItem
+                  key="001"
+                  dateText="2011 – 2016"
+                  dateInnerStyle={{ background: '#000', color: '#E4B429' }}
+                  style={{ color: '#E4B429', backgroundColor: '#000' }}
+                  className={'start'}
                 >
-                  🍾
-                </span>
-                <a href="/091-new-chapter/">Employment @ Coveo</a>
-                <span
-                  style={{ fontSize: `2rem` }}
-                  role="img"
-                  aria-label="celebrate"
+                  <h3>University of Waterloo</h3>
+                  <h4><a href="/025-biochemistry-story">My Biochemistry Story</a></h4>
+                  <p>
+                    Graduated a 5 year co-op program with a Bacholers of Science in Honours Biochemistry (B.Sc.)
+                  </p>
+                </TimelineItem>
+                <TimelineItem
+                  key="002"
+                  dateText="2017 – 2019"
+                  style={{ color: '#89DDFF' }}
+                  className={'job-1'}
                 >
-                  🎉
-                </span>
-              </p>
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>
-                <a href="/092-year-journey-summary/">
-                  Year Progression Summary (May 2019-2020)
-                </a>
-                <span
-                  style={{ fontSize: `1.4rem` }}
-                  role="img"
-                  aria-label="celebrate"
+                  <h3>The Woodbridge Group</h3>
+                  <h4>Costing Technologist</h4>
+                  <p>
+                    I worked at a chemical company specializing in polyurethane for the automotive industry for over 2 years.
+                  </p>
+                  <p>
+                    I <a href="/029-automated-job-process/">automated</a> a portion of my work using VBA which sparked my interest in programming.
+                    </p>
+                  <p>Thus, I decided to <a href="/040-new-chapter-2019/">resign</a> to pursue my passion and start my programming journey.</p>
+
+                </TimelineItem>
+                <TimelineItem
+                  key="003"
+                  dateText="May 3rd 2019"
+                  dateInnerStyle={{ background: '#76bb7f' }}
+                  style={{ color: '#76bb7f' }}
                 >
-                  💻
-                </span>
-              </p>
-              <p
-                style={{
-                  fontSize: `1.4rem`,
-                  textAlign: `center`,
-                  marginBottom: `0px`,
-                }}
-              >
-                &delta;
-              </p>
+                  <h3><Twemoji text="🚀 The Leap of Faith" /></h3>
+                  <h4><Twemoji text="👨‍🚀 Begins The self-taught journey" /></h4>
+                  <p>
+                    I had plans to dedicate 100% of my time studying and learning HTML, CSS, JS and React as my framework of choice for web development.
+                  </p>
+
+                </TimelineItem>
+                <TimelineItem
+                  key="004"
+                  dateText="June-Oct 2019"
+                  dateInnerStyle={{ background: '#e86971' }}
+                  style={{ color: '#e86971' }}
+                >
+                  <h3><Twemoji text="🏥 The Fall" /></h3>
+                  <h4><Twemoji text="💊 Antibiotics galore" /></h4>
+                  <p>
+                    A month later, I encountered a health issue that required several hospitalizations. I was unable to focus due to my long recovery.
+                  </p>
+                  <p>
+                    Through this difficult period, I created this <a href="/048-Gatsby-blog-transfer-2019/">blog</a> and decided to embrace the opportunity to document my journey, finding solace in the activity.
+                  </p>
+                  <p>
+                    I started to change my perspective and draw inspiration from my negative experience.
+                  </p>
+                  <p>
+                    Using my background in biochemistry, I decided to generate creative writing to fill my blog with my experience with <a href="/tags/biochemistry/">antibiotics.</a>
+                  </p>
+                </TimelineItem>
+                <TimelineItem
+                  key="005"
+                  dateText="End of 2019"
+                  dateInnerStyle={{ background: '#89DDFF' }}
+                  style={{ color: '#89DDFF' }}
+                  className={'job-1'}
+                >
+                  <h3>The End of 2019</h3>
+                  <h4><Twemoji text="💊2 surgeries, 9 antiobitics, 4 opioids later" /></h4>
+                  <p>
+                    Nearing the end of 2019, I had slowly worked my way back on my feet, using the momentum I built from creating this blog and writing about my journey.
+                  </p>
+                  <p>
+                    By the end of this year, I managed to accomplish more than I thought I was going to, despite my circumstances.
+                  </p>
+                  <p><a href="/066-2019-yearend-pomodoro/">My Year End Progress</a></p>
+                  <p>I stuck with my process right into 2020 after almost being 100% recovered.</p>
+                </TimelineItem>
+                <TimelineItem
+                  key="006"
+                  dateText="May 2020"
+                  dateInnerStyle={{ background: '#76bb7f' }}
+                  style={{ color: '#76bb7f' }}
+                >
+                  <h3><Twemoji text="✅" /> Employement Found!</h3>
+                  <h4><Twemoji text="🎉" /> <a href="/091-new-chapter/">Full time at Coveo</a> <Twemoji text="🍾" /></h4>
+                  <p>
+                    Honestly, 2019 hasn't been a kind year, but neither was 2020. After a year of studying, I accomplished my goal in becoming a developer!
+                  </p>
+                  <p>
+                    The pandemic proved to be very difficult in my finding employment but after several interviews, I'm excited to start this new chapter in my journey!
+                  </p>
+
+                  <p>
+                    <a href="/092-year-journey-summary/">
+                      <Twemoji text="🍅" /> 1031 Pomodoro's - 430 hours of work
+                    </a>
+                  </p>
+
+
+                </TimelineItem>
+              </Timeline>
 
               <p style={{ textAlign: `center`, marginBottom: `4rem` }}>
-                <a href="/090-may-2020-pomodoro/">
+                <a href="/094-june-2020-pomodoro/">
                   Continuous Improvement Initiative
                 </a>
                 <span
@@ -175,7 +243,6 @@ class about extends React.Component {
                   📈
                 </span>
               </p>
-
               <p>
                 I'm always looking to improve my skills and be the best version
                 of myself. Feel free to browse around!
@@ -259,7 +326,8 @@ class about extends React.Component {
               </div>
             </div>
           </div>
-        )}
+        )
+        }
       </ThemeContext.Consumer>
     )
   }

@@ -1,0 +1,28 @@
+.timeline-custom {
+    .start {
+        .title {
+            &::before {
+                color: #E4B429;
+                background-color: black;
+            }
+        }
+
+    }
+
+    .job-1{
+       .timeline-item-dateinner {
+           background: #5acffd;
+           color: black;
+       }
+    }
+
+    h3, h4 {
+       padding-bottom: 1rem;
+    }
+
+}
+
+
+.entry .title:before {
+    right: -9.9px;
+}
