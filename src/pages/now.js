@@ -146,6 +146,12 @@ class now extends React.Component {
                   alt="Deep Work"
                 />
               </div>
+              <ul style={{ textAlign: 'center', listStyleType: 'none' }}>
+                <li>The Daily Stoic - Ryan Holiday</li>
+                <li>So you want to talk about race - Ijeoma Oluo</li>
+                <li>Morning Star - Pierce Brown</li>
+                <li>Deep Work - Cal Newport</li>
+              </ul>
               <p>
                 It is important to self educate on issues and events that have
                 been happening the last month. I am currently reading a book
@@ -153,11 +159,7 @@ class now extends React.Component {
                 <a href="https://www.goodreads.com/book/show/35099718-so-you-want-to-talk-about-race">
                   So You Want to Talk About Race
                 </a>{" "}
-                by Iljeoma Oluo.
-              </p>
-
-              <p>
-                In addition, Deep Work by Cal Newport and Golden Son by Pierce Brown are in my rotation.
+                by Iljeoma Oluo in my rotation of books.
               </p>
 
               {/* <h3 style={{ textAlign: "center" }}>Games</h3>
@@ -170,17 +172,7 @@ class now extends React.Component {
 
               <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
               <p>
-                I am currently working on a full stack application and learning
-                React Hooks by building multiple projects found here on my{" "}
-                <a
-                  href="https://github.com/kxdang"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Github.
-                </a>
-                <br></br>
-                <br></br> Creating React-Redux applications with TypeScript to
+                Creating React-Redux applications with TypeScript to
                 have a better grasp of the technology stack at my current
                 position at Coveo. For personal interest and as a personal
                 initiative to be more effective at work.
@@ -194,7 +186,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on June 19th 2020
+                Last updated on July 4thth 2020
               </p>
             </div>
             <footer>
@@ -241,7 +233,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    bookthree: file(relativePath: { eq: "books/goldenson.jpg" }) {
+    bookthree: file(relativePath: { eq: "books/morningstar.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

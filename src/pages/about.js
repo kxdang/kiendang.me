@@ -223,10 +223,6 @@ class about extends React.Component {
                   <p>
                     The pandemic proved to be very difficult in my finding employment but after several interviews, I'm excited to start this new chapter in my journey!
                   </p>
-
-
-
-
                 </TimelineItem>
               </Timeline>
 

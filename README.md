@@ -58,7 +58,9 @@ The starter blog didn't have the features that I was looking for so I did some r
 
     Followed this guide [here](https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/) to integrate MDX which allows for React components in Markdown files.
 
-Please feel free to take a look at commit history. They are in the order of implementation since creation of blog 😊.
+Please feel free to fork this repo and make it your own! 
+
+Give me a tweet @ k1dang: I would love to see what other features are added and customized to this template blog!
 
 ## 🚀 Deployed on Netlify
 
