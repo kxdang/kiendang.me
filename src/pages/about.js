@@ -134,14 +134,13 @@ class about extends React.Component {
                   <h3>University of Waterloo</h3>
                   <h4><a href="/025-biochemistry-story">My Biochemistry Story</a></h4>
                   <p>
-                    Graduated with a Bacholers of Science in Honours Biochemistry (B.Sc.)
+                    Graduated a 5 year co-op program with a Bacholers of Science in Honours Biochemistry (B.Sc.)
                   </p>
                 </TimelineItem>
                 <TimelineItem
                   key="002"
                   dateText="2017 – 2019"
-                  style={{ color: '#89DDFF', backgroundColor: '#000' }}
-                  // dateInnerStyle={{ background: '#89DDFF', color: '#000' }}
+                  style={{ color: '#89DDFF' }}
                   className={'job-1'}
                 >
                   <h3>The Woodbridge Group</h3>
@@ -186,19 +185,20 @@ class about extends React.Component {
                     I started to change my perspective and draw inspiration from my negative experience.
                   </p>
                   <p>
-                    Using my background in biochemistry, I decided to generate creative writing to fill my blog with my experience with <a href="/tags/biochemistry/">antibiotics</a>
+                    Using my background in biochemistry, I decided to generate creative writing to fill my blog with my experience with <a href="/tags/biochemistry/">antibiotics.</a>
                   </p>
                 </TimelineItem>
                 <TimelineItem
                   key="005"
                   dateText="End of 2019"
                   dateInnerStyle={{ background: '#89DDFF' }}
-                  style={{ color: '#e86971' }}
+                  style={{ color: '#89DDFF' }}
+                  className={'job-1'}
                 >
                   <h3>The End of 2019</h3>
                   <h4><Twemoji text="💊2 surgeries, 9 antiobitics, 4 opioids later" /></h4>
                   <p>
-                    During my entire journey, I had slowly worked my way back on my feet, using the momentum I built from creating this blog and writing about my journey.
+                    Nearing the end of 2019, I had slowly worked my way back on my feet, using the momentum I built from creating this blog and writing about my journey.
                   </p>
                   <p>
                     By the end of this year, I managed to accomplish more than I thought I was going to, despite my circumstances.
@@ -212,62 +212,27 @@ class about extends React.Component {
                   dateInnerStyle={{ background: '#76bb7f' }}
                   style={{ color: '#76bb7f' }}
                 >
-                  <h3>Employement Found!</h3>
-                  <h4><Twemoji text="🎉 Full time at Coveo 🍾" /></h4>
+                  <h3><Twemoji text="✅" /> Employement Found!</h3>
+                  <h4><Twemoji text="🎉" /> <a href="/091-new-chapter/">Full time at Coveo</a> <Twemoji text="🍾" /></h4>
                   <p>
-                    Honestly, 2019 hasn't been a kind year, but neither was 2020. The pandemic proved to be very difficult in my journey.
+                    Honestly, 2019 hasn't been a kind year, but neither was 2020. After a year of studying, I accomplished my goal in becoming a developer!
+                  </p>
+                  <p>
+                    The pandemic proved to be very difficult in my finding employment but after several interviews, I'm excited to start this new chapter in my journey!
                   </p>
 
-                </TimelineItem>
+                  <p>
+                    <a href="/092-year-journey-summary/">
+                      <Twemoji text="🍅" /> 1031 Pomodoro's - 430 hours of work
+                    </a>
+                  </p>
 
+
+                </TimelineItem>
               </Timeline>
 
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>
-                <a href="/066-2019-yearend-pomodoro/">Year End Progress 2019</a>
-              </p>
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>&darr;</p>
-              <p style={{ textAlign: `center`, marginBottom: `12px` }}>
-                <span
-                  style={{ fontSize: `2rem` }}
-                  role="img"
-                  aria-label="drinks"
-                >
-                  🍾
-                </span>
-                <a href="/091-new-chapter/">Employment @ Coveo</a>
-                <span
-                  style={{ fontSize: `2rem` }}
-                  role="img"
-                  aria-label="celebrate"
-                >
-                  🎉
-                </span>
-              </p>
-              <p style={{ textAlign: `center`, marginBottom: `0px` }}>
-                <a href="/092-year-journey-summary/">
-                  Year Progression Summary (May 2019-2020)
-                </a>
-                <span
-                  style={{ fontSize: `1.4rem` }}
-                  role="img"
-                  aria-label="celebrate"
-                >
-                  💻
-                </span>
-              </p>
-              <p
-                style={{
-                  fontSize: `1.4rem`,
-                  textAlign: `center`,
-                  marginBottom: `0px`,
-                }}
-              >
-                &delta;
-              </p>
-
               <p style={{ textAlign: `center`, marginBottom: `4rem` }}>
-                <a href="/090-may-2020-pomodoro/">
+                <a href="/094-june-2020-pomodoro/">
                   Continuous Improvement Initiative
                 </a>
                 <span
@@ -278,7 +243,6 @@ class about extends React.Component {
                   📈
                 </span>
               </p>
-
               <p>
                 I'm always looking to improve my skills and be the best version
                 of myself. Feel free to browse around!
