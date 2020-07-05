@@ -7,7 +7,7 @@ description: 🎉🙌 I'm employed as a Software Developer at Coveo💙🧡!
 tags: ["life"]
 ---
 
->>"Luck is what happens when preparation meets opportunity" - Seneca
+>"Luck is what happens when preparation meets opportunity" - Seneca
 
 After many interviews, I am excited to announce that I am employed as a Software Developer at Coveo! I feel extremely grateful and lucky to have been able to find full-time employment during these rough times. 
 

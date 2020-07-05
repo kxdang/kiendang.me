@@ -10,7 +10,7 @@ tags: ["life", "biochemistry"]
 ![](https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2084&q=80)
 I hope you'll never have to be in a situation where you need this spontaneously at the ER. The summer of 2019 has been a rollercoaster for me; trying to recover while pivoting your career path into something new has been extremely challenging.
 
-<blockquote>"Don't worry Kien, we're giving you the Michael Jackson, you'll feel better soon!" - ER nurse</blockquote>
+<blockquote>Don't worry Kien, we're giving you the Michael Jackson, you'll feel better soon! - ER nurse</blockquote>
 
 I hear this as I'm being wheeled in an ER operating room in extreme pain and with IV opioids running through me. I'm not sure exactly what the nurse meant by Michael Jackson and when my girlfriend asked, the nurse told us its what Michael Jackson took.
 

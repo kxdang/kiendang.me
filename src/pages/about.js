@@ -104,9 +104,7 @@ class about extends React.Component {
               </p>
               <h3 style={{ textAlign: `center` }}>My Career Change Journey</h3>
               <p>
-                I <a href="/040-new-chapter-2019/">resigned </a>from my job back
-                in May of 2019 to pursue my passion in programming. I happy to
-                say that I am now employed as a Software Developer at{" "}
+                I'm happy to say that I am employed as a Software Developer at{" "}
                 <a
                   href="https://www.coveo.com/Coveo"
                   rel="noopener noreferrer"
@@ -196,7 +194,7 @@ class about extends React.Component {
                   className={'job-1'}
                 >
                   <h3>The End of 2019</h3>
-                  <h4><Twemoji text="💊2 surgeries, 9 antiobitics, 4 opioids later" /></h4>
+                  <h4><Twemoji text="💊 2 surgeries, 9 antiobitics, 4 opioids later" /></h4>
                   <p>
                     Nearing the end of 2019, I had slowly worked my way back on my feet, using the momentum I built from creating this blog and writing about my journey.
                   </p>
@@ -215,17 +213,18 @@ class about extends React.Component {
                   <h3><Twemoji text="✅" /> Employement Found!</h3>
                   <h4><Twemoji text="🎉" /> <a href="/091-new-chapter/">Full time at Coveo</a> <Twemoji text="🍾" /></h4>
                   <p>
-                    Honestly, 2019 hasn't been a kind year, but neither was 2020. After a year of studying, I accomplished my goal in becoming a developer!
+                    Honestly, 2019 hasn't been a kind year, but neither was 2020. After a year of studying, I accomplished my goal in becoming a developer.
                   </p>
-                  <p>
-                    The pandemic proved to be very difficult in my finding employment but after several interviews, I'm excited to start this new chapter in my journey!
-                  </p>
-
                   <p>
                     <a href="/092-year-journey-summary/">
                       <Twemoji text="🍅" /> 1031 Pomodoro's - 430 hours of work
                     </a>
                   </p>
+                  <p>
+                    The pandemic proved to be very difficult in my finding employment but after several interviews, I'm excited to start this new chapter in my journey!
+                  </p>
+
+
 
 
                 </TimelineItem>
