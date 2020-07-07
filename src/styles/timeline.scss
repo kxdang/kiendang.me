@@ -1,5 +1,9 @@
 .timeline-custom {
     .start {
+        .timeline-item-dateinner {
+            background: #5acffd;
+            color: black;
+        }
         .title {
             &::before {
                 color: #E4B429;

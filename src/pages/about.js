@@ -125,14 +125,12 @@ class about extends React.Component {
                 <TimelineItem
                   key="001"
                   dateText="2011 – 2016"
-                  dateInnerStyle={{ background: '#000', color: '#E4B429' }}
-                  style={{ color: '#E4B429', backgroundColor: '#000' }}
                   className={'start'}
                 >
-                  <h3>University of Waterloo</h3>
-                  <h4><a href="/025-biochemistry-story">My Biochemistry Story</a></h4>
+                  <h3><Twemoji text="👨‍🎓University of Waterloo" /></h3>
+                  <h4><a href="/025-biochemistry-story"><Twemoji text="👨‍🔬My Biochemistry Story" /></a></h4>
                   <p>
-                    Graduated a 5 year co-op program with a Bacholers of Science in Honours Biochemistry (B.Sc.)
+                    Graduated a 5 year co-op program with a Bachelors of Science in Honours Biochemistry (B.Sc.)
                   </p>
                 </TimelineItem>
                 <TimelineItem
@@ -141,10 +139,10 @@ class about extends React.Component {
                   style={{ color: '#89DDFF' }}
                   className={'job-1'}
                 >
-                  <h3>The Woodbridge Group</h3>
-                  <h4>Costing Technologist</h4>
+                  <h3><Twemoji text="🧪 The Woodbridge Group" /></h3>
+                  <h4><Twemoji text="💻 Costing Technologist" /></h4>
                   <p>
-                    I worked at a chemical company specializing in polyurethane for the automotive industry for over 2 years.
+                    After graduating, I worked at a chemical company specializing in polyurethane for the automotive industry for over 2 years.
                   </p>
                   <p>
                     I <a href="/029-automated-job-process/">automated</a> a portion of my work using VBA which sparked my interest in programming.
@@ -183,7 +181,7 @@ class about extends React.Component {
                     I started to change my perspective and draw inspiration from my negative experience.
                   </p>
                   <p>
-                    Using my background in biochemistry, I decided to generate creative writing to fill my blog with my experience with <a href="/tags/biochemistry/">antibiotics.</a>
+                    I decided to write about my prescribed <a href="/tags/biochemistry/">medications</a> and my experience with them using my background in biochemistry.
                   </p>
                 </TimelineItem>
                 <TimelineItem
@@ -194,14 +192,14 @@ class about extends React.Component {
                   className={'job-1'}
                 >
                   <h3>The End of 2019</h3>
-                  <h4><Twemoji text="💊 2 surgeries, 9 antiobitics, 4 opioids later" /></h4>
+                  <h4><Twemoji text="💊 " />2 surgeries, 9 antibiotics, 4 opioids later</h4>
                   <p>
                     Nearing the end of 2019, I had slowly worked my way back on my feet, using the momentum I built from creating this blog and writing about my journey.
                   </p>
                   <p>
                     By the end of this year, I managed to accomplish more than I thought I was going to, despite my circumstances.
                   </p>
-                  <p><a href="/066-2019-yearend-pomodoro/">My Year End Progress</a></p>
+                  <p><a href="/066-2019-yearend-pomodoro/"><Twemoji text="🍅 My Year End Progress" /></a></p>
                   <p>I stuck with my process right into 2020 after almost being 100% recovered.</p>
                 </TimelineItem>
                 <TimelineItem
@@ -222,6 +220,9 @@ class about extends React.Component {
                   </p>
                   <p>
                     The pandemic proved to be very difficult in my finding employment but after several interviews, I'm excited to start this new chapter in my journey!
+                  </p>
+                  <p>
+                    I am pending my third and last surgery, hoping to close that chapter in my journey.
                   </p>
                 </TimelineItem>
               </Timeline>
