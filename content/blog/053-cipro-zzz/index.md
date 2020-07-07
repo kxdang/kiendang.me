@@ -12,7 +12,9 @@ It’s almost the end of August with an infection I’ve been trying to kill off
 
 ## <center>Why does Ciprofloxacin make me so tired? </center>
 
-When you start Googling symptoms, it’s always the most extreme and worst-case scenarios, it's always important to go to your medical professional to be diagnosed. However, once diagnosed, I thought it would be beneficial to do extra research on what's going in my body. Ultimately, I try to figure out the answers to my curious mind and unfortunately, found more than I would like.
+When you start Googling symptoms, it’s always the most extreme and worst-case scenarios, it's always important to go to your medical professional to be diagnosed. 
+
+However, once diagnosed, I thought it would be beneficial to do extra research on what's going in my body. Ultimately, I try to figure out the answers to my curious mind and unfortunately, found more than I would like.
 
 ### <center>Ciprofloxacin </center>
 
@@ -30,9 +32,13 @@ In addition to ciprofloxacin, combining it with metronidazole makes it a very ef
   <img src="https://media.giphy.com/media/5t9wJjyHAOxvnxcPNk/giphy.gif" />
 </p>
 
-I definitely found some interesting things about ciprofloxacin especially their serious adverse side effects of developing tendinitis and how it can cause problems affecting tendons in your shoulder, hand and the back of your ankle<sup><a href="https://medlineplus.gov/druginfo/meds/a688016.html" target="_blank">[5]</a></sup>. Fluoroquinolones increase the chance of Achilles tendon rupture<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2921747/" target="_blank">[6]</a></sup>. It may even cause nerve damage long after you’ve taken this antibiotic. That was definitely something I was not expecting.
+I definitely found some interesting things about ciprofloxacin especially their serious adverse side effects of developing tendinitis and how it can cause problems affecting tendons in your shoulder, hand and the back of your ankle<sup><a href="https://medlineplus.gov/druginfo/meds/a688016.html" target="_blank">[5]</a></sup>. 
 
-Ciprofloxacin inhibits mitochondrial DNA synthesis and affects cellular growth and differentiation. These symptoms could be due to oxidative stress. The interference of ciprofloxacin with differentiation processes includes spermatogenesis, brain development and bone mineralization. However, these mechanisms remain unclear and there is evidence that mitochondria impairment might be the reason for disturbed cellular physiology<sup><a href="https://academic.oup.com/nar/article/46/18/9625/5088042" target="_blank">[7]</a></sup>.
+Fluoroquinolones increase the chance of Achilles tendon rupture<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2921747/" target="_blank">[6]</a></sup>. It may even cause nerve damage long after you’ve taken this antibiotic. That was definitely something I was not expecting.
+
+Ciprofloxacin inhibits mitochondrial DNA synthesis and affects cellular growth and differentiation. These symptoms could be due to oxidative stress. The interference of ciprofloxacin with differentiation processes includes spermatogenesis, brain development and bone mineralization. 
+
+However, these mechanisms remain unclear and there is evidence that mitochondria impairment might be the reason for disturbed cellular physiology<sup><a href="https://academic.oup.com/nar/article/46/18/9625/5088042" target="_blank">[7]</a></sup>.
 
 Ciprofloxacin is one of the most widely used antibiotics worldwide and recently in <a href="https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-fda-updates-warnings-oral-and-injectable-fluoroquinolone-antibiotics" target="_blank">2016</a>, the FDA made a warning announcement regarding the use of fluoroquinolones. The clinical use of fluoroquinolones definitely has been considered; the FDA says for serious bacterial infections, the benefits outweigh the risk and the usage is an appropriate course of treatment.
 

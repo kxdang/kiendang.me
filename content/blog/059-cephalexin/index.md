@@ -11,7 +11,7 @@ tags: ["life", "biochemistry"]
 
 # <center>What is cephalexin?</center>
 
-<p><a href="https://www.drugs.com/cephalexin.html" target="_blank">Cephalexin</a> is an antibiotic that can treat a number of bacterial infections including skin infections, respiratory tract and urinary tract. Similarly to amoxicillin, they are in the β-lactam antibiotic class. Cephalexin is also a first-generation cephalosporin antibiotic; they originated from a fungus originally known as Cephalosporium<sup><a href="https://www.medicinenet.com/cephalexin/article.htm" target="_blank">[1]</a></sup></p>.
+<p><a href="https://www.drugs.com/cephalexin.html" target="_blank">Cephalexin</a> is an antibiotic that can treat a number of bacterial infections including skin infections, respiratory tract and urinary tract. Similarly to amoxicillin, they are in the β-lactam antibiotic class. Cephalexin is also a first-generation cephalosporin antibiotic; they originated from a fungus originally known as Cephalosporium<sup><a href="https://www.medicinenet.com/cephalexin/article.htm" target="_blank">[1]</a></sup>.</p>
 
 <p>Cephalexin is on the list of most effective and safe medicines found on the World Health Organization's <a href="https://www.who.int/medicines/publications/essentialmedicines/en/" target="_blank">List of Essential Medicines.</a></p>
 
