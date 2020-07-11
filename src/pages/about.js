@@ -101,6 +101,12 @@ class about extends React.Component {
                 <br />
                 My blog is a platform to share my experiences, interests, introspection and current progress with programming. In addition, I
                 hope to become a better writer by blogging.
+
+                <br />
+                <br />
+                I'm always looking to improve my skills and be the best version
+                of myself. Feel free to browse around!
+
               </p>
               <h3 style={{ textAlign: `center` }}>My Career Change Journey</h3>
               <p>
@@ -113,7 +119,7 @@ class about extends React.Component {
                   Coveo
                 </a>{" "}
                 <span role="img" aria-label="celebrate">
-                  💙🧡
+                  <Twemoji text="💙🧡" />
                 </span>
                 <br></br>
                 <br></br>I documented my entire journey on my blog and tracked
@@ -139,7 +145,7 @@ class about extends React.Component {
                   style={{ color: '#89DDFF' }}
                   className={'job-1'}
                 >
-                  <h3><Twemoji text="🧪 The Woodbridge Group" /></h3>
+                  <h3><Twemoji text="🏢 The Woodbridge Group" /></h3>
                   <h4><Twemoji text="💻 Costing Technologist" /></h4>
                   <p>
                     After graduating, I worked at a chemical company specializing in polyurethane for the automotive industry for over 2 years.
@@ -199,7 +205,7 @@ class about extends React.Component {
                   <p>
                     By the end of this year, I managed to accomplish more than I thought I was going to, despite my circumstances.
                   </p>
-                  <p><a href="/066-2019-yearend-pomodoro/"><Twemoji text="🍅 My Year End Progress" /></a></p>
+                  <p><Twemoji text="🍅" /> <a href="/066-2019-yearend-pomodoro/">My Year End Progress</a></p>
                   <p>I stuck with my process right into 2020 after almost being 100% recovered.</p>
                 </TimelineItem>
                 <TimelineItem
@@ -208,14 +214,14 @@ class about extends React.Component {
                   dateInnerStyle={{ background: '#76bb7f' }}
                   style={{ color: '#76bb7f' }}
                 >
-                  <h3><Twemoji text="✅" /> Employement Found!</h3>
+                  <h3><Twemoji text="✅" /> Employment Found!</h3>
                   <h4><Twemoji text="🎉" /> <a href="/091-new-chapter/">Full time at Coveo</a> <Twemoji text="🍾" /></h4>
                   <p>
                     Honestly, 2019 hasn't been a kind year, but neither was 2020. After a year of studying, I accomplished my goal in becoming a developer.
                   </p>
                   <p>
-                    <a href="/092-year-journey-summary/">
-                      <Twemoji text="🍅" /> 1031 Pomodoro's - 430 hours of work
+                    <Twemoji text="🍅" /> <a href="/092-year-journey-summary/">
+                      1031 Pomodoro's - 430 hours of work
                     </a>
                   </p>
                   <p>
@@ -239,10 +245,7 @@ class about extends React.Component {
                   📈
                 </span>
               </p>
-              <p>
-                I'm always looking to improve my skills and be the best version
-                of myself. Feel free to browse around!
-              </p>
+
               <blockquote>
                 Everything is a skill, and thus everything can be learned,
                 improved on, and mastered, given enough time and effort. —
