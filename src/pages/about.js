@@ -198,7 +198,7 @@ class about extends React.Component {
                   className={'job-1'}
                 >
                   <h3>The End of 2019</h3>
-                  <h4><Twemoji text="💉 " /><a href="/060-propofol/">2 surgeries,<br /></a><Twemoji text="💊 " /><a href="/tags/biochemistry/">9 antibiotics,</a><br /> <Twemoji text="🌺 " /><a href="/062-opioids/">4 opioids,</a></h4>
+                  <h4><Twemoji text="💉 " /><a href="/060-propofol/">2 surgeries,<br /></a><Twemoji text="💊 " /><a href="/tags/biochemistry/">9 antibiotics,</a><br /> <Twemoji text="🌺 " /><a href="/062-opioids/">4 opioids later</a></h4>
                   <p>
                     Nearing the end of 2019, I had slowly worked my way back on my feet, using the momentum I built from creating this blog and writing about my journey.
                   </p>
