@@ -117,12 +117,12 @@ class now extends React.Component {
                 }}
               >
                 <Img
-                  style={{ width: "35%" }}
+                  style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
                   fluid={book.bookone.childImageSharp.fluid}
                   alt="The Daily Stoic"
                 />
                 <Img
-                  style={{ width: "35%" }}
+                  style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
                   fluid={book.booktwo.childImageSharp.fluid}
                   alt="So You Want to Talk About Race"
                 />
@@ -136,12 +136,12 @@ class now extends React.Component {
                 }}
               >
                 <Img
-                  style={{ width: "35%" }}
+                  style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
                   fluid={book.bookthree.childImageSharp.fluid}
-                  alt="Golden Son"
+                  alt="morning star"
                 />
                 <Img
-                  style={{ width: "35%" }}
+                  style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
                   fluid={book.bookfour.childImageSharp.fluid}
                   alt="Deep Work"
                 />
@@ -209,7 +209,8 @@ class now extends React.Component {
               </p>
             </footer>
           </div>
-        )}
+        )
+        }
       </ThemeContext.Consumer>
     )
   }

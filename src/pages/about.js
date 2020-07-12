@@ -134,7 +134,7 @@ class about extends React.Component {
                   className={'start'}
                 >
                   <h3><Twemoji text="👨‍🎓University of Waterloo" /></h3>
-                  <h4><a href="/025-biochemistry-story"><Twemoji text="👨‍🔬My Biochemistry Story" /></a></h4>
+                  <h4><Twemoji text="👨‍🔬 " /><a href="/025-biochemistry-story">My Biochemistry Story</a></h4>
                   <p>
                     Graduated a 5 year co-op program with a Bachelors of Science in Honours Biochemistry (B.Sc.)
                   </p>
