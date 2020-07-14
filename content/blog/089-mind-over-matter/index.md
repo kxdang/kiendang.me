@@ -27,7 +27,7 @@ After the results came in, my sleep medicine specialist looked at my graph and s
 
 Bummer! I didn't get my sleep machine, but now I'm able to confirm its not sleep apnea. At the time, I didn't _feel_ stressed, but I decided to step back and reflect on what I was going through.
 
-Leaving my steady full-time job for something unknown and having a health crisis that left me recovering for 4 months really did put a dent in my plans and timeline. Perhaps this fear of the unknown led me to having poor sleep and thus increased my stress levels which in turn caused more restless sleep and the cycle never stops.
+Leaving my steady full-time job for something unknown and having a health crisis that left me recovering for 5 months really did put a dent in my plans and timeline. Perhaps this fear of the unknown led me to having poor sleep and thus increased my stress levels which in turn caused more restless sleep and the cycle never stops.
 
 I mentioned that I didn't feel stressed, but my body was going through physical stress. Stress can take many different forms and maybe when I slept, my brain had an internal stressor that it couldn't get rid of, causing me to toss and turn and keeping me unrested. Too many unknowns for it to handle and I had no good system to unwind.
 

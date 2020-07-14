@@ -13,7 +13,7 @@ After many interviews, I am excited to announce that I am employed as a Software
 
 It has been exactly 12 months since I had left my previous employer and after months of hard work, and an exhausting journey, I'm eager to start a new chapter in my life.
 
-Looking back, when I took a leap of faith, I ended up stumbling with a health issue that took me 4 months to recover from. During that time, I felt like I had already completely derailed from the path I had planned out.
+Looking back, when I took a leap of faith, I ended up stumbling with a health issue that took me 5 months to recover from. During that time, I felt like I had already completely derailed from the path I had planned out.
 
 I had taken [9 courses of antibiotics](/tags/biochemistry/), [4 different opioids](/062-opioids/), had 2 surgeries and lost about 20lbs. I honestly didn't even know what to think, at the time, I was battling the worst pain I've ever experienced and having to face the biggest enemy, myself. 
 

@@ -6,8 +6,7 @@ import Switch from "react-switch"
 import Img from "gatsby-image"
 import ThemeContext from "../context/ThemeContext"
 import { Twemoji } from "react-emoji-render"
-
-
+import Bar from "../components/nowPomoData"
 import "../styles/styles.scss"
 
 class now extends React.Component {
@@ -170,6 +169,13 @@ class now extends React.Component {
                 </span>
               </p> */}
 
+              <Bar />
+
+              <p>
+                The <a href="/022-pomodoro-technique/">Pomodoro Technique</a> helps manage my time and keeps me accountable for staying focused in achieving my goals. This data is an overview of 2020 and my <a href="/094-june-2020-pomodoro/">current progress</a>.
+              </p>
+
+
               <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
               <p>
                 Creating React-Redux applications with TypeScript to
@@ -186,7 +192,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on July 4thth 2020
+                Last updated on July 13th 2020
               </p>
             </div>
             <footer>
