@@ -60,6 +60,7 @@ export default class SearchBox extends Component {
 			<div className="ais-SearchBox">
 				<form className="ais-SearchBox-form" role="search">
 					<input
+						type="text"
 						className="ais-SearchBox-input"
 						value={value}
 						onChange={this.onChangeDebounced}

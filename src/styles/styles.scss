@@ -201,7 +201,6 @@ body::-webkit-scrollbar-thumb {
     border-bottom: dotted 1px var(--primary-color-light);
     &:hover {
       filter: brightness(120%);
-      border-bottom-style: solid;
     }
   }
   strong {
@@ -316,7 +315,7 @@ a.productivity {
 }
 
 a.pomodoro {
-  color: white;
+  color: black;
   background-color: #eb4559;
 }
 
