@@ -187,7 +187,7 @@ class about extends React.Component {
                     I started to change my perspective and draw inspiration from my negative experience.
                   </p>
                   <p>
-                    I decided to write about my prescribed <a href="/tags/biochemistry/">medications</a> and my experience with them using my background in biochemistry.
+                    I wrote about my prescribed <a href="/tags/biochemistry/">medications</a> and my experience with them using my background in biochemistry.
                   </p>
                 </TimelineItem>
                 <TimelineItem
@@ -197,13 +197,13 @@ class about extends React.Component {
                   style={{ color: '#89DDFF' }}
                   className={'job-1'}
                 >
-                  <h3>The End of 2019</h3>
+                  <h3><Twemoji text="🧗‍♂️ The Recovery" /></h3>
                   <h4><Twemoji text="💉 " /><a href="/060-propofol/">2 surgeries,<br /></a><Twemoji text="💊 " /><a href="/tags/biochemistry/">9 antibiotics,</a><br /> <Twemoji text="🌺 " /><a href="/062-opioids/">4 opioids later</a></h4>
                   <p>
                     Nearing the end of 2019, I had slowly worked my way back on my feet, using the momentum I built from creating this blog and writing about my journey.
                   </p>
                   <p>
-                    By the end of this year, I managed to accomplish more than I thought I was going to, despite my circumstances.
+                    By the end of this year, I managed to accomplish more than I thought despite my circumstances.
                   </p>
                   <p><Twemoji text="🍅" /><a href="/066-2019-yearend-pomodoro/">My Year End Progress</a></p>
                   <p>I stuck with my process right into 2020 after almost being 100% recovered.</p>
@@ -228,7 +228,7 @@ class about extends React.Component {
                     The pandemic proved to be very difficult in my finding employment but after several interviews, I'm excited to start this new chapter in my journey!
                   </p>
                   <p>
-                    I am pending my third and last surgery, hoping to close that chapter in my journey.
+                    I am pending my third and last surgery, hoping to close that chapter forever.
                   </p>
                 </TimelineItem>
               </Timeline>

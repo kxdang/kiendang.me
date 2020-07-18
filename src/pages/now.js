@@ -84,26 +84,26 @@ class now extends React.Component {
                 What am I doing at the moment?
               </h3>
               <p>
-                <span role="img" aria-label="docs">
-                  📝
-                </span>
+                <span style={{ fontSize: "1.2rem" }}><Twemoji text="📝" /></span>
+                <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
+                <br />
                 I am currently learning Redux and TypeScript as a personal
                 initiative to fill the knowledge I need for my new position as a
                 Software Developer at Coveo.
                 <br></br>
                 <br></br>
-                <span role="img" aria-label="tomato">
-                  🍅
-                </span>
+                <span style={{ fontSize: "1.2rem" }}><Twemoji text="🍅" /></span>
+                <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
+                <br />
                 I am looking at resources to learn how to debug effectively and
                 efficiently for my new role.
                 <br></br>
                 <br></br>
-                <span role="img" aria-label="goal">
-                  🎯
-                </span>
-                I am still focused on studying algorithms and data structures to
-                understand the fundamentals of computer science. However, I have now delayed this until I am able to figure a time frame of when I can fit this into my schedule.
+                <span style={{ fontSize: "1.2rem" }}><Twemoji text="🎯" /></span>
+                <span style={{ color: "#ff5f40", fontWeight: '700' }}> [Paused] </span>
+                <br />
+                Studying algorithms and data structures to
+                understand the fundamentals of computer science. However, I have now delayed this until I am able to figure a time frame of when I can fit this into my schedule in anticipation of my surgery.
               </p>
 
               <h3 style={{ textAlign: "center" }}>Currently Reading:</h3>
@@ -148,7 +148,7 @@ class now extends React.Component {
               <ul style={{ textAlign: 'center', listStyleType: 'none' }}>
                 <li>The Daily Stoic - Ryan Holiday</li>
                 <li>So you want to talk about race - Ijeoma Oluo</li>
-                <li>Morning Star - Pierce Brown</li>
+                <li>Iron Gold - Pierce Brown</li>
                 <li>Deep Work - Cal Newport</li>
               </ul>
               <p>
@@ -176,13 +176,13 @@ class now extends React.Component {
               </p>
 
 
-              <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
+              {/* <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
               <p>
                 Creating React-Redux applications with TypeScript to
                 have a better grasp of the technology stack at my current
                 position at Coveo. For personal interest and as a personal
                 initiative to be more effective at work.
-              </p>
+              </p> */}
 
               <p
                 style={{
@@ -192,7 +192,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on July 13th 2020
+                Last updated on July 18th 2020
               </p>
             </div>
             <footer>
@@ -240,7 +240,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    bookthree: file(relativePath: { eq: "books/morningstar.jpg" }) {
+    bookthree: file(relativePath: { eq: "books/irongold.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
