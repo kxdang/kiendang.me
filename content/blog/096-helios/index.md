@@ -27,7 +27,7 @@ As their team landed, they were met with heavy natural resistance. A distress si
 
 The Helio's knew it was extremely risky as their energy reserves were low but they knew it was necessary to launch the impactor to help the team as they were their only hope to rebuild.
 
-Today, we know it as Chixulub impactor. An asteroid that caused mass extinction of almost three quarters of all plant and animal species on Earth.
+Today, we know it as Chicxulub impactor. An asteroid that caused mass extinction of almost three quarters of all plant and animal species on Earth.
 
 Unfortunately, the impactor, had also killed their team. With the extreme weather from Earth, it caused many animals to die and ran the team’s food and energy supply short.
 
