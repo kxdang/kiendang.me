@@ -29,7 +29,7 @@ The Helio's knew it was extremely risky as their energy reserves were low but th
 
 Today, we know it as Chicxulub impactor. An asteroid that caused mass extinction of almost three quarters of all plant and animal species on Earth.
 
-Unfortunately, the impactor, had also killed their team. With the extreme weather from Earth, it caused many animals to die and ran the team’s food and energy supply short.
+Unfortunately, the impactor had also killed their team. With the extreme weather from Earth, it caused many animals to die and ran the team’s food and energy supply short.
 
 Their resources contained a blueprint substance, a substance that went into the ocean and eventually formed the animals we see here on earth and after many years of evolution, an inferior mirror version of their own civilization had been formed called humans.
 
