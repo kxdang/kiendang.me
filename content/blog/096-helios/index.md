@@ -13,7 +13,7 @@ The surface of Mars millions of years ago thrived greatly compared to Earth. It 
 
 As the Helio's civilization grew, so did their ability to convert their energy to advance their technologies. It allowed them to develop spaceships and their ability to use water as a secondary source of energy and be able to terraform planets.
 
-However, they became greedy among themselves, fighting for which planets to colonize. With power came the divide of their own civilization and had broken down into factions which stalled their plans and ability to colonize Earth and other planets.
+However, they became greedy amongst themselves, fighting for which planets to colonize. With power came the divide of their own civilization and had broken down into factions which stalled their plans and ability to colonize Earth and other planets.
 
 Their own internal affairs made them blindsided by a solar flare from the sun which decimated its atmosphere, changing the climate of Mars and shifted its tectonic plates. It shifted so much so that they did not have enough energy to reverse its effects and thus had left them no choice but to move deep underground to survive.
 
@@ -39,7 +39,7 @@ Humans have been able to understand little of their own intelligence, only being
 
 The blueprint substance, now known as DNA to humans, derived from the Helios gave humans their own intelligence, but also their flawed ability to experience emotions of greed, the lust for power and the disregard of life to form a civilization greater than themselves.
 
-Now, with earth facing a global warming crisis that humans created upon themselves, they have fallen into the exact same fate as the Helio's civilization.
+Now, with earth facing a global warming crisis that humans created, they have fallen into the exact same fate as the Helio's civilization.
 
 As earth slowly self-destructs, the Helio's has decided to send their message to Earth. Their confidence in human technology and intelligence grew since they had sent one of many Mars Rovers over the years. The AI that humans developed would be able to decrypt and compute Helio's messages from afar.
 
