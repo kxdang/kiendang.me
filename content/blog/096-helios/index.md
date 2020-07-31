@@ -17,7 +17,7 @@ However, they became greedy amongst themselves, fighting for which planets to co
 
 Their own internal affairs made them blindsided by a solar flare from the sun which decimated its atmosphere, changing the climate of Mars and shifted its tectonic plates. It shifted so much so that they did not have enough energy to reverse its effects and thus had left them no choice but to move deep underground to survive.
 
-Their transition to underground life required machines to suck the surface of Mars dry. It was a race against the sun's evaporating energy on water. They created their own cities deep within Mars to live, keeping them away from the suns harm and its inhabitable surface.
+Their transition to underground life required machines to suck the surface of Mars dry. It was a race against the sun's energy evaporating water. They created their own cities deep within Mars to live, keeping them away from the suns harm and its inhabitable surface.
 
 During this difficult time, they had no choice but to band together and use their remaining resources to send an elite team to colonize Earth. Once it was colonized, ships were supposed to send water back to Mars so they can rebuild their home, regenerating the atmosphere they once had and replenishing their energy sources for their ships.
 However, things went south. 
