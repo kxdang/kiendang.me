@@ -35,9 +35,9 @@ Their resources contained a blueprint substance, a substance that went into the 
 
 Many years had passed, and humans had suffered many wars amongst themselves and destructions of their own race.
 
-Humans have been able to understand little of their own intelligence, only being able to extract certain knowledge into machines and eventually gave rise to their own systems they call "artificial intelligence". An abstraction of the Helio's intelligence amongst their own but limited by their own technology they had to develop.
+Humans have been able to understand little of their own intelligence, only being able to extract certain knowledge into machines and eventually gave rise to their own systems they call "artificial intelligence". This is an abstraction of the Helio's intelligence amongst their own but limited by their own technology they had to develop.
 
-The blueprint substance, now known as DNA to humans, derived from the Helios gave humans their own intelligence, but also their flawed ability to experience emotions of greed, the lust for power and the disregard of life to form a civilization greater than themselves.
+The blueprint substance, now known as DNA to humans, derived from the Helio's gave humans their own intelligence, but also their flawed ability to experience emotions of greed, the lust for power and the disregard of life to form a civilization greater than themselves.
 
 Now, with Earth facing a global warming crisis that humans created, they have fallen into the exact same fate as the Helio's civilization.
 
@@ -45,11 +45,11 @@ As Earth slowly self-destructs, the Helio's has decided to send their message to
 
 It was a resolution for the dying humans that lived on Earth. The Helio's offered the technology to save Earth in return for shipments of water.
 
-Everything that humans has ever known has come to an immediate fear of the Helio's. A superior being, far greater than themselves with the ability and technology to wipe the entire human race clean.
+Everything that humans has ever known has come to an immediate fear of the Helio's, a superior being, far greater than themselves with the ability and technology to wipe the entire human race clean.
 
 With Earth slowly falling apart and the civilization of Helio's on their hands, they had no choice. If humans had refused, both civilizations would parish from the universe and all would end. But the will to live was much greater than the fear of death and extinction.
 
-The humans would co-operate, sending ships of water to Mars and in return, the Helio's would send specialized ships to slowly reducing Earth's carbon emissions and reducing the ozone layer.
+The humans would co-operate, sending ships of water to Mars and in return, the Helio's would send specialized ships to slowly reduce Earth's carbon emissions and reducing the ozone layer.
 
 As Helio's slowly rebuilds over the course of 5 years, the inevitable tension grew between the two civilizations. Humans now leveraging their AI technology to be on par with Helio's intelligence have been creating weapons in fear of Helio's destruction of Earth and claiming it for themselves.
 
