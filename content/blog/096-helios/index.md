@@ -7,9 +7,9 @@ description: A random draft about a story of Mars. Something I randomly thought 
 tags: ["story"]
 ---
 
-Humans understand that the sun provides energy for all life, without it, we would not exist.
+Humans understand that the sun provides energy for all life. Without it, we would not exist.
 
-The surface of Mars millions of years ago thrived greatly compared to Earth. It was full of water, life, and natural greenery. Being so close to the sun had many benefits. It gave Mars new elements that did not exist on Earth. Allowing the Helio's civilization to thrive by harnessing its energy and giving rise to their technologies beyond human capabilities.
+The surface of Mars millions of years ago thrived greatly compared to Earth. It was full of water, life, and natural greenery. Being so close to the sun had many benefits. It gave Mars new elements that did not exist on Earth, allowing the Helio's civilization to thrive by harnessing its energy and giving rise to their technologies beyond human capabilities.
 
 As the Helio's civilization grew, so did their ability to convert their energy to advance their technologies. It allowed them to develop spaceships and their ability to use water as a secondary source of energy and be able to terraform planets.
 
@@ -49,9 +49,9 @@ Everything that humans has ever known has come to an immediate fear of the Helio
 
 With Earth slowly falling apart and the civilization of Helio's on their hands, they had no choice. If humans had refused, both civilizations would parish from the universe and all would end. But the will to live was much greater than the fear of death and extinction.
 
-The humans would co-operate, sending ships of water to Mars and in return, the Helio's would send specialized ships to slowly replenish Earth's ozone layer.
+The humans would co-operate, sending ships of water to Mars and in return, the Helio's would send specialized ships to slowly reducing Earth's carbon emissions and reducing the ozone layer.
 
-As Helio's slowly rebuilds over the course of 5 years, the inevitable tension grew between the two civilizations. Humans now leveraging their AI technology to be onpar with Helio's intelligence have been creating weapons in fear of Helio's destruction of Earth and claiming it for themselves.
+As Helio's slowly rebuilds over the course of 5 years, the inevitable tension grew between the two civilizations. Humans now leveraging their AI technology to be on par with Helio's intelligence have been creating weapons in fear of Helio's destruction of Earth and claiming it for themselves.
 
 The Helio's knows very well of Earth's plans as they themselves are the embodiment of human emotions. Being severely outnumbered and still lacking the water to refuel their ships, Earth slowly catches up with the help of their AI in utilizing water as a new fuel source.
 
