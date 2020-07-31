@@ -17,7 +17,7 @@ However, they became greedy amongst themselves, fighting for which planets to co
 
 Their own internal affairs made them blindsided by a solar flare from the sun which decimated its atmosphere, changing the climate of Mars and shifted its tectonic plates. It shifted so much so that they did not have enough energy to reverse its effects and thus had left them no choice but to move deep underground to survive.
 
-Their transition to underground life required machines to suck the surface of Mars dry. It was a race against the sun's energy evaporating water. They created their own cities deep within Mars to live, keeping them away from the suns harm and its inhabitable surface.
+Their transition to underground life required machines to suck the surface of Mars dry. It was a race against the sun's energy evaporating water. They created their own cities deep within Mars to live, keeping them away from the sun's harm and Mars' uninhabitable surface.
 
 During this difficult time, they had no choice but to band together and use their remaining resources to send an elite team to colonize Earth. Once it was colonized, ships were supposed to send water back to Mars so they can rebuild their home, regenerating the atmosphere they once had and replenishing their energy sources for their ships.
 However, things went south. 
@@ -25,13 +25,13 @@ However, things went south.
 As their team landed, they were met with heavy natural resistance. A distress signal from Earth to Mars was sent out, an impactor was requested.
 
 
-The Helio's knew it was extremely risky as their energy reserves were low but they knew it was necessary to launch the impactor to help the team as they were their only hope to rebuild.
+The Helio’s knew it was extremely risky as their energy reserves were low but they knew it was necessary to launch the impactor to help the team as they were their only hope to rebuild.
 
-Today, we know it as Chicxulub impactor. An asteroid that caused mass extinction of almost three quarters of all plant and animal species on Earth.
+Today, we know it as Chicxulub impactor, an asteroid that caused mass extinction of almost three quarters of all plant and animal species on Earth.
 
-Unfortunately, the impactor had also killed their team. With the extreme weather from Earth, it caused many animals to die and ran the team’s food and energy supply short.
+Unfortunately, the impactor had also killed their team. With the extreme weather from Earth, it caused many animals to die and ran the team’s food and energy supplies short.
 
-Their resources contained a blueprint substance, a substance that went into the ocean and eventually formed the animals we see here on earth and after many years of evolution, an inferior mirror version of their own civilization had been formed called humans.
+Their resources contained a blueprint substance, a substance that went into the ocean and eventually formed the animals we see here on Earth and after many years of evolution, an inferior mirror version of their own civilization had been formed called humans.
 
 Many years had passed, and humans had suffered many wars amongst themselves and destructions of their own race.
 
@@ -39,9 +39,9 @@ Humans have been able to understand little of their own intelligence, only being
 
 The blueprint substance, now known as DNA to humans, derived from the Helios gave humans their own intelligence, but also their flawed ability to experience emotions of greed, the lust for power and the disregard of life to form a civilization greater than themselves.
 
-Now, with earth facing a global warming crisis that humans created, they have fallen into the exact same fate as the Helio's civilization.
+Now, with Earth facing a global warming crisis that humans created, they have fallen into the exact same fate as the Helio's civilization.
 
-As earth slowly self-destructs, the Helio's has decided to send their message to Earth. Their confidence in human technology and intelligence grew since they had sent one of many Mars Rovers over the years. The AI that humans developed would be able to decrypt and compute Helio's messages from afar.
+As Earth slowly self-destructs, the Helio's has decided to send their message to Earth. Their confidence in human technology and intelligence grew since they had sent one of many Mars Rovers over the years. The AI that humans developed would be able to decrypt and compute Helio's messages from afar.
 
 It was a resolution for the dying humans that lived on Earth. The Helio's offered the technology to save Earth in return for shipments of water.
 
