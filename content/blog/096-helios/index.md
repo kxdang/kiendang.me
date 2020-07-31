@@ -1,6 +1,6 @@
 ---
 author: Kien
-date: 2020-07-26
+date: 2020-07-30
 slug: first-coop-experience
 title: 🌎Helio's Civilization
 description: A random draft about a story of Mars. Something I randomly thought of during lunch time.
@@ -45,11 +45,11 @@ As Earth slowly self-destructs, the Helio's has decided to send their message to
 
 It was a resolution for the dying humans that lived on Earth. The Helio's offered the technology to save Earth in return for shipments of water.
 
-Everything that humans have ever known has come to an immediate fear of the Helio's, a superior being, far greater than themselves with the ability and technology to wipe the entire human race clean.
+Everything that humans have ever known has come to an immediate fear of the Helio's. They are a superior being, far greater than themselves with the ability and technology to wipe the entire human race clean.
 
-With Earth slowly falling apart and the civilization of Helio's on their hands, they had no choice. If humans had refused, both civilizations would parish from the universe and all would end. But the will to live was much greater than the fear of death and extinction.
+With Earth slowly falling apart and the civilization of Helio's on their hands, they had no choice. If humans had refused, both civilizations would perish from the universe and all would end. But the will to live was much greater than the fear of death and extinction.
 
-The humans would co-operate, sending ships of water to Mars and in return, the Helio's would send specialized ships to slowly reduce Earth's carbon emissions and reducing the ozone layer.
+The humans would cooperate, sending ships of water to Mars and in return, the Helio's would send specialized ships to slowly reduce Earth's carbon emissions and reducing the ozone layer.
 
 As Helio's slowly rebuilds over the course of 5 years, the inevitable tension grew between the two civilizations. Humans now leveraging their AI technology to be on par with Helio's intelligence have been creating weapons in fear of Helio's destruction of Earth and claiming it for themselves.
 
