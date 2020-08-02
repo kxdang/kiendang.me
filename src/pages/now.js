@@ -84,8 +84,12 @@ class now extends React.Component {
                 What am I doing at the moment?
               </h3>
               <p>
+                <p style={{ textAlign: "center" }}><span style={{ fontSize: "1.2rem" }}><Twemoji text="💊" /></span><span style={{ color: "#08f334", fontWeight: '700' }}> [Recovering in progress]</span></p>
+
+
+                <br />
                 <span style={{ fontSize: "1.2rem" }}><Twemoji text="📝" /></span>
-                <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
+                <span style={{ color: "#ff5f40", fontWeight: '700' }}> [Paused] </span>
                 <br />
                 I am currently learning Redux and TypeScript as a personal
                 initiative to fill the knowledge I need for my new position as a
@@ -93,7 +97,7 @@ class now extends React.Component {
                 <br></br>
                 <br></br>
                 <span style={{ fontSize: "1.2rem" }}><Twemoji text="🍅" /></span>
-                <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
+                <span style={{ color: "#ff5f40", fontWeight: '700' }}> [Paused] </span>
                 <br />
                 I am looking at resources to learn how to debug effectively and
                 efficiently for my new role.
@@ -122,8 +126,8 @@ class now extends React.Component {
                 />
                 <Img
                   style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
-                  fluid={book.booktwo.childImageSharp.fluid}
-                  alt="So You Want to Talk About Race"
+                  fluid={book.bookthree.childImageSharp.fluid}
+                  alt="Dark age"
                 />
               </div>
 
@@ -136,19 +140,13 @@ class now extends React.Component {
               >
                 <Img
                   style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
-                  fluid={book.bookthree.childImageSharp.fluid}
-                  alt="morning star"
-                />
-                <Img
-                  style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
                   fluid={book.bookfour.childImageSharp.fluid}
                   alt="Deep Work"
                 />
               </div>
               <ul style={{ textAlign: 'center', listStyleType: 'none' }}>
                 <li>The Daily Stoic - Ryan Holiday</li>
-                <li>So you want to talk about race - Ijeoma Oluo</li>
-                <li>Iron Gold - Pierce Brown</li>
+                <li>Dark Age - Pierce Brown</li>
                 <li>Deep Work - Cal Newport</li>
               </ul>
               <p>
@@ -192,7 +190,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on July 18th 2020
+                Last updated on August 1st 2020
               </p>
             </div>
             <footer>
@@ -233,14 +231,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    booktwo: file(relativePath: { eq: "books/book2.jpg" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    bookthree: file(relativePath: { eq: "books/irongold.jpg" }) {
+    bookthree: file(relativePath: { eq: "books/darkage.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
