@@ -89,7 +89,7 @@ class about extends React.Component {
                 </span>
               </h3>
               <p>
-                My name is Kien (pronounced /'key in/). I have a Bachelor of
+                My name is Kien (pronounced /'key in/). I am a Software Developer at Coveo and I have a Bachelor of
                 Science in Honours Biochemistry from the University of Waterloo.
                 <br />
                 <br />
@@ -104,25 +104,13 @@ class about extends React.Component {
 
                 <br />
                 <br />
-                I'm always looking to improve my skills and be the best version
+                I am a data driven individual and always looking to improve my skills and be the best version
                 of myself. Feel free to browse around!
 
               </p>
               <h3 style={{ textAlign: `center` }}>My Career Change Journey</h3>
               <p>
-                I'm happy to say that I am employed as a Software Developer at{" "}
-                <a
-                  href="https://www.coveo.com/Coveo"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Coveo
-                </a>{" "}
-                <span role="img" aria-label="celebrate">
-                  <Twemoji text="💙🧡" />
-                </span>
-                <br></br>
-                <br></br>I documented my entire journey on my blog and tracked
+                I documented my entire journey in changing my career path to becoming a developer on my blog and tracked
                 my progress using the{" "}
                 <a href="/022-pomodoro-technique/">Pomodoro Technique</a>.
               </p>
@@ -163,7 +151,7 @@ class about extends React.Component {
                   style={{ color: '#76bb7f' }}
                 >
                   <h3><Twemoji text="🚀 The Leap of Faith" /></h3>
-                  <h4><Twemoji text="👨‍🚀 Begins The self-taught journey" /></h4>
+                  <h4><Twemoji text="👨‍🚀 " /><a href="/041-the-jump/">Begins The self-taught journey</a></h4>
                   <p>
                     I had plans to dedicate 100% of my time studying and learning HTML, CSS, JS and React as my framework of choice for web development.
                   </p>
@@ -205,7 +193,7 @@ class about extends React.Component {
                   <p>
                     By the end of this year, I managed to accomplish more than I thought despite my circumstances.
                   </p>
-                  <p><Twemoji text="🍅" /><a href="/066-2019-yearend-pomodoro/">My Year End Progress</a></p>
+                  <p><Twemoji text="🍅 " /><a href="/066-2019-yearend-pomodoro/">My Year End Progress</a></p>
                   <p>I stuck with my process right into 2020 after almost being 100% recovered.</p>
                 </TimelineItem>
                 <TimelineItem
@@ -234,8 +222,8 @@ class about extends React.Component {
               </Timeline>
 
               <p style={{ textAlign: `center`, marginBottom: `4rem` }}>
-                <a href="/094-june-2020-pomodoro/">
-                  Continuous Improvement Initiative
+                <a href="/097-july-2020-pomodoro/">
+                  You can't improve what you can't measure
                 </a>
                 <span
                   style={{ fontSize: `1rem` }}

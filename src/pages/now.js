@@ -126,11 +126,11 @@ class now extends React.Component {
                 />
                 <Img
                   style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
-                  fluid={book.bookthree.childImageSharp.fluid}
-                  alt="Dark age"
+                  fluid={book.bookfour.childImageSharp.fluid}
+                  alt="Deep Work"
                 />
               </div>
-
+              {/* 
               <div
                 style={{
                   display: "flex",
@@ -143,22 +143,12 @@ class now extends React.Component {
                   fluid={book.bookfour.childImageSharp.fluid}
                   alt="Deep Work"
                 />
-              </div>
+              </div> */}
               <ul style={{ textAlign: 'center', listStyleType: 'none' }}>
                 <li>The Daily Stoic - Ryan Holiday</li>
-                <li>Dark Age - Pierce Brown</li>
                 <li>Deep Work - Cal Newport</li>
               </ul>
-              <p>
-                It is important to self educate on issues and events that have
-                been happening the last month. I am currently reading a book
-                called{" "}
-                <a href="https://www.goodreads.com/book/show/35099718-so-you-want-to-talk-about-race">
-                  So You Want to Talk About Race
-                </a>{" "}
-                by Iljeoma Oluo in my rotation of books.
-              </p>
-
+    =
               {/* <h3 style={{ textAlign: "center" }}>Games</h3>
               <p style={{ textAlign: "center" }}>
                 Currently enjoying Valorant
@@ -190,7 +180,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on August 1st 2020
+                Last updated on August 4th 2020
               </p>
             </div>
             <footer>
