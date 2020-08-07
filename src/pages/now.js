@@ -148,7 +148,6 @@ class now extends React.Component {
                 <li>The Daily Stoic - Ryan Holiday</li>
                 <li>Deep Work - Cal Newport</li>
               </ul>
-    =
               {/* <h3 style={{ textAlign: "center" }}>Games</h3>
               <p style={{ textAlign: "center" }}>
                 Currently enjoying Valorant
@@ -160,7 +159,7 @@ class now extends React.Component {
               <Bar />
 
               <p>
-                The <a href="/022-pomodoro-technique/">Pomodoro Technique</a> helps manage my time and keeps me accountable for staying focused in achieving my goals. This data is an overview of 2020 and my <a href="/094-june-2020-pomodoro/">current progress</a>.
+                The <a href="/022-pomodoro-technique/">Pomodoro Technique</a> helps manage my time and keeps me accountable for staying focused in achieving my goals. This data is an overview of 2020 and my current progress for last month can be found <a href="/097-july-2020-pomodoro/">here</a>.
               </p>
 
 

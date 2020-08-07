@@ -172,10 +172,7 @@ class about extends React.Component {
                     Through this difficult period, I created this <a href="/048-Gatsby-blog-transfer-2019/">blog</a> and decided to embrace the opportunity to document my journey, finding solace in the activity.
                   </p>
                   <p>
-                    I started to change my perspective and draw inspiration from my negative experience.
-                  </p>
-                  <p>
-                    I wrote about my prescribed <a href="/tags/biochemistry/">medications</a> and my experience with them using my background in biochemistry.
+                    I started to change my perspective and draw inspiration from my negative experience and wrote about my prescribed <a href="/tags/biochemistry/">medications</a>.
                   </p>
                 </TimelineItem>
                 <TimelineItem
@@ -223,7 +220,7 @@ class about extends React.Component {
 
               <p style={{ textAlign: `center`, marginBottom: `4rem` }}>
                 <a href="/097-july-2020-pomodoro/">
-                  You can't improve what you can't measure
+                  You cannot improve what you cannot measure
                 </a>
                 <span
                   style={{ fontSize: `1rem` }}
