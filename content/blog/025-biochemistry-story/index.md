@@ -12,19 +12,19 @@ The journey of completing my degree at the University of Waterloo shaped me who 
 
 #### <center><h2>**THE BEGINNING**</h2></center>
 
-At the time in high school, everyone rushed out to get early acceptance in Grade 12. It was either business or science, a generic path in education that I felt everyone had to choose between. Perhaps, it was the lack of computer science courses in high school had failed to spark my interest in pursuing a CS background.
+During the last year of high school, everyone rushed out to get early acceptance in Grade 12. It was either business or science, a generic path in education that I felt everyone had to choose between. Perhaps, it was the lack of computer science courses in high school had failed to spark my interest in pursuing a CS background.
 
 Being 17, a typical young teen who just enjoyed playing games all day, I had no aspirations to figure what I wanted and failed to do the proper research. 
 
-I did well in high school and felt confident in pursuing higher education which led me to the University of Waterloo in hopes that I’d find a career in science and perhaps go to med school.
+I did well in high school and felt confident in pursuing higher education which led me to the University of Waterloo in hopes that I’d find a career in science and go to medical school.
 
  All the choices I’ve made have really shaped who I am today and I’m happy to say I don’t regret any of it.
 
 #### <center><h2>**SELF REFLECTION**</h2></center>
 
-The experience of my undergrad is irreplaceable. I struggled hard and put in lots of work **just to pass** and I enjoyed my fair share of parties and I made a lot of awesome friends.
+The experience of undergrad is irreplaceable. I struggled hard and put in lots of work **just to pass** and I enjoyed my fair share of parties and I made a lot of awesome friends.
 
-When I said I struggled hard, I meant it. I failed the second physics course, analytical methods in molecular biology, organic chemistry and eventually dropped out of chemical thermodynamics because my fundamentals in physics were not sufficient enough to understand the course material. 
+When I said I struggled hard, I meant it. I failed the second physics course, analytical methods in molecular biology, organic chemistry and eventually dropped out of chemical thermodynamics because my fundamentals in physics weren't sufficient enough to understand the course material. 
 
 The balance of coursework, labs, and the co-op interviews were a huge part of my stress in undergrad. The experience learning in high school versus university was night and day. 
 
@@ -57,4 +57,4 @@ It has been the catalyst for me to keep up with the latest scientific trends whi
 
 It has been 2 years since I've touched any science related work as of writing this post. It has given me a deep appreciation of the science academia and their contributions to improving the quality of human life.
 
-My degree has laid the fundamentals of learning and persevering through hardships as it arises. It has given me the confidence and tools that shaped me as a lifelong learner. I look forward to learning new technologies and use these skills to develop my own path.
+My degree has laid the fundamentals of learning and persevering through hardships. It has given me the confidence and tools that shaped me as a lifelong learner. I look forward to learning new technologies and use these skills to develop my own path.

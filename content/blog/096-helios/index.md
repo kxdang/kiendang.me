@@ -3,8 +3,8 @@ author: Kien
 date: 2020-07-30
 slug: first-coop-experience
 title: 🌎Helio's Civilization
-description: A random draft about a story of Mars.
-tags: ["random"]
+description: A random story about Mars.
+tags: ["sci-fi"]
 ---
 
 Humans understand that the sun provides energy for all life. Without it, we would not exist.

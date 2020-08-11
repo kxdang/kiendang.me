@@ -113,6 +113,9 @@ class about extends React.Component {
                 I documented my entire journey in changing my career path to becoming a developer on my blog and tracked
                 my progress using the{" "}
                 <a href="/022-pomodoro-technique/">Pomodoro Technique</a>.
+                <br />
+                <br />
+                After a very tough journey in facing many obstacles, I'm excited to work professionally as a software developer!
               </p>
 
               <Timeline lineColor={'#ddd'} className={'timeline-custom'}>
@@ -187,9 +190,6 @@ class about extends React.Component {
                   <p>
                     Nearing the end of 2019, I had slowly worked my way back on my feet, using the momentum I built from creating this blog and writing about my journey.
                   </p>
-                  <p>
-                    By the end of this year, I managed to accomplish more than I thought despite my circumstances.
-                  </p>
                   <p><Twemoji text="🍅 " /><a href="/066-2019-yearend-pomodoro/">My Year End Progress</a></p>
                   <p>I stuck with my process right into 2020 after almost being 100% recovered.</p>
                 </TimelineItem>
@@ -213,7 +213,7 @@ class about extends React.Component {
                     The pandemic proved to be very difficult in my finding employment but after several interviews, I'm excited to start this new chapter in my journey!
                   </p>
                   <p>
-                    I am pending my third and last surgery, hoping to close that chapter forever.
+                    Completed my last and <a href="/098-closing-chapter/">third surgery</a> in June, hoping to close that chapter forever.
                   </p>
                 </TimelineItem>
               </Timeline>
@@ -222,14 +222,9 @@ class about extends React.Component {
                 <a href="/097-july-2020-pomodoro/">
                   You cannot improve what you cannot measure
                 </a>
-                <span
-                  style={{ fontSize: `1rem` }}
-                  role="img"
-                  aria-label="growth"
-                >
-                  📈
-                </span>
+                <Twemoji text=" 📈" />
               </p>
+
 
               <blockquote>
                 Everything is a skill, and thus everything can be learned,

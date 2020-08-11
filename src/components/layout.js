@@ -148,8 +148,8 @@ class Layout extends React.Component {
               <main>{children}</main>
               <footer>
                 <p>
-                  © {new Date().getFullYear()}, Built with
-                  {` `}
+                  © {new Date().getFullYear()}, Built with ❤
+                  {` `} and {` `} created with {` `}
                   <a href="https://www.gatsbyjs.org">Gatsby</a>
                 </p>
               </footer>

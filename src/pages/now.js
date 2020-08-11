@@ -106,8 +106,8 @@ class now extends React.Component {
                 <span style={{ fontSize: "1.2rem" }}><Twemoji text="🎯" /></span>
                 <span style={{ color: "#ff5f40", fontWeight: '700' }}> [Paused] </span>
                 <br />
-                Studying algorithms and data structures to
-                understand the fundamentals of computer science. However, I have now delayed this until I am able to figure a time frame of when I can fit this into my schedule in anticipation of my surgery.
+                Studying algorithms and data structures to further improve my understanding
+                of computer science.
               </p>
 
               <h3 style={{ textAlign: "center" }}>Currently Reading:</h3>
