@@ -84,12 +84,9 @@ class now extends React.Component {
                 What am I doing at the moment?
               </h3>
               <p>
-                <p style={{ textAlign: "center" }}><span style={{ fontSize: "1.2rem" }}><Twemoji text="💊" /></span><span style={{ color: "#08f334", fontWeight: '700' }}> [Recovering in progress]</span></p>
-
-
                 <br />
                 <span style={{ fontSize: "1.2rem" }}><Twemoji text="📝" /></span>
-                <span style={{ color: "#ff5f40", fontWeight: '700' }}> [Paused] </span>
+                <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
                 <br />
                 I am currently learning Redux and TypeScript as a personal
                 initiative to fill the knowledge I need for my new position as a
@@ -97,7 +94,7 @@ class now extends React.Component {
                 <br></br>
                 <br></br>
                 <span style={{ fontSize: "1.2rem" }}><Twemoji text="🍅" /></span>
-                <span style={{ color: "#ff5f40", fontWeight: '700' }}> [Paused] </span>
+                <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
                 <br />
                 I am looking at resources to learn how to debug effectively and
                 efficiently for my new role.
@@ -179,7 +176,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on August 4th 2020
+                Last updated on August 23rd 2020
               </p>
             </div>
             <footer>
@@ -214,13 +211,6 @@ export default now
 export const pageQuery = graphql`
   query Books {
     bookone: file(relativePath: { eq: "books/book1.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    bookthree: file(relativePath: { eq: "books/darkage.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
