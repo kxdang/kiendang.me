@@ -297,7 +297,7 @@ body::-webkit-scrollbar-thumb {
 
 .gatsby-resp-image-link,
 .gatsby-resp-image-link:hover {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 .gatsby-resp-image-background-image {
