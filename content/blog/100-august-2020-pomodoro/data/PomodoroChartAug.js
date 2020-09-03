@@ -11,12 +11,12 @@ const data = {
             borderWidth: 1,
             hoverBackgroundColor: 'rgba(255,99,132,0.4)',
             hoverBorderColor: 'rgba(255,99,132,1)',
-            data: [2, 2, 0, 0, 0, 0, 0],
+            data: [0, 2, 2, 4, 5, 0, 1],
         },
         {
             label: "Average Pomodoros",
             type: 'line',
-            data: [1, 1, 0, 0, 0, 0, 0],
+            data: [0, 0.5, 0.5, 1, 1.25, 0, .25],
             fill: false,
             borderColor: 'rgba(126, 189, 180, 0.7)',
             backgroundColor: 'rgba(126, 189, 180, 0.7)',
@@ -31,7 +31,7 @@ const data = {
 
 export default function BarChart() {
     return (<div>
-        <h2 style={{ textAlign: "center" }}>July Pomodoro Data</h2>
+        <h2 style={{ textAlign: "center" }}>August Pomodoro Data</h2>
         <Bar
             data={data}
             width={100}
