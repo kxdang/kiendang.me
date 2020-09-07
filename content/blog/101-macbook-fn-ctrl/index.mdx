@@ -1,0 +1,31 @@
+---
+author: Kien
+date: 2020-09-07
+slug: macbook-fn-ctrl
+title: 💻 Remap MacBook Pro (16") fn to command key
+description: A quick tutorial on how to change your fn key to command key. An easy transition from Windows shortcuts to MacOS shortcuts.
+tags: ["productivity"]
+---
+
+I wanted to share this quick step by step on how to remap the MacBook Pro 16" (2019) fn key to act as the option key on MacOS (ctrl to windows). I have always been a PC user. Adjusting to the placement of the command key was difficult when I would try to do ctrl+c/v for copy and pasting.
+
+You will need to download and install a free tool called <a href="https://karabiner-elements.pqrs.org/">Karabiner-Elements</a>.
+
+# Step 1:
+- Download and install Karabiner-Elements 
+- Open the tool and do the prompt to enable the Security & Privacy settings
+- Click on Apple Icon (top left) and hit `System preferences...`
+- Make sure the lock is unlocked and check mark both the `karabiner_grabber` and `karabiner_observer`
+
+Make sure you allow both `karabiner_grabber` and `karabiner_observer` in Input Monitoring.
+[](/step1.png)
+
+If you do not see the `karabiner_grabber`, right click the `karabiner_observer` and click on the `Show in Finder`. Drag the `karabiner_grabber` from the folder into the list of App section if the Security & Privacy window and enable it.
+[](/step2.png)
+
+# Step 2:
+Open the `Karabiner-Elements` and map as seen below `fn` to `left_command`.
+[](/step3.png)
+
+
+You will still be able to access the fn key functionality for your touch bar and will function as normal. Other shortcut commands like fn+c/v will function just like how you would expect when using ctrl on Windows, thus sacrificing close to nothing when you switch over with the shortcut commands between operating systems
