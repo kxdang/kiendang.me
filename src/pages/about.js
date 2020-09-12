@@ -219,7 +219,7 @@ class about extends React.Component {
               </Timeline>
 
               <p style={{ textAlign: `center`, marginBottom: `4rem` }}>
-                <a href="/097-july-2020-pomodoro/">
+                <a href="/100-august-2020-pomodoro/">
                   You cannot improve what you cannot measure
                 </a>
                 <Twemoji text=" 📈" />

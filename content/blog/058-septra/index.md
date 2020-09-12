@@ -9,6 +9,9 @@ tags: ["life", "biochemistry"]
 
 ![](https://images.unsplash.com/photo-1517093728432-a0440f8d45af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2028&q=80)
 
+_Disclaimer: This post is strictly for informational purpose and contains the contents of my personal experience, opinion and research I found on the internet and should not be considered medical advice. Please consult your doctor or other qualified healthcare providers for any questions regarding your condition._
+
+
 # <center>What is Septra? </center>
 
 <p><a href="https://www.drugs.com/septra.html" target="_blank">Septra or Sulfamethoxazole and trimethoprim</a> is a combination of two antimicrobial agents that work against a wide variety of infections, ranging from ear infections to urinary tract infections.</p>

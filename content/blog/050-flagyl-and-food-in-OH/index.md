@@ -8,7 +8,7 @@ tags: ["life", "biochemistry"]
 
 ![](https://images.unsplash.com/photo-1479796099910-b137a80acde4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=704&q=80)
 
-_Disclaimer: This post is strictly for informational purpose and contains the contents of my personal experience, opinion and research I found on the internet and should not be considered medical advice. Please consult your doctor or other qualified health providers for any questions regarding your condition._
+_Disclaimer: This post is strictly for informational purpose and contains the contents of my personal experience, opinion and research I found on the internet and should not be considered medical advice. Please consult your doctor or other qualified healthcare providers for any questions regarding your condition._
 
 I’m a bit at a loss for content on what to write. After being on 5 antibiotics within less than 2 months, I haven’t been doing much other than trying to recover and wanted to figure out how these antibiotics work on my body (my inner science nerd questions everything).
 

@@ -8,6 +8,9 @@ tags: ["life", "biochemistry"]
 
 ![](https://images.unsplash.com/photo-1493548578639-b0c241186eb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 
+_Disclaimer: This post is strictly for informational purpose and contains the contents of my personal experience, opinion and research I found on the internet and should not be considered medical advice. Please consult your doctor or other qualified healthcare providers for any questions regarding your condition._
+
+
 It’s almost the end of August with an infection I’ve been trying to kill off since July, almost 5 antibiotics later and I’m back on these two bad boys, metronidazole and ciprofloxacin.
 
 ## <center>Why does Ciprofloxacin make me so tired? </center>

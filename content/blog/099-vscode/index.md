@@ -21,8 +21,8 @@ This is a hand picked summary of what I use from Burke Holland's <a href="https:
 
 | **Shortcut**  | **Action**  |
 |---|---|
-| CMD/Ctrl + Shift + L | (all instances of a word becomes highlighted and can be manipulated) |
-| CMD/Ctrl + D   |  (selects instances one at a time, CMD/Ctrl + K to skip an instance as you go through them)  |
+| CMD/Ctrl + Shift + L | all instances of a word becomes highlighted and can be manipulated |
+| CMD/Ctrl + D   |  selects instances one at a time, CMD/Ctrl + K to skip an instance as you go through them  |
 
 <center> <strong>Extracting Methods</strong> </center>
 
@@ -44,7 +44,7 @@ This is a hand picked summary of what I use from Burke Holland's <a href="https:
 | CMD/Ctrl + PP | VS Code will allow you switch to the last file you were at (toggling between the two like alt+tab on windows)
 | CMD/Ctrl + 0 | Brings you to the sidebar, you can move up or down using arrow (Windows: Enter to open file | Mac: CMD + down)
 | CMD/Ctrl + 1 | Brings you to the editor (toggle between the two by pressing 0 and 1)
-| Ctrl/CMD + Shift + H | Finds relative path of a file
+| Ctrl/CMD + Shift + H | Finds relative path of a file - (need to install RelativePath)
 
 <p><b>*There are other things you can do with the command palette:</b>
 <br></br>
@@ -147,6 +147,7 @@ To change Explorer > Open Editors: Visible from 9 to 0
 - GitLense - Blame annotation, tells you the name of the person, commit message
 - Better Comments - Create a nicer way to categorize your comments in code
 - Auto Import - Automatically parses and finds your imports
+- RelativePath - Allows you to find a files relative path for importing components
 
 # <center>Saving all your VSCode settings</center>
 I use <a href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync" target="_blank">Settings Sync</a> which is an extension that saves my VSCode settings on Github so I can easily sync when working on different machines. It saves everything including your downloaded extensions.

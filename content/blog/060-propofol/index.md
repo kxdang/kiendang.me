@@ -8,6 +8,10 @@ tags: ["life", "biochemistry"]
 ---
 
 ![](https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2084&q=80)
+
+_Disclaimer: This post is strictly for informational purpose and contains the contents of my personal experience, opinion and research I found on the internet and should not be considered medical advice. Please consult your doctor or other qualified healthcare providers for any questions regarding your condition._
+
+
 I hope you'll never have to be in a situation where you need this spontaneously at the ER. The summer of 2019 has been a rollercoaster for me; trying to recover while pivoting your career path into something new has been extremely challenging.
 
 <blockquote>Don't worry Kien, we're giving you the Michael Jackson, you'll feel better soon! - ER nurse</blockquote>
