@@ -202,7 +202,7 @@ class about extends React.Component {
                   <h3><Twemoji text="✅" /> Employment Found!</h3>
                   <h4><Twemoji text="🎉" /> <a href="/091-new-chapter/">Full time at Coveo</a> <Twemoji text="🍾" /></h4>
                   <p>
-                    Honestly, 2019 hasn't been a kind year, but neither was 2020. After a year of studying, I accomplished my goal in becoming a developer.
+                    Honestly, 2019 hasn't been a kind year, but neither is 2020. After a year of studying, I accomplished my goal in becoming a developer.
                   </p>
                   <p>
                     <Twemoji text="🍅" /> <a href="/092-year-journey-summary/">
