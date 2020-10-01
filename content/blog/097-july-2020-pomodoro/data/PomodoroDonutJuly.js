@@ -36,7 +36,7 @@ const option = {
 export default function PomodoroDonut() {
     return (
         <div>
-            <h2 style={{ textAlign: "center" }}>June Overview</h2>
+            <h2 style={{ textAlign: "center" }}>July Overview</h2>
             <Doughnut data={data} options={option} />
         </div>
     )

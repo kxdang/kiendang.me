@@ -2,13 +2,14 @@ import React from "react"
 import { Doughnut } from "react-chartjs-2"
 
 const data = {
-    labels: ["FEM: Git In-depth"],
+    labels: ["Async Actions Redux Thunk", "Redux Store Design"],
     datasets: [
         {
-            data: [1],
-            backgroundColor: ["#01a9b4"],
+            data: [5, 2],
+            backgroundColor: ["#01a9b4", "#e7305b"],
             hoverBackgroundColor: [
                 "#01a9b4",
+                "#e7305b",
             ],
         },
     ],
@@ -35,7 +36,7 @@ const option = {
 export default function PomodoroDonut() {
     return (
         <div>
-            <h2 style={{ textAlign: "center" }}>August Overview</h2>
+            <h2 style={{ textAlign: "center" }}>September Overview</h2>
             <Doughnut data={data} options={option} />
         </div>
     )

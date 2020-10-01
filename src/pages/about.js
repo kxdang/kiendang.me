@@ -116,6 +116,9 @@ class about extends React.Component {
                 <br />
                 <br />
                 After a very tough journey in facing many obstacles, I'm excited to work professionally as a software developer!
+                <br />
+                <br />
+                TL;DR - List of all the courses and the 430 hours it took me found <a href="/092-year-journey-summary/">here.</a>
               </p>
 
               <Timeline lineColor={'#ddd'} className={'timeline-custom'}>
@@ -219,8 +222,8 @@ class about extends React.Component {
               </Timeline>
 
               <p style={{ textAlign: `center`, marginBottom: `4rem` }}>
-                <a href="/097-july-2020-pomodoro/">
-                  You cannot improve what you cannot measure
+                <a href="/102-sept-2020-pomodoro/">
+                  My current progress
                 </a>
                 <Twemoji text=" 📈" />
               </p>
