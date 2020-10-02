@@ -11,6 +11,9 @@ tags: ["life", "biochemistry"]
   <img src="https://media.giphy.com/media/PNzZUSeC9oixG/giphy.gif" />
 </p>
 
+_Disclaimer: This post is strictly for informational purpose and contains the contents of my personal experience, opinion and research I found on the internet and should not be considered medical advice. Please consult your doctor or other qualified healthcare providers for any questions regarding your condition._
+
+
 The nurse told me to take Celebrex along with Tylenol an hour before my surgery back in October and since I've never heard of it before, I figured to do some research to see what I was taking. This post is a little late but I wanted to post it anyway.
 
 # <center> What is Celebrex? </center>

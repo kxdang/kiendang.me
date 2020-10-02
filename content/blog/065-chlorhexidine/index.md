@@ -8,6 +8,9 @@ tags: ["life", "biochemistry"]
 ---
 
 ![](https://images.unsplash.com/photo-1542886961-dafff8e17d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80)
+
+_Disclaimer: This post is strictly for informational purpose and contains the contents of my personal experience, opinion and research I found on the internet and should not be considered medical advice. Please consult your doctor or other qualified healthcare providers for any questions regarding your condition._
+
 My mouth has swollen on my left side, pain in my eye socket and throat, just my luck😫.
 
 My left wisdom tooth erupted without any issues 2 years ago and now hits me like a left hook in my mouth. My dentist prescribed an oral rinse called Peridex (chlorhexidine gluconate) paired with amoxicillin to reduce the inflammation caused by bacteria.

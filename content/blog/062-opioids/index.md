@@ -9,6 +9,9 @@ tags: ["life", "biochemistry"]
 
 ![](https://images.unsplash.com/photo-1494756159834-6fdaee7a9b7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 
+_Disclaimer: This post is strictly for informational purpose and contains the contents of my personal experience, opinion and research I found on the internet and should not be considered medical advice. Please consult your doctor or other qualified healthcare providers for any questions regarding your condition._
+
+
 Life bites in you in the butt when you least expect it. When your health takes a hit through uncontrollable circumstances, there are only a few things you can do: trust the medical professionals, take your medication and rest as much as you can.
 
 So with all the antibiotic posts, now comes the opioids experience post which conveniently counteracted the diarrhea side-effects that antibiotics had.
