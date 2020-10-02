@@ -85,7 +85,7 @@ class now extends React.Component {
               </h3>
               <p>
                 <br />
-                <span style={{ fontSize: "1.2rem" }}><Twemoji text="📝" /></span>
+                <span style={{ fontSize: "1.2rem" }}><Twemoji text="🍅" /></span>
                 <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
                 <br />
                 I am currently learning Redux and TypeScript as a personal
@@ -93,11 +93,10 @@ class now extends React.Component {
                 Software Developer at Coveo.
                 <br></br>
                 <br></br>
-                <span style={{ fontSize: "1.2rem" }}><Twemoji text="🍅" /></span>
+                <span style={{ fontSize: "1.2rem" }}><Twemoji text="📝" /></span>
                 <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
                 <br />
-                I am looking at resources to learn how to debug effectively and
-                efficiently for my new role.
+                I am learning French and taking private lessons courtesy of Coveo! <Twemoji size={64} text="🙌" />
                 <br></br>
                 <br></br>
                 <span style={{ fontSize: "1.2rem" }}><Twemoji text="🎯" /></span>
@@ -124,7 +123,7 @@ class now extends React.Component {
                 <Img
                   style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
                   fluid={book.bookfour.childImageSharp.fluid}
-                  alt="Deep Work"
+                  alt="Dune - Frank Herbert"
                 />
               </div>
               {/* 
@@ -143,7 +142,7 @@ class now extends React.Component {
               </div> */}
               <ul style={{ textAlign: 'center', listStyleType: 'none' }}>
                 <li>The Daily Stoic - Ryan Holiday</li>
-                <li>Deep Work - Cal Newport</li>
+                <li>Dune - Frank Herbert</li>
               </ul>
               {/* <h3 style={{ textAlign: "center" }}>Games</h3>
               <p style={{ textAlign: "center" }}>
@@ -156,7 +155,7 @@ class now extends React.Component {
               <Bar />
 
               <p>
-                The <a href="/022-pomodoro-technique/">Pomodoro Technique</a> helps manage my time and keeps me accountable for staying focused in achieving my goals. This data is an overview of 2020 and my current progress for last month can be found <a href="/097-july-2020-pomodoro/">here</a>.
+                The <a href="/022-pomodoro-technique/">Pomodoro Technique</a> helps manage my time and keeps me accountable for staying focused in achieving my goals. This data is an overview of 2020 and my current progress for last month can be found <a href="/102-sept-2020-pomodoro/">here</a>.
               </p>
 
 
@@ -176,7 +175,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on August 23rd 2020
+                Last updated on October 1st 2020
               </p>
             </div>
             <footer>
@@ -217,7 +216,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    bookfour: file(relativePath: { eq: "books/deepwork.jpg" }) {
+    bookfour: file(relativePath: { eq: "books/dune.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

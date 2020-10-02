@@ -11,7 +11,7 @@ const data = {
             borderWidth: 1,
             hoverBackgroundColor: 'rgba(255,99,132,0.4)',
             hoverBorderColor: 'rgba(255,99,132,1)',
-            data: [124, 103, 115, 123, 60, 20, 4, 14, 0, 0, 0, 0]
+            data: [124, 103, 115, 123, 60, 20, 4, 14, 8, 0, 0, 0]
         }
     ]
 };
