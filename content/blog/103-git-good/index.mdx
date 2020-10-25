@@ -1,0 +1,169 @@
+---
+author: Kien
+date: 2020-10-25
+slug: git-good
+title: 🍅 Git Gud 
+description: The misspelling of 'get good' and a slang rendering to get good at a task or skill. It is used to heckle inexperienced players or newbies online in video games. My journey and experience with Git.
+tags: ["productivity"]
+---
+
+# <center>Introduction</center>
+
+My experience with Git before working professionally were literally just 3 commands:
+
+1. `git add .` // adds all changes to staging area
+2. `git commit` // commits the changes 
+3. `git push origin master` // pushes the changes to Github
+
+Now that I've been working professionally for a few months, I figured to dump my knowledge here on my blog to serve as reference material.
+
+## Important things I learned at work:
+
+1. We never make changes directly to master, we always use branches
+2. How to effectively use Bitbucket for code collaboration
+3. Lastly, how extremely powerful Git is when it comes to having multiple people working on the same project
+
+Truth be told, I never created branches for any of my personal projects. I knew of them, but never utilized them the way they are used in a professional work environment. I knew only **enough** Git to get by for my personal needs.
+
+When I entered the dev environment with my work colleagues, I immediately knew I had short comings with Git collaboratively. I knew how to create branches, but I've never done anything like rebasing, reverting commits, or even learn how to resolve conflicts🙈
+
+It was quite overwhelming, so I enrolled myself in a <a href="https://frontendmasters.com/courses/git-in-depth/" target="_blank">Git course</a> outside of work hours to teach me in-depth so that I didn't look like such a noob at work. Hence, the words that came from my friends mouth which inspired me:
+
+
+<blockquote><center>Git Gud — Dr. Lee</center></blockquote>
+
+Ya, thanks bud; I will get good.
+
+## <center> What is Git? </center>
+
+Git is a distributed version control system. Every commit that happens is like a snapshot of the codebase at a specific given time.
+
+There are 3 areas:
+
+1. Working Area
+2. Staging Area
+3. Repository
+
+**What is the working area?**
+
+They are files that are not in the staging area, thus, they are not handled by git. This is also called untracked files.
+
+**What is the staging area?**
+
+It is the area where git knows what will change between the current commit and the next commit. 
+
+**What is the repository area?**
+
+The repository area contains all the files git knows about. It contains all of your commits. Usually you would find a repository on Github which is a cloud-based hosting services that allow you to manage Git repos.
+
+After learning a few things from Git In-depth and from my co-workers, I have curated a list below of the common commands that are used to help my journey of using Git collaboratively.
+
+
+## <center> Git stashing </center>
+
+**What is git stashing?**
+
+A way to save uncommitted work when you are trying to switch branches and are in a messy state. This command is particularly useful when you are switching branches at work because it will complain you have untracked files when you try to checkout another branch.
+
+It allows you to take a dirty state of your working directory and save it on a stack of unfinished changes that you can reapply at another time or even on another branch
+
+**Common use of git stash**
+
+Save your unstaged changes before switching to a different branch by running:
+
+`git stash save "WIP: making progress on foo"`  (names stashes for easy reference)
+
+or
+
+`git stash --include-untracked` (most commonly used)
+
+This will make your branch clean when you run `git status` on your working branch. It will allow you to switch to a different branch.
+
+When you switch back to your original branch, you can run any of these commands below to reapply those unstaged changes and continue where you left off
+
+- `git stash apply` (applies the last stash but keeps it on the stash list)
+- `git stash pop`  (applies the last stash and removes it from the stack of stashes)
+- `git stash apply stash@{n}` (where n is the index of the stashed change by using git stash list - your reference stash name comes in handy here)
+
+
+## <center> Git Commits in-depth </center>
+A commit points to a tree which contains a snapshot of your code.
+
+It contains the meta data such as 
+- Author
+- Date
+- Message
+- Parent commit
+
+It stores all this information in a SHA1 hash
+
+**When you need to change your commit message you can run:**
+
+`git commit --amend`
+
+**When you want to keep your commit message without changing it, you can run:**
+
+`git commit --amend --no-edit`
+
+Then you would generally run once you already have your commit in a PR and when you want to update something small.
+
+`git push -f` 
+
+This will completely change your old commit and change the SHA. 
+
+**Why?**
+
+Because commits can't be edited since its referenced by the SHA that's generated by the date. You can do this as much as you want on your local branch and then when you rebase you can squash them into one big commit
+
+Since you are forcing using the -f flag, it is a destructive command and you will lose any history. But for my use case, I usually create my PR with one clean commit so this is okay if I know what I'm changing is very small, like a typo.
+
+**Adding another commit on a PR:**
+
+When you want to update something major like a refactor to your code AFTER you have made your pull request. You simply just create a new commit after the changes and run `git push`
+
+We do not need to use the force command and it will preserve the previous commit you had in your PR to reference back.
+
+
+## <center> Git Rebasing </center>
+
+**What is rebasing?**
+
+Rebasing gives a commit a new parent. It allows us to pull all the latest changes from master and apply our commits right on top of them.
+
+**What's the point of rebasing?**
+
+In a rebase, the commit will just apply to the master at the latest commit where as the merge commit will create new commit just to signify a merge.
+
+It is much cleaner to see the history by rebasing as merge commits generally create clutter. So at work. I always run this command once I am completed my work:
+
+`git fetch origin master:master && git rebase -i master`
+
+**How does this command work?**
+
+1. It fetches the master branch from the server `origin` to make sure we have the most recent version
+2. We assign this version to our local copy of the master `remote:local => master: master`
+3. Then you rebase the tip of our local branch using the
+
+`git rebase -i master`
+
+When there are conflicts, resolve all of them and run `git add .` to add all the files that were resolved into the staging area and run `git rebase --continue`
+
+In case of anything going wrong during your rebase run `git rebase abort` or call your colleagues who are pros at this and ask for help!
+
+Note: To make it easier, I changed my editor from VIM to VSCODE with this command below for interactive rebasing when I want to squash my changes.
+
+`git config --global core.editor "code -n -w"`
+
+When you are working when you try to rebase and it says unable to find code in PATH:
+simply bring up your command palette and enter
+`>code` which will bring you to 
+
+`Shell command: Install 'code' command in PATH`
+
+Click on that and retry again and it should work.
+
+Repeat the steps of rebasing and you should have successfully rebased with the VSCODE editor opening and asking you to continue your interactive rebasing. Don't forget to `git push -f` once rebasing is completed.
+
+# <center> Conclusion </center>
+
+I am still learning at work and becoming exposed to new scenarios. So far, I have expanded more than just the initial 3 Git commands and I'm looking forward to becoming more proficient at finding new commands to improve my workflow.

@@ -95,7 +95,6 @@ body::-webkit-scrollbar-thumb {
       content:"\201D";
       position: absolute;
       right: 35px;
-      top: 120px;
       font-size: 3rem;
       color: var(--primary-color-dark);
       font-family: Arial, Helvetica, sans-serif;
@@ -295,6 +294,13 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+
+.language-text {
+  color: red;
+}
+
+
+
 .gatsby-resp-image-link,
 .gatsby-resp-image-link:hover {
   border-bottom: none !important;
@@ -460,4 +466,9 @@ mark {
   justify-content: flex-end;
   margin-bottom: 0rem;
   height: 2rem;
+}
+
+.language-text {
+  color:#f7fafc !important;
+  background: #011627 !important;
 }
