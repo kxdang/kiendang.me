@@ -123,7 +123,7 @@ class now extends React.Component {
                 <Img
                   style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
                   fluid={book.bookfour.childImageSharp.fluid}
-                  alt="Dune - Frank Herbert"
+                  alt="Firefight"
                 />
               </div>
               {/* 
@@ -142,7 +142,7 @@ class now extends React.Component {
               </div> */}
               <ul style={{ textAlign: 'center', listStyleType: 'none' }}>
                 <li>The Daily Stoic - Ryan Holiday</li>
-                <li>Dune - Frank Herbert</li>
+                <li>Firefight - Brandon Sanderson</li>
               </ul>
               {/* <h3 style={{ textAlign: "center" }}>Games</h3>
               <p style={{ textAlign: "center" }}>
@@ -175,7 +175,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on October 1st 2020
+                Last updated on November 14th 2020
               </p>
             </div>
             <footer>
@@ -216,7 +216,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    bookfour: file(relativePath: { eq: "books/dune.jpg" }) {
+    bookfour: file(relativePath: { eq: "books/firefight.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
