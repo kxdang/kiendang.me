@@ -6,7 +6,6 @@ import Switch from "react-switch"
 import Img from "gatsby-image"
 import ThemeContext from "../context/ThemeContext"
 import { Twemoji } from "react-emoji-render"
-import Bar from "../components/nowPomoData"
 import "../styles/styles.scss"
 
 class now extends React.Component {
@@ -96,14 +95,7 @@ class now extends React.Component {
                 <span style={{ fontSize: "1.2rem" }}><Twemoji text="📝" /></span>
                 <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
                 <br />
-                I am learning French and taking private lessons courtesy of Coveo! <Twemoji size={64} text="🙌" />
-                <br></br>
-                <br></br>
-                <span style={{ fontSize: "1.2rem" }}><Twemoji text="🎯" /></span>
-                <span style={{ color: "#ff5f40", fontWeight: '700' }}> [Paused] </span>
-                <br />
-                Studying algorithms and data structures to further improve my understanding
-                of computer science.
+                I am learning French on Duolingo! <Twemoji size={64} text="🙌" />
               </p>
 
               <h3 style={{ textAlign: "center" }}>Currently Reading:</h3>
@@ -117,13 +109,8 @@ class now extends React.Component {
               >
                 <Img
                   style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
-                  fluid={book.bookone.childImageSharp.fluid}
-                  alt="The Daily Stoic"
-                />
-                <Img
-                  style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
                   fluid={book.bookfour.childImageSharp.fluid}
-                  alt="Firefight"
+                  alt="Calamity"
                 />
               </div>
               {/* 
@@ -141,8 +128,7 @@ class now extends React.Component {
                 />
               </div> */}
               <ul style={{ textAlign: 'center', listStyleType: 'none' }}>
-                <li>The Daily Stoic - Ryan Holiday</li>
-                <li>Firefight - Brandon Sanderson</li>
+                <li>Calamity - Brandon Sanderson</li>
               </ul>
               {/* <h3 style={{ textAlign: "center" }}>Games</h3>
               <p style={{ textAlign: "center" }}>
@@ -151,13 +137,6 @@ class now extends React.Component {
                   🙂
                 </span>
               </p> */}
-
-              <Bar />
-
-              <p>
-                The <a href="/022-pomodoro-technique/">Pomodoro Technique</a> helps manage my time and keeps me accountable for staying focused in achieving my goals. This data is an overview of 2020 and my current progress for last month can be found <a href="/102-sept-2020-pomodoro/">here</a>.
-              </p>
-
 
               {/* <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
               <p>
@@ -175,7 +154,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on November 14th 2020
+                Last updated on Jan 5th 2021
               </p>
             </div>
             <footer>
@@ -216,7 +195,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    bookfour: file(relativePath: { eq: "books/firefight.jpg" }) {
+    bookfour: file(relativePath: { eq: "books/calamity.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
