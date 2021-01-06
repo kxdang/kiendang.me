@@ -15,13 +15,13 @@ My take home lesson this year: to ignore what you can't control and just focus o
 
 I stole this mindset from David Goggin's and took stoic practices to achieve my goals.
 
-When the pandemic hit Canada and the lock-down was initiated, I immediately doubled my efforts in programming because deep down I felt like I was given a chance to catch up on lost time.
+When the pandemic hit Canada and the lockdown was initiated, I immediately doubled my efforts in programming because deep down I felt like I was given a chance to catch up on lost time.
 
-During this time, we had multiple lock-downs and entered the second wave of the pandemic in Q4. Social gatherings were put to a halt and living through this unprecedented time left little room for certainty. 
+During this time, we had multiple lockdowns and entered the second wave of the pandemic in Q4. Social gatherings were put to a halt and living through this unprecedented time left little room for certainty. 
 
 What was interesting was that stock markets bounced back and soared despite unemployment. Tech companies seemed to be doing just fine when most of them transitioned over to fully remote work.
 
-In addition, this was the first time in my life that I have ever seen a grocery store as big as Highland Farms be completely wiped out of groceries (think of Loblaws but in a Costco sized store). Damn.
+In addition, this was the first time in my life that I have ever seen a grocery stores completely out of stock on perishable items and most importantly, toilet paper.
 
 <iframe src="https://giphy.com/embed/g9SURfIJouBck" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-last-meme-of-2015-g9SURfIJouBck">via GIPHY</a></p>
 
@@ -37,7 +37,7 @@ Moderna and Pfizer vaccines are rolling out with promising results made from mes
 ### What's different about this type of vaccine?
 Unlike traditional vaccines where they usually contain the weakened virus or purified proteins of the virus, the mRNA vaccine contains the genetic material that encodes for the viral spike protein.
 
-It allows the body to encode these viral proteins directly in the body allowing the immune system to preview what the virus would look like without having the actual full virus. This gives the body time to build antibodies so that it can be prepared for the real virus.
+It allows the body to encode these viral proteins directly in the body allowing the immune system to preview what the virus would look like without having the actual virus. This gives the body time to build antibodies so that it can be prepared for the real virus.
 
 ### What makes this so exciting?
 Well, traditional vaccine development is a tried and true method of vaccine technology but is very time consuming and cannot respond to a pandemic event fast enough.
@@ -48,7 +48,7 @@ But there are obvious cons such as a cold storage for the stability of mRNA sinc
 
 All things considered, I think this pandemic will be a huge wake up call to the advancement of our healthcare and how we respond to such events. Living through this real-time has been very interesting. 
 
-Perhaps years from now we can learn what our choices were regarding public health and see what we can improve on so that we never have to experience something like this again.
+Perhaps, a few years from now we can learn what our choices were regarding public health and see what we can improve so that we never have to experience something like this again.
 
 # <center>FORWARD NOTE</center>
 I will no longer be doing Pomodoro reports going into 2021.
@@ -57,7 +57,7 @@ It has been a wild ride to see my year pan out with productivity reports and I a
 
 I look forward to learning without the pressure of having to generate my numbers at the end of every month. 
 
-I will definitely continue to improve my skills. I'm looking forward to see if this approach will be more productive for me over the course of 2021.
+I will definitely continue to improve my skills amd change the approach on how to be productive for 2021.
 
 ## <center>My 2020 accomplishments:</center>
 
