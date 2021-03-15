@@ -12,6 +12,7 @@
 html {
   --scrollbarBG: #142135;
   --thumbBG: #90a4ae;
+  scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
   width: 11px;
@@ -471,4 +472,49 @@ mark {
 .language-text {
   color:#f7fafc !important;
   background: #011627 !important;
+}
+
+.link-class.before {
+  border-bottom: none;
+}
+
+.light .link-class {
+  a {
+    float: left;
+    padding-right: 4px;
+    margin-left: -20px;
+    border-bottom: none;
+
+  }
+  svg {
+    visibility: hidden;
+
+  }
+  &:hover {
+      svg {
+        visibility: visible;
+        fill: #313b44;
+      }
+  }
+}
+
+.dark .link-class {
+  a {
+    float: left;
+    padding-right: 4px;
+    margin-left: -20px;
+    border-bottom: none;
+
+  }
+  svg {
+    visibility: hidden;
+
+  }
+  &:hover {
+    border-bottom: none;
+      svg {
+        visibility: visible;
+        fill: var(--primary-color-dark);
+      }
+  }
 }
