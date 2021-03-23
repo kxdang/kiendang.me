@@ -94,7 +94,6 @@ One issue I ran into was that I use the hashtags to generate headers and then ce
 The fix was just to target all ID's with the word center in them using scss and adjusting it from there using the css trick below:
 
 ```css
-	
 [id*="center"] {
   display: flex;
   justify-content: center;
@@ -102,7 +101,6 @@ The fix was just to target all ID's with the word center in them using scss and 
     margin-top: -3px;
   }
 }
-
 ```
 
 I also had to fiddle around with the CSS styling since hovering over the text didn't show the anchor svg. So I had to make sure to fix this [issue](https://github.com/kxdang/kiendang.me/commit/eb2b943ddff8f3b972cb39eeda8e4a91dacf1d84#diff-a178989fbb9392e8a172cf12a763276768773b2b5e951541a30fe8719f77b361R66).
