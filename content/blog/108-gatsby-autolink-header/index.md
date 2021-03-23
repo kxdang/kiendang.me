@@ -8,7 +8,7 @@ tags: ["gatsby"]
 ---
 
 
-I've been wanting to do this for quite some time now and I've attempted to install this feature last year and but unsuccessful. Fast forward a year later, with 10 months of working professionally as a developer under my belt, I came back to tackle this problem and finally got it to work! Click [here](#solution) to scroll down straight to the solution😉
+I've been wanting to do this for quite some time now and I've attempted to install this feature last year and but unsuccessful. Fast forward a year later, with 10 months of working professionally as a developer under my belt, I came back to tackle this problem and finally got it to work! Click [here](#centersolutioncenter) to scroll down straight to the solution😉
 
 # <center>The struggles</center>
 
