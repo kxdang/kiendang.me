@@ -75,8 +75,6 @@ And that's it! That's the configuration to get your Raspberry Pi 4 to boot up yo
 
 If you do not see your Telegram bot online, you can use this command below to check if there's any issues or errors with your Python script:
 
-# Tags
-
 `systemctl status telegram.bot_service`
 
 To remove this script just simply use the `disabled` flag on your systemd service.
