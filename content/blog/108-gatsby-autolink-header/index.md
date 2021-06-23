@@ -1,7 +1,7 @@
 ---
 author: Kien
 date: 2021-03-21
-slug: gatsby-autoline-header
+slug: gatsby-autolink-header
 title: 💻 How to install GitHub-style headers on your blog
 description: I finally found out how to do this.
 tags: ["gatsby"]

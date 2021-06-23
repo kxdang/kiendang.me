@@ -84,18 +84,10 @@ class now extends React.Component {
               </h3>
               <p>
                 <br />
-                <span style={{ fontSize: "1.2rem" }}><Twemoji text="🍅" /></span>
+                <span style={{ fontSize: "1.2rem" }}><Twemoji text="🚴‍♀️" /></span>
                 <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
                 <br />
-                I am currently learning Redux and TypeScript as a personal
-                initiative to fill the knowledge I need for my new position as a
-                Software Developer at Coveo.
-                <br></br>
-                <br></br>
-                <span style={{ fontSize: "1.2rem" }}><Twemoji text="📝" /></span>
-                <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
-                <br />
-                I am learning French on Duolingo! <Twemoji size={64} text="🙌" />
+                Enjoying the Canadian summer. I have been biking around the neighborhood and it finally feels good to be outdoors.
               </p>
 
               <h3 style={{ textAlign: "center" }}>Currently Reading:</h3>
@@ -109,43 +101,13 @@ class now extends React.Component {
               >
                 <Img
                   style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
-                  fluid={book.bookfour.childImageSharp.fluid}
+                  fluid={book.bookone.childImageSharp.fluid}
                   alt="Calamity"
                 />
               </div>
-              {/* 
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-evenly",
-                  paddingBottom: "2rem",
-                }}
-              >
-                <Img
-                  style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
-                  fluid={book.bookfour.childImageSharp.fluid}
-                  alt="Deep Work"
-                />
-              </div> */}
               <ul style={{ textAlign: 'center', listStyleType: 'none' }}>
-                <li>Calamity - Brandon Sanderson</li>
+                <li>Scythe - Neal Shusterman n</li>
               </ul>
-              {/* <h3 style={{ textAlign: "center" }}>Games</h3>
-              <p style={{ textAlign: "center" }}>
-                Currently enjoying Valorant
-                <span role="img" aria-label="SunglassSmiley">
-                  🙂
-                </span>
-              </p> */}
-
-              {/* <h3 style={{ textAlign: "center" }}>Side-Projects</h3>
-              <p>
-                Creating React-Redux applications with TypeScript to
-                have a better grasp of the technology stack at my current
-                position at Coveo. For personal interest and as a personal
-                initiative to be more effective at work.
-              </p> */}
-
               <p
                 style={{
                   textAlign: "center",
@@ -154,7 +116,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on Jan 5th 2021
+                Last updated on June 22nd 2021
               </p>
             </div>
             <footer>
@@ -188,14 +150,7 @@ export default now
 
 export const pageQuery = graphql`
   query Books {
-    bookone: file(relativePath: { eq: "books/book1.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    bookfour: file(relativePath: { eq: "books/calamity.jpg" }) {
+    bookone: file(relativePath: { eq: "books/book1.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
