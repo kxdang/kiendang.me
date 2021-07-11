@@ -106,7 +106,7 @@ class now extends React.Component {
                 />
               </div>
               <ul style={{ textAlign: 'center', listStyleType: 'none' }}>
-                <li>Scythe - Neal Shusterman n</li>
+                <li>Scythe - Neal Shusterman</li>
               </ul>
               <p
                 style={{
