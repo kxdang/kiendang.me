@@ -90,18 +90,17 @@ body::-webkit-scrollbar-thumb {
     color: #f5f5f5;
     position: relative;
 
-    &::before { 
-      content:"\201C";
+    &::before {
+      content: "\201C";
       position: absolute;
       top: 30px;
       left: 10px;
       font-size: 3rem;
       color: var(--primary-color-dark);
       font-family: Arial, Helvetica, sans-serif;
-   
     }
-    &::after { 
-      content:"\201D";
+    &::after {
+      content: "\201D";
       position: absolute;
       right: 35px;
       font-size: 3rem;
@@ -238,7 +237,7 @@ body::-webkit-scrollbar-thumb {
       }
     }
   }
-  blockquote{
+  blockquote {
     border-left: none;
     border-top: 1px solid rgba(49, 49, 49, 0.692);
     border-bottom: 1px solid rgba(49, 49, 49, 0.692);
@@ -249,19 +248,18 @@ body::-webkit-scrollbar-thumb {
     margin-top: 4rem;
     margin-bottom: 4rem;
     position: relative;
-    
-    &::before { 
-      content:"\201C";
+
+    &::before {
+      content: "\201C";
       position: absolute;
       top: 30px;
       left: 10px;
       font-size: 3rem;
       color: var(--primary-color-light);
       font-family: Arial, Helvetica, sans-serif;
-   
     }
-    &::after { 
-      content:"\201D";
+    &::after {
+      content: "\201D";
       position: absolute;
       right: 35px;
       top: 120px;
@@ -274,7 +272,6 @@ body::-webkit-scrollbar-thumb {
       }
     }
 
-   
     p {
       color: var(--primary-color-light);
     }
@@ -311,20 +308,13 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-
 .language-text {
   color: red;
 }
 
-
-
 .gatsby-resp-image-link,
 .gatsby-resp-image-link:hover {
   border-bottom: none !important;
-}
-
-.gatsby-resp-image-background-image {
-  display: none !important;
 }
 
 a.webdev {
@@ -486,7 +476,7 @@ mark {
 }
 
 .language-text {
-  color:#f7fafc !important;
+  color: #f7fafc !important;
   background: #011627 !important;
 }
 
@@ -501,17 +491,15 @@ mark {
     padding-right: 4px;
     margin-left: -20px;
     border-bottom: none;
-
   }
   svg {
     visibility: hidden;
-
   }
   &:hover {
-      svg {
-        visibility: visible;
-        fill: #313b44;
-      }
+    svg {
+      visibility: visible;
+      fill: #313b44;
+    }
   }
 }
 
@@ -521,17 +509,16 @@ mark {
     padding-right: 4px;
     margin-left: -20px;
     border-bottom: none;
-
   }
   svg {
     visibility: hidden;
   }
   &:hover {
     border-bottom: none;
-      svg {
-        visibility: visible;
-        fill: var(--primary-color-dark);
-      }
+    svg {
+      visibility: visible;
+      fill: var(--primary-color-dark);
+    }
   }
 }
 [id*="center"] {
