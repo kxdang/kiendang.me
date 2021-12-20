@@ -84,10 +84,27 @@ class now extends React.Component {
               </h3>
               <p>
                 <br />
-                <span style={{ fontSize: "1.2rem" }}><Twemoji text="🚴‍♀️" /></span>
-                <span style={{ color: "#08f334", fontWeight: '700' }}> [In Progress] </span>
+                <span style={{ fontSize: "1.2rem" }}>
+                  <Twemoji text="🎅" />
+                </span>
+                <span style={{ color: "#08f334", fontWeight: "700" }}>
+                  {" "}
+                  [In Progress]{" "}
+                </span>
                 <br />
-                Enjoying the Canadian summer. I have been biking around the neighborhood and it finally feels good to be outdoors.
+                Christmas vibing.
+                <p>
+                  <br />
+                  <span style={{ fontSize: "1.2rem" }}>
+                    <Twemoji text="🎲" />
+                  </span>
+                  <span style={{ color: "#08f334", fontWeight: "700" }}>
+                    {" "}
+                    [In Progress]{" "}
+                  </span>
+                  <br />
+                  Enjoying Apex Legends.
+                </p>
               </p>
 
               <h3 style={{ textAlign: "center" }}>Currently Reading:</h3>
@@ -100,13 +117,16 @@ class now extends React.Component {
                 }}
               >
                 <Img
-                  style={{ width: "35%", boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)" }}
+                  style={{
+                    width: "35%",
+                    boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)",
+                  }}
                   fluid={book.bookone.childImageSharp.fluid}
                   alt="Calamity"
                 />
               </div>
-              <ul style={{ textAlign: 'center', listStyleType: 'none' }}>
-                <li>Scythe - Neal Shusterman</li>
+              <ul style={{ textAlign: "center", listStyleType: "none" }}>
+                <li>The Hitchhiker's Guide to the Galaxy</li>
               </ul>
               <p
                 style={{
@@ -116,7 +136,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on June 22nd 2021
+                Last updated on December 19th 2021
               </p>
             </div>
             <footer>
@@ -139,8 +159,7 @@ class now extends React.Component {
               </p>
             </footer>
           </div>
-        )
-        }
+        )}
       </ThemeContext.Consumer>
     )
   }

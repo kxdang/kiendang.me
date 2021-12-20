@@ -103,7 +103,7 @@ I press on flash button next to the OLEDs and the auto flash from the QMK Toolki
 
 After, I unplug the left board and use a micro USB on the right side which uses the pro micro controller and flash it the same way.
 
-Voilà! Uou should see your OLEDs working now, all thats left is to find the bongo cat so that it smacks the table as you type and show your WPM!
+Voilà! You should see your OLEDs working now, all thats left is to find the bongo cat so that it smacks the table as you type and show your WPM!
 
 Bonus Pic:
 
