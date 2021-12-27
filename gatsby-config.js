@@ -94,9 +94,13 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        trackingId: `UA-128969767-2`,
+        googleAnalytics: {
+          trackingId: "UA-128969767-2",
+          anonymize: true,
+        },
+        environments: ["production", "development"],
       },
     },
     `gatsby-plugin-feed-mdx`,

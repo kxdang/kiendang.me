@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Switch from "react-switch"
 import { Twemoji } from "react-emoji-render"
-
+import CookieConsent from "react-cookie-consent"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -21,6 +21,34 @@ class Layout extends React.Component {
         <ThemeContext.Consumer>
           {theme => (
             <div className={theme.dark ? "dark" : "light"}>
+              <CookieConsent
+                location="bottom"
+                buttonText="Accept"
+                declineButtonText="Decline"
+                cookieName="gatsby-gdpr-google-analytics"
+                enableDeclineButton
+                style={{
+                  background: "#2B373B",
+                  alignItems: "center",
+                  fontSize: "13px",
+                }}
+                buttonStyle={{
+                  color: "#2B373B",
+                  background: "#e9a700",
+                  borderRadius: "6px",
+                }}
+                declineButtonStyle={{
+                  color: "#fff",
+                  background: "#2B373B",
+                  borderRadius: "6px",
+                }}
+                flipButtons
+              >
+                This website stores cookies in order to improve and customize
+                your browsing experience and for analytics and metrics about our
+                visitors on this website. If you decline, your information won’t
+                be tracked when you visit this website.
+              </CookieConsent>
               <h1
                 style={{
                   ...scale(1.5),
@@ -148,8 +176,8 @@ class Layout extends React.Component {
               <main>{children}</main>
               <footer>
                 <p>
-                  © {new Date().getFullYear()}, Built with ❤
-                  {` `} and {` `} created with {` `}
+                  © {new Date().getFullYear()}, Built with ❤{` `} and {` `}{" "}
+                  created with {` `}
                   <a href="https://www.gatsbyjs.org">Gatsby</a>
                 </p>
               </footer>
