@@ -2,8 +2,8 @@
 author: Kien
 date: 2021-12-14
 slug: lily58pro-oled-problem
-title: ⚡ Lily58 pro OLED's not turning on
-description: Lily58 pro OLED's not turning on but keyboard is working
+title: ⚡ Lily58 pro OLEDs not turning on
+description: Lily58 pro OLEDs not turning on but keyboard is working.
 tags: ["life"]
 ---
 
@@ -73,9 +73,9 @@ For me, its named `lily58-rev1-lily58_rev1_layout_mine.json`
 
 3. Drag and drop this file into the root of your qmk_firmware folder and run the following command from the QMK MSYS to convert the json file to the keymap.c file
 
-`qmk json2c lily58-rev1-lily58_rev1_layout_mine.json -o customkeymap.c`
+`qmk json2c lily58-rev1-lily58_rev1_layout_mine.json -o keymap.c`
 
-4. You should see the `customkeymap.c` file generate in the root folder and now you want to open that up with vscode and copy the line that contains the `uint16_t` function and paste it in the `keymap.c` file thats generated.
+4. You should see the `keymap.c` file generate in the root folder and now you want to open that up with vscode and copy the line that contains the `uint16_t` function and paste it in the `keymap.c` file thats generated.
 
 ```js
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
