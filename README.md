@@ -1,7 +1,7 @@
 ﻿<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="https://www.gatsbyjs.com">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -50,15 +50,15 @@ The starter blog didn't have the features that I was looking for so I did some r
 
     To allow for code syntax highlighting based on language. Gatsby documentation [here](https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/) and followed external post [here](https://dev.to/niklasmtj/implement-prismjs-in-gatsbyjs-fff)
 
-8. **Added Algolia's Search**
+8.  **Added Algolia's Search**
 
     Installed [Algolia's](https://www.algolia.com/) search functionality. Instructions on how I did this on this blog [here](https://kiendang.me/082-Algolia-install/)
 
-9. **Added MDX support for blog posts**
+9.  **Added MDX support for blog posts**
 
     Followed this guide [here](https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/) to integrate MDX which allows for React components in Markdown files.
 
-Please feel free to fork this repo and make it your own! 
+Please feel free to fork this repo and make it your own!
 
 Give me a tweet @ k1dang: I would love to see what other features are added and customized to this template blog!
 
