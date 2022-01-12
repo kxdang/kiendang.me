@@ -83,16 +83,6 @@ class now extends React.Component {
                 What am I doing at the moment?
               </h3>
               <p>
-                <br />
-                <span style={{ fontSize: "1.2rem" }}>
-                  <Twemoji text="🎅" />
-                </span>
-                <span style={{ color: "#08f334", fontWeight: "700" }}>
-                  {" "}
-                  [In Progress]{" "}
-                </span>
-                <br />
-                Christmas vibing.
                 <p>
                   <br />
                   <span style={{ fontSize: "1.2rem" }}>
@@ -136,7 +126,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on December 19th 2021
+                Last updated on January 11th 2022
               </p>
             </div>
             <footer>

@@ -3,7 +3,7 @@ author: Kien
 date: 2021-02-15
 slug: python-bot-reboot
 title: 💻 How to start your Telegram bot on boot
-description: Solving a repetitive task when my Telegram bot goes offline
+description: Solving a repetitive task when my Telegram bot goes offline.
 tags: ["python"]
 ---
 
@@ -13,14 +13,13 @@ When the power turns off or the internet goes out, my Raspberry Pi turns off whi
 
 I use my Telegram bot for personal reminders. Although this may sound silly, like dude, why not set up an alarm clock or use a task app? Well I've tried those solutions and nothing seems to trigger my brain like a Telegram message or a message notification for that matter.
 
-Perhaps it's because I grew up with MSN messenger. That glowing taskbar at the bottom capturing your attention while you browsed the internet on dial-up. Little did we know that the notifications caused gravitational and profound effects in our brain. Then it was upgrading to SMS messages from regular phones to Blackberry Messenger and eventually the coming of smartphones. 
+Perhaps it's because I grew up with MSN messenger. That glowing taskbar at the bottom capturing your attention while you browsed the internet on dial-up. Little did we know that the notifications caused gravitational and profound effects in our brain. Then it was upgrading to SMS messages from regular phones to Blackberry Messenger and eventually the coming of smartphones.
 
 After trying many different reminder and to-do apps, I think I was able to hack my brain into actually doing the reminders I set out. By having a personal Telegram bot messaging me to take Vitamin D everyday at 9:30 am or telling me to make sure Biscuit, our cat, gets her prednisone every night at 9 pm, this personal assistant that I created makes me actually do them because it's like having an external Jarvis from Iron Man checking up on you.
 
 It is only when I "Mark as read", I tell myself the notification can be dismissed because the task has been done.
 
 So now, the only Telegram messages I will ever get will either be from my girlfriend or my Telegram bot that I programmed myself... both are pretty important 😋
-
 
 # <center>Solution</center>
 
@@ -34,18 +33,19 @@ The fix was simple; the solution was to add `User=pi` because when running your 
 
 Doing this solved my No module named 'telegram problem.
 
-However, like mentioned before, I needed to trigger it after the network comes on so that the Telegram bot can go online. Checking the network status can be used with the 
+However, like mentioned before, I needed to trigger it after the network comes on so that the Telegram bot can go online. Checking the network status can be used with the
 `After` and `Wants` or `Requires` flag.
 
 But I never got this to work... so my workaround was to trigger a restart of the execution after the bot fails to connect and returns a exit code after 5 seconds. This will keep looping the execution of my bot until it goes online.
 
 You need to create a service in your RB Pi4 cmdline by using:
 
-`sudo systemctl edit --force --full telegram_bot.service`
+`sudo systemctl edit --force --full telegram.bot_service`
 
 You'll receive a blank service where you can start filling out the Unit, Service and Install which is triggered by your Raspberry Pi 4 on boot (or reboot)
 
 ### systemd
+
 ```bash
 [Unit]
 Description=Telegram Bot
