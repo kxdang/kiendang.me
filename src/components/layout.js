@@ -45,9 +45,10 @@ class Layout extends React.Component {
                 flipButtons
               >
                 This website stores cookies in order to improve and customize
-                your browsing experience and for analytics and metrics about our
-                visitors on this website. If you decline, your information won’t
-                be tracked when you visit this website.
+                your browsing experience (e.g remembering dark mode state) and
+                for analytics and metrics about visitors on this website. If you
+                decline, your information won’t be tracked when you visit this
+                website.
               </CookieConsent>
               <h1
                 style={{
