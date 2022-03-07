@@ -129,7 +129,7 @@ class BlogIndex extends React.Component {
           }}
         >
           {!isFirst && (
-            <Link to={prevPage} rel="prev">
+            <Link to={`/blog/${prevPage}`} rel="prev">
               ← Previous Page
             </Link>
           )}
@@ -142,7 +142,7 @@ class BlogIndex extends React.Component {
               }}
             >
               <Link
-                to={`/${i === 0 ? "" : i + 1}`}
+                to={`/blog/${i === 0 ? "" : i + 1}`}
                 style={{
                   padding: rhythm(1 / 4),
                   textDecoration: "none",
@@ -156,7 +156,7 @@ class BlogIndex extends React.Component {
           ))}
 
           {!isLast && (
-            <Link to={`/${nextPage}`} rel="next">
+            <Link to={`/blog/${nextPage}`} rel="next">
               Next Page →
             </Link>
           )}

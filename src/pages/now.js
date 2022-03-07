@@ -41,7 +41,7 @@ class now extends React.Component {
                   to="/"
                 >
                   {" "}
-                  Dang it
+                  Kien Dang
                 </Link>
               </h1>
               <div

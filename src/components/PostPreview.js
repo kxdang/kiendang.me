@@ -12,11 +12,13 @@ export default function PostPreview({
   excerpt,
   slug,
   readingTime,
+  homepage,
 }) {
   return (
     <div key={slug}>
       <h3
         style={{
+          marginTop: homepage && "0px",
           marginBottom: rhythm(1 / 4),
         }}
       >
@@ -39,10 +41,10 @@ export default function PostPreview({
               </Link>
             ))
           ) : (
-              <Link to={`/tags/` + tags} className={`${tags} alltags`}>
-                {tags}
-              </Link>
-            )}
+            <Link to={`/tags/` + tags} className={`${tags} alltags`}>
+              {tags}
+            </Link>
+          )}
         </p>
       </small>
       <p style={{ marginBottom: `0.5rem`, marginTop: `0.3rem` }}></p>

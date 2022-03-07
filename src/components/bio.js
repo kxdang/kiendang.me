@@ -13,7 +13,7 @@ import { rhythm } from "../utils/typography"
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa"
 
 import "../styles/styles.scss"
-function Bio() {
+function Bio({ homepage }) {
   return (
     <StaticQuery
       query={bioQuery}
@@ -23,8 +23,9 @@ function Bio() {
           <div
             style={{
               display: `flex`,
+              height: `70px`,
               marginBottom: `0rem`,
-              justifyContent: `space-between`,
+              justifyContent: "space-between",
               alignItems: `center`,
             }}
           >
@@ -54,11 +55,6 @@ function Bio() {
                   textAlign: "left",
                 }}
               >
-                A blog by{" "}
-                <strong>
-                  <a href="https://www.kien.dev/">Kien</a>
-                </strong>
-                <br></br>
                 <div className="bio-links">
                   <a href="https://twitter.com/k1dang">
                     <FaTwitter />
