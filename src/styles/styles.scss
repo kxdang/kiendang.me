@@ -165,6 +165,17 @@ body::-webkit-scrollbar-thumb {
   table {
     color: white;
   }
+  a.homepage-post {
+    border-bottom: 2px solid #d1eef54f;
+  }
+
+  .homepage-post {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #d1eef54f;
+    border-radius: 8px;
+  }
 }
 
 .dark a.alltags {
@@ -305,6 +316,17 @@ body::-webkit-scrollbar-thumb {
         cursor: pointer;
       }
     }
+  }
+  a.homepage-post {
+    border-bottom: 2px solid #727272ba;
+  }
+
+  .homepage-post {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #727272ba;
+    border-radius: 8px;
   }
 }
 
