@@ -165,12 +165,11 @@ body::-webkit-scrollbar-thumb {
   table {
     color: white;
   }
-  a.homepage-post {
+  a.post-card {
     border-bottom: 2px solid #d1eef54f;
   }
 
-  .homepage-post {
-    width: 300px;
+  .post-card {
     margin: 20px;
     padding: 20px;
     border: 2px solid #d1eef54f;
@@ -317,12 +316,11 @@ body::-webkit-scrollbar-thumb {
       }
     }
   }
-  a.homepage-post {
+  a.post-card {
     border-bottom: 2px solid #727272ba;
   }
 
-  .homepage-post {
-    width: 300px;
+  .post-card {
     margin: 20px;
     padding: 20px;
     border: 2px solid #727272ba;
@@ -548,5 +546,14 @@ mark {
   justify-content: center;
   a {
     margin-top: -3px;
+  }
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @media only screen and (max-width: 850px) {
+    display: flex;
+    flex-direction: column;
   }
 }

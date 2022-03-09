@@ -109,13 +109,13 @@ const Index = ({ data }) => {
               </ul>
 
               <h3 style={{ marginBottom: "2rem" }}>Recent blog posts...</h3>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr" }}>
+              <div className="post-grid">
                 {posts.map(({ node }) => {
                   const title = node.frontmatter.title || node.fields.slug
                   const { slug, readingTime } = node.fields
                   const { date, tags } = node.frontmatter
                   return (
-                    <Link className="homepage-post" to={slug}>
+                    <Link className="post-card" to={slug}>
                       <div key={slug}>
                         <PostPreview
                           key={slug}
