@@ -86,14 +86,14 @@ class now extends React.Component {
                 <p>
                   <br />
                   <span style={{ fontSize: "1.2rem" }}>
-                    <Twemoji text="🎲" />
+                    <Twemoji text="🌿" />
                   </span>
                   <span style={{ color: "#08f334", fontWeight: "700" }}>
                     {" "}
                     [In Progress]{" "}
                   </span>
-                  <br />
-                  Enjoying Apex Legends.
+                  <br />- Educative.io classes <br /> - Level Up with React
+                  Query
                 </p>
               </p>
 
@@ -112,11 +112,11 @@ class now extends React.Component {
                     boxShadow: "-13px 42px 67px -30px rgba(0,0,0,0.75)",
                   }}
                   fluid={book.bookone.childImageSharp.fluid}
-                  alt="Calamity"
+                  alt="The way of kings"
                 />
               </div>
               <ul style={{ textAlign: "center", listStyleType: "none" }}>
-                <li>The Hitchhiker's Guide to the Galaxy</li>
+                <li>The Way of Kings - Brandon Sanderson</li>
               </ul>
               <p
                 style={{
@@ -126,7 +126,7 @@ class now extends React.Component {
                   fontStyle: "italic",
                 }}
               >
-                Last updated on January 11th 2022
+                Last updated on Dec 1st 2022
               </p>
             </div>
             <footer>

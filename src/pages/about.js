@@ -292,10 +292,7 @@ class about extends React.Component {
                 </TimelineItem>
               </Timeline>
 
-              <p style={{ textAlign: `center`, marginBottom: `4rem` }}>
-                <a href="/102-sept-2020-pomodoro/">My current progress</a>
-                <Twemoji text=" 📈" />
-              </p>
+              <p style={{ textAlign: `center`, marginBottom: `4rem` }}>TBD</p>
 
               <blockquote>
                 Everything is a skill, and thus everything can be learned,
