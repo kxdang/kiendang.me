@@ -3,7 +3,7 @@ import { rhythm, scale } from "../utils/typography"
 import { Link } from "gatsby"
 import Bio from "../components/bio"
 import Switch from "react-switch"
-import { Twemoji } from "react-emoji-render"
+import { Emojione } from "react-emoji-render"
 import { graphql } from "gatsby"
 import ThemeContext from "../context/ThemeContext"
 import PostPreview from "../components/PostPreview"
@@ -70,7 +70,7 @@ const Index = ({ data }) => {
                       role="img"
                       aria-label="sun"
                     >
-                      <Twemoji text="🌒" />
+                      <Emojione text="🌒" />
                     </span>
                   }
                   uncheckedIcon={
@@ -79,7 +79,7 @@ const Index = ({ data }) => {
                       role="img"
                       aria-label="moon"
                     >
-                      <Twemoji text="🌞" />
+                      <Emojione text="🌞" />
                     </span>
                   }
                   activeBoxShadow="0 0 2px 3px #226597"
@@ -91,7 +91,7 @@ const Index = ({ data }) => {
               <h3 style={{ lineHeight: "1.4" }}>
                 Hi there{" "}
                 <span role="img" aria-label="wave">
-                  <Twemoji text="👋" />
+                  <Emojione text="👋" />
                 </span>
                 ,<br></br> Welcome to my personal website.
               </h3>

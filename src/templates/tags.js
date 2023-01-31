@@ -11,14 +11,14 @@ import { timeWithTea } from "../utils/utils.js"
 import ThemeContext from "../context/ThemeContext"
 import "../styles/styles.scss"
 import Switch from "react-switch"
-import { Twemoji } from "react-emoji-render"
+import { Emojione } from "react-emoji-render"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const { edges, totalCount } = data.allMdx
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
-    } tagged with "${tag}"`
+  } tagged with "${tag}"`
 
   return (
     <ThemeContext.Consumer>
@@ -68,7 +68,7 @@ const Tags = ({ pageContext, data }) => {
                     role="img"
                     aria-label="sun"
                   >
-                    <Twemoji text="🌒" />
+                    <Emojione text="🌒" />
                   </span>
                 }
                 uncheckedIcon={
@@ -77,7 +77,7 @@ const Tags = ({ pageContext, data }) => {
                     role="img"
                     aria-label="moon"
                   >
-                    <Twemoji text="🌞" />
+                    <Emojione text="🌞" />
                   </span>
                 }
                 activeBoxShadow="0 0 2px 3px #226597"
@@ -109,7 +109,7 @@ const Tags = ({ pageContext, data }) => {
                         }}
                         to={slug}
                       >
-                        <Twemoji text={title} />
+                        <Emojione text={title} />
                       </Link>
 
                       <small>

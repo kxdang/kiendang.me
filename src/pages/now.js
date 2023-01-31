@@ -5,7 +5,7 @@ import { Link, graphql } from "gatsby"
 import Switch from "react-switch"
 import Img from "gatsby-image"
 import ThemeContext from "../context/ThemeContext"
-import { Twemoji } from "react-emoji-render"
+import { Emojione } from "react-emoji-render"
 import "../styles/styles.scss"
 
 class now extends React.Component {
@@ -61,7 +61,7 @@ class now extends React.Component {
                       role="img"
                       aria-label="sun"
                     >
-                      <Twemoji text="🌒" />
+                      <Emojione text="🌒" />
                     </span>
                   }
                   uncheckedIcon={
@@ -70,7 +70,7 @@ class now extends React.Component {
                       role="img"
                       aria-label="moon"
                     >
-                      <Twemoji text="🌞" />
+                      <Emojione text="🌞" />
                     </span>
                   }
                   activeBoxShadow="0 0 2px 3px #226597"
@@ -86,7 +86,7 @@ class now extends React.Component {
                 <p>
                   <br />
                   <span style={{ fontSize: "1.2rem" }}>
-                    <Twemoji text="🌿" />
+                    <Emojione text="🌿" />
                   </span>
                   <span style={{ color: "#08f334", fontWeight: "700" }}>
                     {" "}

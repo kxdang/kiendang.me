@@ -3,7 +3,7 @@ import { rhythm, scale } from "../utils/typography"
 import Bio from "../components/bio"
 import { Link } from "gatsby"
 import Switch from "react-switch"
-import { Twemoji } from "react-emoji-render"
+import { Emojione } from "react-emoji-render"
 import { GiBookshelf, GiMouse } from "react-icons/gi"
 import { FaKeyboard, FaClock } from "react-icons/fa"
 import { Timeline, TimelineItem } from "vertical-timeline-component-for-react"
@@ -64,7 +64,7 @@ class about extends React.Component {
                       role="img"
                       aria-label="sun"
                     >
-                      <Twemoji text="🌒" />
+                      <Emojione text="🌒" />
                     </span>
                   }
                   uncheckedIcon={
@@ -73,7 +73,7 @@ class about extends React.Component {
                       role="img"
                       aria-label="moon"
                     >
-                      <Twemoji text="🌞" />
+                      <Emojione text="🌞" />
                     </span>
                   }
                   activeBoxShadow="0 0 2px 3px #226597"
@@ -83,7 +83,7 @@ class about extends React.Component {
               <h3 style={{ textAlign: `center` }}>
                 Hello{" "}
                 <span role="img" aria-label="wave">
-                  <Twemoji text="👋" />
+                  <Emojione text="👋" />
                 </span>
               </h3>
               <p>
@@ -130,10 +130,10 @@ class about extends React.Component {
                   className={"start"}
                 >
                   <h3>
-                    <Twemoji text="👨‍🎓University of Waterloo" />
+                    <Emojione text="🏫University of Waterloo" />
                   </h3>
                   <h4>
-                    <Twemoji text="👨‍🔬 " />
+                    <Emojione text="🧪" />
                     <a href="/025-biochemistry-story">My Biochemistry Story</a>
                   </h4>
                   <p>
@@ -148,10 +148,10 @@ class about extends React.Component {
                   className={"job-1"}
                 >
                   <h3>
-                    <Twemoji text="🏢 The Woodbridge Group" />
+                    <Emojione text="🏢 The Woodbridge Group" />
                   </h3>
                   <h4>
-                    <Twemoji text="💻 Costing Technologist" />
+                    <Emojione text="💻 Costing Technologist" />
                   </h4>
                   <p>
                     After graduating, I worked at a chemical company
@@ -176,10 +176,10 @@ class about extends React.Component {
                   style={{ color: "#76bb7f" }}
                 >
                   <h3>
-                    <Twemoji text="🚀 The Leap of Faith" />
+                    <Emojione text="🚀 The Leap of Faith" />
                   </h3>
                   <h4>
-                    <Twemoji text="👨‍🚀 " />
+                    <Emojione text="🌿" />
                     <a href="/041-the-jump/">Begins The self-taught journey</a>
                   </h4>
                   <p>
@@ -195,10 +195,10 @@ class about extends React.Component {
                   style={{ color: "#e86971" }}
                 >
                   <h3>
-                    <Twemoji text="🏥 The Fall" />
+                    <Emojione text="🏥 The Fall" />
                   </h3>
                   <h4>
-                    <Twemoji text="💊 Antibiotics galore" />
+                    <Emojione text="💊 Antibiotics galore" />
                   </h4>
                   <p>
                     A month later, I encountered a health issue that required
@@ -225,17 +225,17 @@ class about extends React.Component {
                   className={"job-1"}
                 >
                   <h3>
-                    <Twemoji text="🧗‍♂️ The Recovery" />
+                    <Emojione text="🌄The Recovery" />
                   </h3>
                   <h4>
-                    <Twemoji text="💉 " />
+                    <Emojione text="💉 " />
                     <a href="/060-propofol/">
                       2 surgeries,
                       <br />
                     </a>
-                    <Twemoji text="💊 " />
+                    <Emojione text="💊 " />
                     <a href="/tags/biochemistry/">9 antibiotics,</a>
-                    <br /> <Twemoji text="🌺 " />
+                    <br /> <Emojione text="🌺 " />
                     <a href="/062-opioids/">4 opioids later</a>
                   </h4>
                   <p>
@@ -244,7 +244,7 @@ class about extends React.Component {
                     and writing about my journey.
                   </p>
                   <p>
-                    <Twemoji text="🍅 " />
+                    <Emojione text="🍅 " />
                     <a href="/066-2019-yearend-pomodoro/">
                       My Year End Progress
                     </a>
@@ -261,12 +261,12 @@ class about extends React.Component {
                   style={{ color: "#76bb7f" }}
                 >
                   <h3>
-                    <Twemoji text="✅" /> Employment Found!
+                    <Emojione text="✅" /> Employment Found!
                   </h3>
                   <h4>
-                    <Twemoji text="🎉" />{" "}
+                    <Emojione text="🎉" />{" "}
                     <a href="/091-new-chapter/">Full time at Coveo</a>{" "}
-                    <Twemoji text="🍾" />
+                    <Emojione text="🍾" />
                   </h4>
                   <p>
                     Honestly, 2019 hasn't been a kind year, but neither is 2020.
@@ -274,7 +274,7 @@ class about extends React.Component {
                     a developer.
                   </p>
                   <p>
-                    <Twemoji text="🍅" />{" "}
+                    <Emojione text="🍅" />{" "}
                     <a href="/092-year-journey-summary/">
                       1031 Pomodoro's - 430 hours of work
                     </a>

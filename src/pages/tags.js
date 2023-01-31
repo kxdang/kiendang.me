@@ -12,8 +12,7 @@ import Bio from "../components/bio"
 //Adding toggle to Tags overall summary
 import ThemeContext from "../context/ThemeContext"
 import Switch from "react-switch"
-import { Twemoji } from "react-emoji-render"
-
+import { Emojione } from "react-emoji-render"
 
 import "../styles/styles.scss"
 
@@ -25,93 +24,93 @@ const TagsPage = ({
     },
   },
 }) => (
-    <ThemeContext.Consumer>
-      {theme => (
-        <div className={theme.dark ? "dark" : "light"}>
-          <div>
-            <div
+  <ThemeContext.Consumer>
+    {theme => (
+      <div className={theme.dark ? "dark" : "light"}>
+        <div>
+          <div
+            style={{
+              marginLeft: `auto`,
+              marginRight: `auto`,
+              maxWidth: rhythm(24),
+              padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+              minHeight: `100vh`,
+            }}
+          >
+            <h1
               style={{
-                marginLeft: `auto`,
-                marginRight: `auto`,
-                maxWidth: rhythm(24),
-                padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-                minHeight: `100vh`,
+                ...scale(1.5),
+                marginBottom: rhythm(1.5),
+                marginTop: 0,
               }}
             >
-              <h1
+              <Link
                 style={{
-                  ...scale(1.5),
-                  marginBottom: rhythm(1.5),
-                  marginTop: 0,
+                  boxShadow: `none`,
+                  textDecoration: `none`,
+                  borderBottom: `none`,
                 }}
+                to={`/`}
               >
-                <Link
-                  style={{
-                    boxShadow: `none`,
-                    textDecoration: `none`,
-                    borderBottom: `none`,
-                  }}
-                  to={`/`}
-                >
-                  {title}
-                </Link>
-              </h1>
-              <div
-                id="toggleTheme"
-                style={{ display: `flex`, justifyContent: `flex-end` }}
-              >
-                <Switch
-                  onChange={theme.toggleDark}
-                  checked={theme.dark}
-                  onColor="#27374c"
-                  offColor="#222831"
-                  offHandleColor="#fefefe"
-                  onHandleColor="#fefefe"
-                  checkedIcon={
-                    <span
-                      style={{ marginLeft: "0.3rem" }}
-                      role="img"
-                      aria-label="sun"
-                    >
-                      <Twemoji text="🌒" />
-                    </span>
-                  }
-                  uncheckedIcon={
-                    <span
-                      style={{ marginLeft: "0.3rem" }}
-                      role="img"
-                      aria-label="moon"
-                    >
-                      <Twemoji text="🌞" />
-                    </span>
-                  }
-                  activeBoxShadow="0 0 2px 3px #226597"
-                />
-              </div>
-              <Bio />
-              <Helmet title={title} />
+                {title}
+              </Link>
+            </h1>
+            <div
+              id="toggleTheme"
+              style={{ display: `flex`, justifyContent: `flex-end` }}
+            >
+              <Switch
+                onChange={theme.toggleDark}
+                checked={theme.dark}
+                onColor="#27374c"
+                offColor="#222831"
+                offHandleColor="#fefefe"
+                onHandleColor="#fefefe"
+                checkedIcon={
+                  <span
+                    style={{ marginLeft: "0.3rem" }}
+                    role="img"
+                    aria-label="sun"
+                  >
+                    <Emojione text="🌒" />
+                  </span>
+                }
+                uncheckedIcon={
+                  <span
+                    style={{ marginLeft: "0.3rem" }}
+                    role="img"
+                    aria-label="moon"
+                  >
+                    <Emojione text="🌞" />
+                  </span>
+                }
+                activeBoxShadow="0 0 2px 3px #226597"
+              />
+            </div>
+            <Bio />
+            <Helmet title={title} />
 
-              <div>
-                <h1>Tags</h1>
-                <ul>
-                  {group.map(tag => (
-                    <li key={tag.fieldValue} style={{ listStyle: `none` }}>
-                      <Link
-                        to={`/tags/${kebabCase(tag.fieldValue)}/`}
-                        className={`${tag.fieldValue} alltags`}
-                      >
-                        {tag.fieldValue.replace(/-/g, " ")} ({tag.totalCount})
+            <div>
+              <h1>Tags</h1>
+              <ul>
+                {group.map(tag => (
+                  <li key={tag.fieldValue} style={{ listStyle: `none` }}>
+                    <Link
+                      to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                      className={`${tag.fieldValue} alltags`}
+                    >
+                      {tag.fieldValue.replace(/-/g, " ")} ({tag.totalCount})
                     </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
-      )}
-    </ThemeContext.Consumer>
-  )
+      </div>
+    )}
+  </ThemeContext.Consumer>
+)
 
 TagsPage.propTypes = {
   data: PropTypes.shape({

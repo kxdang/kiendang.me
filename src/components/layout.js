@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Switch from "react-switch"
-import { Twemoji } from "react-emoji-render"
+import { Emojione } from "react-emoji-render"
 import CookieConsent from "react-cookie-consent"
 
 import { rhythm, scale } from "../utils/typography"
@@ -12,8 +12,7 @@ import "../styles/styles.scss"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
+    const { title, children } = this.props
     let header
 
     header = (
@@ -84,7 +83,7 @@ class Layout extends React.Component {
                     role="img"
                     aria-label="sun"
                   >
-                    <Twemoji text="🌒" />
+                    <Emojione text="🌒" />
                   </span>
                 }
                 uncheckedIcon={
@@ -93,7 +92,7 @@ class Layout extends React.Component {
                     role="img"
                     aria-label="moon"
                   >
-                    <Twemoji text="🌞" />
+                    <Emojione text="🌞" />
                   </span>
                 }
                 activeBoxShadow="0 0 2px 3px #226597"
